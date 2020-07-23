@@ -1,0 +1,24 @@
+{
+  "name": "hiroppy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroppy/hiroppy.git"
+  },
+  "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroppy/hiroppy/issues"
+  },
+  "homepage": "https://github.com/hiroppy/hiroppy#readme",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "puppeteer": "^5.2.1"
+  }
+}
