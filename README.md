@@ -5,4 +5,4 @@
 [![Twitter Badge](https://img.shields.io/badge/-@hiroppy-181717?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/about_hiroppy)](https://twitter.com/about_hiroppy)
 [![Blog Badge](https://img.shields.io/badge/-blog-181717?style=flat-square&logo=hatena-bookmark&logoColor=white&link=https://blog.hiroppy.me/)](https://blog.hiroppy.me)
 
-last auto-updated time: 2020-09-20 00:54:48.440680475 +0000
+last auto-updated time: 2020-09-22 00:53:47.570426101 +0000
