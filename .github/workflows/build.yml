@@ -29,14 +29,14 @@ jobs:
       - name: Build result.jpg
         run: |
           npm run build
-      - name: Update last updated
-        run: |
-          sed -i "s/\(last auto-updated time: \).*$/\1$(stat --format="%x" output/result.jpg)/g" ./README.md
+      # - name: Update last updated
+      #   run: |
+      #     sed -i "s/\(last auto-updated time: \).*$/\1$(stat --format="%x" output/result.jpg)/g" ./README.md
       - name: Commit to repository
         env:
           GITHUB_TOKEN: ${{ secrets.github_token }}
           COMMIT_MSG: |
-            update result.jpg
+            update result.jpg and readme
         run: |
           git config user.email "no-reply@hiroppy.me"
           git config user.name "hiroppy-bot"
