@@ -8,7 +8,6 @@ const fetch = require('node-fetch');
 const puppeteer = require('puppeteer');
 const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
-const { read } = require('fs');
 
 config();
 
@@ -29,7 +28,6 @@ async function getSponsors() {
       }
     }
   `.trim();
-
   const res = await fetch('https://api.github.com/graphql', {
     method: 'POST',
     headers: {
