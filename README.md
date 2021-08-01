@@ -9,4 +9,4 @@
 [![Twitter Badge](https://img.shields.io/badge/-@hiroppy-181717?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/about_hiroppy)](https://twitter.com/about_hiroppy)
 [![Blog Badge](https://img.shields.io/badge/-blog-181717?style=flat-square&logo=hatena-bookmark&logoColor=white&link=https://blog.hiroppy.me/)](https://blog.hiroppy.me)
 
-last auto-updated time: Sat Jul 31 2021 01:05:27 GMT+0000 (Coordinated Universal Time)
+last auto-updated time: Sun Aug 01 2021 01:15:18 GMT+0000 (Coordinated Universal Time)
