@@ -72,7 +72,7 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
     </a><a href="https://github.com/tsugitta">
       <img src="https://avatars.githubusercontent.com/u/8144911?s=60&v=4" alt="@tsugitta" width="60" />
     </a><a href="https://github.comhttps://docs.github.com/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">
-      <img src="undefined" alt="undefined" width="60" />
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcfPRvPQAHHgLWeG8FbgAAAABJRU5ErkJggg==" alt="private user" width="60" />
     </a><a href="https://github.com/spring-raining">
       <img src="https://avatars.githubusercontent.com/u/1771005?s=60&v=4" alt="@spring-raining" width="60" />
     </a><a href="https://github.com/nktaro">
@@ -96,7 +96,7 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
     </a><a href="https://github.com/sakit0">
       <img src="https://avatars.githubusercontent.com/u/15010907?s=60&v=4" alt="@sakit0" width="60" />
     </a><a href="https://github.comhttps://docs.github.com/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">
-      <img src="undefined" alt="undefined" width="60" />
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcfPRvPQAHHgLWeG8FbgAAAABJRU5ErkJggg==" alt="private user" width="60" />
     </a><a href="https://github.com/Leko">
       <img src="https://avatars.githubusercontent.com/u/1424963?s=60&v=4" alt="@Leko" width="60" />
     </a><a href="https://github.com/vvakame">
@@ -135,4 +135,4 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 <br />
 <br />
 
-last auto-updated time: Thu Jan 16 2025 08:44:13 GMT+0900 (Japan Standard Time)
+last auto-updated time: Thu Jan 16 2025 08:56:00 GMT+0900 (Japan Standard Time)

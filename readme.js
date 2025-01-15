@@ -1,3 +1,6 @@
+const placeholderColor =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcfPRvPQAHHgLWeG8FbgAAAABJRU5ErkJggg==";
+
 export function generateREADME(sponsors) {
   return `
 <p align="center">
@@ -41,7 +44,9 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
     .map((sponsor) => {
       return `
     <a href="${sponsor.href}">
-      <img src="${sponsor.avatar}" alt="${sponsor.name}" width="60" />
+      <img src="${sponsor.avatar ?? placeholderColor}" alt="${
+        sponsor.name ?? "private user"
+      }" width="60" />
     </a>
     `.trim();
     })
@@ -53,7 +58,9 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
     .map((sponsor) => {
       return `
     <a href="${sponsor.href}">
-      <img src="${sponsor.avatar}" alt="${sponsor.name}" width="60" />
+      <img src="${sponsor.avatar ?? placeholderColor}" alt="${
+        sponsor.name ?? "private user"
+      }" width="60" />
     </a>
     `.trim();
     })
@@ -68,5 +75,3 @@ last auto-updated time: ${new Date(
   )}
   `.trim();
 }
-// [![Twitter Badge](https://img.shields.io/badge/-@hiroppy-181717?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/about_hiroppy)](https://twitter.com/about_hiroppy)
-// [![Blog Badge](https://img.shields.io/badge/-blog-181717?style=flat-square&logo=hatena-bookmark&logoColor=white&link=https://blog.hiroppy.me/)](https://blog.hiroppy.me)
