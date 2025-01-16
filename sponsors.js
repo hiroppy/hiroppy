@@ -52,6 +52,22 @@ export async function getSponsors() {
 
       sponsors.past.push(...seconds);
     }
+
+    {
+      const page3 = await fetch(
+        "https://github.com/sponsors/hiroppy/sponsors_partial?filter=inactive&page=3"
+      );
+      const $$ = $.load(await page3.text());
+      const seconds = await Promise.all(
+        Array.from($$("a")).map(async (el) => ({
+          href: `https://github.com${$$.load(el)("a").attr("href")}`,
+          avatar: $$.load(el)("img").attr("src"),
+          name: $$.load(el)("img").attr("alt"),
+        }))
+      );
+
+      sponsors.past.push(...seconds);
+    }
   }
 
   return sponsors;

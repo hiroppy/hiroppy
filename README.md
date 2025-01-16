@@ -13,12 +13,14 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 ## Active Repositories
 
 - [web-app-template](https://github.com/hiroppy/web-app-template)
-  - a powerful template to create web service
+  - a powerful template to create web services
 - [nextjs-app-router-training
 ](https://github.com/hiroppy/nextjs-app-router-training)
   - introducing Next.js App Router features
 
 ## maintaining OSS
+
+I've been focusing on my business so I'm not active now 😔
 
 - [Node.js](https://github.com/nodejs/node)
 - [webpack](https://github.com/webpack/webpack)
@@ -32,6 +34,8 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 - [crowi](https://github.com/crowi/crowi)
 
 ## Sponsors
+
+Thank you for supporting me 😍
 
 <p align="center">
   <h3> Current Sponsors </h3>
@@ -71,8 +75,8 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
       <img src="https://avatars.githubusercontent.com/u/14838850?s=60&v=4" alt="@sosukesuzuki" width="60" />
     </a><a href="https://github.com/tsugitta">
       <img src="https://avatars.githubusercontent.com/u/8144911?s=60&v=4" alt="@tsugitta" width="60" />
-    </a><a href="https://github.comhttps://docs.github.com/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcfPRvPQAHHgLWeG8FbgAAAABJRU5ErkJggg==" alt="private user" width="60" />
+    </a><a href="https://github.com">
+      <img src="public/blue.png" alt="private user" width="60" />
     </a><a href="https://github.com/spring-raining">
       <img src="https://avatars.githubusercontent.com/u/1771005?s=60&v=4" alt="@spring-raining" width="60" />
     </a><a href="https://github.com/nktaro">
@@ -95,8 +99,8 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
       <img src="https://avatars.githubusercontent.com/u/36793907?s=60&v=4" alt="@37108" width="60" />
     </a><a href="https://github.com/sakit0">
       <img src="https://avatars.githubusercontent.com/u/15010907?s=60&v=4" alt="@sakit0" width="60" />
-    </a><a href="https://github.comhttps://docs.github.com/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcfPRvPQAHHgLWeG8FbgAAAABJRU5ErkJggg==" alt="private user" width="60" />
+    </a><a href="https://github.com">
+      <img src="public/blue.png" alt="private user" width="60" />
     </a><a href="https://github.com/Leko">
       <img src="https://avatars.githubusercontent.com/u/1424963?s=60&v=4" alt="@Leko" width="60" />
     </a><a href="https://github.com/vvakame">
@@ -129,10 +133,12 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
       <img src="https://avatars.githubusercontent.com/u/34264859?s=60&v=4" alt="@yagipy" width="60" />
     </a><a href="https://github.com/potato4d">
       <img src="https://avatars.githubusercontent.com/u/6993514?s=60&v=4" alt="@potato4d" width="60" />
+    </a><a href="https://github.com/vwxyutarooo">
+      <img src="https://avatars.githubusercontent.com/u/5744411?s=60&v=4" alt="@vwxyutarooo" width="60" />
     </a>
 </p>
 
 <br />
 <br />
 
-last auto-updated time: Thu Jan 16 2025 08:56:00 GMT+0900 (Japan Standard Time)
+last auto-updated time: Thu Jan 16 2025 23:48:04 GMT+0900 (Japan Standard Time)
