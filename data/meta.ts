@@ -4,6 +4,7 @@ export const meta = {
     company: "https://coder-penguin.com/",
     resume: "https://hiroppy.me/resume",
     blog: "https://hiroppy.me/blog",
+    hatenablog: "https://abouthiroppy.hatenablog.jp/",
   },
   sns: {
     github: "https://github.com/hiroppy",
