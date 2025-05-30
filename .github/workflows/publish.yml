@@ -83,7 +83,7 @@ jobs:
         if: steps.check-changes.outputs.changes == 'true'
         run: |
           echo "Publishing to NPM..."
-          npm publish
+          npm publish --provenance --access public
           echo "✅ Successfully published to NPM"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
