@@ -27,6 +27,10 @@ export const pressReleases = [
 
 export const articles = [
   {
+    publishedAt: "2024-08-05",
+    url: "https://www.estie.jp/blog/entry/2024/08/05/183235",
+  },
+  {
     publishedAt: "2024-03-28",
     url: "https://tech.route06.co.jp/entry/2024/03/28/091000",
   },
@@ -67,6 +71,10 @@ export const articles = [
   {
     publishedAt: "2021-08-23",
     url: "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
+  },
+  {
+    publishedAt: "2021-06-04",
+    url: "https://note.com/tabelog_frontend/n/n35664347180a",
   },
   {
     publishedAt: "2021-04-28",

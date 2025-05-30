@@ -7,6 +7,7 @@ runs:
       with:
         node-version-file: .node-version
         cache: pnpm
+        registry-url: https://registry.npmjs.org
     - run: npm run setup
       shell: bash
     - run: pnpm i --frozen-lockfile
