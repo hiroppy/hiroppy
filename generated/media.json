@@ -1,5 +1,10 @@
 [
   {
+    "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235",
+    "url": "https://www.estie.jp/blog/entry/2024/08/05/183235",
+    "publishedAt": "2024-08-05"
+  },
+  {
     "title": "技術顧問として半年間で感じた会社の成長 - ROUTE06 Tech Blog",
     "description": "こんにちは。hiroppyです。2023年7月に技術顧問として参加させていただき、半年経ちましたので、今回は自分からみたROUTE06社の印象と何をしているかを話したいと思います。 一言でいうと、組織が大きくなっていることが実感できた半年でした。 最初の印象 様々なスタートアップを見てきましたが、ROUTE06社はその中でも、最初から組織環境を整備しており、主に印象的だったのは以下のような要素でした。 会社全体の雰囲気の良さ 会社文化の浸透と全員が同じ方向を向いている点 業務の自動化や権限委譲 会社や個人のモチベーションの高さ 会社全体の雰囲気の良さはSlackを入ったときにすぐに分かりました…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
@@ -85,6 +90,15 @@
     "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
     "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
     "publishedAt": "2021-08-23"
+  },
+  {
+    "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
+    "description": "こんにちは。食べログのフロントエンドチーム の佐伯です。  昨年もメンバー紹介の記事を書きましたが、新しいメンバーも加わりましたので改めてご紹介させていただきます。以下で紹介する6名と、アドバイザーの@hiroppyさんを加えて7名で活動しています  今回は趣向を凝らしてドラッカー風エクササイズ風メンバー紹介です。  ドラッカー風エクササイズは、アジャイルサムライで紹介されたチームにおける期待をすり合わせるための手法です   ・自分は何が得意なのか？ ・どういうふうに仕事するか？ ・自分が大切に思う価値は何か？ ・チームメンバーは自分にどんな成果を期待していると思うか？  という質問を",
+    "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
+    "siteName": "note（ノート）",
+    "siteUrl": "https://note.com/tabelog_frontend/n/n35664347180a",
+    "url": "https://note.com/tabelog_frontend/n/n35664347180a",
+    "publishedAt": "2021-06-04"
   },
   {
     "siteUrl": "https://mercan.mercari.com/articles/28113/",
