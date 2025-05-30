@@ -140,6 +140,10 @@ Thank you for supporting me 😍
 
 ## usage
 
+```shell
+$ npm i hiroppy
+```
+
 ```ts
 import jobs  from "hiroppy/media/jobs.json" with { type: "json" };
 import media from "hiroppy/media/media.json" with { type: "json" };
@@ -148,4 +152,4 @@ import media from "hiroppy/media/media.json" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: 2025/5/31 7:04:36
+last auto-updated time: 2025/5/31 7:26:01

@@ -65,6 +65,10 @@ Thank you for supporting me 😍
 
 ## usage
 
+\`\`\`shell
+$ npm i hiroppy
+\`\`\`
+
 \`\`\`ts
 import jobs  from "hiroppy/media/jobs.json" with { type: "json" };
 import media from "hiroppy/media/media.json" with { type: "json" };

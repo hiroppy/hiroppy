@@ -1,3 +1,5 @@
+// TODO: linksもjsonへog展開させる
+
 export type Meta = Record<
   string,
   {
