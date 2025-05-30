@@ -1,6 +1,6 @@
 {
   "name": "hiroppy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "packageManager": "pnpm@10.11.0",
   "type": "module",
   "exports": {
@@ -28,7 +28,9 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": ["generated"],
+  "files": [
+    "generated"
+  ],
   "publishConfig": {
     "access": "public"
   },
