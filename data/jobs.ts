@@ -228,12 +228,26 @@ Ruby on RailsからNext.jsへの移行方針の提案、実装サポート。ま
       start: new Date("2025-04-01"),
       end: null,
       position: "Enabling Team (Frontend/LLM)",
-      initialState: "100",
+      initialState: "0",
       description: `
 Enabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。
+
+CEO直下のチームで、BPOの開発を行う。
       `,
-      links: [],
+      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
       company: "layerX",
+    },
+    {
+      name: "Yuimedi",
+      start: new Date("2025-05-01"),
+      end: null,
+      position: "Engineer",
+      initialState: "100",
+      description: `
+Yuiqueryの開発を引き続き手伝う。
+      `,
+      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
+      company: "yuimedi",
     },
     {
       name: "Rebase",

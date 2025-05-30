@@ -2,16 +2,16 @@ import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { readData } from "./utils.ts";
 
-interface Sponsor {
+type Sponsor = {
   href: string;
   avatar: string;
   name?: string;
-}
+};
 
-interface SponsorsData {
+type SponsorsData = {
   current: Sponsor[];
   past: Sponsor[];
-}
+};
 
 function generateREADME(sponsors: SponsorsData): string {
   return `
