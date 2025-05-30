@@ -1,4 +1,5 @@
 await Promise.all([
+  import("./meta.ts"),
   import("./podcasts.ts"),
   import("./sponsors.ts"),
   import("./jobs.ts"),

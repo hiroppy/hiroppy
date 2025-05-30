@@ -108,9 +108,9 @@ jobs:
             - Version bumped to ${{ steps.version.outputs.new_version }}
 
             ## Package Info
-            - Package: `@hiroppy/media`
+            - Package: `hiroppy`
             - Version: `${{ steps.version.outputs.new_version }}`
-            - NPM: https://www.npmjs.com/package/@hiroppy/media
+            - NPM: https://www.npmjs.com/package/hiroppy
 
             This release was automatically created when changes were detected in the `generated/` directory.
           draft: false
@@ -121,9 +121,9 @@ jobs:
         if: steps.check-changes.outputs.changes == 'true'
         run: |
           echo "## 🎉 Publication Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- **Package**: @hiroppy/media" >> $GITHUB_STEP_SUMMARY
+          echo "- **Package**: hiroppy" >> $GITHUB_STEP_SUMMARY
           echo "- **New Version**: ${{ steps.version.outputs.new_version }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **NPM Package**: https://www.npmjs.com/package/@hiroppy/media" >> $GITHUB_STEP_SUMMARY
+          echo "- **NPM Package**: https://www.npmjs.com/package/hiroppy" >> $GITHUB_STEP_SUMMARY
           echo "- **GitHub Release**: https://github.com/hiroppy/media/releases/tag/v${{ steps.version.outputs.new_version }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "The package has been successfully published to NPM! 🚀" >> $GITHUB_STEP_SUMMARY
