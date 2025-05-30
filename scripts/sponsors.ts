@@ -37,7 +37,7 @@ const [currentSponsors, pastSponsors] = Array.from(
   sponsors.current = await Promise.all(
     Array.from($$("a")).map(async (el) => ({
       href: `https://github.com${$$.load(el)("a").attr("href")}`,
-      avatar: await downloadImage($$.load(el)("img").attr("src")),
+      avatar: await downloadImage($$.load(el)("img").attr("src"), "jpg"),
       name: $$.load(el)("img").attr("alt"),
     })),
   );
@@ -48,7 +48,7 @@ const [currentSponsors, pastSponsors] = Array.from(
   sponsors.past = await Promise.all(
     Array.from($$("a")).map(async (el) => ({
       href: `https://github.com${$$.load(el)("a").attr("href")}`,
-      avatar: await downloadImage($$.load(el)("img").attr("src")),
+      avatar: await downloadImage($$.load(el)("img").attr("src"), "jpg"),
       name: $$.load(el)("img").attr("alt"),
     })),
   );
@@ -61,7 +61,7 @@ const [currentSponsors, pastSponsors] = Array.from(
     const seconds = await Promise.all(
       Array.from($$("a")).map(async (el) => ({
         href: `https://github.com${$$.load(el)("a").attr("href")}`,
-        avatar: await downloadImage($$.load(el)("img").attr("src")),
+        avatar: await downloadImage($$.load(el)("img").attr("src"), "jpg"),
         name: $$.load(el)("img").attr("alt"),
       })),
     );

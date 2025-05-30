@@ -18,7 +18,9 @@
   "scripts": {
     "setup": "corepack enable pnpm",
     "build": "node scripts/index.ts",
-    "lint": "biome check . --fix"
+    "build:readme": "node scripts/readme.ts",
+    "lint": "biome check . --fix",
+    "reset": "rm -rf generated && mkdir generated && mkdir generated/images"
   },
   "repository": {
     "type": "git",

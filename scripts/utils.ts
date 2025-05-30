@@ -3,6 +3,7 @@ import { createWriteStream } from "node:fs";
 import { readdir } from "node:fs/promises";
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import { pipeline } from "node:stream/promises";
 import { promisify } from "node:util";
 import { load } from "cheerio";
 import sharp from "sharp";
@@ -118,7 +119,7 @@ export function sortItems(items) {
   );
 }
 
-export async function downloadImage(url: string) {
+export async function downloadImage(url: string, ext: "jpg" | "webp" = "webp") {
   if (!url) {
     return "";
   }
@@ -126,7 +127,7 @@ export async function downloadImage(url: string) {
   const filename = `${Buffer.from(url.replace(/https?:\/\//, ""))
     .toString("base64")
     .replace("/", "_")
-    .slice(0, 90)}.webp`;
+    .slice(0, 90)}.${ext}`;
   const fullPath = `/images/${filename}`;
   const assets = await readdir(baseImageOutputPath);
 
@@ -137,7 +138,10 @@ export async function downloadImage(url: string) {
   const response = await fetch(url);
   const blob = await response.blob();
   const arrayBuffer = await blob.arrayBuffer();
-  const buffer = await sharp(Buffer.from(arrayBuffer)).webp().toBuffer();
+  const buffer =
+    ext === "webp"
+      ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
+      : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
 
   createWriteStream(join(baseImageOutputPath, filename)).write(buffer);
 
