@@ -141,7 +141,6 @@ export const podcasts = [
   {
     publishedAt: "2021-10-08",
     url: "https://uit-inside.linecorp.com/episode/100",
-    hot: true,
   },
   {
     publishedAt: "2021-09-15",
