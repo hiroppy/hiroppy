@@ -138,6 +138,14 @@ Thank you for supporting me 😍
     </a>
 </p>
 
+## usage
+
+```ts
+// meta
+import jobs  from "hiroppy/media/jobs.json" with { type: "json" };
+import media from "hiroppy/media/media.json" with { type: "json" };
+```
+
 <br />
 <br />
 

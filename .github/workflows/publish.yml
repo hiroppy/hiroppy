@@ -1,0 +1,114 @@
+name: Publish to NPM
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'generated/**'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node
+      - name: Check if generated files changed
+        id: check-changes
+        run: |
+          echo "Checking for changes in generated/ directory..."
+          if git diff --name-only HEAD~1 HEAD | grep -q "^generated/"; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Generated files have changed"
+            git diff --name-only HEAD~1 HEAD | grep "^generated/" | head -10
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes in generated files"
+          fi
+      - name: Validate package before publishing
+        if: steps.check-changes.outputs.changes == 'true'
+        run: |
+          echo "Validating package structure..."
+          npm pack --dry-run
+          echo "✅ Package validation successful"
+      - name: Bump version and set output
+        if: steps.check-changes.outputs.changes == 'true'
+        id: version
+        run: |
+          # Get current version
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          echo "Current version: $CURRENT_VERSION"
+
+          # Increment patch version
+          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{$NF = $NF + 1;} 1' | sed 's/ /./g')
+          echo "New version: $NEW_VERSION"
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+          # Update package.json
+          npm version $NEW_VERSION --no-git-tag-version
+          echo "✅ Version bumped to $NEW_VERSION"
+
+          # Commit version bump
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add package.json
+          git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
+          git push
+          echo "✅ Version commit pushed"
+      - name: Publish to NPM
+        if: steps.check-changes.outputs.changes == 'true'
+        run: |
+          echo "Publishing to NPM..."
+          npm publish
+          echo "✅ Successfully published to NPM"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Create Git Tag
+        if: steps.check-changes.outputs.changes == 'true'
+        run: |
+          echo "Creating and pushing git tag..."
+          git tag v${{ steps.version.outputs.new_version }}
+          git push origin v${{ steps.version.outputs.new_version }}
+          echo "✅ Git tag v${{ steps.version.outputs.new_version }} created"
+      - name: Create GitHub Release
+        if: steps.check-changes.outputs.changes == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.new_version }}
+          name: Release v${{ steps.version.outputs.new_version }}
+          body: |
+            🚀 Automated release for generated content updates
+
+            ## Changes in this release
+            - Updated generated files in the media package
+            - Version bumped to ${{ steps.version.outputs.new_version }}
+
+            ## Package Info
+            - Package: `@hiroppy/media`
+            - Version: `${{ steps.version.outputs.new_version }}`
+            - NPM: https://www.npmjs.com/package/@hiroppy/media
+
+            This release was automatically created when changes were detected in the `generated/` directory.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Summary
+        if: steps.check-changes.outputs.changes == 'true'
+        run: |
+          echo "## 🎉 Publication Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Package**: @hiroppy/media" >> $GITHUB_STEP_SUMMARY
+          echo "- **New Version**: ${{ steps.version.outputs.new_version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **NPM Package**: https://www.npmjs.com/package/@hiroppy/media" >> $GITHUB_STEP_SUMMARY
+          echo "- **GitHub Release**: https://github.com/hiroppy/media/releases/tag/v${{ steps.version.outputs.new_version }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The package has been successfully published to NPM! 🚀" >> $GITHUB_STEP_SUMMARY
+      - name: No changes summary
+        if: steps.check-changes.outputs.changes == 'false'
+        run: |
+          echo "## ℹ️ No Publication Needed" >> $GITHUB_STEP_SUMMARY
+          echo "No changes were detected in the \`generated/\` directory." >> $GITHUB_STEP_SUMMARY
+          echo "The package version remains unchanged." >> $GITHUB_STEP_SUMMARY

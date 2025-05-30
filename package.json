@@ -1,0 +1,46 @@
+{
+  "name": "hiroppy",
+  "version": "1.0.2",
+  "packageManager": "pnpm@10.11.0",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "require": "./generated/*.json",
+      "import": "./generated/*.json",
+      "default": "./generated/*.json"
+    },
+    "./images/*": {
+      "require": "./generated/images/*",
+      "import": "./generated/images/*",
+      "default": "./generated/images/*"
+    }
+  },
+  "scripts": {
+    "setup": "corepack enable pnpm",
+    "build": "node scripts/index.ts",
+    "lint": "biome check . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroppy/hiroppy.git"
+  },
+  "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
+  "license": "MIT",
+  "files": ["generated"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/hiroppy/hiroppy/issues"
+  },
+  "homepage": "https://github.com/hiroppy/hiroppy#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/emoji-js": "3.5.2",
+    "@types/node": "22.15.24",
+    "cheerio": "1.0.0",
+    "emoji-js": "3.8.1",
+    "octokit": "5.0.3",
+    "sharp": "0.34.2"
+  }
+}

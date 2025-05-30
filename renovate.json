@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticCommitTypeAll(chore)",
+    ":enableVulnerabilityAlerts",
+    ":separateMajorReleases",
+    "group:definitelyTyped",
+    "group:monorepos",
+    "group:test"
+  ],
+  "rangeStrategy": "pin",
+  "labels": ["deps"],
+  "packageRules": [
+    {
+      "groupName": "npm patch dependencies",
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["patch"],
+      "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
+      "matchPackageNames": ["*"],
+      "automerge": true
+    },
+    {
+      "groupName": "npm minor dependencies",
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor"],
+      "matchDepTypes": ["dependencies", "devDependencies", "peerDependencies"],
+      "matchPackageNames": ["*"]
+    },
+    {
+      "groupName": "npm @types",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@types/{/,}**"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "groupName": "linter deps",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["/^@biomejs/", "/^prettier/"],
+      "extends": ["packages:linters"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    }
+  ],
+  "ignoreDeps": []
+}
