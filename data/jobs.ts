@@ -246,7 +246,7 @@ CEO直下のチームで、BPOの開発を行う。
       description: `
 Yuiqueryの開発を引き続き手伝う。
       `,
-      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
+      links: [],
       company: "yuimedi",
     },
     {

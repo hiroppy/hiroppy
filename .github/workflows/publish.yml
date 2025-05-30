@@ -1,6 +1,11 @@
 name: Publish to NPM
 
 on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Build and Commit on Data Changes"]
+    types: [completed]
+    branches: [main]
   push:
     branches:
       - main
