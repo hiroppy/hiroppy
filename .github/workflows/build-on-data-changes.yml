@@ -1,0 +1,45 @@
+name: Build and Commit on Data Changes
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/**/*.ts'
+  pull_request:
+    paths:
+      - 'data/**/*.ts'
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node
+      - run: pnpm build
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - run: pnpm lint
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Files have been modified by the build process"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No files were modified by the build process"
+          fi
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto-build: Update generated files from data changes
+
+          - Updated generated files based on changes in data/ directory
+          - Build triggered by: ${{ github.event.head_commit.message }}"
+          git push

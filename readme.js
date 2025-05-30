@@ -52,7 +52,7 @@ Thank you for supporting me 😍
 <br />
 
 last auto-updated time: ${new Date(
-    new Date().toLocaleString({ timeZone: "Asia/Tokyo" })
+    new Date().toLocaleString({ timeZone: "Asia/Tokyo" }),
   )}
   `.trim();
 }
