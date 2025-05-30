@@ -4,6 +4,10 @@ type Media = Pick<Common, "publishedAt" | "url" | "siteName">;
 
 export const pressReleases = [
   {
+    publishedAt: "2025-04-30",
+    url: "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
+  },
+  {
     publishedAt: "2025-04-02",
     url: "https://prtimes.jp/main/html/rd/p/000000035.000035920.html",
   },
