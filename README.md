@@ -148,4 +148,4 @@ import media from "hiroppy/media/media.json" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: $new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })
+last auto-updated time: 2025/5/31 7:04:36

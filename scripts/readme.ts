@@ -73,7 +73,7 @@ import media from "hiroppy/media/media.json" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: $new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })
+last auto-updated time: ${new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}
   `.trim();
 }
 
@@ -95,7 +95,6 @@ function sponsorList(sponsors: Sponsor[]): string {
     .join("");
 }
 
-// Generate README.md using sponsors data
 const sponsors: SponsorsData = await readData("sponsors", false);
 const readmeContent = generateREADME(sponsors);
 
