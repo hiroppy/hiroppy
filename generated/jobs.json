@@ -167,10 +167,24 @@
       "start": "2025-04-01T00:00:00.000Z",
       "end": null,
       "position": "Enabling Team (Frontend/LLM)",
-      "initialState": "100",
-      "description": "\nEnabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。\n      ",
-      "links": [],
+      "initialState": "0",
+      "description": "\nEnabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。\n\nCEO直下のチームで、BPOの開発を行う。\n      ",
+      "links": [
+        "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
+      ],
       "company": "layerX"
+    },
+    {
+      "name": "Yuimedi",
+      "start": "2025-05-01T00:00:00.000Z",
+      "end": null,
+      "position": "Engineer",
+      "initialState": "100",
+      "description": "\nYuiqueryの開発を引き続き手伝う。\n      ",
+      "links": [
+        "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
+      ],
+      "company": "yuimedi"
     },
     {
       "name": "Rebase",
