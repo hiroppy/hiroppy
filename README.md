@@ -145,11 +145,11 @@ $ npm i hiroppy
 ```
 
 ```ts
-import jobs  from "hiroppy/jobs.json" with { type: "json" };
-import media from "hiroppy/media.json" with { type: "json" };
+import jobs  from "hiroppy/jobs" with { type: "json" };
+import media from "hiroppy/media" with { type: "json" };
 ```
 
 <br />
 <br />
 
-last auto-updated time: 2025/5/31 11:44:51
+last auto-updated time: 2025/5/31 12:49:48
