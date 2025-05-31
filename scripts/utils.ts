@@ -72,8 +72,6 @@ export async function crawlSites(filename: string, items: Common[]) {
       const memo = sites.find(({ url: memoedUrl }) => memoedUrl === url);
 
       if (memo) {
-        console.log("memo", url);
-
         return memo;
       }
 

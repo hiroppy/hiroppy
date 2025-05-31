@@ -78,7 +78,7 @@ export const articles = [
   },
   {
     publishedAt: "2021-04-28",
-    url: "https://mercan.mercari.com/articles/28113/",
+    url: "https://careers.mercari.com/mercan/articles/28113/",
   },
   {
     publishedAt: "2020-08-31",

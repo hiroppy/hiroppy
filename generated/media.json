@@ -1,5 +1,9 @@
 [
   {
+    "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
+    "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
+    "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
+    "siteName": "estie inside blog",
     "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235",
     "publishedAt": "2024-08-05"
@@ -101,8 +105,12 @@
     "publishedAt": "2021-06-04"
   },
   {
-    "siteUrl": "https://mercan.mercari.com/articles/28113/",
-    "url": "https://mercan.mercari.com/articles/28113/",
+    "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
+    "description": "2021年1月28日に設立された「株式会社ソウゾウ(souzoh)」。 メルカリグループの次の柱となる事業を目指して発足。具体的な事業内容は明らかにされていませんが、着々とプロダクトリリースへの準備が進められています。  …\n",
+    "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
+    "siteName": "mercan (メルカン)",
+    "siteUrl": "https://careers.mercari.com/mercan/articles/28113/",
+    "url": "https://careers.mercari.com/mercan/articles/28113/",
     "publishedAt": "2021-04-28"
   },
   {
