@@ -28,9 +28,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated"
-  ],
+  "files": ["generated"],
   "publishConfig": {
     "access": "public"
   },

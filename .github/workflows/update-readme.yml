@@ -3,7 +3,8 @@ name: Update README
 on:
   push:
     paths:
-      - 'generated/sponsors.json'
+      - generated/sponsors.json
+      - scripts/readme.ts
   workflow_dispatch:
 
 jobs:
