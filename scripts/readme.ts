@@ -70,8 +70,8 @@ $ npm i hiroppy
 \`\`\`
 
 \`\`\`ts
-import jobs  from "hiroppy/jobs.json" with { type: "json" };
-import media from "hiroppy/media.json" with { type: "json" };
+import jobs  from "hiroppy/jobs" with { type: "json" };
+import media from "hiroppy/media" with { type: "json" };
 \`\`\`
 
 <br />
