@@ -15,9 +15,8 @@
       "default": "./generated/images/*"
     },
     "./helpers": {
-      "import": "./lib/index.js",
-      "require": "./lib/index.js",
-      "default": "./lib/index.js"
+      "import": "./lib/index.mjs",
+      "default": "./lib/index.mjs"
     }
   },
   "scripts": {
@@ -39,6 +38,7 @@
   "license": "MIT",
   "files": [
     "generated",
+    "lib",
     "scripts/decompress-images.js"
   ],
   "publishConfig": {
