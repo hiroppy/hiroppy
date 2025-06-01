@@ -26,6 +26,29 @@ export async function readData(filename: string, original = true) {
   return JSON.parse(data);
 }
 
+function trimAllStrings(obj: any): any {
+  if (obj === null) {
+    return null;
+  }
+  if (obj instanceof Date) {
+    return obj;
+  }
+  if (typeof obj === 'string') {
+    return obj.trim();
+  }
+  if (Array.isArray(obj)) {
+    return obj.map(trimAllStrings);
+  }
+  if (typeof obj === 'object') {
+    const trimmed: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(obj)) {
+      trimmed[key] = trimAllStrings(value);
+    }
+    return trimmed;
+  }
+  return obj;
+}
+
 export async function generateData(
   filename: string,
   // biome-ignore lint:
@@ -37,9 +60,17 @@ export async function generateData(
       ? sortItems(data)
       : data;
 
+  // Trim all strings in the data
+  const trimmedData = trimAllStrings(sortedData);
+
   await writeFile(
     join(generatedDataPath, `${filename}.json`),
-    JSON.stringify(sortedData, null, 2),
+    JSON.stringify(trimmedData, (key, value) => {
+      if (value instanceof Date) {
+        return value.toISOString();
+      }
+      return value;
+    }, 2),
     "utf-8",
   );
 }
@@ -100,7 +131,9 @@ export async function crawlSites(filename: string, items: Common[]) {
 
   const promises = items.map(
     async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
-      const memo = sites.find(({ url: memoedUrl }) => memoedUrl === url);
+      const memo = Array.isArray(sites) 
+        ? sites.find(({ url: memoedUrl }) => memoedUrl === url)
+        : null;
 
       if (memo) {
         return memo;
@@ -120,11 +153,16 @@ export async function crawlSites(filename: string, items: Common[]) {
       }
 
       if (meta.image) {
-        const imageURL = /^http/.test(meta.image)
-          ? meta.image
-          : `${new URL(url).origin}${meta.image}`;
+        try {
+          const imageURL = /^http/.test(meta.image)
+            ? meta.image
+            : `${new URL(url).origin}${meta.image}`;
 
-        meta.image = await downloadImage(imageURL);
+          meta.image = await downloadImage(imageURL);
+        } catch (error) {
+          console.error(`Failed to download image for ${url}:`, error);
+          meta.image = "";
+        }
       }
 
       // Process links URLs
@@ -144,11 +182,16 @@ export async function crawlSites(filename: string, items: Common[]) {
             const linkMeta = await getMeta(linkUrl);
 
             if (linkMeta.image) {
-              const imageURL = /^http/.test(linkMeta.image)
-                ? linkMeta.image
-                : `${new URL(linkUrl).origin}${linkMeta.image}`;
+              try {
+                const imageURL = /^http/.test(linkMeta.image)
+                  ? linkMeta.image
+                  : `${new URL(linkUrl).origin}${linkMeta.image}`;
 
-              linkMeta.image = await downloadImage(imageURL);
+                linkMeta.image = await downloadImage(imageURL);
+              } catch (error) {
+                console.error(`Failed to download image for ${linkUrl}:`, error);
+                linkMeta.image = "";
+              }
             }
 
             return linkMeta as LinkMeta;

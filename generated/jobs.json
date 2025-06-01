@@ -80,7 +80,7 @@
       "end": "2025-03-31T00:00:00.000Z",
       "position": "VPoE",
       "initialState": "0",
-      "description": "\n[Yuicleaner](https://yuimedi.com/yuicleaner)の開発をリードし、\n[react-flow](https://reactflow.dev/)の導入と複雑なUIの作成、数百万データを高速に処理できるようにアーキテクチャの設計と実装、\n既存コードをすべて置換し、Next.jsの導入などを行った。\n\nまたVPoEとしてエンジニア組織の構築も行い、エンジニアラダーの作成し評価制度のベース作成、スケールしやすい組織構築も模索しながら行っている。\n      ",
+      "description": "[Yuicleaner](https://yuimedi.com/yuicleaner)の開発をリードし、\n[react-flow](https://reactflow.dev/)の導入と複雑なUIの作成、数百万データを高速に処理できるようにアーキテクチャの設計と実装、\n既存コードをすべて置換し、Next.jsの導入などを行った。\n\nまたVPoEとしてエンジニア組織の構築も行い、エンジニアラダーの作成し評価制度のベース作成、スケールしやすい組織構築も模索しながら行っている。",
       "links": [
         {
           "title": "Yuimediのプロダクト開発 | Notion",
@@ -119,7 +119,7 @@
       "end": "2022-07-31T00:00:00.000Z",
       "position": "Architect",
       "initialState": "0",
-      "description": "\n技術顧問から正社員として復職し、再度入社。JPでは[Mercari Web](https://jp.mercari.com/)の0から作成するプロジェクトである[GroundUP App プロジェクト](https://engineering.mercari.com/blog/entry/20221213-ground-up-app/)に立ち上げ参加。\n\n後に100%子会社であるSouzohの立ち上げ時に出向として参加し、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当。リリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。\n",
+      "description": "技術顧問から正社員として復職し、再度入社。JPでは[Mercari Web](https://jp.mercari.com/)の0から作成するプロジェクトである[GroundUP App プロジェクト](https://engineering.mercari.com/blog/entry/20221213-ground-up-app/)に立ち上げ参加。\n\n後に100%子会社であるSouzohの立ち上げ時に出向として参加し、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当。リリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。",
       "links": [
         {
           "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
@@ -160,7 +160,7 @@
       "end": "2019-10-31T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "\n前のドワンゴ退職から半年しか経ってないため、特に以前と開発の状態は大きく変わらず[N予備校](\"https://www.nnn.ed.nico/\")に復職。引き続き機能開発やwssを利用したリアルタイムイベントを管理するシステムをメンテナンス。\nまた、N校のプログラミング教材のレビューも行った。\n\n後にニコニコ生放送への部署に移り、動画の低遅延、安定化の研究。WebRTCやこのときにはまだ仕様策定中であった[CMAF](https://www.liveinstantly.com/ja/resources/cross-posts/cmaf-format/)の実装調査を行った。\n      ",
+      "description": "前のドワンゴ退職から半年しか経ってないため、特に以前と開発の状態は大きく変わらず[N予備校](\"https://www.nnn.ed.nico/\")に復職。引き続き機能開発やwssを利用したリアルタイムイベントを管理するシステムをメンテナンス。\nまた、N校のプログラミング教材のレビューも行った。\n\n後にニコニコ生放送への部署に移り、動画の低遅延、安定化の研究。WebRTCやこのときにはまだ仕様策定中であった[CMAF](https://www.liveinstantly.com/ja/resources/cross-posts/cmaf-format/)の実装調査を行った。",
       "links": [],
       "company": "dwango"
     },
@@ -170,7 +170,7 @@
       "end": "2017-12-01T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "\n[Mercari US](https://www.mercari.com/)の開発に従事し、現地にいったりし、ほぼなにもない状態のサービスを開発を行う。\n\nMercari JPではPWAやReactの導入をリードし行った。\n      ",
+      "description": "[Mercari US](https://www.mercari.com/)の開発に従事し、現地にいったりし、ほぼなにもない状態のサービスを開発を行う。\n\nMercari JPではPWAやReactの導入をリードし行った。",
       "links": [],
       "company": "mercari"
     },
@@ -180,7 +180,7 @@
       "end": "2017-05-31T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "0",
-      "description": "\n新卒で入社。新規開発を行うフロンティアチームで社内レジュメシステムの開発。その後に[ニコナレ](https://blog.nicovideo.jp/niconews/115830.html)の立ち上げを行いフロントエンド一人で開発。初React導入。\n\n次に[N予備校](https://www.nnn.ed.nico/)の立ち上げを行い、主にwssを利用したリアルタイムイベントを管理するシステムを開発。\n      ",
+      "description": "新卒で入社。新規開発を行うフロンティアチームで社内レジュメシステムの開発。その後に[ニコナレ](https://blog.nicovideo.jp/niconews/115830.html)の立ち上げを行いフロントエンド一人で開発。初React導入。\n\n次に[N予備校](https://www.nnn.ed.nico/)の立ち上げを行い、主にwssを利用したリアルタイムイベントを管理するシステムを開発。",
       "links": [],
       "company": "dwango"
     }
@@ -192,7 +192,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "\nRuby on RailsからNext.jsへの移行方針の提案、実装サポート。また、jQueryからReactへの移行サポート。\n\nエンジニアの育成。\n      ",
+      "description": "Ruby on RailsからNext.jsへの移行方針の提案、実装サポート。また、jQueryからReactへの移行サポート。\n\nエンジニアの育成。",
       "links": [
         {
           "title": "レガシーなフロントエンド環境をリプレースするためにチームでやっていること｜食べログ フロントエンドエンジニアブログ",
@@ -231,7 +231,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "\n退職後引き続き、Architectとして社内のフロントエンドサポートと大規模な処理に耐えれるようにパフォーマンスチューニング。\nエンジニア採用のサポート。\n      ",
+      "description": "退職後引き続き、Architectとして社内のフロントエンドサポートと大規模な処理に耐えれるようにパフォーマンスチューニング。\nエンジニア採用のサポート。",
       "links": [],
       "company": "mercari"
     },
@@ -241,7 +241,7 @@
       "end": null,
       "position": "Enabling Team (Frontend/LLM)",
       "initialState": "0",
-      "description": "\nEnabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。\n\nCEO直下のチームで、BPOの開発を行う。\n      ",
+      "description": "Enabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。\n\nCEO直下のチームで、BPOの開発を行う。",
       "links": [
         {
           "title": "LayerX、AIエージェントに参入　請求書受け取り代行など - 日本経済新聞",
@@ -259,7 +259,7 @@
       "end": null,
       "position": "Engineer",
       "initialState": "100",
-      "description": "\nYuiqueryの開発を引き続き手伝う。\n      ",
+      "description": "Yuiqueryの開発を引き続き手伝う。",
       "links": [],
       "company": "yuimedi"
     },
@@ -269,7 +269,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "\nNext.jsのApp Routerを利用したサービスを展開しているので、そこで発生した問題点を解決するアドバイスを行う。\n\nRuby on Railsからフロントエンドを剥がす過程の提案、リファクタリングサポート。\n      ",
+      "description": "Next.jsのApp Routerを利用したサービスを展開しているので、そこで発生した問題点を解決するアドバイスを行う。\n\nRuby on Railsからフロントエンドを剥がす過程の提案、リファクタリングサポート。",
       "links": [
         {
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任",
@@ -299,7 +299,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "\nADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。\n      ",
+      "description": "ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。",
       "links": [
         {
           "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ - 株式会社ROUTE06 (ルートシックス)",
@@ -337,7 +337,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "\nフロントエンド、Node.js、パフォーマンス支援\n      ",
+      "description": "フロントエンド、Node.js、パフォーマンス支援",
       "links": [],
       "company": "stract"
     },
@@ -347,7 +347,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "\nフロントエンド、Node.js、パフォーマンス支援\n      ",
+      "description": "フロントエンド、Node.js、パフォーマンス支援",
       "links": [],
       "company": "ship"
     },
@@ -357,7 +357,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "\nApp Routerを利用したtoBサービスの開発、サポート。\n      ",
+      "description": "App Routerを利用したtoBサービスの開発、サポート。",
       "links": [],
       "company": "runpeace"
     },
@@ -367,7 +367,7 @@
       "end": "2024-08-31T00:00:00.000Z",
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "\nフロントエンド改善支援\n      ",
+      "description": "フロントエンド改善支援",
       "links": [
         {
           "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
@@ -385,7 +385,7 @@
       "end": "2023-12-31T00:00:00.000Z",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "\nCTOへの技術、組織的な改善提案。DDDからの脱却するため、リファクタリングへのテストの追加と安定性のサポート。\n      ",
+      "description": "CTOへの技術、組織的な改善提案。DDDからの脱却するため、リファクタリングへのテストの追加と安定性のサポート。",
       "links": [],
       "company": "anotherworks"
     },
@@ -395,7 +395,7 @@
       "end": "2022-06-01T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "\n[Yuicleaner](https://yuimedi.com/yuicleaner)の実装。\n      ",
+      "description": "[Yuicleaner](https://yuimedi.com/yuicleaner)の実装。",
       "links": [],
       "company": "yuimedi"
     },
@@ -405,7 +405,7 @@
       "end": "2022-05-31T00:00:00.000Z",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "\nコードが複雑になっていたため、リファクタリングの提案。事業転換が発生したため、短い期間でのサポートとなった。\n\nエンジニアの育成。\n      ",
+      "description": "コードが複雑になっていたため、リファクタリングの提案。事業転換が発生したため、短い期間でのサポートとなった。\n\nエンジニアの育成。",
       "links": [],
       "company": "alpaca"
     },
@@ -415,7 +415,7 @@
       "end": "2020-05-31T00:00:00.000Z",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "\ncreate-react-appからNext.jsへの移行サポート。ゲーム開発のコードレビューとパフォーマンス改善提案。\n      ",
+      "description": "create-react-appからNext.jsへの移行サポート。ゲーム開発のコードレビューとパフォーマンス改善提案。",
       "links": [],
       "company": "black"
     },
@@ -425,7 +425,7 @@
       "end": "2019-10-31T00:00:00.000Z",
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "\nアイルランドからのリモートワークで、Mercari JPを1から作り直すプロジェクトに顧問として参加。\n\nNext.jsを初期から選択し、セキュリティをはじめとしたアーキテクチャの設計と実装をサポート。\n      ",
+      "description": "アイルランドからのリモートワークで、Mercari JPを1から作り直すプロジェクトに顧問として参加。\n\nNext.jsを初期から選択し、セキュリティをはじめとしたアーキテクチャの設計と実装をサポート。",
       "links": [
         {
           "title": "Web Re-Architecture プロジェクトにおける技術的チャレンジ",
@@ -443,7 +443,7 @@
       "end": "2017-10-01T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "100",
-      "description": "\nスポットで開発に参加、Scalaを利用。\n      ",
+      "description": "スポットで開発に参加、Scalaを利用。",
       "links": [],
       "company": "bizreach"
     },
@@ -453,7 +453,7 @@
       "end": "2015-03-03T00:00:00.000Z",
       "position": "Engineer",
       "initialState": "100",
-      "description": "\nBackbone.jsやjQueryを利用し、学生アルバイトとして開発。\n      ",
+      "description": "Backbone.jsやjQueryを利用し、学生アルバイトとして開発。",
       "links": [],
       "company": "eyesjapan"
     },
@@ -463,7 +463,7 @@
       "end": "2013-10-01T00:00:00.000Z",
       "position": "Intern",
       "initialState": "0",
-      "description": "\nTitaniumを利用した画像処理アプリ開発。\n      ",
+      "description": "Titaniumを利用した画像処理アプリ開発。",
       "links": [],
       "company": "cyberagent"
     }
