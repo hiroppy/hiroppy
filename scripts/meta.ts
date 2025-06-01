@@ -1,5 +1,5 @@
 import { meta } from "../data/meta.ts";
-import { generateData, crawlSites } from "./utils.ts";
+import { crawlSites, generateData } from "./utils.ts";
 
 // Transform community data to include links metadata
 const transformedMeta = { ...meta };
@@ -22,11 +22,13 @@ if (meta.community) {
 
   if (communityItems.length > 0) {
     const crawledItems = await crawlSites("meta", communityItems);
-    
+
     // Update community data with metadata
     for (const [key, value] of communityEntries) {
       if (value.links && value.links.length > 0) {
-        const crawledItem = crawledItems.find(item => item.url === value.links[0]);
+        const crawledItem = crawledItems.find(
+          (item) => item.url === value.links[0],
+        );
         if (crawledItem) {
           transformedMeta.community[key] = {
             title: value.title,

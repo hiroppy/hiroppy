@@ -13,7 +13,7 @@ const allArticles = [...hatenaArticles];
 
 await Promise.all(
   allArticles
-    .filter(article => article.hot)
+    .filter((article) => article.hot)
     .map(async (article) => {
       const { host, pathname } = new URL(article.url);
       const isHatena = host === "abouthiroppy.hatenablog.jp";
@@ -25,12 +25,16 @@ await Promise.all(
         const newPathname = pathname.replace("/entry", "");
         article.url = `https://hiroppy.me/blog${newPathname}`;
       }
-    })
+    }),
 );
 
-await generateData("articles", allArticles.sort(
-  (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-));
+await generateData(
+  "articles",
+  allArticles.sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+  ),
+);
 
 async function getBookmark(entry: string): Promise<number> {
   try {

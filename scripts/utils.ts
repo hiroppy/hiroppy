@@ -33,13 +33,13 @@ function trimAllStrings(obj: unknown): unknown {
   if (obj instanceof Date) {
     return obj;
   }
-  if (typeof obj === 'string') {
+  if (typeof obj === "string") {
     return obj.trim();
   }
   if (Array.isArray(obj)) {
     return obj.map(trimAllStrings);
   }
-  if (typeof obj === 'object') {
+  if (typeof obj === "object") {
     const trimmed: Record<string, unknown> = {};
     for (const [key, value] of Object.entries(obj)) {
       trimmed[key] = trimAllStrings(value);
@@ -49,10 +49,7 @@ function trimAllStrings(obj: unknown): unknown {
   return obj;
 }
 
-export async function generateData(
-  filename: string,
-  data: unknown,
-) {
+export async function generateData(filename: string, data: unknown) {
   // Sort data by date if it's an array of objects with publishedAt field
   const sortedData =
     Array.isArray(data) && data.length > 0 && data[0]?.publishedAt
@@ -64,12 +61,16 @@ export async function generateData(
 
   await writeFile(
     join(generatedDataPath, `${filename}.json`),
-    JSON.stringify(trimmedData, (key, value) => {
-      if (value instanceof Date) {
-        return value.toISOString();
-      }
-      return value;
-    }, 2),
+    JSON.stringify(
+      trimmedData,
+      (key, value) => {
+        if (value instanceof Date) {
+          return value.toISOString();
+        }
+        return value;
+      },
+      2,
+    ),
     "utf-8",
   );
 }
@@ -141,7 +142,7 @@ export async function crawlSites(filename: string, items: Common[]) {
 
   const promises = items.map(
     async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
-      const memo = Array.isArray(sites) 
+      const memo = Array.isArray(sites)
         ? sites.find(({ url: memoedUrl }) => memoedUrl === url)
         : null;
 
@@ -179,41 +180,46 @@ export async function crawlSites(filename: string, items: Common[]) {
       let processedLinks: string[] | LinkMeta[] = links || [];
       if (links && links.length > 0) {
         console.log("processing links for", url);
-        const linkPromises = (links as string[]).map(async (linkUrl: string): Promise<LinkMeta> => {
-          // Check if link is already cached
-          const cachedLink = linkCache.get(linkUrl);
-          if (cachedLink) {
-            console.log("using cached link", linkUrl);
-            return cachedLink;
-          }
-
-          try {
-            console.log("crawling link", linkUrl);
-            const linkMeta = await getMeta(linkUrl);
-
-            if (linkMeta.image) {
-              try {
-                const imageURL = /^http/.test(linkMeta.image)
-                  ? linkMeta.image
-                  : `${new URL(linkUrl).origin}${linkMeta.image}`;
-
-                linkMeta.image = await downloadImage(imageURL);
-              } catch (error) {
-                console.error(`Failed to download image for ${linkUrl}:`, error);
-                linkMeta.image = "";
-              }
+        const linkPromises = (links as string[]).map(
+          async (linkUrl: string): Promise<LinkMeta> => {
+            // Check if link is already cached
+            const cachedLink = linkCache.get(linkUrl);
+            if (cachedLink) {
+              console.log("using cached link", linkUrl);
+              return cachedLink;
             }
 
-            return linkMeta as LinkMeta;
-          } catch (error) {
-            console.error(`Failed to crawl link ${linkUrl}:`, error);
-            return {
-              siteUrl: linkUrl,
-              url: linkUrl,
-              error: (error as Error).message,
-            } as LinkMeta;
-          }
-        });
+            try {
+              console.log("crawling link", linkUrl);
+              const linkMeta = await getMeta(linkUrl);
+
+              if (linkMeta.image) {
+                try {
+                  const imageURL = /^http/.test(linkMeta.image)
+                    ? linkMeta.image
+                    : `${new URL(linkUrl).origin}${linkMeta.image}`;
+
+                  linkMeta.image = await downloadImage(imageURL);
+                } catch (error) {
+                  console.error(
+                    `Failed to download image for ${linkUrl}:`,
+                    error,
+                  );
+                  linkMeta.image = "";
+                }
+              }
+
+              return linkMeta as LinkMeta;
+            } catch (error) {
+              console.error(`Failed to crawl link ${linkUrl}:`, error);
+              return {
+                siteUrl: linkUrl,
+                url: linkUrl,
+                error: (error as Error).message,
+              } as LinkMeta;
+            }
+          },
+        );
 
         processedLinks = await Promise.all(linkPromises);
       }
@@ -239,7 +245,10 @@ export function sortItems(items: Array<{ publishedAt: string }>) {
   );
 }
 
-export async function downloadImage(url: string, ext: "jpg" | "webp" = "webp"): Promise<string> {
+export async function downloadImage(
+  url: string,
+  ext: "jpg" | "webp" = "webp",
+): Promise<string> {
   if (!url) {
     return "";
   }
@@ -260,7 +269,7 @@ export async function downloadImage(url: string, ext: "jpg" | "webp" = "webp"): 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    
+
     const blob = await response.blob();
     const arrayBuffer = await blob.arrayBuffer();
     const buffer =

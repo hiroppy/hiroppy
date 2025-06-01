@@ -36,11 +36,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "lib",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "lib", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
