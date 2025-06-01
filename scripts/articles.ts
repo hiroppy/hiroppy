@@ -1,6 +1,6 @@
 import { load } from "cheerio";
 import { hatena } from "../data/hatena.ts";
-import { generateData, sortItems } from "./utils/index.ts";
+import { generateData } from "./utils/index.ts";
 
 // hatena
 const hatenaArticles = await parseRss(
@@ -17,9 +17,6 @@ await Promise.all(
     .map(async (article) => {
       const { host, pathname } = new URL(article.url);
       const isHatena = host === "abouthiroppy.hatenablog.jp";
-      const hostname = isHatena ? "blog.hiroppy.me" : host;
-
-      article.bookmark = await getBookmark(`https://${hostname}${pathname}`);
 
       if (isHatena) {
         const newPathname = pathname.replace("/entry", "");
@@ -36,21 +33,6 @@ await generateData(
   ),
 );
 
-async function getBookmark(entry: string): Promise<number> {
-  try {
-    const url = `https://b.hatena.ne.jp/entry/json/${entry}`;
-    const res = await fetch(url);
-    if (!res.ok) {
-      throw new Error(`HTTP error! status: ${res.status}`);
-    }
-    const data = await res.json();
-    return data.count || 0;
-  } catch (error) {
-    console.error(`Failed to fetch bookmark for ${entry}:`, error);
-    return 0;
-  }
-}
-
 type Article = {
   hot: boolean;
   url: string;
@@ -60,7 +42,6 @@ type Article = {
   publishedAt: string;
   siteName: string;
   siteUrl: string;
-  bookmark?: number;
 };
 
 async function parseRss(
