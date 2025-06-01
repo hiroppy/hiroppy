@@ -9,6 +9,10 @@ export type Meta = Record<
 >;
 
 export const meta = {
+  coderPenguin: {
+    image: "coderPenguin.png",
+    url: "https://coder-penguin.com/",
+  },
   layerX: {
     image: "layerx.png",
     url: "https://layerx.co.jp/",
@@ -94,6 +98,7 @@ export type JobContent = {
   start: Date;
   end: Date | null;
   position:
+    | "Founder"
     | "VPoE"
     | "Technical Advisor"
     | "Architect"
@@ -107,6 +112,20 @@ export type JobContent = {
 
 export const jobs: Job = {
   main: [
+    {
+      name: "Coder Penguin",
+      start: new Date("2025-04-01"),
+      end: null,
+      position: "Founder",
+      initialState: "0",
+      description: `
+もともと副業の受け口として利用していた会社を独立し、１本化した。
+Coder Penguinでは、様々な会社でフロントエンドの技術顧問やアーキテクチャ設計、Next.jsを利用したサービスの開発を行う。
+最近は、LLMを利用したサービス開発も多め。
+      `,
+      company: "coderPenguin",
+      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
+    },
     {
       name: "Yuimedi",
       start: new Date("2022-08-01"),

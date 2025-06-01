@@ -134,6 +134,3 @@ await generateData("jobs", {
   main: mainJobs,
   side: sideJobs,
 });
-
-// 更新されたmetaオブジェクトを別途保存
-await generateData("meta", updatedMeta);

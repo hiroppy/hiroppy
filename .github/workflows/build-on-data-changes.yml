@@ -37,7 +37,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Auto-build: Update generated files from data changes
+          git commit -m "feat: update generated files from data changes
 
           - Updated generated files based on changes in data/ directory
           - Build triggered by: ${{ github.event.head_commit.message }}"
