@@ -148,4 +148,8 @@ import media from "hiroppy/media" with { type: "json" };
 <br />
 <br />
 
+<<<<<<< HEAD
 last auto-updated time: 2025/6/2 8:31:10
+=======
+last auto-updated time: 2025/6/2 8:31:57
+>>>>>>> 31b54d6 (chore(readme): remove last-updated)

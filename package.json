@@ -22,7 +22,7 @@
   "scripts": {
     "setup": "corepack enable pnpm",
     "build": "node scripts/index.ts",
-    "build:readme": "node scripts/readme.ts",
+    "build:readme": "node scripts/readme.ts && pnpm lint",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
     "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",

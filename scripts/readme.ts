@@ -93,11 +93,6 @@ $ npm i hiroppy
 import jobs  from "hiroppy/jobs" with { type: "json" };
 import media from "hiroppy/media" with { type: "json" };
 \`\`\`
-
-<br />
-<br />
-
-last auto-updated time: ${new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}
   `.trim();
 }
 
