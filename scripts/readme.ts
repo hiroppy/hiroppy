@@ -39,6 +39,9 @@ function generateREADME(sponsors: SponsorsData, repos: ReposData): string {
   </samp>
 </p>
 
+![NPM Version](https://img.shields.io/npm/v/hiroppy)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hiroppy/hiroppy)
+
 Hi, I'm hiroppy 😵‍💫
 
 I am a JS engineer living in Japan, and I love creating OSS and web services.
