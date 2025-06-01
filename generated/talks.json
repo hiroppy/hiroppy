@@ -58,12 +58,7 @@
     "url": "https://www.youtube.com/watch?v=1uCWzfaIedE",
     "publishedAt": "2021-09-15",
     "links": [
-      {
-        "title": "メルカリShops の CI/CD と Pull Request 環境 | メルカリエンジニアリング",
-        "description": "こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：「メルカリShops」プレオープンまでの開発の裏側の８日目を担当させていただきます。この記事では、メルカリShops 開発において、日々バリバリに",
-        "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
-        "siteUrl": "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
-      }
+      "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
     ]
   },
   {
@@ -75,12 +70,7 @@
     "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g",
     "publishedAt": "2021-09-01",
     "links": [
-      {
-        "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
-        "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
-        "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
-        "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
-      }
+      "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
     ]
   },
   {
@@ -102,13 +92,7 @@
     "url": "https://www.youtube.com/watch?v=XyoeJ1TRaMk",
     "publishedAt": "2021-07-15",
     "links": [
-      {
-        "title": "UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました",
-        "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
-        "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
-        "siteName": "LINE ENGINEERING",
-        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
-      }
+      "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
     ]
   },
   {

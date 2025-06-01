@@ -1,3 +1,4 @@
+import { AsyncLocalStorage } from "node:async_hooks";
 import { exec } from "node:child_process";
 import { createWriteStream } from "node:fs";
 import { readdir } from "node:fs/promises";
@@ -9,6 +10,8 @@ import sharp from "sharp";
 import type { Common, LinkMeta } from "../data/type.ts";
 
 const promisifyExec = promisify(exec);
+
+export const cacheStorage = new AsyncLocalStorage<Map<string, LinkMeta>>();
 
 export const baseDataPath = join(import.meta.dirname, "../data");
 export const generatedDataPath = join(import.meta.dirname, "../generated");
@@ -75,30 +78,14 @@ export async function generateData(filename: string, data: unknown) {
   );
 }
 
-export async function collectAlreadyHavingSites(filename: string) {
+export async function loadCache(): Promise<Map<string, LinkMeta>> {
   try {
-    return await readData(filename, false);
-  } catch (e) {
-    return [];
-  }
-}
-
-export async function collectAlreadyHavingLinks(filename: string) {
-  try {
-    const data = await readData(filename, false);
+    const cacheData = await readFile(join(baseDataPath, "cache.json"), "utf-8");
+    const cache = JSON.parse(cacheData);
     const linkCache = new Map<string, LinkMeta>();
 
-    // Extract all links from the data
-    if (Array.isArray(data)) {
-      for (const item of data) {
-        if (item.links && Array.isArray(item.links)) {
-          for (const link of item.links) {
-            if (typeof link === "object" && link.siteUrl) {
-              linkCache.set(link.siteUrl, link);
-            }
-          }
-        }
-      }
+    for (const [url, meta] of Object.entries(cache)) {
+      linkCache.set(url, meta as LinkMeta);
     }
 
     return linkCache;
@@ -107,12 +94,68 @@ export async function collectAlreadyHavingLinks(filename: string) {
   }
 }
 
+export async function saveCache(cache: Map<string, LinkMeta>) {
+  try {
+    // Sort keys alphabetically for consistent ordering
+    const sortedEntries = Array.from(cache.entries()).sort(([a], [b]) =>
+      a.localeCompare(b),
+    );
+    const cacheObject = Object.fromEntries(sortedEntries);
+    await writeFile(
+      join(baseDataPath, "cache.json"),
+      JSON.stringify(cacheObject, null, 2),
+      "utf-8",
+    );
+  } catch (error) {
+    console.error("Failed to save cache:", error);
+  }
+}
+
+export function getSharedCache(): Map<string, LinkMeta> {
+  const cache = cacheStorage.getStore();
+  if (!cache) {
+    throw new Error(
+      "Cache not initialized. Make sure to run within cache context.",
+    );
+  }
+  return cache;
+}
+
+export async function collectAlreadyHavingLinks(filename: string) {
+  const cache = getSharedCache();
+
+  try {
+    const data = await readData(filename, false);
+
+    // Extract all links from the generated data and add to cache if not exists
+    if (Array.isArray(data)) {
+      for (const item of data) {
+        if (item.links && Array.isArray(item.links)) {
+          for (const link of item.links) {
+            if (
+              typeof link === "object" &&
+              link.siteUrl &&
+              !cache.has(link.siteUrl)
+            ) {
+              cache.set(link.siteUrl, link);
+            }
+          }
+        }
+      }
+    }
+
+    return cache;
+  } catch (e) {
+    return cache;
+  }
+}
+
 export async function getMeta(url: string, title?: string) {
   try {
     // twitterはbotをつけないとogをつけない
     // nodeライブラリは基本、user-agentを変えれない
     const { stdout: html } = await promisifyExec(
-      `curl -m 2 '${url}' -H 'User-Agent: bot'`,
+      `curl -m 10 '${url}' -H 'User-Agent: bot'`,
     );
 
     const $ = load(html);
@@ -137,17 +180,26 @@ export async function getMeta(url: string, title?: string) {
 }
 
 export async function crawlSites(filename: string, items: Common[]) {
-  const sites = await collectAlreadyHavingSites(filename);
   const linkCache = await collectAlreadyHavingLinks(filename);
 
   const promises = items.map(
     async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
-      const memo = Array.isArray(sites)
-        ? sites.find(({ url: memoedUrl }) => memoedUrl === url)
-        : null;
+      const cachedSite = linkCache.get(url);
 
-      if (memo) {
-        return memo;
+      if (cachedSite?.title && !cachedSite.error) {
+        console.log("using cached site", url);
+        return {
+          title: cachedSite.title,
+          description: cachedSite.description,
+          image: cachedSite.image,
+          siteName: cachedSite.siteName,
+          siteUrl: cachedSite.siteUrl,
+          url,
+          hot,
+          comment,
+          publishedAt,
+          links: links || [],
+        };
       }
 
       console.log("new", url);
@@ -179,7 +231,6 @@ export async function crawlSites(filename: string, items: Common[]) {
       // Process links URLs
       let processedLinks: string[] | LinkMeta[] = links || [];
       if (links && links.length > 0) {
-        console.log("processing links for", url);
         const linkPromises = (links as string[]).map(
           async (linkUrl: string): Promise<LinkMeta> => {
             // Check if link is already cached
@@ -209,14 +260,20 @@ export async function crawlSites(filename: string, items: Common[]) {
                 }
               }
 
-              return linkMeta as LinkMeta;
+              const result = linkMeta as LinkMeta;
+              // Add to cache
+              linkCache.set(linkUrl, result);
+
+              return result;
             } catch (error) {
               console.error(`Failed to crawl link ${linkUrl}:`, error);
-              return {
+              const errorResult = {
                 siteUrl: linkUrl,
                 url: linkUrl,
                 error: (error as Error).message,
-              } as LinkMeta;
+              };
+
+              return errorResult;
             }
           },
         );
@@ -224,7 +281,7 @@ export async function crawlSites(filename: string, items: Common[]) {
         processedLinks = await Promise.all(linkPromises);
       }
 
-      return {
+      const result = {
         ...meta,
         url,
         hot,
@@ -232,10 +289,23 @@ export async function crawlSites(filename: string, items: Common[]) {
         publishedAt,
         links: processedLinks,
       };
+
+      // Cache the main site data (without hot, comment, publishedAt for reusability)
+      linkCache.set(url, {
+        title: meta.title,
+        description: meta.description,
+        image: meta.image,
+        siteName: meta.siteName,
+        siteUrl: meta.siteUrl,
+      } as LinkMeta);
+
+      return result;
     },
   );
 
-  return await Promise.all(promises);
+  const result = await Promise.all(promises);
+
+  return result;
 }
 
 export function sortItems(items: Array<{ publishedAt: string }>) {

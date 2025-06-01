@@ -17,8 +17,6 @@ async function processJobWithLinks(
     return job;
   }
 
-  console.log("processing links for", job.name);
-
   // 文字列の配列かLinkMetaの配列かを確認
   const isStringArray =
     job.links.length > 0 && typeof job.links[0] === "string";
@@ -29,7 +27,6 @@ async function processJobWithLinks(
       async (linkUrl: string): Promise<LinkMeta> => {
         const cachedLink = linkCache.get(linkUrl);
         if (cachedLink) {
-          console.log("using cached link", linkUrl);
           return cachedLink;
         }
 
@@ -45,14 +42,20 @@ async function processJobWithLinks(
             linkMeta.image = await downloadImage(imageURL);
           }
 
-          return linkMeta as LinkMeta;
+          const result = linkMeta as LinkMeta;
+
+          linkCache.set(linkUrl, result);
+
+          return result;
         } catch (error) {
           console.error(`Failed to crawl link ${linkUrl}:`, error);
-          return {
+          const errorResult = {
             siteUrl: linkUrl,
             url: linkUrl,
             error: (error as Error).message,
           } as LinkMeta;
+
+          return errorResult;
         }
       },
     );

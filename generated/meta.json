@@ -20,24 +20,9 @@
       "start": "2016",
       "end": "2018",
       "links": [
-        {
-          "title": "東京Node学園祭2016 | 11月12日,13日開催！",
-          "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "siteUrl": "https://nodefest.jp/2016/"
-        },
-        {
-          "title": "東京Node学園祭2017 | 11月25日,26日開催予定！",
-          "description": "2017年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxNy9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "siteUrl": "https://nodefest.jp/2017/"
-        },
-        {
-          "title": "東京Node学園祭2018 | 11月23日,24日開催予定！",
-          "description": "2018年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "siteUrl": "https://nodefest.jp/2018/"
-        }
+        "https://nodefest.jp/2016/",
+        "https://nodefest.jp/2017/",
+        "https://nodefest.jp/2018/"
       ]
     },
     "jsconfJp": {
@@ -45,21 +30,9 @@
       "start": "2021",
       "end": null,
       "links": [
-        {
-          "title": "JSConf JP",
-          "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
-          "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
-          "siteUrl": "https://jsconf.jp/2021/"
-        },
-        {
-          "title": "JSConf JP",
-          "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
-          "image": "/images/anNjb25mLmpwLzIwMjIvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
-          "siteUrl": "https://jsconf.jp/2022/"
-        },
-        {
-          "siteUrl": "https://jsconf.jp/2024/"
-        }
+        "https://jsconf.jp/2021/",
+        "https://jsconf.jp/2022/",
+        "https://jsconf.jp/2024/"
       ]
     },
     "tsKaigi": {
@@ -67,18 +40,8 @@
       "start": "2024",
       "end": null,
       "links": [
-        {
-          "title": "TSKaigi 2024",
-          "description": "TSKaigi 2024は、日本最大級のTypeScriptカンファレンスを開催します。",
-          "image": "",
-          "siteUrl": "https://2024.tskaigi.org/"
-        },
-        {
-          "title": "TSKaigi 2025",
-          "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2025/5/23 (金) - 24 (土) の日程で開催します。",
-          "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",
-          "siteUrl": "https://2025.tskaigi.org/"
-        }
+        "https://2024.tskaigi.org/",
+        "https://2025.tskaigi.org/"
       ]
     },
     "reactjs": {
@@ -86,13 +49,7 @@
       "start": "2017",
       "end": "2019",
       "links": [
-        {
-          "title": "React.js meetup",
-          "description": "React.js meetup",
-          "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lYS9lNy9lYWU3YjBkMmZjOGYzMGYwZTQ0MzA5ZjM5OGYyM2E5MS5wbm.webp",
-          "siteName": "connpass",
-          "siteUrl": "https://reactjs-meetup.connpass.com/"
-        }
+        "https://reactjs-meetup.connpass.com/"
       ]
     },
     "techfeed": {
@@ -100,13 +57,7 @@
       "start": "2020",
       "end": null,
       "links": [
-        {
-          "title": "Yuta Hiroto on TechFeed",
-          "description": "OSS engineer. Core committer of @nodejs and @webpack.",
-          "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
-          "siteName": "TechFeed",
-          "siteUrl": "https://techfeed.io/people/@hiroppy/"
-        }
+        "https://techfeed.io/people/@hiroppy/"
       ]
     }
   },

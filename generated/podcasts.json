@@ -358,13 +358,7 @@
     "url": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A",
     "publishedAt": "2021-09-10",
     "links": [
-      {
-        "title": "Souzoh Tech Talk #03: Frontend",
-        "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
-        "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
-        "siteName": "YouTube",
-        "siteUrl": "https://www.youtube.com/watch?v=YNLvIkqRC-g"
-      }
+      "https://www.youtube.com/watch?v=YNLvIkqRC-g"
     ]
   },
   {
@@ -376,13 +370,7 @@
     "url": "https://uit-inside.linecorp.com/episode/93",
     "publishedAt": "2021-07-30",
     "links": [
-      {
-        "title": "UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました",
-        "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
-        "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
-        "siteName": "LINE ENGINEERING",
-        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"
-      }
+      "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"
     ]
   }
 ]
