@@ -2,7 +2,7 @@ import type { Common } from "./type.ts";
 
 type Talk = Pick<
   Common,
-  "publishedAt" | "url" | "siteName" | "title" | "appendixes"
+  "publishedAt" | "url" | "siteName" | "title" | "links"
 >;
 
 export const talks = [
@@ -34,17 +34,15 @@ export const talks = [
     publishedAt: "2021-09-15",
     url: "https://www.youtube.com/watch?v=1uCWzfaIedE",
     siteName: "https://mercari.connpass.com/event/221980/",
-    appendixes: {
-      blog: "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/",
-    },
+    links: [
+      "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/",
+    ],
   },
   {
     publishedAt: "2021-09-01",
     url: "https://www.youtube.com/watch?v=YNLvIkqRC-g",
     siteName: "https://mercari.connpass.com/event/221978/",
-    appendixes: {
-      blog: "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
-    },
+    links: ["https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"],
   },
   {
     publishedAt: "2021-08-30",
@@ -55,9 +53,7 @@ export const talks = [
     publishedAt: "2021-07-15",
     url: "https://www.youtube.com/watch?v=XyoeJ1TRaMk",
     siteName: "https://uit.connpass.com/event/216043/",
-    appendixes: {
-      blog: "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/",
-    },
+    links: ["https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"],
   },
   {
     publishedAt: "2021-07-07",

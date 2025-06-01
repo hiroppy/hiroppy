@@ -1,11 +1,11 @@
 name: Update README
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - generated/sponsors.json
       - scripts/readme.ts
-  workflow_dispatch:
 
 jobs:
   update-readme:
