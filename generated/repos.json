@@ -56,5 +56,117 @@
       "language": "CSS",
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp"
     }
+  ],
+  "active": [
+    {
+      "name": "hiroppy/web-app-template",
+      "url": "https://github.com/hiroppy/web-app-template",
+      "description": "A minimal web service template 🎃  \"npx create-app-foundation@latest\" !",
+      "language": "TypeScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp",
+      "org": "hiroppy",
+      "repo": "web-app-template"
+    },
+    {
+      "name": "hiroppy/nextjs-app-router-training",
+      "url": "https://github.com/hiroppy/nextjs-app-router-training",
+      "description": "Introducing various basic patterns of app router with simplified code.",
+      "language": "TypeScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp",
+      "org": "hiroppy",
+      "repo": "nextjs-app-router-training"
+    }
+  ],
+  "maintaining": [
+    {
+      "name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS85OTUwMzEzP3Y9ND9zPTQw.webp",
+      "org": "nodejs",
+      "repo": "node"
+    },
+    {
+      "name": "webpack/webpack",
+      "url": "https://github.com/webpack/webpack",
+      "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMTA1NzkxP3Y9ND9zPTQw.webp",
+      "org": "webpack",
+      "repo": "webpack"
+    },
+    {
+      "name": "webpack/webpack-dev-server",
+      "url": "https://github.com/webpack/webpack-dev-server",
+      "description": "Serves a webpack app. Updates the browser on changes. Documentation https://webpack.js.org/configuration/dev-server/.",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMTA1NzkxP3Y9ND9zPTQw.webp",
+      "org": "webpack",
+      "repo": "webpack-dev-server"
+    },
+    {
+      "name": "webpack/webpack-dev-middleware",
+      "url": "https://github.com/webpack/webpack-dev-middleware",
+      "description": "A development middleware for webpack",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMTA1NzkxP3Y9ND9zPTQw.webp",
+      "org": "webpack",
+      "repo": "webpack-dev-middleware"
+    },
+    {
+      "name": "babel/babel-loader",
+      "url": "https://github.com/babel/babel-loader",
+      "description": "📦 Babel loader for webpack",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS85NjM3NjQyP3Y9ND9zPTQw.webp",
+      "org": "babel",
+      "repo": "babel-loader"
+    },
+    {
+      "name": "babel/babel-upgrade",
+      "url": "https://github.com/babel/babel-upgrade",
+      "description": "⬆️ A tool for upgrading Babel versions (to v7): `npx babel-upgrade`",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS85NjM3NjQyP3Y9ND9zPTQw.webp",
+      "org": "babel",
+      "repo": "babel-upgrade"
+    },
+    {
+      "name": "stylelint/stylelint",
+      "url": "https://github.com/stylelint/stylelint",
+      "description": "A mighty CSS linter that helps you avoid errors and enforce conventions.",
+      "language": "JavaScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMDA3NjkzNT92PTQ_cz00MA==.webp",
+      "org": "stylelint",
+      "repo": "stylelint"
+    },
+    {
+      "name": "jekyll/jekyll",
+      "url": "https://github.com/jekyll/jekyll",
+      "description": "🌐 Jekyll is a blog-aware static site generator in Ruby",
+      "language": "Ruby",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMDgzNjUyP3Y9ND9zPTQw.webp",
+      "org": "jekyll",
+      "repo": "jekyll"
+    },
+    {
+      "name": "danger/danger-js",
+      "url": "https://github.com/danger/danger-js",
+      "description": "⚠️ Stop saying \"you forgot to …\" in code review",
+      "language": "TypeScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xNzE0NzEwNj92PTQ_cz00MA==.webp",
+      "org": "danger",
+      "repo": "danger-js"
+    },
+    {
+      "name": "crowi/crowi",
+      "url": "https://github.com/crowi/crowi",
+      "description": "Crowi - The Markdown Wiki - Empower the team with sharing your knowledge",
+      "language": "TypeScript",
+      "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS84NDc2MTMwP3Y9ND9zPTQw.webp",
+      "org": "crowi",
+      "repo": "crowi"
+    }
   ]
 }

@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - generated/sponsors.json
+      - generated/repos.json
       - scripts/readme.ts
 
 jobs:

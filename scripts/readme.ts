@@ -13,7 +13,23 @@ type SponsorsData = {
   past: Sponsor[];
 };
 
-function generateREADME(sponsors: SponsorsData): string {
+type Repo = {
+  org: string;
+  repo: string;
+  name: string;
+  url: string;
+  description: string;
+  language: string;
+  image: string;
+};
+
+type ReposData = {
+  hot: Repo[];
+  active: Repo[];
+  maintaining: Repo[];
+};
+
+function generateREADME(sponsors: SponsorsData, repos: ReposData): string {
   return `
 <p align="center">
   <samp>
@@ -29,26 +45,13 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 
 ## Active Repositories
 
-- [web-app-template](https://github.com/hiroppy/web-app-template)
-  - a powerful template to create web services
-- [nextjs-app-router-training
-](https://github.com/hiroppy/nextjs-app-router-training)
-  - introducing Next.js App Router features
+${generateRepoList(repos.active)}
 
 ## maintaining OSS
 
 I've been focusing on my business so I'm not active now 😔
 
-- [Node.js](https://github.com/nodejs/node)
-- [webpack](https://github.com/webpack/webpack)
-- [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
-- [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
-- [babel-loader](https://github.com/babel/babel-loader)
-- [babel-upgrade](https://github.com/babel/babel-upgrade)
-- [Stylelint](https://github.com/stylelint/stylelint)
-- [jekyll](https://github.com/jekyll/jekyll)
-- [danger-js](https://github.com/danger/danger-js)
-- [crowi](https://github.com/crowi/crowi)
+${generateRepoList(repos.maintaining, true)}
 
 ## Sponsors
 
@@ -81,6 +84,17 @@ last auto-updated time: ${new Date().toLocaleString("ja-JP", { timeZone: "Asia/T
   `.trim();
 }
 
+function generateRepoList(repos: Repo[], ignoreDescription = false): string {
+  return repos
+    .map((repo) => {
+      const displayName = repo.repo.includes(repo.org)
+        ? repo.repo
+        : repo.name.split("/")[1];
+      return `- [${displayName}](${repo.url})${!ignoreDescription && repo.description ? `\n  - ${repo.description}` : ""}`;
+    })
+    .join("\n");
+}
+
 function sponsorList(sponsors: Sponsor[]): string {
   return sponsors
     .map((sponsor) => {
@@ -100,7 +114,8 @@ function sponsorList(sponsors: Sponsor[]): string {
 }
 
 const sponsors: SponsorsData = await readData("sponsors", false);
-const readmeContent = generateREADME(sponsors);
+const repos: ReposData = await readData("repos", false);
+const readmeContent = generateREADME(sponsors, repos);
 
 await writeFile(
   join(import.meta.dirname, "../README.md"),

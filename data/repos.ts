@@ -9,4 +9,17 @@ export const repos = {
     "hiroppy/the-sample-of-module-bundler",
     "hiroppy/slides",
   ],
+  active: ["hiroppy/web-app-template", "hiroppy/nextjs-app-router-training"],
+  maintaining: [
+    "nodejs/node",
+    "webpack/webpack",
+    "webpack/webpack-dev-server",
+    "webpack/webpack-dev-middleware",
+    "babel/babel-loader",
+    "babel/babel-upgrade",
+    "stylelint/stylelint",
+    "jekyll/jekyll",
+    "danger/danger-js",
+    "crowi/crowi",
+  ],
 };

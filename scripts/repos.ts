@@ -17,24 +17,40 @@ emoji.replace_mode = "unified";
 emoji.allow_native = true;
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-const res = await Promise.all(
-  repos.hot.map(async (repo) => {
-    const [owner, name] = repo.split("/");
-    const { data } = await octokit.rest.repos.get({
-      owner,
-      repo: name,
-    });
 
-    return {
-      name: data.full_name,
-      url: data.html_url,
-      description: emoji.replace_colons(data.description),
-      language: data.language,
-      image: await downloadImage(`${data.owner.avatar_url}?s=40`),
-    };
-  }),
-);
+const processRepos = async (repoList: string[], includeOrgRepo = false) => {
+  return Promise.all(
+    repoList.map(async (repo) => {
+      const [owner, name] = repo.split("/");
+      const { data } = await octokit.rest.repos.get({
+        owner,
+        repo: name,
+      });
+
+      const result: Record<string, string> = {
+        name: data.full_name,
+        url: data.html_url,
+        description: emoji.replace_colons(data.description),
+        language: data.language,
+        image: await downloadImage(`${data.owner.avatar_url}?s=40`),
+      };
+
+      if (includeOrgRepo) {
+        result.org = data.owner.login;
+        result.repo = data.name;
+      }
+
+      return result;
+    }),
+  );
+};
+
+const hotRes = await processRepos(repos.hot);
+const activeRes = await processRepos(repos.active, true);
+const maintainingRes = await processRepos(repos.maintaining, true);
 
 await generateData("repos", {
-  hot: res,
+  hot: hotRes,
+  active: activeRes,
+  maintaining: maintainingRes,
 });
