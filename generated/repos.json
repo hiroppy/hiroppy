@@ -5,7 +5,6 @@
       "url": "https://github.com/nodejs/node",
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "language": "JavaScript",
-      "stars": 111520,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS85OTUwMzEzP3Y9ND9zPTQw.webp"
     },
     {
@@ -13,7 +12,6 @@
       "url": "https://github.com/hiroppy/fusuma",
       "description": "✍️ Fusuma makes slides with Markdown easily.",
       "language": "JavaScript",
-      "stars": 5411,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp"
     },
     {
@@ -21,7 +19,6 @@
       "url": "https://github.com/webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
       "language": "JavaScript",
-      "stars": 65317,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMTA1NzkxP3Y9ND9zPTQw.webp"
     },
     {
@@ -29,7 +26,6 @@
       "url": "https://github.com/webpack/webpack-dev-server",
       "description": "Serves a webpack app. Updates the browser on changes. Documentation https://webpack.js.org/configuration/dev-server/.",
       "language": "JavaScript",
-      "stars": 7840,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMTA1NzkxP3Y9ND9zPTQw.webp"
     },
     {
@@ -37,7 +33,6 @@
       "url": "https://github.com/babel/babel",
       "description": "🐠 Babel is a compiler for writing next generation JavaScript.",
       "language": "TypeScript",
-      "stars": 43596,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS85NjM3NjQyP3Y9ND9zPTQw.webp"
     },
     {
@@ -45,7 +40,6 @@
       "url": "https://github.com/stylelint/stylelint",
       "description": "A mighty CSS linter that helps you avoid errors and enforce conventions.",
       "language": "JavaScript",
-      "stars": 11258,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMDA3NjkzNT92PTQ_cz00MA==.webp"
     },
     {
@@ -53,7 +47,6 @@
       "url": "https://github.com/hiroppy/the-sample-of-module-bundler",
       "description": "You will know how to make a javascript bundler",
       "language": "JavaScript",
-      "stars": 35,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp"
     },
     {
@@ -61,7 +54,6 @@
       "url": "https://github.com/hiroppy/slides",
       "description": "My slides",
       "language": "CSS",
-      "stars": 68,
       "image": "/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zMzY3ODAxP3Y9ND9zPTQw.webp"
     }
   ]

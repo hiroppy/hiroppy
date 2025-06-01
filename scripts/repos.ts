@@ -30,7 +30,6 @@ const res = await Promise.all(
       url: data.html_url,
       description: emoji.replace_colons(data.description),
       language: data.language,
-      stars: data.stargazers_count,
       image: await downloadImage(`${data.owner.avatar_url}?s=40`),
     };
   }),
