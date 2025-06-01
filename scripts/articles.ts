@@ -9,38 +9,61 @@ const hatenaArticles = await parseRss(
   false,
 );
 
-const allArticles = sortItems([...hatenaArticles]);
+const allArticles = [...hatenaArticles];
 
-for (const article of allArticles) {
-  if (article.hot) {
-    const { host, pathname } = new URL(article.url);
-    const isHatena = host === "abouthiroppy.hatenablog.jp";
-    const hostname = isHatena ? "blog.hiroppy.me" : host;
+await Promise.all(
+  allArticles
+    .filter(article => article.hot)
+    .map(async (article) => {
+      const { host, pathname } = new URL(article.url);
+      const isHatena = host === "abouthiroppy.hatenablog.jp";
+      const hostname = isHatena ? "blog.hiroppy.me" : host;
 
-    article.bookmark = await getBookmark(`https://${hostname}${pathname}`);
+      article.bookmark = await getBookmark(`https://${hostname}${pathname}`);
 
-    if (isHatena) {
-      const newPathname = pathname.replace("/entry", "");
+      if (isHatena) {
+        const newPathname = pathname.replace("/entry", "");
+        article.url = `https://hiroppy.me/blog${newPathname}`;
+      }
+    })
+);
 
-      article.url = `https://hiroppy.me/blog${newPathname}`;
+await generateData("articles", allArticles.sort(
+  (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+));
+
+async function getBookmark(entry: string): Promise<number> {
+  try {
+    const url = `https://b.hatena.ne.jp/entry/json/${entry}`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
     }
+    const data = await res.json();
+    return data.count || 0;
+  } catch (error) {
+    console.error(`Failed to fetch bookmark for ${entry}:`, error);
+    return 0;
   }
 }
 
-await generateData("articles", allArticles);
-
-async function getBookmark(entry: string) {
-  const url = `https://b.hatena.ne.jp/entry/json/${entry}`;
-  const res = await fetch(url).then((res) => res.json());
-
-  return res.count;
-}
+type Article = {
+  hot: boolean;
+  url: string;
+  title: string;
+  image: string;
+  description: string;
+  publishedAt: string;
+  siteName: string;
+  siteUrl: string;
+  bookmark?: number;
+};
 
 async function parseRss(
   url: string,
-  skippingConditionDate: string,
+  skippingConditionDate?: string,
   isShowDescription = true,
-) {
+): Promise<Article[]> {
   const res = await fetch(url)
     .then((res) => res.text())
     .then((res) =>
@@ -85,13 +108,12 @@ async function parseRss(
           };
         }),
     )
-  ).filter(Boolean);
+  ).filter((item): item is Article => Boolean(item));
 
   return items;
 }
 
-function removeCData(str: string) {
-  const [, res] = str.match(/<!\[CDATA\[(.+?)\]\]>/) ?? [];
-
-  return res ?? str;
+function removeCData(str: string): string {
+  const match = str.match(/<!\[CDATA\[(.+?)\]\]>/);
+  return match?.[1] ?? str;
 }

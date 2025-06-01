@@ -7,65 +7,55 @@ import {
   getMeta,
 } from "./utils.ts";
 
-async function crawlJobLinks(
-  jobContents: JobContent[],
-  filename: string,
-): Promise<JobContent[]> {
-  const linkCache = await collectAlreadyHavingLinks(filename);
+async function processJobWithLinks(job: JobContent, linkCache: Map<string, LinkMeta>): Promise<JobContent> {
+  if (!job.links || job.links.length === 0) {
+    return job;
+  }
 
-  const promises = jobContents.map(async (job) => {
-    if (!job.links || job.links.length === 0) {
-      return job;
+  console.log("processing links for", job.name);
+  const linkPromises = job.links.map(async (linkUrl: string): Promise<LinkMeta> => {
+    const cachedLink = linkCache.get(linkUrl);
+    if (cachedLink) {
+      console.log("using cached link", linkUrl);
+      return cachedLink;
     }
 
-    console.log("processing links for", job.name);
-    const linkPromises = job.links.map(async (linkUrl): Promise<LinkMeta> => {
-      // Check if link is already cached
-      const cachedLink = linkCache.get(linkUrl);
-      if (cachedLink) {
-        console.log("using cached link", linkUrl);
-        return cachedLink;
+    try {
+      console.log("crawling link", linkUrl);
+      const linkMeta = await getMeta(linkUrl);
+
+      if (linkMeta.image) {
+        const imageURL = /^http/.test(linkMeta.image)
+          ? linkMeta.image
+          : `${new URL(linkUrl).origin}${linkMeta.image}`;
+
+        linkMeta.image = await downloadImage(imageURL);
       }
 
-      try {
-        console.log("crawling link", linkUrl);
-        const linkMeta = await getMeta(linkUrl);
-
-        if (linkMeta.image) {
-          const imageURL = /^http/.test(linkMeta.image)
-            ? linkMeta.image
-            : `${new URL(linkUrl).origin}${linkMeta.image}`;
-
-          linkMeta.image = await downloadImage(imageURL);
-        }
-
-        return linkMeta as LinkMeta;
-      } catch (error) {
-        console.error(`Failed to crawl link ${linkUrl}:`, error);
-        return {
-          siteUrl: linkUrl,
-          url: linkUrl,
-          error: error.message,
-        } as LinkMeta;
-      }
-    });
-
-    const processedLinks = await Promise.all(linkPromises);
-
-    return {
-      ...job,
-      links: processedLinks,
-    };
+      return linkMeta as LinkMeta;
+    } catch (error) {
+      console.error(`Failed to crawl link ${linkUrl}:`, error);
+      return {
+        siteUrl: linkUrl,
+        url: linkUrl,
+        error: (error as Error).message,
+      } as LinkMeta;
+    }
   });
 
-  return await Promise.all(promises);
+  const processedLinks = await Promise.all(linkPromises);
+
+  return {
+    ...job,
+    links: processedLinks,
+  };
 }
 
-// Crawl links for main jobs
-const mainJobs = await crawlJobLinks(jobs.main, "jobs");
-
-// Crawl links for side jobs
-const sideJobs = await crawlJobLinks(jobs.side, "jobs");
+const linkCache = await collectAlreadyHavingLinks("jobs");
+const [mainJobs, sideJobs] = await Promise.all([
+  Promise.all(jobs.main.map(job => processJobWithLinks(job, linkCache))),
+  Promise.all(jobs.side.map(job => processJobWithLinks(job, linkCache)))
+]);
 
 await generateData("jobs", {
   meta,

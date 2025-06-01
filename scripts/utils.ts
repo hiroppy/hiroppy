@@ -26,7 +26,7 @@ export async function readData(filename: string, original = true) {
   return JSON.parse(data);
 }
 
-function trimAllStrings(obj: any): any {
+function trimAllStrings(obj: unknown): unknown {
   if (obj === null) {
     return null;
   }
@@ -51,8 +51,7 @@ function trimAllStrings(obj: any): any {
 
 export async function generateData(
   filename: string,
-  // biome-ignore lint:
-  data: Record<string, any>,
+  data: unknown,
 ) {
   // Sort data by date if it's an array of objects with publishedAt field
   const sortedData =
@@ -108,21 +107,32 @@ export async function collectAlreadyHavingLinks(filename: string) {
 }
 
 export async function getMeta(url: string, title?: string) {
-  // twitterはbotをつけないとogをつけない
-  // nodeライブラリは基本、user-agentを変えれない
-  const { stdout: html } = await promisifyExec(
-    `curl '${url}' -H 'User-Agent: bot'`,
-  );
+  try {
+    // twitterはbotをつけないとogをつけない
+    // nodeライブラリは基本、user-agentを変えれない
+    const { stdout: html } = await promisifyExec(
+      `curl '${url}' -H 'User-Agent: bot'`,
+    );
 
-  const $ = load(html);
+    const $ = load(html);
 
-  return {
-    title: title ?? $("meta[property='og:title']").attr("content"),
-    description: $("meta[property='og:description']").attr("content"),
-    image: $("meta[property='og:image']").attr("content"),
-    siteName: $("meta[property='og:site_name']").attr("content"),
-    siteUrl: url,
-  };
+    return {
+      title: title ?? $("meta[property='og:title']").attr("content"),
+      description: $("meta[property='og:description']").attr("content"),
+      image: $("meta[property='og:image']").attr("content"),
+      siteName: $("meta[property='og:site_name']").attr("content"),
+      siteUrl: url,
+    };
+  } catch (error) {
+    console.error(`Failed to fetch metadata for ${url}:`, error);
+    return {
+      title: title,
+      description: "",
+      image: "",
+      siteName: "",
+      siteUrl: url,
+    };
+  }
 }
 
 export async function crawlSites(filename: string, items: Common[]) {
@@ -169,7 +179,7 @@ export async function crawlSites(filename: string, items: Common[]) {
       let processedLinks: string[] | LinkMeta[] = links || [];
       if (links && links.length > 0) {
         console.log("processing links for", url);
-        const linkPromises = links.map(async (linkUrl): Promise<LinkMeta> => {
+        const linkPromises = (links as string[]).map(async (linkUrl: string): Promise<LinkMeta> => {
           // Check if link is already cached
           const cachedLink = linkCache.get(linkUrl);
           if (cachedLink) {
@@ -200,7 +210,7 @@ export async function crawlSites(filename: string, items: Common[]) {
             return {
               siteUrl: linkUrl,
               url: linkUrl,
-              error: error.message,
+              error: (error as Error).message,
             } as LinkMeta;
           }
         });
@@ -222,38 +232,47 @@ export async function crawlSites(filename: string, items: Common[]) {
   return await Promise.all(promises);
 }
 
-export function sortItems(items) {
+export function sortItems(items: Array<{ publishedAt: string }>) {
   return items.sort(
-    (a, b) =>
+    (a: { publishedAt: string }, b: { publishedAt: string }) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
 }
 
-export async function downloadImage(url: string, ext: "jpg" | "webp" = "webp") {
+export async function downloadImage(url: string, ext: "jpg" | "webp" = "webp"): Promise<string> {
   if (!url) {
     return "";
   }
 
-  const filename = `${Buffer.from(url.replace(/https?:\/\//, ""))
-    .toString("base64")
-    .replace("/", "_")
-    .slice(0, 90)}.${ext}`;
-  const fullPath = `/images/${filename}`;
-  const assets = await readdir(baseImageOutputPath);
+  try {
+    const filename = `${Buffer.from(url.replace(/https?:\/\//, ""))
+      .toString("base64")
+      .replace("/", "_")
+      .slice(0, 90)}.${ext}`;
+    const fullPath = `/images/${filename}`;
+    const assets = await readdir(baseImageOutputPath);
 
-  if (assets.includes(filename)) {
+    if (assets.includes(filename)) {
+      return fullPath;
+    }
+
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const blob = await response.blob();
+    const arrayBuffer = await blob.arrayBuffer();
+    const buffer =
+      ext === "webp"
+        ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
+        : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
+
+    createWriteStream(join(baseImageOutputPath, filename)).write(buffer);
+
     return fullPath;
+  } catch (error) {
+    console.error(`Failed to download image ${url}:`, error);
+    return "";
   }
-
-  const response = await fetch(url);
-  const blob = await response.blob();
-  const arrayBuffer = await blob.arrayBuffer();
-  const buffer =
-    ext === "webp"
-      ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
-      : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
-
-  createWriteStream(join(baseImageOutputPath, filename)).write(buffer);
-
-  return fullPath;
 }
