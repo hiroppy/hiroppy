@@ -1,79 +1,79 @@
 {
   "meta": {
     "coderPenguin": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2NvZGVyUGVuZ3Vpbi5wbm.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9jb2RlclBlbmd1aW4ucG5n.webp",
       "url": "https://coder-penguin.com/"
     },
     "layerX": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2xheWVyeC5wbmc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9sYXllcngucG5n.webp",
       "url": "https://layerx.co.jp/"
     },
     "ship": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3NoaXAucG5n.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9zaGlwLnBuZw==.webp",
       "url": "https://www.shipinc.jp/"
     },
     "stract": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3N0cmFjdC5wbmc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9zdHJhY3QucG5n.webp",
       "url": "https://stract.co.jp/"
     },
     "aidemy": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FpZGVteS5wbmc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9haWRlbXkucG5n.webp",
       "url": "https://aidemy.net/"
     },
     "mercari": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL21lcmNhcmkucG5n.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9tZXJjYXJpLnBuZw==.webp",
       "url": "https://about.mercari.com/"
     },
     "yuimedi": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3l1aW1lZGkuanBlZw==.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy95dWltZWRpLmpwZWc=.webp",
       "url": "https://yuimedi.com/"
     },
     "dwango": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2R3YW5nby5qcGVn.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9kd2FuZ28uanBlZw==.webp",
       "url": "https://dwango.co.jp/"
     },
     "estie": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2VzdGllLnBuZw==.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9lc3RpZS5wbmc=.webp",
       "url": "https://www.estie.jp/"
     },
     "runpeace": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3J1bnBlYWNlLmpwZw==.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9ydW5wZWFjZS5qcGc=.webp",
       "url": "https://www.runpeace.biz/"
     },
     "rebase": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JlYmFzZS5wbmc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9yZWJhc2UucG5n.webp",
       "url": "https://rebase.co.jp/"
     },
     "route06": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JvdXRlMDYuanBn.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9yb3V0ZTA2LmpwZw==.webp",
       "url": "https://route06.co.jp/"
     },
     "anotherworks": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2Fub3RoZXJ3b3Jrcy53ZW.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9hbm90aGVyd29ya3Mud2VicA==.webp",
       "url": "https://anotherworks.co.jp/"
     },
     "alpaca": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FscGFjYS5qcGc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9hbHBhY2EuanBn.webp",
       "url": "https://alpc.tokyo/"
     },
     "black": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JsYWNrLmpwZw==.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9ibGFjay5qcGc=.webp",
       "url": "https://by.black/"
     },
     "kakakucom": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3RhYmVsb2cuanBn.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy90YWJlbG9nLmpwZw==.webp",
       "url": "https://corporate.kakaku.com/"
     },
     "bizreach": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JpenJlYWNoLmpwZWc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9iaXpyZWFjaC5qcGVn.webp",
       "url": "https://www.bizreach.co.jp/"
     },
     "eyesjapan": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2V5ZXNqYXBhbi5qcGc=.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9leWVzamFwYW4uanBn.webp",
       "url": "https://www.nowhere.co.jp/"
     },
     "cyberagent": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2N5YmVyYWdlbnQucG5n.webp",
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9jeWJlcmFnZW50LnBuZw==.webp",
       "url": "https://www.cyberagent.co.jp/"
     }
   },

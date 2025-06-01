@@ -1,6 +1,6 @@
 import { load } from "cheerio";
 import { hatena } from "../data/hatena.ts";
-import { generateData, sortItems } from "./utils.ts";
+import { generateData, sortItems } from "./utils/index.ts";
 
 // hatena
 const hatenaArticles = await parseRss(

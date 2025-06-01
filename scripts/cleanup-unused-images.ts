@@ -1,6 +1,6 @@
 import { readFile, readdir, unlink } from "node:fs/promises";
 import { join } from "node:path";
-import { baseImageOutputPath, generatedDataPath } from "./utils.ts";
+import { baseImageOutputPath, generatedDataPath } from "./utils/index.ts";
 
 try {
   const result = await cleanupUnusedImages();

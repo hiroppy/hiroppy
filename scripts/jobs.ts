@@ -7,7 +7,7 @@ import {
   downloadImage,
   generateData,
   getMeta,
-} from "./utils.ts";
+} from "./utils/index.ts";
 
 async function processJobWithLinks(
   job: JobContent,
@@ -17,11 +17,9 @@ async function processJobWithLinks(
     return job;
   }
 
-  // 文字列の配列かLinkMetaの配列かを確認
   const isStringArray =
     job.links.length > 0 && typeof job.links[0] === "string";
 
-  // 文字列の配列の場合のみ処理
   if (isStringArray) {
     const linkPromises = (job.links as string[]).map(
       async (linkUrl: string): Promise<LinkMeta> => {
@@ -129,7 +127,6 @@ const [mainJobs, sideJobs] = await Promise.all([
   Promise.all(jobs.side.map((job) => processJobWithLinks(job, linkCache))),
 ]);
 
-// 会社画像を処理し、更新されたmetaオブジェクトを取得
 const updatedMeta = await processCompanyImages(meta);
 
 await generateData("jobs", {

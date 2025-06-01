@@ -1,5 +1,5 @@
 import { talks } from "../data/talks.ts";
-import { crawlSites, generateData } from "./utils.ts";
+import { crawlSites, generateData } from "./utils/index.ts";
 
 const data = await crawlSites("talks", talks);
 const errors = [];

@@ -1,5 +1,5 @@
 import { meta } from "../data/meta.ts";
-import { crawlSites, generateData } from "./utils.ts";
+import { crawlSites, generateData } from "./utils/index.ts";
 
 // Transform community data to include links metadata
 const transformedMeta = { ...meta };

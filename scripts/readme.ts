@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { readData } from "./utils.ts";
+import { readData } from "./utils/index.ts";
 
 type Sponsor = {
   href: string;

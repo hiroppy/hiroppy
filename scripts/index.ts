@@ -1,4 +1,4 @@
-import { cacheStorage, loadCache, saveCache } from "./utils.ts";
+import { cacheStorage, loadCache, saveCache } from "./utils/index.ts";
 
 const initialCache = await loadCache();
 

@@ -1,7 +1,7 @@
 import EmojiConvertor from "emoji-js";
 import { Octokit } from "octokit";
 import { repos } from "../data/repos.ts";
-import { downloadImage, generateData } from "./utils.ts";
+import { downloadImage, generateData } from "./utils/index.ts";
 
 try {
   process.loadEnvFile();
