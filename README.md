@@ -53,12 +53,6 @@ Thank you for supporting me 😍
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zNTAyOTc4P3M9NjAmdj00.jpg" alt="@ysaito8015" width="60" />
     </a><a href="https://github.com/niwatoliver">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMjg3ODA2Nz9zPTYwJnY9NA==.jpg" alt="@niwatoliver" width="60" />
-    </a><a href="https://github.com/tomo25">
-      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zODcxMzk5OD9zPTYwJnY9NA==.jpg" alt="@tomo25" width="60" />
-    </a><a href="https://github.com/serima">
-      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMTMwOTIxP3M9NjAmdj00.jpg" alt="@serima" width="60" />
-    </a><a href="https://github.com/yyoshiki41">
-      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS80MDE0OTEyP3M9NjAmdj00.jpg" alt="@yyoshiki41" width="60" />
     </a>
 </p>
 <p align="center">
@@ -152,4 +146,4 @@ import media from "hiroppy/media" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: 2025/5/31 12:49:48
+last auto-updated time: 2025/6/1 10:01:58
