@@ -13,6 +13,11 @@
       "require": "./generated/images/*",
       "import": "./generated/images/*",
       "default": "./generated/images/*"
+    },
+    "./helpers": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
     }
   },
   "scripts": {
