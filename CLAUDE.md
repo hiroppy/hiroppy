@@ -19,6 +19,7 @@ This is a personal portfolio/data aggregation project for hiroppy, published as 
 ## Architecture
 
 ### Data Processing Pipeline
+
 The build system follows a caching and crawling architecture:
 
 1. **Cache Management** (`scripts/utils.ts`): Uses AsyncLocalStorage for shared caching across all data generation scripts
@@ -34,6 +35,7 @@ The build system follows a caching and crawling architecture:
 - **GitHub Integration** (`lib/github.mjs`): Provides utilities for fetching repository data via Octokit
 
 ### Data Flow
+
 1. Load existing cache from `data/cache.json`
 2. Run all data processors in parallel with shared cache context
 3. Each processor crawls URLs, fetches metadata, and processes images
@@ -51,7 +53,7 @@ The build system follows a caching and crawling architecture:
 - `data/` - Source data definitions and cache storage
 - `scripts/` - Build scripts for processing different data types
 - `generated/` - Output directory for processed JSON and images
-- `lib/` - Utility functions (GitHub API helpers)
+- `lib/` - Utility functions exported as node_modules (must use .mjs extension)
 - `public/` - Static assets (company logos, etc.)
 
 ## Code Style

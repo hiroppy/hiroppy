@@ -3,7 +3,10 @@ import { collectAlreadyHavingLinks } from "./cache.ts";
 import { downloadImage } from "./image.ts";
 import { getMeta } from "./web.ts";
 
-async function processImageUrl(imageUrl: string, baseUrl: string): Promise<string> {
+async function processImageUrl(
+  imageUrl: string,
+  baseUrl: string,
+): Promise<string> {
   if (!imageUrl) return "";
 
   try {

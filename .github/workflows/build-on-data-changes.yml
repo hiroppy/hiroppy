@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'data/**/*.ts'
+      - "data/**/*.ts"
 
 jobs:
   build-and-commit:

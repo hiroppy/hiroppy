@@ -39,7 +39,11 @@ type MetaData = {
   };
 };
 
-function generateREADME(sponsors: SponsorsData, repos: ReposData, meta: MetaData): string {
+function generateREADME(
+  sponsors: SponsorsData,
+  repos: ReposData,
+  meta: MetaData,
+): string {
   return `
 <p align="center">
   <samp>

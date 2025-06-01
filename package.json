@@ -23,7 +23,7 @@
     "setup": "corepack enable pnpm",
     "build": "node scripts/index.ts",
     "build:readme": "node scripts/readme.ts",
-    "lint": "biome check . --fix",
+    "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
     "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",
     "compress:images": "node scripts/compress-images.ts",
@@ -36,11 +36,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "lib",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "lib", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
@@ -57,6 +53,8 @@
     "@types/node": "22.15.29",
     "cheerio": "1.0.0",
     "emoji-js": "3.8.1",
+    "lefthook": "1.11.13",
+    "prettier": "3.5.3",
     "sharp": "0.34.2"
   }
 }
