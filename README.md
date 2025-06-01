@@ -6,7 +6,7 @@
   </samp>
 </p>
 
-![NPM Version](https://img.shields.io/npm/v/hiroppy)
+[![NPM Version](https://img.shields.io/npm/v/hiroppy)](https://www.npmjs.com/package/hiroppy)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hiroppy/hiroppy)
 
 Hi, I'm hiroppy 😵‍💫
