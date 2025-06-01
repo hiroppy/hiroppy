@@ -21,7 +21,9 @@
     "build:readme": "node scripts/readme.ts",
     "lint": "biome check . --fix",
     "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
-    "cleanup:images": "node scripts/cleanup-unused-images.ts"
+    "cleanup:images": "node scripts/cleanup-unused-images.ts",
+    "compress:images": "node scripts/compress-images.ts",
+    "decompress:images": "node scripts/decompress-images.js"
   },
   "repository": {
     "type": "git",
@@ -29,9 +31,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated"
-  ],
+  "files": ["generated", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },

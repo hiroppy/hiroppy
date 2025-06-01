@@ -88,6 +88,7 @@ jobs:
           git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
           git push
           echo "✅ Version commit pushed"
+      - run: pnpm compress:images
       - name: Publish to NPM
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
