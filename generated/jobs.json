@@ -1,79 +1,101 @@
 {
   "meta": {
+    "coderPenguin": {
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvY29kZXJQZW5ndWluLnBuZw.webp",
+      "url": "https://coder-penguin.com/"
+    },
     "layerX": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2xheWVyeC5wbmc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvbGF5ZXJ4LnBuZw==.webp",
       "url": "https://layerx.co.jp/"
     },
     "ship": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3NoaXAucG5n.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvc2hpcC5wbmc=.webp",
       "url": "https://www.shipinc.jp/"
     },
     "stract": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3N0cmFjdC5wbmc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvc3RyYWN0LnBuZw==.webp",
       "url": "https://stract.co.jp/"
     },
     "aidemy": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FpZGVteS5wbmc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvYWlkZW15LnBuZw==.webp",
       "url": "https://aidemy.net/"
     },
     "mercari": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL21lcmNhcmkucG5n.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvbWVyY2FyaS5wbmc=.webp",
       "url": "https://about.mercari.com/"
     },
     "yuimedi": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3l1aW1lZGkuanBlZw==.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMveXVpbWVkaS5qcGVn.webp",
       "url": "https://yuimedi.com/"
     },
     "dwango": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2R3YW5nby5qcGVn.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvZHdhbmdvLmpwZWc=.webp",
       "url": "https://dwango.co.jp/"
     },
     "estie": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2VzdGllLnBuZw==.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvZXN0aWUucG5n.webp",
       "url": "https://www.estie.jp/"
     },
     "runpeace": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3J1bnBlYWNlLmpwZw==.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvcnVucGVhY2UuanBn.webp",
       "url": "https://www.runpeace.biz/"
     },
     "rebase": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JlYmFzZS5wbmc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvcmViYXNlLnBuZw==.webp",
       "url": "https://rebase.co.jp/"
     },
     "route06": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JvdXRlMDYuanBn.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvcm91dGUwNi5qcGc=.webp",
       "url": "https://route06.co.jp/"
     },
     "anotherworks": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2Fub3RoZXJ3b3Jrcy53ZW.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvYW5vdGhlcndvcmtzLndlYn.webp",
       "url": "https://anotherworks.co.jp/"
     },
     "alpaca": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FscGFjYS5qcGc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvYWxwYWNhLmpwZw==.webp",
       "url": "https://alpc.tokyo/"
     },
     "black": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JsYWNrLmpwZw==.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvYmxhY2suanBn.webp",
       "url": "https://by.black/"
     },
     "kakakucom": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3RhYmVsb2cuanBn.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvdGFiZWxvZy5qcGc=.webp",
       "url": "https://corporate.kakaku.com/"
     },
     "bizreach": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JpenJlYWNoLmpwZWc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvYml6cmVhY2guanBlZw==.webp",
       "url": "https://www.bizreach.co.jp/"
     },
     "eyesjapan": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2V5ZXNqYXBhbi5qcGc=.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvZXllc2phcGFuLmpwZw==.webp",
       "url": "https://www.nowhere.co.jp/"
     },
     "cyberagent": {
-      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2N5YmVyYWdlbnQucG5n.webp",
+      "image": "/images/L2hvbWUvcnVubmVyL3dvcmsvaGlyb3BweS9oaXJvcHB5L3B1YmxpYy9jb21wYW5pZXMvY3liZXJhZ2VudC5wbmc=.webp",
       "url": "https://www.cyberagent.co.jp/"
     }
   },
   "main": [
+    {
+      "name": "Coder Penguin",
+      "start": "2025-04-01T00:00:00.000Z",
+      "end": null,
+      "position": "Founder",
+      "initialState": "0",
+      "description": "もともと副業の受け口として利用していた会社を独立し、１本化した。\nCoder Penguinでは、様々な会社でフロントエンドの技術顧問やアーキテクチャ設計、Next.jsを利用したサービスの開発を行う。\n最近は、LLMを利用したサービス開発も多め。",
+      "company": "coderPenguin",
+      "links": [
+        {
+          "title": "LayerX、AIエージェントに参入　請求書受け取り代行など - 日本経済新聞",
+          "description": "支出管理システムのLayerX（レイヤーエックス、東京・中央）は2025年度中に人工知能（AI）エージェント事業に参入する。同社の既存サービスの請求書受領システムと連携させ、AIエージェントが企業の請求書受け取り代行を担うサービスなどを始める。30年には関連事業で500億円の売り上げを目指す。AIエージェントを活用して企業の間接業務を請け負うビジネス・プロセス・ア",
+          "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+          "siteName": "日本経済新聞",
+          "siteUrl": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
+        }
+      ]
+    },
     {
       "name": "Yuimedi",
       "start": "2022-08-01T00:00:00.000Z",
@@ -104,10 +126,6 @@
           "siteUrl": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744"
         },
         {
-          "title": "［7/26］Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)",
-          "description": "2022年7月26日(火) 17時開催Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)のライブ配信ですイベントの詳細：https://cybozu.connpass.com/event/254325/ライブ配信は、16時50分からスタートする予定です（イベントは17時から）...",
-          "image": "/images/aS55dGltZy5jb20vdmkvUWJXalZsb2FBdVkvbWF4cmVzZGVmYXVsdC5qcGc=.webp",
-          "siteName": "YouTube",
           "siteUrl": "https://www.youtube.com/watch?v=QbWjVloaAuY"
         }
       ],
@@ -122,9 +140,6 @@
       "description": "技術顧問から正社員として復職し、再度入社。JPでは[Mercari Web](https://jp.mercari.com/)の0から作成するプロジェクトである[GroundUP App プロジェクト](https://engineering.mercari.com/blog/entry/20221213-ground-up-app/)に立ち上げ参加。\n\n後に100%子会社であるSouzohの立ち上げ時に出向として参加し、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当。リリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。",
       "links": [
         {
-          "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
-          "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
-          "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
           "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
         },
         {
@@ -138,17 +153,9 @@
           "siteUrl": "https://mercan.mercari.com/articles/28113/"
         },
         {
-          "title": "Souzoh Tech Talk #03: Frontend",
-          "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
-          "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
-          "siteName": "YouTube",
           "siteUrl": "https://www.youtube.com/watch?v=YNLvIkqRC-g"
         },
         {
-          "title": "Souzoh Tech Talk #05:Infrastructure",
-          "description": "9/15（水）に行われたSouzoh Tech Talk #05:Infrastructureの様子です。ぜひご覧ください！",
-          "image": "/images/aS55dGltZy5jb20vdmkvMXVDV3pmYUllZEUvaHFkZWZhdWx0LmpwZw==.webp",
-          "siteName": "YouTube",
           "siteUrl": "https://www.youtube.com/watch?v=1uCWzfaIedE"
         }
       ],
@@ -370,10 +377,6 @@
       "description": "フロントエンド改善支援",
       "links": [
         {
-          "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
-          "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
-          "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
-          "siteName": "estie inside blog",
           "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235"
         }
       ],
