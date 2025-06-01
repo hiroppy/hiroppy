@@ -188,6 +188,63 @@ export async function crawlSites(filename: string, items: Common[]) {
 
       if (cachedSite?.title && !cachedSite.error) {
         console.log("using cached site", url);
+
+        // Process links URLs even for cached sites
+        let processedLinks: string[] | LinkMeta[] = links || [];
+        if (links && links.length > 0) {
+          const linkPromises = (links as string[]).map(
+            async (linkUrl: string): Promise<LinkMeta> => {
+              // Check if link is already cached
+              const cachedLink = linkCache.get(linkUrl);
+              if (cachedLink) {
+                console.log("using cached site", linkUrl);
+                return cachedLink;
+              }
+
+              try {
+                console.log("crawling link", linkUrl);
+                const linkMeta = await getMeta(linkUrl);
+
+                if (linkMeta.image) {
+                  try {
+                    const imageURL = /^http/.test(linkMeta.image)
+                      ? linkMeta.image
+                      : `${new URL(linkUrl).origin}${linkMeta.image}`;
+
+                    linkMeta.image = await downloadImage(imageURL);
+                  } catch (error) {
+                    console.error(
+                      `Failed to download image for ${linkUrl}:`,
+                      error,
+                    );
+                    linkMeta.image = "";
+                  }
+                }
+
+                const result = linkMeta as LinkMeta;
+                // Add to cache
+                linkCache.set(linkUrl, result);
+
+                return result;
+              } catch (error) {
+                console.error(`Failed to crawl link ${linkUrl}:`, error);
+                const errorResult = {
+                  siteUrl: linkUrl,
+                  url: linkUrl,
+                  error: (error as Error).message,
+                } as LinkMeta;
+
+                // Add error result to cache to avoid retrying
+                linkCache.set(linkUrl, errorResult);
+
+                return errorResult;
+              }
+            },
+          );
+
+          processedLinks = await Promise.all(linkPromises);
+        }
+
         return {
           title: cachedSite.title,
           description: cachedSite.description,
@@ -198,7 +255,7 @@ export async function crawlSites(filename: string, items: Common[]) {
           hot,
           comment,
           publishedAt,
-          links: links || [],
+          links: processedLinks,
         };
       }
 
