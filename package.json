@@ -48,13 +48,15 @@
     "url": "https://github.com/hiroppy/hiroppy/issues"
   },
   "homepage": "https://github.com/hiroppy/hiroppy#readme",
+  "dependencies": {
+    "octokit": "5.0.3"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/emoji-js": "3.5.2",
     "@types/node": "22.15.29",
     "cheerio": "1.0.0",
     "emoji-js": "3.8.1",
-    "octokit": "5.0.3",
     "sharp": "0.34.2"
   }
 }

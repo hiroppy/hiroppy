@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      octokit:
+        specifier: 5.0.3
+        version: 5.0.3
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -23,9 +27,6 @@ importers:
       emoji-js:
         specifier: 3.8.1
         version: 3.8.1
-      octokit:
-        specifier: 5.0.3
-        version: 5.0.3
       sharp:
         specifier: 0.34.2
         version: 0.34.2
