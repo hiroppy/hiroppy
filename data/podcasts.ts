@@ -1,9 +1,6 @@
 import type { Common } from "./type.ts";
 
-export type Podcast = Pick<
-  Common,
-  "publishedAt" | "url" | "hot" | "appendixes"
->;
+export type Podcast = Pick<Common, "publishedAt" | "url" | "hot" | "links">;
 
 export const podcasts = [
   {
@@ -149,15 +146,11 @@ export const podcasts = [
   {
     publishedAt: "2021-09-10",
     url: "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A",
-    appendixes: {
-      youtube: "https://www.youtube.com/watch?v=YNLvIkqRC-g",
-    },
+    links: ["https://www.youtube.com/watch?v=YNLvIkqRC-g"],
   },
   {
     publishedAt: "2021-07-30",
     url: "https://uit-inside.linecorp.com/episode/93",
-    appendixes: {
-      blog: "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13",
-    },
+    links: ["https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"],
   },
 ] satisfies Podcast[];

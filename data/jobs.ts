@@ -1,4 +1,4 @@
-// TODO: linksもjsonへog展開させる
+import type { LinkMeta } from "./type.ts";
 
 export type Meta = Record<
   string,
@@ -101,7 +101,7 @@ export type JobContent = {
     | "Intern"
     | "Enabling Team (Frontend/LLM)";
   initialState: "0" | "1-100" | "100";
-  links: string[];
+  links: string[] | LinkMeta[];
   company: keyof typeof meta;
 };
 

@@ -3,11 +3,10 @@ import { createWriteStream } from "node:fs";
 import { readdir } from "node:fs/promises";
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { pipeline } from "node:stream/promises";
 import { promisify } from "node:util";
 import { load } from "cheerio";
 import sharp from "sharp";
-import type { Common } from "../data/type.ts";
+import type { Common, LinkMeta } from "../data/type.ts";
 
 const promisifyExec = promisify(exec);
 
@@ -53,6 +52,30 @@ export async function collectAlreadyHavingSites(filename: string) {
   }
 }
 
+export async function collectAlreadyHavingLinks(filename: string) {
+  try {
+    const data = await readData(filename, false);
+    const linkCache = new Map<string, LinkMeta>();
+
+    // Extract all links from the data
+    if (Array.isArray(data)) {
+      for (const item of data) {
+        if (item.links && Array.isArray(item.links)) {
+          for (const link of item.links) {
+            if (typeof link === "object" && link.siteUrl) {
+              linkCache.set(link.siteUrl, link);
+            }
+          }
+        }
+      }
+    }
+
+    return linkCache;
+  } catch (e) {
+    return new Map<string, LinkMeta>();
+  }
+}
+
 export async function getMeta(url: string, title?: string) {
   // twitterはbotをつけないとogをつけない
   // nodeライブラリは基本、user-agentを変えれない
@@ -73,8 +96,10 @@ export async function getMeta(url: string, title?: string) {
 
 export async function crawlSites(filename: string, items: Common[]) {
   const sites = await collectAlreadyHavingSites(filename);
+  const linkCache = await collectAlreadyHavingLinks(filename);
+
   const promises = items.map(
-    async ({ url, comment, publishedAt, appendixes, hot, title, siteName }) => {
+    async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
       const memo = sites.find(({ url: memoedUrl }) => memoedUrl === url);
 
       if (memo) {
@@ -102,13 +127,51 @@ export async function crawlSites(filename: string, items: Common[]) {
         meta.image = await downloadImage(imageURL);
       }
 
+      // Process links URLs
+      let processedLinks: string[] | LinkMeta[] = links || [];
+      if (links && links.length > 0) {
+        console.log("processing links for", url);
+        const linkPromises = links.map(async (linkUrl): Promise<LinkMeta> => {
+          // Check if link is already cached
+          const cachedLink = linkCache.get(linkUrl);
+          if (cachedLink) {
+            console.log("using cached link", linkUrl);
+            return cachedLink;
+          }
+
+          try {
+            console.log("crawling link", linkUrl);
+            const linkMeta = await getMeta(linkUrl);
+
+            if (linkMeta.image) {
+              const imageURL = /^http/.test(linkMeta.image)
+                ? linkMeta.image
+                : `${new URL(linkUrl).origin}${linkMeta.image}`;
+
+              linkMeta.image = await downloadImage(imageURL);
+            }
+
+            return linkMeta as LinkMeta;
+          } catch (error) {
+            console.error(`Failed to crawl link ${linkUrl}:`, error);
+            return {
+              siteUrl: linkUrl,
+              url: linkUrl,
+              error: error.message,
+            } as LinkMeta;
+          }
+        });
+
+        processedLinks = await Promise.all(linkPromises);
+      }
+
       return {
         ...meta,
         url,
         hot,
         comment,
         publishedAt,
-        appendixes,
+        links: processedLinks,
       };
     },
   );

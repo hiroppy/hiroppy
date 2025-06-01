@@ -3,9 +3,8 @@ name: Build and Commit on Data Changes
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'data/**/*.ts'
-  pull_request:
+    branches:
+      - main
     paths:
       - 'data/**/*.ts'
 

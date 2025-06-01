@@ -6,7 +6,8 @@
     "siteName": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
     "siteUrl": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
     "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
-    "publishedAt": "2025-04-30"
+    "publishedAt": "2025-04-30",
+    "links": []
   },
   {
     "title": "ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
@@ -15,7 +16,8 @@
     "siteName": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
     "siteUrl": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html",
     "url": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html",
-    "publishedAt": "2025-04-02"
+    "publishedAt": "2025-04-02",
+    "links": []
   },
   {
     "title": "ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
@@ -24,7 +26,8 @@
     "siteName": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
     "siteUrl": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html",
     "url": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html",
-    "publishedAt": "2025-03-07"
+    "publishedAt": "2025-03-07",
+    "links": []
   },
   {
     "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
@@ -33,7 +36,8 @@
     "siteName": "estie inside blog",
     "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235",
-    "publishedAt": "2024-08-05"
+    "publishedAt": "2024-08-05",
+    "links": []
   },
   {
     "title": "技術顧問として半年間で感じた会社の成長 - ROUTE06 Tech Blog",
@@ -42,7 +46,8 @@
     "siteName": "ROUTE06 Tech Blog",
     "siteUrl": "https://tech.route06.co.jp/entry/2024/03/28/091000",
     "url": "https://tech.route06.co.jp/entry/2024/03/28/091000",
-    "publishedAt": "2024-03-28"
+    "publishedAt": "2024-03-28",
+    "links": []
   },
   {
     "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ - 株式会社ROUTE06 (ルートシックス)",
@@ -51,7 +56,8 @@
     "siteName": "株式会社ROUTE06 (ルートシックス) - ビジネスモデル変革を支援するDXパートナー",
     "siteUrl": "https://route06.co.jp/news/38",
     "url": "https://route06.co.jp/news/38",
-    "publishedAt": "2024-03-28"
+    "publishedAt": "2024-03-28",
+    "links": []
   },
   {
     "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
@@ -59,7 +65,8 @@
     "image": "/images/aW1hZ2VzLndhbnRlZGx5LmNvbS9pL0cyRjVZN3c_dz0xMjAwJmg9NjMwJnN0eWxlPWNvdmVy.webp",
     "siteUrl": "https://www.wantedly.com/companies/rebase/post_articles/887970",
     "url": "https://www.wantedly.com/companies/rebase/post_articles/887970",
-    "publishedAt": "2024-02-15"
+    "publishedAt": "2024-02-15",
+    "links": []
   },
   {
     "title": "TSKaigi 2024のプロポーザルを募集しています！ - TSKaigi 公式ブログ",
@@ -68,7 +75,8 @@
     "siteName": "TSKaigi 公式ブログ",
     "siteUrl": "https://tskaigi.hatenablog.com/entry/2024/02/14/170000",
     "url": "https://tskaigi.hatenablog.com/entry/2024/02/14/170000",
-    "publishedAt": "2024-02-14"
+    "publishedAt": "2024-02-14",
+    "links": []
   },
   {
     "title": "This Week In React #171: Expo, React Conf, React 19 preview, Next.js, React-Email, Storybook, Panda, Nexar, React-Query, TypeScript, Vocs, Skottie, Harmony, VisionOS... | This Week In React",
@@ -76,7 +84,8 @@
     "image": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9pbWcvVFdJUl9QT1NULmpwZw==.webp",
     "siteUrl": "https://thisweekinreact.com/newsletter/171",
     "url": "https://thisweekinreact.com/newsletter/171",
-    "publishedAt": "2024-01-24"
+    "publishedAt": "2024-01-24",
+    "links": []
   },
   {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任",
@@ -85,7 +94,8 @@
     "siteName": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
     "siteUrl": "https://prtimes.jp/main/html/rd/p/000000097.000021828.html",
     "url": "https://prtimes.jp/main/html/rd/p/000000097.000021828.html",
-    "publishedAt": "2023-12-15"
+    "publishedAt": "2023-12-15",
+    "links": []
   },
   {
     "title": "あなたのキャリアに影響を与えた本は何ですか？ 著名エンジニアの方々に聞いてみた【第三弾】 - Findy Engineer Lab",
@@ -94,7 +104,8 @@
     "siteName": "Findy Engineer Lab",
     "siteUrl": "https://findy-code.io/engineer-lab/influential-books-3",
     "url": "https://findy-code.io/engineer-lab/influential-books-3",
-    "publishedAt": "2023-11-15"
+    "publishedAt": "2023-11-15",
+    "links": []
   },
   {
     "title": "ROUTE06 CTOが考えていること（2023年9月） - ROUTE06 Tech Blog",
@@ -103,7 +114,8 @@
     "siteName": "ROUTE06 Tech Blog",
     "siteUrl": "https://tech.route06.co.jp/entry/2023/09/07/091000",
     "url": "https://tech.route06.co.jp/entry/2023/09/07/091000",
-    "publishedAt": "2023-09-07"
+    "publishedAt": "2023-09-07",
+    "links": []
   },
   {
     "title": "プログラミングを強みに生き残れるか？ 焦燥感にとらわれた20代を越えて広がったキャリアの可能性  - Findy Engineer Lab",
@@ -112,7 +124,8 @@
     "siteName": "Findy Engineer Lab",
     "siteUrl": "https://findy-code.io/engineer-lab/hiroppy",
     "url": "https://findy-code.io/engineer-lab/hiroppy",
-    "publishedAt": "2023-04-18"
+    "publishedAt": "2023-04-18",
+    "links": []
   },
   {
     "title": "エンジニア座談会後編〜開発組織編〜 | Notion",
@@ -121,7 +134,8 @@
     "siteName": "Yuimedi",
     "siteUrl": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b",
     "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b",
-    "publishedAt": "2022-11-10"
+    "publishedAt": "2022-11-10",
+    "links": []
   },
   {
     "title": "エンジニア座談会前編〜事業・エンジニアリング編〜 | Notion",
@@ -130,7 +144,8 @@
     "siteName": "Yuimedi",
     "siteUrl": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64",
     "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64",
-    "publishedAt": "2022-11-10"
+    "publishedAt": "2022-11-10",
+    "links": []
   },
   {
     "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
@@ -138,7 +153,8 @@
     "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
     "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
     "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
-    "publishedAt": "2021-08-23"
+    "publishedAt": "2021-08-23",
+    "links": []
   },
   {
     "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
@@ -147,7 +163,8 @@
     "siteName": "note（ノート）",
     "siteUrl": "https://note.com/tabelog_frontend/n/n35664347180a",
     "url": "https://note.com/tabelog_frontend/n/n35664347180a",
-    "publishedAt": "2021-06-04"
+    "publishedAt": "2021-06-04",
+    "links": []
   },
   {
     "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
@@ -156,7 +173,8 @@
     "siteName": "mercan (メルカン)",
     "siteUrl": "https://careers.mercari.com/mercan/articles/28113/",
     "url": "https://careers.mercari.com/mercan/articles/28113/",
-    "publishedAt": "2021-04-28"
+    "publishedAt": "2021-04-28",
+    "links": []
   },
   {
     "title": "レガシーなフロントエンド環境をリプレースするためにチームでやっていること｜食べログ フロントエンドエンジニアブログ",
@@ -165,7 +183,8 @@
     "siteName": "note（ノート）",
     "siteUrl": "https://note.com/tabelog_frontend/n/n21b819c09121",
     "url": "https://note.com/tabelog_frontend/n/n21b819c09121",
-    "publishedAt": "2020-08-31"
+    "publishedAt": "2020-08-31",
+    "links": []
   },
   {
     "title": "レベルアップNode.js | インプレス NextPublishing",
@@ -174,7 +193,8 @@
     "siteName": "NextPublishing  デジタルファースト宣言！",
     "siteUrl": "https://nextpublishing.jp/book/11906.html",
     "url": "https://nextpublishing.jp/book/11906.html",
-    "publishedAt": "2020-06-19"
+    "publishedAt": "2020-06-19",
+    "links": []
   },
   {
     "title": "退勤後、深夜のプルリク対応。それでも楽しいOSSコミュニティ運営の魅力【kazupon×Hiroppy】｜OPENSOURCE.TOKYO",
@@ -183,6 +203,7 @@
     "siteName": "note（ノート）",
     "siteUrl": "https://note.com/osstokyo/n/n01a333562fad",
     "url": "https://note.com/osstokyo/n/n01a333562fad",
-    "publishedAt": "2020-02-03"
+    "publishedAt": "2020-02-03",
+    "links": []
   }
 ]
