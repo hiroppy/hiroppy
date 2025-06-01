@@ -1,6 +1,6 @@
 import { load } from "cheerio";
 import { hatena } from "../data/hatena.ts";
-import { downloadImage, generateData, sortItems } from "./utils.ts";
+import { generateData, sortItems } from "./utils.ts";
 
 // hatena
 const hatenaArticles = await parseRss(
@@ -76,7 +76,8 @@ async function parseRss(
             hot: hatena.hot.includes(link),
             url: link,
             title: removeCData($("title").text()),
-            image: await downloadImage($("enclosure").attr("url")),
+            // NOTE: ローカルに保存しない
+            image: $("enclosure").attr("url"),
             description: isShowDescription
               ? removeCData($("description").text())
               : "",
