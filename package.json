@@ -23,7 +23,8 @@
     "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup:images": "node scripts/cleanup-unused-images.ts",
     "compress:images": "node scripts/compress-images.ts",
-    "decompress:images": "node scripts/decompress-images.js"
+    "decompress:images": "node scripts/decompress-images.js",
+    "postinstall": "npm run decompress:images"
   },
   "repository": {
     "type": "git",

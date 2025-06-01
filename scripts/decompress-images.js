@@ -30,6 +30,8 @@ function decompressImages() {
     // Extract tar.gz file
     execSync(`tar -xzf ${COMPRESSED_FILE} -C generated`, { stdio: "inherit" });
 
+    execSync(`rm ${COMPRESSED_FILE}`, { stdio: "inherit" });
+
     console.log("✅ Images decompressed successfully");
     console.log(`📁 Images available at: ${IMAGES_DIR}`);
   } catch (error) {
