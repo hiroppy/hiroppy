@@ -1,6 +1,6 @@
 {
   "name": "hiroppy",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "packageManager": "pnpm@10.11.0",
   "type": "module",
   "exports": {
@@ -36,7 +36,11 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": ["generated", "lib", "scripts/decompress-images.js"],
+  "files": [
+    "generated",
+    "lib",
+    "scripts/decompress-images.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
