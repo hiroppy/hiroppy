@@ -23,8 +23,17 @@ jobs:
         with:
           fetch-depth: 2
       - uses: ./.github/actions/setup-node
+      - name: Set changes to true for workflow_dispatch
+        if: github.event_name == 'workflow_dispatch'
+        id: workflow-dispatch-changes
+        run: |
+          echo "Setting changes=true for manual workflow dispatch..."
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "✅ Manual publish requested via workflow_dispatch"
+
       - name: Check if generated files changed
         id: check-changes
+        if: github.event_name != 'workflow_dispatch'
         run: |
           echo "Checking for changes in generated/ directory..."
           # Check if HEAD~1 exists (handles first commit case)
@@ -50,13 +59,13 @@ jobs:
             fi
           fi
       - name: Validate package before publishing
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
           echo "Validating package structure..."
           npm pack --dry-run
           echo "✅ Package validation successful"
       - name: Bump version and set output
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         id: version
         run: |
           # Get current version
@@ -80,7 +89,7 @@ jobs:
           git push
           echo "✅ Version commit pushed"
       - name: Publish to NPM
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
           echo "Publishing to NPM..."
           npm publish --provenance --access public
@@ -88,14 +97,14 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create Git Tag
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
           echo "Creating and pushing git tag..."
           git tag v${{ steps.version.outputs.new_version }}
           git push origin v${{ steps.version.outputs.new_version }}
           echo "✅ Git tag v${{ steps.version.outputs.new_version }} created"
       - name: Create GitHub Release
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.new_version }}
@@ -118,7 +127,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Summary
-        if: steps.check-changes.outputs.changes == 'true'
+        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
           echo "## 🎉 Publication Summary" >> $GITHUB_STEP_SUMMARY
           echo "- **Package**: hiroppy" >> $GITHUB_STEP_SUMMARY
@@ -128,7 +137,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "The package has been successfully published to NPM! 🚀" >> $GITHUB_STEP_SUMMARY
       - name: No changes summary
-        if: steps.check-changes.outputs.changes == 'false'
+        if: steps.check-changes.outputs.changes == 'false' && github.event_name != 'workflow_dispatch'
         run: |
           echo "## ℹ️ No Publication Needed" >> $GITHUB_STEP_SUMMARY
           echo "No changes were detected in the \`generated/\` directory." >> $GITHUB_STEP_SUMMARY
