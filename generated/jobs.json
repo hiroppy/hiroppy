@@ -1,75 +1,75 @@
 {
   "meta": {
     "layerX": {
-      "image": "layerx.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2xheWVyeC5wbmc=.webp",
       "url": "https://layerx.co.jp/"
     },
     "ship": {
-      "image": "ship.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3NoaXAucG5n.webp",
       "url": "https://www.shipinc.jp/"
     },
     "stract": {
-      "image": "stract.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3N0cmFjdC5wbmc=.webp",
       "url": "https://stract.co.jp/"
     },
     "aidemy": {
-      "image": "aidemy.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FpZGVteS5wbmc=.webp",
       "url": "https://aidemy.net/"
     },
     "mercari": {
-      "image": "mercari.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL21lcmNhcmkucG5n.webp",
       "url": "https://about.mercari.com/"
     },
     "yuimedi": {
-      "image": "yuimedi.jpeg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3l1aW1lZGkuanBlZw==.webp",
       "url": "https://yuimedi.com/"
     },
     "dwango": {
-      "image": "dwango.jpeg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2R3YW5nby5qcGVn.webp",
       "url": "https://dwango.co.jp/"
     },
     "estie": {
-      "image": "estie.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2VzdGllLnBuZw==.webp",
       "url": "https://www.estie.jp/"
     },
     "runpeace": {
-      "image": "runpeace.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3J1bnBlYWNlLmpwZw==.webp",
       "url": "https://www.runpeace.biz/"
     },
     "rebase": {
-      "image": "rebase.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JlYmFzZS5wbmc=.webp",
       "url": "https://rebase.co.jp/"
     },
     "route06": {
-      "image": "route06.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3JvdXRlMDYuanBn.webp",
       "url": "https://route06.co.jp/"
     },
     "anotherworks": {
-      "image": "anotherworks.webp",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2Fub3RoZXJ3b3Jrcy53ZW.webp",
       "url": "https://anotherworks.co.jp/"
     },
     "alpaca": {
-      "image": "alpaca.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2FscGFjYS5qcGc=.webp",
       "url": "https://alpc.tokyo/"
     },
     "black": {
-      "image": "black.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JsYWNrLmpwZw==.webp",
       "url": "https://by.black/"
     },
     "kakakucom": {
-      "image": "tabelog.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL3RhYmVsb2cuanBn.webp",
       "url": "https://corporate.kakaku.com/"
     },
     "bizreach": {
-      "image": "bizreach.jpeg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2JpenJlYWNoLmpwZWc=.webp",
       "url": "https://www.bizreach.co.jp/"
     },
     "eyesjapan": {
-      "image": "eyesjapan.jpg",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2V5ZXNqYXBhbi5qcGc=.webp",
       "url": "https://www.nowhere.co.jp/"
     },
     "cyberagent": {
-      "image": "cyberagent.png",
+      "image": "/images/L1VzZXJzL2hpcm9wcHkvUHJvZ3JhbW1pbmcvaGlyb3BweS9wdWJsaWMvY29tcGFuaWVzL2N5YmVyYWdlbnQucG5n.webp",
       "url": "https://www.cyberagent.co.jp/"
     }
   },

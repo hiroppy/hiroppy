@@ -112,7 +112,7 @@ export async function getMeta(url: string, title?: string) {
     // twitterはbotをつけないとogをつけない
     // nodeライブラリは基本、user-agentを変えれない
     const { stdout: html } = await promisifyExec(
-      `curl '${url}' -H 'User-Agent: bot'`,
+      `curl -m 2 '${url}' -H 'User-Agent: bot'`,
     );
 
     const $ = load(html);
@@ -246,15 +246,18 @@ export function sortItems(items: Array<{ publishedAt: string }>) {
 }
 
 export async function downloadImage(
-  url: string,
+  source: string,
   ext: "jpg" | "webp" = "webp",
-): Promise<string> {
-  if (!url) {
+  isLocalFile = false,
+) {
+  if (!source) {
     return "";
   }
 
   try {
-    const filename = `${Buffer.from(url.replace(/https?:\/\//, ""))
+    const filename = `${Buffer.from(
+      isLocalFile ? source : source.replace(/https?:\/\//, ""),
+    )
       .toString("base64")
       .replace("/", "_")
       .slice(0, 90)}.${ext}`;
@@ -265,23 +268,32 @@ export async function downloadImage(
       return fullPath;
     }
 
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
+    let buffer: Buffer;
 
-    const blob = await response.blob();
-    const arrayBuffer = await blob.arrayBuffer();
-    const buffer =
-      ext === "webp"
-        ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
-        : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
+    if (isLocalFile) {
+      buffer =
+        ext === "webp"
+          ? await sharp(source).webp().toBuffer()
+          : await sharp(source).jpeg().toBuffer();
+    } else {
+      const response = await fetch(source);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const blob = await response.blob();
+      const arrayBuffer = await blob.arrayBuffer();
+      buffer =
+        ext === "webp"
+          ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
+          : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
+    }
 
     createWriteStream(join(baseImageOutputPath, filename)).write(buffer);
 
     return fullPath;
   } catch (error) {
-    console.error(`Failed to download image ${url}:`, error);
+    console.error(`Failed to process image ${source}:`, error);
     return "";
   }
 }
