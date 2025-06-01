@@ -57,7 +57,7 @@ TSKaigiのプロポーザル審査委員やJSConfなどのコミュニティ活�
       title: "TechFeed 公認エキスパート",
       start: "2020",
       end: null,
-      links: ["https://techfeed.io/people/@hiroppy"],
+      links: ["https://techfeed.io/people/@hiroppy/"],
     },
   },
   form: {
