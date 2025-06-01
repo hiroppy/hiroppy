@@ -32,9 +32,15 @@ export async function generateData(
   // biome-ignore lint:
   data: Record<string, any>,
 ) {
+  // Sort data by date if it's an array of objects with publishedAt field
+  const sortedData =
+    Array.isArray(data) && data.length > 0 && data[0]?.publishedAt
+      ? sortItems(data)
+      : data;
+
   await writeFile(
     join(generatedDataPath, `${filename}.json`),
-    JSON.stringify(data, null, 2),
+    JSON.stringify(sortedData, null, 2),
     "utf-8",
   );
 }
