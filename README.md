@@ -6,6 +6,9 @@
   </samp>
 </p>
 
+![NPM Version](https://img.shields.io/npm/v/hiroppy)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hiroppy/hiroppy)
+
 Hi, I'm hiroppy 😵‍💫
 
 I am a JS engineer living in Japan, and I love creating OSS and web services.
@@ -145,4 +148,4 @@ import media from "hiroppy/media" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: 2025/6/1 22:20:41
+last auto-updated time: 2025/6/1 22:50:53
