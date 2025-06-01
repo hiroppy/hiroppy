@@ -1,8 +1,8 @@
 <p align="center">
   <samp>
     <a href="https://hiroppy.me/">me</a> |
-    <a href="https://hiroppy.me/blog">blog</a> |
-    <a href="https://twitter.com/about_hiroppy">tweets</a>
+    <a href="https://hiroppy.me/blog/">blog</a> |
+    <a href="https://x.com/about_hiroppy/">tweets</a>
   </samp>
 </p>
 
@@ -148,4 +148,4 @@ import media from "hiroppy/media" with { type: "json" };
 <br />
 <br />
 
-last auto-updated time: 2025/6/2 8:13:22
+last auto-updated time: 2025/6/2 8:17:33

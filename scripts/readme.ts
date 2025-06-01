@@ -29,13 +29,23 @@ type ReposData = {
   maintaining: Repo[];
 };
 
-function generateREADME(sponsors: SponsorsData, repos: ReposData): string {
+type MetaData = {
+  site: {
+    personal: string;
+    blog: string;
+  };
+  sns: {
+    twitter: string;
+  };
+};
+
+function generateREADME(sponsors: SponsorsData, repos: ReposData, meta: MetaData): string {
   return `
 <p align="center">
   <samp>
-    <a href="https://hiroppy.me/">me</a> |
-    <a href="https://hiroppy.me/blog">blog</a> |
-    <a href="https://twitter.com/about_hiroppy">tweets</a>
+    <a href="${meta.site.personal}">me</a> |
+    <a href="${meta.site.blog}">blog</a> |
+    <a href="${meta.sns.twitter}">tweets</a>
   </samp>
 </p>
 
@@ -118,7 +128,8 @@ function sponsorList(sponsors: Sponsor[]): string {
 
 const sponsors: SponsorsData = await readData("sponsors", false);
 const repos: ReposData = await readData("repos", false);
-const readmeContent = generateREADME(sponsors, repos);
+const meta: MetaData = await readData("meta", false);
+const readmeContent = generateREADME(sponsors, repos, meta);
 
 await writeFile(
   join(import.meta.dirname, "../README.md"),
