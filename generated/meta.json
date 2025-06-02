@@ -11,9 +11,10 @@
     "github": "https://github.com/hiroppy/",
     "twitter": "https://x.com/about_hiroppy/",
     "facebook": "https://www.facebook.com/yuta.hiroto0429/",
-    "linkedin": "https://www.linkedin.com/in/hiroppy/"
+    "linkedin": "https://www.linkedin.com/in/hiroppy/",
+    "connpass": "https://connpass.com/user/about_hiroppy/"
   },
-  "profile": "合同会社 Coder Penguin で複数の企業で技術顧問や開発支援を行う。\n2015年から株式会社ドワンゴや株式会社メルカリでソフトウェアエンジニアとして新規サービス開発や動画最適化の研究などを担当。\n2021年にメルカリのグループ会社として設立された株式会社ソウゾウに転籍し、メルカリ Shops の立ち上げに参加。\nその後に株式会社Yuimedi に VPoE として組織改善やサービス開発を担当。\nTSKaigiのプロポーザル審査委員やJSConfなどのコミュニティ活動、 Node.js や webpack など OSS へもコミットも行ってきた。",
+  "profile": "合同会社 Coder Penguin で複数の企業で技術顧問や開発支援を行う。\n2015年から株式会社ドワンゴや株式会社メルカリでソフトウェアエンジニアとして新規サービス開発や動画最適化の研究などを担当。\n2021年にメルカリのグループ会社として設立された株式会社ソウゾウに転籍し、メルカリ Shops の立ち上げに参加。\nその後、株式会社Yuimedi に VPoE として組織改善やサービス開発を担当。\nTSKaigiのプロポーザル審査委員やJSConfJPなどのコミュニティ活動、 Node.js や webpack など OSS へもコミットも行ってきた。",
   "community": {
     "nodeFest": {
       "title": "東京Node学園祭 コアメンバー",
