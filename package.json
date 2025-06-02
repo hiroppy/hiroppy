@@ -3,8 +3,8 @@
   "version": "1.0.24",
   "packageManager": "pnpm@10.11.0",
   "type": "module",
-  "main": "./dist/lib/index.js",
-  "types": "./dist/lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "./*": {
       "require": "./generated/*.json",
@@ -17,14 +17,14 @@
       "default": "./generated/images/*"
     },
     "./helpers": {
-      "import": "./dist/lib/index.js",
-      "types": "./dist/lib/index.d.ts",
-      "default": "./dist/lib/index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
   "scripts": {
     "setup": "corepack enable pnpm",
-    "build": "tsc -p lib/tsconfig.json && node scripts/index.ts && pnpm lint",
+    "build": "tsc -p src/tsconfig.json && node scripts/index.ts && pnpm lint",
     "build:readme": "node scripts/readme.ts && pnpm lint",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
     "reset": "rm -rf generated dist && mkdir generated && mkdir generated/images",
