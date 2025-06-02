@@ -23,8 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node
-      - run: pnpm lint
-      - run: npx biome check .
+      - run: npx biome check . && npx prettier --check './**/*.{md,yml}'
   build:
     runs-on: ubuntu-latest
     steps:

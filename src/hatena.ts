@@ -10,7 +10,7 @@ export async function getBookmark(entry: string): Promise<number> {
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`);
     }
-    const data = await res.json() as { count?: number };
+    const data = (await res.json()) as { count?: number };
     return data.count || 0;
   } catch (error) {
     console.error(`Failed to fetch bookmark for ${entry}:`, error);

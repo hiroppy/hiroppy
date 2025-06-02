@@ -19,7 +19,10 @@ function getOctokit(): Octokit {
  * @param repo - Repository name
  * @returns Promise<number> - Star count
  */
-export async function getStarCount(owner: string, repo: string): Promise<number> {
+export async function getStarCount(
+  owner: string,
+  repo: string,
+): Promise<number> {
   try {
     const octokit = getOctokit();
     const { data } = await octokit.rest.repos.get({
@@ -38,7 +41,9 @@ export async function getStarCount(owner: string, repo: string): Promise<number>
  * @param repos - Array of repository names in "owner/repo" format
  * @returns Promise<Record<string, number>> - Object mapping repo names to star counts
  */
-export async function getStarCounts(repos: string[]): Promise<Record<string, number>> {
+export async function getStarCounts(
+  repos: string[],
+): Promise<Record<string, number>> {
   const results: Record<string, number> = {};
 
   const promises = repos.map(async (repoName) => {
@@ -78,7 +83,10 @@ export interface RepositoryInfo {
  * @param repo - Repository name
  * @returns Promise<RepositoryInfo> - Repository information
  */
-export async function getRepositoryInfo(owner: string, repo: string): Promise<RepositoryInfo> {
+export async function getRepositoryInfo(
+  owner: string,
+  repo: string,
+): Promise<RepositoryInfo> {
   try {
     const octokit = getOctokit();
     const { data } = await octokit.rest.repos.get({

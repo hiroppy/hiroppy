@@ -6,7 +6,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "./*": {
+    "./data/*": {
       "require": "./generated/*.json",
       "import": "./generated/*.json",
       "default": "./generated/*.json"
@@ -15,17 +15,14 @@
       "require": "./generated/images/*",
       "import": "./generated/images/*",
       "default": "./generated/images/*"
-    },
-    "./helpers": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
     }
   },
   "scripts": {
     "setup": "corepack enable pnpm",
-    "build": "tsc -p src/tsconfig.json && node scripts/index.ts && pnpm lint",
-    "build:readme": "node scripts/readme.ts && pnpm lint",
+    "build": "pnpm run /build:.*/ && pnpm lint",
+    "build:generated": "node scripts/index.ts",
+    "build:readme": "node scripts/readme.ts",
+    "build:src": "tsc -p src/tsconfig.json",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
     "reset": "rm -rf generated dist && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",
@@ -39,11 +36,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "dist",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "dist", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
