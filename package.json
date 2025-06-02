@@ -3,6 +3,8 @@
   "version": "1.0.24",
   "packageManager": "pnpm@10.11.0",
   "type": "module",
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
   "exports": {
     "./*": {
       "require": "./generated/*.json",
@@ -15,16 +17,17 @@
       "default": "./generated/images/*"
     },
     "./helpers": {
-      "import": "./lib/index.mjs",
-      "default": "./lib/index.mjs"
+      "import": "./dist/lib/index.js",
+      "types": "./dist/lib/index.d.ts",
+      "default": "./dist/lib/index.js"
     }
   },
   "scripts": {
     "setup": "corepack enable pnpm",
-    "build": "node scripts/index.ts && pnpm lint",
+    "build": "tsc -p lib/tsconfig.json && node scripts/index.ts && pnpm lint",
     "build:readme": "node scripts/readme.ts && pnpm lint",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
-    "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
+    "reset": "rm -rf generated dist && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",
     "compress:images": "node scripts/compress-images.ts",
     "decompress:images": "node scripts/decompress-images.js",
@@ -38,7 +41,7 @@
   "license": "MIT",
   "files": [
     "generated",
-    "lib",
+    "dist",
     "scripts/decompress-images.js"
   ],
   "publishConfig": {
@@ -59,6 +62,7 @@
     "emoji-js": "3.8.1",
     "lefthook": "1.11.13",
     "prettier": "3.5.3",
-    "sharp": "0.34.2"
+    "sharp": "0.34.2",
+    "typescript": "^5.7.3"
   }
 }
