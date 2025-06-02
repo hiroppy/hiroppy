@@ -1,8 +1,8 @@
 import { Octokit } from "octokit";
 
-let octokit = null;
+let octokit: Octokit | null = null;
 
-function getOctokit() {
+function getOctokit(): Octokit {
   if (!octokit) {
     const token = process.env.GITHUB_TOKEN;
     if (!token) {
@@ -19,7 +19,7 @@ function getOctokit() {
  * @param repo - Repository name
  * @returns Promise<number> - Star count
  */
-export async function getStarCount(owner, repo) {
+export async function getStarCount(owner: string, repo: string): Promise<number> {
   try {
     const octokit = getOctokit();
     const { data } = await octokit.rest.repos.get({
@@ -38,8 +38,8 @@ export async function getStarCount(owner, repo) {
  * @param repos - Array of repository names in "owner/repo" format
  * @returns Promise<Record<string, number>> - Object mapping repo names to star counts
  */
-export async function getStarCounts(repos) {
-  const results = {};
+export async function getStarCounts(repos: string[]): Promise<Record<string, number>> {
+  const results: Record<string, number> = {};
 
   const promises = repos.map(async (repoName) => {
     const [owner, repo] = repoName.split("/");
@@ -58,13 +58,27 @@ export async function getStarCounts(repos) {
   return results;
 }
 
+export interface RepositoryInfo {
+  name: string;
+  url: string;
+  description: string | null;
+  language: string | null;
+  stars: number;
+  forks: number;
+  openIssues: number;
+  defaultBranch: string;
+  createdAt: string;
+  updatedAt: string;
+  avatar: string;
+}
+
 /**
  * Get repository information including star count
  * @param owner - Repository owner
  * @param repo - Repository name
- * @returns Promise<object> - Repository information
+ * @returns Promise<RepositoryInfo> - Repository information
  */
-export async function getRepositoryInfo(owner, repo) {
+export async function getRepositoryInfo(owner: string, repo: string): Promise<RepositoryInfo> {
   try {
     const octokit = getOctokit();
     const { data } = await octokit.rest.repos.get({
