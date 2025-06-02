@@ -16,7 +16,7 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 ## Active Repositories
 
 - [web-app-template](https://github.com/hiroppy/web-app-template)
-  - A minimal web service template 🎃 "npx create-app-foundation@latest" !
+  - A minimal web service template 🎃  "npx create-app-foundation@latest" !
 - [nextjs-app-router-training](https://github.com/hiroppy/nextjs-app-router-training)
   - Introducing various basic patterns of app router with simplified code.
 
@@ -141,6 +141,6 @@ $ npm i hiroppy
 ```
 
 ```ts
-import jobs from "hiroppy/jobs" with { type: "json" };
-import media from "hiroppy/media" with { type: "json" };
+import jobs  from "hiroppy/data/jobs" with { type: "json" };
+import media from "hiroppy/data/media" with { type: "json" };
 ```
