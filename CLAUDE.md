@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal portfolio/data aggregation project for hiroppy, published as an npm package. It crawls and processes various data sources (articles, talks, repos, jobs, podcasts, etc.) to generate JSON files and optimized images for use in other projects.
+This is a personal portfolio/data aggregation project for hiroppy. It crawls and processes various data sources (articles, talks, repos, jobs, podcasts, etc.) to generate JSON files and optimized images for use in other projects.
 
 ## Development Commands
 

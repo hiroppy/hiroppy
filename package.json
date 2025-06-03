@@ -3,13 +3,7 @@
   "version": "1.0.27",
   "packageManager": "pnpm@10.11.1",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
     "./data/*": {
       "require": "./generated/*.json",
       "import": "./generated/*.json",
@@ -26,9 +20,8 @@
     "build": "pnpm run /build:.*/ && pnpm lint",
     "build:generated": "node scripts/index.ts",
     "build:readme": "node scripts/readme.ts",
-    "build:src": "tsc -p src/tsconfig.json",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
-    "reset": "rm -rf generated dist && mkdir generated && mkdir generated/images",
+    "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",
     "compress:images": "node scripts/compress-images.ts",
     "decompress:images": "node scripts/decompress-images.js",
@@ -40,11 +33,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "dist",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
