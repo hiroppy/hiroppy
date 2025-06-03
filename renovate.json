@@ -54,7 +54,7 @@
     },
     {
       "groupName": "Node.js",
-      "matchManagers": ["node"],
+      "matchManagers": ["nodenv"],
       "automerge": true
     }
   ],
