@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      octokit:
-        specifier: 5.0.3
-        version: 5.0.3
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -30,6 +26,9 @@ importers:
       lefthook:
         specifier: 1.11.13
         version: 1.11.13
+      octokit:
+        specifier: 5.0.3
+        version: 5.0.3
       prettier:
         specifier: 3.5.3
         version: 3.5.3
