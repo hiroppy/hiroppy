@@ -45,6 +45,17 @@
       "major": {
         "automerge": false
       }
+    },
+    {
+      "groupName": "pnpm",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["pnpm"],
+      "automerge": true
+    },
+    {
+      "groupName": "Node.js",
+      "matchManagers": ["node"],
+      "automerge": true
     }
   ],
   "ignoreDeps": []
