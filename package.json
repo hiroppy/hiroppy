@@ -6,6 +6,10 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./data/*": {
       "require": "./generated/*.json",
       "import": "./generated/*.json",
@@ -36,11 +40,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "dist",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "dist", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
