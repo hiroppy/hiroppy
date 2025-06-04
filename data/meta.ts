@@ -63,6 +63,7 @@ TSKaigiのプロポーザル審査委員やJSConfJPなどのコミュニティ�
   },
   form: {
     request:
-      "https://coder-penguin.com/#%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B/",
+      // don't add /
+      "https://coder-penguin.com/#%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
   },
 };
