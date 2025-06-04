@@ -6,6 +6,7 @@ type Sponsor = {
   href: string;
   avatar: string;
   name?: string;
+  oneTime: boolean;
 };
 
 type SponsorsData = {
