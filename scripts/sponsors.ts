@@ -1,122 +1,116 @@
 import { load } from "cheerio";
 import { downloadImage, generateData } from "./utils/index.ts";
 
-// github apiでは過去に寄付してくれた方を取得できないのでhtmlから取る
-// await octokit.graphql(`
-//     {
-//       user(login: "hiroppy") {
-//         sponsorshipsAsMaintainer(first: 100) {
-//           nodes {
-//             sponsorEntity {
-//               ... on User {
-//                 avatarUrl
-//                 url
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-// `);
+async function fetchSponsorsFromPage(url: string) {
+  const response = await fetch(url);
+  const html = await response.text();
+  const $ = load(html);
+
+  return Promise.all(
+    Array.from($("a")).map(async (el) => {
+      const $el = $.load(el);
+      const href = $el("a").attr("href");
+      const imgSrc = $el("img").attr("src");
+      const name = $el("img").attr("alt");
+
+      if (!href || !imgSrc || !name) return null;
+
+      return {
+        href: `https://github.com${href}`,
+        avatar: await downloadImage(imgSrc, "jpg"),
+        name,
+      };
+    }),
+  ).then((sponsors) => sponsors.filter(Boolean));
+}
+
+async function fetchAllPastSponsors() {
+  const allPastSponsors = [];
+  let page = 1;
+  let hasMorePages = true;
+
+  while (hasMorePages) {
+    try {
+      const url = `https://github.com/sponsors/hiroppy/sponsors_partial?filter=inactive&page=${page}`;
+      const pageSponsors = await fetchSponsorsFromPage(url);
+
+      if (pageSponsors.length === 0) {
+        hasMorePages = false;
+      } else {
+        allPastSponsors.push(...pageSponsors);
+        page++;
+      }
+    } catch (error) {
+      console.error(`Error fetching page ${page}:`, error);
+      hasMorePages = false;
+    }
+  }
+
+  return allPastSponsors;
+}
+
+const html = await fetch("https://github.com/sponsors/hiroppy").then((res) =>
+  res.text(),
+);
+const $ = load(html);
 const sponsors = {
   current: [],
   past: [],
 };
 
-// Fetch recurring sponsors
-const recurringHtml = await fetch(
-  "https://github.com/sponsors/hiroppy?frequency=recurring",
-).then((res) => res.text());
-const $recurring = load(recurringHtml);
+const [currentSponsors, pastSponsors] = Array.from(
+  $("#sponsors-section-list > div"),
+);
 
-{
-  const [currentSponsors, pastSponsors] = Array.from(
-    $recurring("#sponsors-section-list > div"),
-  );
+if (currentSponsors) {
+  const $$ = $.load(currentSponsors);
+  sponsors.current = await Promise.all(
+    Array.from($$("a")).map(async (el) => {
+      const $el = $$.load(el);
+      const href = $el("a").attr("href");
+      const imgSrc = $el("img").attr("src");
+      const name = $el("img").attr("alt");
 
-  {
-    const $$ = load(currentSponsors);
+      if (!href || !imgSrc || !name) return null;
 
-    const recurringCurrent = await Promise.all(
-      Array.from($$("a")).map(async (el) => ({
-        href: `https://github.com${$$(el).attr("href")}`,
-        avatar: await downloadImage($$(el).find("img").attr("src"), "jpg"),
-        name: $$(el).find("img").attr("alt"),
-        oneTime: false,
-      })),
-    );
-    sponsors.current.push(...recurringCurrent);
-  }
-  {
-    const $$ = load(pastSponsors);
-
-    const recurringPast = await Promise.all(
-      Array.from($$("a")).map(async (el) => ({
-        href: `https://github.com${$$(el).attr("href")}`,
-        avatar: await downloadImage($$(el).find("img").attr("src"), "jpg"),
-        name: $$(el).find("img").attr("alt"),
-        oneTime: false,
-      })),
-    );
-
-    {
-      const page2 = await fetch(
-        "https://github.com/sponsors/hiroppy/sponsors_partial?filter=inactive&page=2",
-      );
-      const $$ = load(await page2.text());
-      const seconds = await Promise.all(
-        Array.from($$("a")).map(async (el) => ({
-          href: `https://github.com${$$(el).attr("href")}`,
-          avatar: await downloadImage($$(el).find("img").attr("src"), "jpg"),
-          name: $$(el).find("img").attr("alt"),
-          oneTime: false,
-        })),
-      );
-
-      recurringPast.push(...seconds);
-    }
-    sponsors.past.push(...recurringPast);
-  }
+      return {
+        href: `https://github.com${href}`,
+        avatar: await downloadImage(imgSrc, "jpg"),
+        name,
+      };
+    }),
+  ).then((sponsors) => sponsors.filter(Boolean));
 }
 
-// Fetch one-time sponsors
-const oneTimeHtml = await fetch(
-  "https://github.com/sponsors/hiroppy?frequency=one-time",
-).then((res) => res.text());
-const $oneTime = load(oneTimeHtml);
+if (pastSponsors) {
+  const $$ = $.load(pastSponsors);
+  const initialPastSponsors = await Promise.all(
+    Array.from($$("a")).map(async (el) => {
+      const $el = $$.load(el);
+      const href = $el("a").attr("href");
+      const imgSrc = $el("img").attr("src");
+      const name = $el("img").attr("alt");
 
-{
-  const [currentSponsors, pastSponsors] = Array.from(
-    $oneTime("#sponsors-section-list > div"),
+      if (!href || !imgSrc || !name) return null;
+
+      return {
+        href: `https://github.com${href}`,
+        avatar: await downloadImage(imgSrc, "jpg"),
+        name,
+      };
+    }),
+  ).then((sponsors) => sponsors.filter(Boolean));
+
+  const additionalPastSponsors = await fetchAllPastSponsors();
+  const allPastSponsors = [...initialPastSponsors, ...additionalPastSponsors];
+
+  // Remove duplicates based on href
+  const uniquePastSponsors = allPastSponsors.filter(
+    (sponsor, index, array) =>
+      array.findIndex((s) => s.href === sponsor.href) === index,
   );
 
-  if (currentSponsors) {
-    const $$ = load(currentSponsors);
-
-    const oneTimeCurrent = await Promise.all(
-      Array.from($$("a")).map(async (el) => ({
-        href: `https://github.com${$$(el).attr("href")}`,
-        avatar: await downloadImage($$(el).find("img").attr("src"), "jpg"),
-        name: $$(el).find("img").attr("alt"),
-        oneTime: true,
-      })),
-    );
-    sponsors.current.push(...oneTimeCurrent);
-  }
-
-  if (pastSponsors) {
-    const $$ = load(pastSponsors);
-
-    const oneTimePast = await Promise.all(
-      Array.from($$("a")).map(async (el) => ({
-        href: `https://github.com${$$(el).attr("href")}`,
-        avatar: await downloadImage($$(el).find("img").attr("src"), "jpg"),
-        name: $$(el).find("img").attr("alt"),
-        oneTime: true,
-      })),
-    );
-    sponsors.past.push(...oneTimePast);
-  }
+  sponsors.past = uniquePastSponsors;
 }
 
 await generateData("sponsors", sponsors);
