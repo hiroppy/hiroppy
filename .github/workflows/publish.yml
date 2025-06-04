@@ -11,7 +11,6 @@ on:
       - main
     paths:
       - "generated/**"
-      - "src/**"
 
 jobs:
   publish:
@@ -32,31 +31,31 @@ jobs:
           echo "changes=true" >> $GITHUB_OUTPUT
           echo "✅ Manual publish requested via workflow_dispatch"
 
-      - name: Check if generated or src files changed
+      - name: Check if generated files changed
         id: check-changes
         if: github.event_name != 'workflow_dispatch'
         run: |
-          echo "Checking for changes in generated/ or src/ directories..."
+          echo "Checking for changes in generated/ directory..."
           # Check if HEAD~1 exists (handles first commit case)
           if git rev-parse --verify HEAD~1 >/dev/null 2>&1; then
-            if git diff --name-only HEAD~1 HEAD | grep -q -E "^(generated/|src/)"; then
+            if git diff --name-only HEAD~1 HEAD | grep -q -E "^generated/"; then
               echo "changes=true" >> $GITHUB_OUTPUT
-              echo "✅ Generated or src files have changed"
-              git diff --name-only HEAD~1 HEAD | grep -E "^(generated/|src/)" | head -10
+              echo "✅ Generated files have changed"
+              git diff --name-only HEAD~1 HEAD | grep -E "^generated/" | head -10
             else
               echo "changes=false" >> $GITHUB_OUTPUT
-              echo "ℹ️ No changes in generated or src files"
+              echo "ℹ️ No changes in generated files"
             fi
           else
-            # First commit or other edge case - check if generated or src files exist at all
+            # First commit or other edge case - check if generated files exist at all
             echo "⚠️ Cannot compare with previous commit (first commit or shallow clone)"
-            if git ls-files | grep -q -E "^(generated/|src/)"; then
+            if git ls-files | grep -q -E "^generated/"; then
               echo "changes=true" >> $GITHUB_OUTPUT
-              echo "✅ Generated or src files exist in this commit"
-              git ls-files | grep -E "^(generated/|src/)" | head -10
+              echo "✅ Generated files exist in this commit"
+              git ls-files | grep -E "^generated/" | head -10
             else
               echo "changes=false" >> $GITHUB_OUTPUT
-              echo "ℹ️ No generated or src files found"
+              echo "ℹ️ No generated files found"
             fi
           fi
       - name: Validate package before publishing
@@ -89,12 +88,6 @@ jobs:
           git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
           git push
           echo "✅ Version commit pushed"
-      - name: Build src to dist
-        if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
-        run: |
-          echo "Building TypeScript source to dist..."
-          pnpm build:src
-          echo "✅ TypeScript compilation completed"
       - run: pnpm compress:images
       - name: Publish to NPM
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
@@ -148,5 +141,5 @@ jobs:
         if: steps.check-changes.outputs.changes == 'false' && github.event_name != 'workflow_dispatch'
         run: |
           echo "## ℹ️ No Publication Needed" >> $GITHUB_STEP_SUMMARY
-          echo "No changes were detected in the \`generated/\` or \`src/\` directories." >> $GITHUB_STEP_SUMMARY
+          echo "No changes were detected in the \`generated/\` directory." >> $GITHUB_STEP_SUMMARY
           echo "The package version remains unchanged." >> $GITHUB_STEP_SUMMARY
