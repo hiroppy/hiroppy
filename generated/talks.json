@@ -107,7 +107,7 @@
         "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
         "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
         "siteName": "LINE ENGINEERING",
-        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"
+        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
       }
     ]
   },
@@ -177,7 +177,6 @@
   },
   {
     "title": "apollo と react を使ったアプリケーション設計",
-    "description": "",
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "siteName": "React.js meetup #6",
     "siteUrl": "https://reactjs-meetup.connpass.com/event/115274/",
@@ -253,7 +252,6 @@
   },
   {
     "title": "how to manage the document of Node.js",
-    "description": "",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "siteName": "歌舞伎座.tech#14「OSSドキュメンテーション勉強会」",
     "siteUrl": "https://kbkz.connpass.com/event/5150/",
@@ -284,7 +282,6 @@
   {
     "title": "nicohaco",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
-    "image": "",
     "siteName": "Dwangoの社内勉強会",
     "siteUrl": "https://slides.hiroppy.me/nicohaco/",
     "url": "https://slides.hiroppy.me/nicohaco/",
@@ -304,7 +301,6 @@
   {
     "title": "node-whatwg-url",
     "description": "whatwg-url in Node",
-    "image": "",
     "siteName": "Node学園 24時限目",
     "siteUrl": "https://nodejs.connpass.com/event/53534/",
     "url": "https://slides.hiroppy.me/node-whatwg-url/",
@@ -343,7 +339,6 @@
   },
   {
     "title": "OSSを楽しむ話",
-    "description": "",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvM2U0YzY0NzMyYWJkNDFjMmE4YjI1NDlhM2ZjY2Y0OT.webp",
     "siteName": "Dwangoの社内勉強会",
     "siteUrl": "https://speakerdeck.com/abouthiroppy/osswole-simuhua/",
@@ -353,7 +348,6 @@
   },
   {
     "title": "React Nativeを触ってみた話",
-    "description": "",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvODA4YTBmYTE1ZGUwNDBjZTkzOTU1MGU1MmJjMzM1ND.webp",
     "siteName": "ALT#05",
     "siteUrl": "https://speakerdeck.com/abouthiroppy/react-nativewohong-tutemitahua/",

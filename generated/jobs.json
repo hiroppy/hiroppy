@@ -109,21 +109,21 @@
           "description": "│ 主なメンバー",
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "siteName": "yuimedi on Notion",
-          "siteUrl": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375"
+          "siteUrl": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/"
         },
         {
           "title": "エンジニア座談会後編〜開発組織編〜 | Notion",
           "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "siteName": "yuimedi on Notion",
-          "siteUrl": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b"
+          "siteUrl": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/"
         },
         {
           "title": "Yuimedi の Internship に参加しました。 - Daiki Sakuma の日記",
           "description": "はじめに なぜ Yuimedi で Internship をしたのか Yuimedi でしたこと Yuimedi で得られたもの Agility マインドセット テスト まとめ 最後に はじめに どうも、Daiki Sakuma *1 です。 Yuimedi*2さんに12月中旬から3月末までの約3ヶ月半、Software Engineer として参加させていただきました。 そこで僕が何をして何を得たのか等、記憶が鮮明なうちにつらつらと書き記していこうと思います。 なぜ Yuimedi で Internship をしたのか 僕自身4月から別の会社で23卒として働くのですが、その前にどこかで In…",
           "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
           "siteName": "Daiki Sakuma の日記",
-          "siteUrl": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744"
+          "siteUrl": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
         },
         {
           "title": "［7/26］Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)",
@@ -154,10 +154,14 @@
           "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
           "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
           "siteName": "IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
-          "siteUrl": "https://findy-code.io/pick-up/interviews/souzoh-engineer"
+          "siteUrl": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
         },
         {
-          "siteUrl": "https://mercan.mercari.com/articles/28113/"
+          "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
+          "description": "2021年1月28日に設立された「株式会社ソウゾウ(souzoh)」。 メルカリグループの次の柱となる事業を目指して発足。具体的な事業内容は明らかにされていませんが、着々とプロダクトリリースへの準備が進められています。  …",
+          "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
+          "siteName": "mercan (メルカン)",
+          "siteUrl": "https://careers.mercari.com/mercan/articles/28113/"
         },
         {
           "title": "Souzoh Tech Talk #03: Frontend",
@@ -221,28 +225,28 @@
           "description": "はじめに   はじめまして！食べログFE（フロントエンド）チームの金野と申します。 普段は、食べログフロントエンドの設計・開発や、新規事業・食べログテイクアウトの技術サポートなどを行っています。  食べログテイクアウトについては、Nuxt.js + TypeScriptの開発について記事を書いているので、興味がある方はぜひ御覧ください。     \n\n\nNuxt.js+TypeScriptのアプリケーションのためのコーディングガイドライン - Qiita\n\n\nこの記事は食べログ Advent Calendar 2019 3日目の記事です。  はじめまして。食べログのフロントエンド\n\n\nq",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
           "siteName": "note（ノート）",
-          "siteUrl": "https://note.com/tabelog_frontend/n/n21b819c09121"
+          "siteUrl": "https://note.com/tabelog_frontend/n/n21b819c09121/"
         },
         {
           "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
           "description": "こんにちは。食べログのフロントエンドチーム の佐伯です。  昨年もメンバー紹介の記事を書きましたが、新しいメンバーも加わりましたので改めてご紹介させていただきます。以下で紹介する6名と、アドバイザーの@hiroppyさんを加えて7名で活動しています  今回は趣向を凝らしてドラッカー風エクササイズ風メンバー紹介です。  ドラッカー風エクササイズは、アジャイルサムライで紹介されたチームにおける期待をすり合わせるための手法です   ・自分は何が得意なのか？ ・どういうふうに仕事するか？ ・自分が大切に思う価値は何か？ ・チームメンバーは自分にどんな成果を期待していると思うか？  という質問を",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
           "siteName": "note（ノート）",
-          "siteUrl": "https://note.com/tabelog_frontend/n/n35664347180a"
+          "siteUrl": "https://note.com/tabelog_frontend/n/n35664347180a/"
         },
         {
           "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
           "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
           "siteName": "note（ノート）",
-          "siteUrl": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5"
+          "siteUrl": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
         },
         {
           "title": "Next.jsのStatic Exportsを本番プロダクトで利用してみた感想と注意点 - Tabelog Tech Blog",
           "description": "目次 はじめに Static Exportsとは Static Exportsを採用した経緯 Static Exportsを利用する際の注意点 Dynamic Routingが使えない 対策 運用してみての感想 まとめ 最後に はじめに こんにちは。食べログ ウェブ開発部 FEチームの原田です。 昨年リリースした食べログノートではNext.jsを利用しており、Static Exportsを採用しています。 今回は食べログノートでStatic Exportsを採用した経緯や採用するための注意点、実際に運用してみての感想をお伝えします。 食べログノートの詳細については以下の記事も是非ご覧ください。…",
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
           "siteName": "Tabelog Tech Blog",
-          "siteUrl": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production"
+          "siteUrl": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/"
         }
       ],
       "company": "kakakucom"
@@ -304,13 +308,13 @@
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
           "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
           "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
-          "siteUrl": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview"
+          "siteUrl": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
         },
         {
           "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
           "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
           "image": "/images/aW1hZ2VzLndhbnRlZGx5LmNvbS9pL0cyRjVZN3c_dz0xMjAwJmg9NjMwJnN0eWxlPWNvdmVy.webp",
-          "siteUrl": "https://www.wantedly.com/companies/rebase/post_articles/887970"
+          "siteUrl": "https://www.wantedly.com/companies/rebase/post_articles/887970/"
         }
       ],
       "company": "rebase"
@@ -328,21 +332,21 @@
           "description": "株式会社ROUTE06（本社：東京都千代田区、代表取締役：遠藤崇史、以下ROUTE06）は、技術顧問として廣戸裕大（Hiroppy）氏が就任したことをお知らせします。",
           "image": "/images/cm91dGUwNi5jby5qcC9hc3NldHMvc3BlY2lhbF9vZ3AuanBlZw==.webp",
           "siteName": "株式会社ROUTE06 (ルートシックス) - ビジネスモデル変革を支援するDXパートナー",
-          "siteUrl": "https://route06.co.jp/news/38"
+          "siteUrl": "https://route06.co.jp/news/38/"
         },
         {
           "title": "技術顧問として半年間で感じた会社の成長 - ROUTE06 Tech Blog",
           "description": "こんにちは。hiroppyです。2023年7月に技術顧問として参加させていただき、半年経ちましたので、今回は自分からみたROUTE06社の印象と何をしているかを話したいと思います。 一言でいうと、組織が大きくなっていることが実感できた半年でした。 最初の印象 様々なスタートアップを見てきましたが、ROUTE06社はその中でも、最初から組織環境を整備しており、主に印象的だったのは以下のような要素でした。 会社全体の雰囲気の良さ 会社文化の浸透と全員が同じ方向を向いている点 業務の自動化や権限委譲 会社や個人のモチベーションの高さ 会社全体の雰囲気の良さはSlackを入ったときにすぐに分かりました…",
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
           "siteName": "ROUTE06 Tech Blog",
-          "siteUrl": "https://tech.route06.co.jp/entry/2024/03/28/091000"
+          "siteUrl": "https://tech.route06.co.jp/entry/2024/03/28/091000/"
         },
         {
           "title": "ROUTE06 CTOが考えていること（2023年9月） - ROUTE06 Tech Blog",
           "description": "おはようございますこんにちはこんばんは。ROUTE06 取締役 CTO の重岡です。 前回の記事から 4 か月が経過しました。その期間の振り返りと、現在考えていることについてご紹介します。 プロダクト開発の現在地 エンタープライズ向け SaaS「Plain EDI」の開発 まだまだ課題は多いものの、「Plain」という大きなプラットフォームの構想の初手として、足元ではクラウドEDIを中心とした商取引DXを注力領域に定め、エンタープライズ特化のVertical SaaSを提供しながらその価値を最大限活かすための要件定義/デザイン/データ分析などの事業支援を行うアプローチへの実効性も高まりつつある…",
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
           "siteName": "ROUTE06 Tech Blog",
-          "siteUrl": "https://tech.route06.co.jp/entry/2023/09/07/091000"
+          "siteUrl": "https://tech.route06.co.jp/entry/2023/09/07/091000/"
         },
         {
           "title": "2023年の振り返り",
@@ -396,7 +400,7 @@
           "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
           "siteName": "estie inside blog",
-          "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235"
+          "siteUrl": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
         }
       ],
       "company": "estie"
@@ -454,7 +458,7 @@
           "description": "- どのように最新技術を取り入れているのか\n- どのような技術的チャレンジをしているのか\n- プロダクト開発と技術イノベーションとの関係",
           "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYjU4MTNmMDUxZmEyNDczZDkwOWQwMzU5YWQ0YjFiZD.webp",
           "siteName": "Speaker Deck",
-          "siteUrl": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi"
+          "siteUrl": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
         }
       ],
       "company": "mercari"

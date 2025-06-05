@@ -161,7 +161,7 @@ Coder Penguinでは、様々な会社でフロントエンドの技術顧問や�
       links: [
         "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
         "https://findy-code.io/pick-up/interviews/souzoh-engineer",
-        "https://mercan.mercari.com/articles/28113/",
+        "https://careers.mercari.com/mercan/articles/28113/",
         "https://www.youtube.com/watch?v=YNLvIkqRC-g",
         "https://www.youtube.com/watch?v=1uCWzfaIedE",
       ],
