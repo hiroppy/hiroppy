@@ -37,6 +37,10 @@ function processUrlsInObject(obj: unknown): unknown {
     return obj;
   }
 
+  if (obj instanceof Date) {
+    return obj;
+  }
+
   if (typeof obj === "string") {
     return obj;
   }
@@ -110,12 +114,41 @@ export function sortItems(items: Array<{ publishedAt: string }>) {
   );
 }
 
+function convertDatesToISO(obj: unknown): unknown {
+  if (obj === null || obj === undefined) {
+    return obj;
+  }
+
+  if (obj instanceof Date) {
+    return obj.toISOString().split("T")[0]; // Return only the date part (YYYY-MM-DD)
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(convertDatesToISO);
+  }
+
+  if (typeof obj === "object" && obj !== null) {
+    const converted: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(obj)) {
+      converted[key] = convertDatesToISO(value);
+    }
+    return converted;
+  }
+
+  return obj;
+}
+
 export async function generateData(filename: string, data: unknown) {
+  // Convert all Date objects to ISO strings first
+  const datesConverted = convertDatesToISO(data);
+
   // Sort data by date if it's an array of objects with publishedAt field
   const sortedData =
-    Array.isArray(data) && data.length > 0 && data[0]?.publishedAt
-      ? sortItems(data)
-      : data;
+    Array.isArray(datesConverted) &&
+    datesConverted.length > 0 &&
+    datesConverted[0]?.publishedAt
+      ? sortItems(datesConverted)
+      : datesConverted;
 
   // Trim all strings in the data
   const trimmedData = trimAllStrings(sortedData);
@@ -125,16 +158,7 @@ export async function generateData(filename: string, data: unknown) {
 
   await writeFile(
     join(generatedDataPath, `${filename}.json`),
-    JSON.stringify(
-      processedData,
-      (_key, value) => {
-        if (value instanceof Date) {
-          return value.toISOString();
-        }
-        return value;
-      },
-      2,
-    ),
+    JSON.stringify(processedData, null, 2),
     "utf-8",
   );
 }
