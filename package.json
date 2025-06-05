@@ -22,7 +22,7 @@
     "build:readme": "node scripts/readme.ts",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
     "test": "node --test test/*.test.js",
-    "reset": "rm -rf generated && mkdir generated && mkdir generated/images",
+    "reset": "rm data/cache.json && rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",
     "compress:images": "node scripts/compress-images.ts",
     "decompress:images": "node scripts/decompress-images.js",
@@ -34,10 +34,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },

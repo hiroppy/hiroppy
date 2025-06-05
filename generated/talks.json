@@ -2,7 +2,7 @@
   {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxzenBselpMLVdlNUZWMmdRN2ZLZC1NMEtBQU.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtKWnpidURBT0RlaVprQzFkU29JR0Z1M2ZXbG.webp",
     "siteName": "カンファレンス直前！スタートアップのTypeScript実践Tips",
     "siteUrl": "https://stract.connpass.com/event/354163/",
     "url": "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit",
@@ -12,7 +12,7 @@
   {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxtZHRGYUhNY2pUaDl2YTFGdHBwZ05FRzl3MG.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpHd3I5RENzS0dIUko4MzdWU2N5R0RfWVhNNG.webp",
     "siteName": "Google Docs",
     "siteUrl": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit",
     "url": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit",
@@ -22,7 +22,7 @@
   {
     "title": "Trusted Types & Dynamic Code Brand Checks",
     "description": "Trusted Types & Dynamic Code Brand Checks 2025/02/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUlJRVJsY1JkeVRXeGgwdWtqMFdyTUFBd3paM2.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxRUk5DVGQ1OW0zLVpiRVZ4SlBzU0x5UW9XX1.webp",
     "siteName": "Meguro.es #29 @ oRo",
     "siteUrl": "https://meguroes.connpass.com/event/342717/",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit",
@@ -32,7 +32,7 @@
   {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUk2V2ZiT0gxeTc4TEJHWkZRSm1DSDd0aVBLNG.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxhZ3ZlSXZmdXhxc2ZhQWtsWnQ3LTQwcGJHal.webp",
     "siteName": "Unleash Next.js - LayerX Web Frontend Night",
     "siteUrl": "https://layerx.connpass.com/event/328945/",
     "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing",
@@ -61,7 +61,7 @@
       {
         "title": "メルカリShops の CI/CD と Pull Request 環境 | メルカリエンジニアリング",
         "description": "こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：「メルカリShops」プレオープンまでの開発の裏側の８日目を担当させていただきます。この記事では、メルカリShops 開発において、日々バリバリに",
-        "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
+        "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9iZThiOTgxNy1kcmFnb2.webp",
         "siteUrl": "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
       }
     ]
@@ -78,7 +78,7 @@
       {
         "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
         "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
-        "image": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vL2ltZy9vZ3Avb2dwX2EuanBn.webp",
+        "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
         "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
       }
     ]
