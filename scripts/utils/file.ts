@@ -11,6 +11,75 @@ export async function readData(filename: string, original = true) {
   return JSON.parse(data);
 }
 
+function addTrailingSlashToUrl(url: string): string {
+  // Don't add trailing slash to URLs with hash fragments
+  if (url.includes("#")) {
+    return url;
+  }
+
+  // Don't add trailing slash if it already has one
+  if (url.endsWith("/")) {
+    return url;
+  }
+
+  // Don't add trailing slash to URLs with file extensions
+  const urlParts = url.split("?")[0]; // Remove query parameters for checking
+  const lastSegment = urlParts.split("/").pop() || "";
+  if (lastSegment.includes(".") && !lastSegment.startsWith(".")) {
+    return url;
+  }
+
+  return `${url}/`;
+}
+
+function processUrlsInObject(obj: unknown): unknown {
+  if (obj === null || obj === undefined) {
+    return obj;
+  }
+
+  if (typeof obj === "string") {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(processUrlsInObject);
+  }
+
+  if (typeof obj === "object" && obj !== null) {
+    const processed: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(obj)) {
+      // Process URL fields
+      if ((key === "url" || key === "siteUrl") && typeof value === "string") {
+        processed[key] = addTrailingSlashToUrl(value);
+      } else if (key === "links" && Array.isArray(value)) {
+        // Process links array
+        processed[key] = value.map((link) => {
+          if (typeof link === "string") {
+            return addTrailingSlashToUrl(link);
+          }
+          if (link && typeof link === "object" && "url" in link) {
+            return {
+              ...link,
+              url: link.url
+                ? addTrailingSlashToUrl(link.url as string)
+                : link.url,
+              siteUrl: link.siteUrl
+                ? addTrailingSlashToUrl(link.siteUrl as string)
+                : link.siteUrl,
+            };
+          }
+          return link;
+        });
+      } else {
+        processed[key] = processUrlsInObject(value);
+      }
+    }
+    return processed;
+  }
+
+  return obj;
+}
+
 function trimAllStrings(obj: unknown): unknown {
   if (obj === null) {
     return null;
@@ -51,11 +120,14 @@ export async function generateData(filename: string, data: unknown) {
   // Trim all strings in the data
   const trimmedData = trimAllStrings(sortedData);
 
+  // Process URLs to add trailing slashes
+  const processedData = processUrlsInObject(trimmedData);
+
   await writeFile(
     join(generatedDataPath, `${filename}.json`),
     JSON.stringify(
-      trimmedData,
-      (key, value) => {
+      processedData,
+      (_key, value) => {
         if (value instanceof Date) {
           return value.toISOString();
         }

@@ -65,7 +65,7 @@
   "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit": {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpHd3I5RENzS0dIUko4MzdWU2N5R0RfWVhNNG.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxVa3B0YVk4WWJrMHplbzAybDVHUy1oNjhZZU.webp",
     "siteName": "Google Docs",
     "siteUrl": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit"
   },
@@ -133,13 +133,6 @@
   },
   "https://mercan.mercari.com/articles/28113/": {
     "siteUrl": "https://mercan.mercari.com/articles/28113/"
-  },
-  "https://mercari.connpass.com/event/221978/": {
-    "title": "Souzoh Tech Talk #03: Frontend",
-    "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
-    "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
-    "siteName": "【増枠】Souzoh Tech Talk #03: Frontend (2021/09/01 19:30〜)",
-    "siteUrl": "https://mercari.connpass.com/event/221978/"
   },
   "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1": {
     "title": "2023年の振り返り",
@@ -784,7 +777,7 @@
     "title": "エンジニア座談会後編〜開発組織編〜 | Notion",
     "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "siteName": "Yuimedi",
+    "siteName": "yuimedi on Notion",
     "siteUrl": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b"
   },
   "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64": {

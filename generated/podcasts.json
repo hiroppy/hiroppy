@@ -334,8 +334,8 @@
     "description": "こちらは YouTube 配信の内容より、休憩時間などをカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n<iframe width=\"560\" height=\"315\" style=\"width:100%;height: 513px;margin: -10px 0 10px\" src=\"https://www.youtube.com/embed/Qsuk2KCDIxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n<iframe title=\"Twitter Share\" src=\"https://platform.twitter.com/widgets/tweet_button.html?url=https://uit-inside.linecorp.com/episode/100&amp;hashtags=UIT_INSIDE&amp;related=LINE_DEV\" width=\"81\" height=\"21\" style=\"overflow: hidden;\"></iframe>\n\n---\n\n音声版はこちら\n\n<audio src=\"https://vos.line-scdn.net/podcast/episodes/uit-inside-100.mp3\" controls ></audio>\n\nこちらは YouTube 配信の内容より、休憩時間やプレゼント企画など、リアルタイム配信限定の部分をカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n---\n\n2018年12月からはじまり2年半、合計10万を超える視聴、2021年10月1日をもって ep.99 まで達した UIT INSIDE。ついに迎える ep.100 として、8時間生放送を実施します！\nhttps://uit-inside.linecorp.com\n\nこれまで UIT INSIDE に出演いただいたゲストを招待し、プロジェクトのその後・今考えていること・新しく行っている取り組みなどについて語っていただく8時間を予定しております。\n\nまた、ep.100 を記念して UIT に関するノベルティのプレゼント企画や、これまでの UIT INSIDE の人気エピソードの紹介・振り返りなどなど、 UIT のコンテンツを普段視聴してくださっているかたにこそ楽しんでいただけるコンテンツもたくさんお送りする予定ですので、ぜひ業務のお供にご視聴ください。\n\n<style>\n#__content-inner > div > div > div:nth-child(3) > div > div > div > div > p:nth-child(1),\n#__content-inner > div > div > div.container-xl.bg-white.mx-auto.flex.items-stretch.justify-between,\n.TheEpisodeCardHero,\n.TheEpisodeCardHero__icons {\n  display: none;\n}\n</style>\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n  - 2023 年卒向けページは近日公開！\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUxMDAucG5n.webp",
     "siteName": "UIT INSIDE",
-    "siteUrl": "https://uit-inside.linecorp.com/episode/100",
-    "url": "https://uit-inside.linecorp.com/episode/100",
+    "siteUrl": "https://uit-inside.linecorp.com/episode/100/",
+    "url": "https://uit-inside.linecorp.com/episode/100/",
     "publishedAt": "2021-10-08",
     "links": []
   },
@@ -344,8 +344,8 @@
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
     "siteName": "Spotify",
-    "siteUrl": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9",
-    "url": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9",
+    "siteUrl": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/",
+    "url": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/",
     "publishedAt": "2021-09-15",
     "links": []
   },
@@ -354,8 +354,8 @@
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
     "siteName": "Spotify",
-    "siteUrl": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A",
-    "url": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A",
+    "siteUrl": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/",
+    "url": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/",
     "publishedAt": "2021-09-10",
     "links": [
       {
@@ -372,8 +372,8 @@
     "description": "@spring_raining、@miyoshi、@pittanko_pta、@about_hiroppy の 4 人で UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』を振り返りました。\n\n## UIT Meetup vol. 13 について\n\nイベントアフターレポートはこちら → https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/\n\n<div class=\"w-full block text-center mx-auto\">\n<iframe width=\"560\" height=\"315\" class=\"mx-auto\" src=\"https://www.youtube.com/embed/XyoeJ1TRaMk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n## Webpackのハードル\n\n* Webpackを難しいと感じることについて\n  - Webpackのバージョンアップへの対応\n    - マイグレーションツールについて\n  - どうやってつまづきを解決するか？\n    - つまづきを通してWebpackに詳しくなる\n* 最近のWebpackの進化\n\n## Front-end toolingの高レイヤー化とConfig\n\n* あるツールの上に実装されるより高レイヤーのツール\n  - ツールの設定を秘匿して、導入時のつまづきがより少なくなっている\n  - 内部のツールの設定に手を加えたい場合には？\n* 内部的にWebpackを利用するツールが、Webpackの設定を変更できる手段を提供する例\n  - 例: Vue CLIが採用しているwebpack-chain https://cli.vuejs.org/guide/webpack.html#chaining-advanced\n  - 例: react-app-rewired https://github.com/timarney/react-app-rewired\n* Viteの例\n  - Rollupのエコシステムと一体化しており、それぞれの設定の透過性が高い\n  - Rollup自体の設定も不満はない\n* Snowpackの例\n  - Develop環境が中心のため、基本的にビルド関連の設定には立ち入らない\n  - Webpackを使うためのプラグインをSnowpackが提供している\n* DevelopmentとProductionで環境が異なることについて\n* 各種ツールを垂直統合するRomeが出るとどうなる？\n  - Rome: https://rome.tools/\n* ParcelやFuseBoxが目指すZero configuration\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUwOTMucG5n.webp",
     "siteName": "UIT INSIDE",
-    "siteUrl": "https://uit-inside.linecorp.com/episode/93",
-    "url": "https://uit-inside.linecorp.com/episode/93",
+    "siteUrl": "https://uit-inside.linecorp.com/episode/93/",
+    "url": "https://uit-inside.linecorp.com/episode/93/",
     "publishedAt": "2021-07-30",
     "links": [
       {
