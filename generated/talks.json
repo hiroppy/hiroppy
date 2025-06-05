@@ -32,10 +32,10 @@
   {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxhZ3ZlSXZmdXhxc2ZhQWtsWnQ3LTQwcGJHal.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUt0aS0yOUlpcFJZSzZSZnRsTGlfMzlnRGw0c2.webp",
     "siteName": "Unleash Next.js - LayerX Web Frontend Night",
     "siteUrl": "https://layerx.connpass.com/event/328945/",
-    "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing/",
+    "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing",
     "publishedAt": "2024-09-19",
     "links": []
   },
@@ -45,7 +45,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvUWJXalZsb2FBdVkvbWF4cmVzZGVmYXVsdC5qcGc=.webp",
     "siteName": "Cybozu Frontend Monthly #25",
     "siteUrl": "https://cybozu.github.io/frontend-monthly/posts/2022-07/",
-    "url": "https://www.youtube.com/watch?v=QbWjVloaAuY/",
+    "url": "https://www.youtube.com/watch?v=QbWjVloaAuY",
     "publishedAt": "2022-07-26",
     "links": []
   },
@@ -55,7 +55,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvMXVDV3pmYUllZEUvaHFkZWZhdWx0LmpwZw==.webp",
     "siteName": "【増枠】Souzoh Tech Talk #05:Infrastructure",
     "siteUrl": "https://mercari.connpass.com/event/221980/",
-    "url": "https://www.youtube.com/watch?v=1uCWzfaIedE/",
+    "url": "https://www.youtube.com/watch?v=1uCWzfaIedE",
     "publishedAt": "2021-09-15",
     "links": [
       {
@@ -72,7 +72,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
     "siteName": "【増枠】Souzoh Tech Talk #03: Frontend",
     "siteUrl": "https://mercari.connpass.com/event/221978/",
-    "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g/",
+    "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g",
     "publishedAt": "2021-09-01",
     "links": [
       {
@@ -99,7 +99,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvWHlvZUoxVFJhTWsvaHFkZWZhdWx0LmpwZw==.webp",
     "siteName": "UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』",
     "siteUrl": "https://uit.connpass.com/event/216043/",
-    "url": "https://www.youtube.com/watch?v=XyoeJ1TRaMk/",
+    "url": "https://www.youtube.com/watch?v=XyoeJ1TRaMk",
     "publishedAt": "2021-07-15",
     "links": [
       {
@@ -107,7 +107,7 @@
         "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
         "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
         "siteName": "LINE ENGINEERING",
-        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
+        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"
       }
     ]
   },

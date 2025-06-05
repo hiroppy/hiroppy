@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { baseDataPath, generatedDataPath } from "./paths.ts";
+import { normalizeUrl } from "./url.ts";
 
 export async function readData(filename: string, original = true) {
   const data = await readFile(
@@ -9,27 +10,6 @@ export async function readData(filename: string, original = true) {
   );
 
   return JSON.parse(data);
-}
-
-function addTrailingSlashToUrl(url: string): string {
-  // Don't add trailing slash to URLs with hash fragments
-  if (url.includes("#")) {
-    return url;
-  }
-
-  // Don't add trailing slash if it already has one
-  if (url.endsWith("/")) {
-    return url;
-  }
-
-  // Don't add trailing slash to URLs with file extensions
-  const urlParts = url.split("?")[0]; // Remove query parameters for checking
-  const lastSegment = urlParts.split("/").pop() || "";
-  if (lastSegment.includes(".") && !lastSegment.startsWith(".")) {
-    return url;
-  }
-
-  return `${url}/`;
 }
 
 function processUrlsInObject(obj: unknown): unknown {
@@ -54,21 +34,19 @@ function processUrlsInObject(obj: unknown): unknown {
     for (const [key, value] of Object.entries(obj)) {
       // Process URL fields
       if ((key === "url" || key === "siteUrl") && typeof value === "string") {
-        processed[key] = addTrailingSlashToUrl(value);
+        processed[key] = normalizeUrl(value);
       } else if (key === "links" && Array.isArray(value)) {
         // Process links array
         processed[key] = value.map((link) => {
           if (typeof link === "string") {
-            return addTrailingSlashToUrl(link);
+            return normalizeUrl(link);
           }
           if (link && typeof link === "object" && "url" in link) {
             return {
               ...link,
-              url: link.url
-                ? addTrailingSlashToUrl(link.url as string)
-                : link.url,
+              url: link.url ? normalizeUrl(link.url as string) : link.url,
               siteUrl: link.siteUrl
-                ? addTrailingSlashToUrl(link.siteUrl as string)
+                ? normalizeUrl(link.siteUrl as string)
                 : link.siteUrl,
             };
           }

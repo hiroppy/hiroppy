@@ -1,6 +1,7 @@
 import type { Common, LinkMeta } from "../../data/type.ts";
 import { collectAlreadyHavingLinks } from "./cache.ts";
 import { downloadImage } from "./image.ts";
+import { normalizeUrl } from "./url.ts";
 import { getMeta } from "./web.ts";
 
 async function processImageUrl(
@@ -28,10 +29,11 @@ async function processLinks(
   if (!links || links.length === 0) return [];
 
   const linkPromises = links.map(async (linkUrl: string): Promise<LinkMeta> => {
+    const normalizedUrl = normalizeUrl(linkUrl);
     // Check if link is already cached
-    const cachedLink = linkCache.get(linkUrl);
+    const cachedLink = linkCache.get(normalizedUrl);
     if (cachedLink) {
-      console.log("using cached link", linkUrl);
+      console.log("using cached link", normalizedUrl);
       return cachedLink;
     }
 
@@ -45,7 +47,7 @@ async function processLinks(
 
       const result = linkMeta as LinkMeta;
       // Add to cache
-      linkCache.set(linkUrl, result);
+      linkCache.set(normalizedUrl, result);
 
       return result;
     } catch (error) {
@@ -57,7 +59,7 @@ async function processLinks(
       } as LinkMeta;
 
       // Add error result to cache to avoid retrying
-      linkCache.set(linkUrl, errorResult);
+      linkCache.set(normalizedUrl, errorResult);
 
       return errorResult;
     }
@@ -71,10 +73,11 @@ export async function crawlSites(filename: string, items: Common[]) {
 
   const promises = items.map(
     async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
-      const cachedSite = linkCache.get(url);
+      const normalizedUrl = normalizeUrl(url);
+      const cachedSite = linkCache.get(normalizedUrl);
 
       if (cachedSite?.title && !cachedSite.error) {
-        console.log("using cached site", url);
+        console.log("using cached site", normalizedUrl);
 
         // Process links URLs even for cached sites
         const processedLinks = await processLinks(links as string[], linkCache);
@@ -123,7 +126,7 @@ export async function crawlSites(filename: string, items: Common[]) {
       };
 
       // Cache the main site data (without hot, comment, publishedAt for reusability)
-      linkCache.set(url, {
+      linkCache.set(normalizedUrl, {
         title: meta.title,
         description: meta.description,
         image: meta.image,

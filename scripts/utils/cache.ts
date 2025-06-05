@@ -3,6 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { LinkMeta } from "../../data/type.ts";
 import { baseDataPath } from "./paths.ts";
+import { normalizeUrl } from "./url.ts";
 
 export const cacheStorage = new AsyncLocalStorage<Map<string, LinkMeta>>();
 
@@ -13,7 +14,8 @@ export async function loadCache(): Promise<Map<string, LinkMeta>> {
     const linkCache = new Map<string, LinkMeta>();
 
     for (const [url, meta] of Object.entries(cache)) {
-      linkCache.set(url, meta as LinkMeta);
+      const normalizedUrl = normalizeUrl(url);
+      linkCache.set(normalizedUrl, meta as LinkMeta);
     }
 
     return linkCache;
@@ -61,12 +63,11 @@ export async function collectAlreadyHavingLinks(filename: string) {
       for (const item of data) {
         if (item.links && Array.isArray(item.links)) {
           for (const link of item.links) {
-            if (
-              typeof link === "object" &&
-              link.siteUrl &&
-              !cache.has(link.siteUrl)
-            ) {
-              cache.set(link.siteUrl, link);
+            if (typeof link === "object" && link.siteUrl) {
+              const normalizedUrl = normalizeUrl(link.siteUrl);
+              if (!cache.has(normalizedUrl)) {
+                cache.set(normalizedUrl, link);
+              }
             }
           }
         }
