@@ -26,10 +26,10 @@ export async function getMeta(url: string, title?: string) {
       image:
         $("meta[property='og:image']").attr("content") ||
         $("meta[name='og:image']").attr("content"),
-      siteName:
+      name:
         $("meta[property='og:site_name']").attr("content") ||
         $("meta[name='og:site_name']").attr("content"),
-      siteUrl: normalizeUrl(url),
+      url: normalizeUrl(url),
     };
   } catch (error) {
     console.error(`Failed to fetch metadata for ${url}:`, error);
@@ -37,8 +37,8 @@ export async function getMeta(url: string, title?: string) {
       title: title,
       description: "",
       image: "",
-      siteName: "",
-      siteUrl: normalizeUrl(url),
+      name: "",
+      url: normalizeUrl(url),
     };
   }
 }

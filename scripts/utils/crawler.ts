@@ -53,7 +53,6 @@ async function processLinks(
     } catch (error) {
       console.error(`Failed to crawl link ${linkUrl}:`, error);
       const errorResult = {
-        siteUrl: linkUrl,
         url: linkUrl,
         error: (error as Error).message,
       } as LinkMeta;
@@ -72,7 +71,7 @@ export async function crawlSites(filename: string, items: Common[]) {
   const linkCache = await collectAlreadyHavingLinks(filename);
 
   const promises = items.map(
-    async ({ url, comment, publishedAt, links, hot, title, siteName }) => {
+    async ({ url, comment, publishedAt, links, hot, title }) => {
       const normalizedUrl = normalizeUrl(url);
       const cachedSite = linkCache.get(normalizedUrl);
 
@@ -86,9 +85,8 @@ export async function crawlSites(filename: string, items: Common[]) {
           title: cachedSite.title,
           description: cachedSite.description,
           image: cachedSite.image,
-          siteName: cachedSite.siteName,
-          siteUrl: cachedSite.siteUrl,
-          url,
+          name: cachedSite.name,
+          url: cachedSite.url || url,
           hot,
           comment,
           publishedAt,
@@ -100,14 +98,7 @@ export async function crawlSites(filename: string, items: Common[]) {
 
       const meta = await getMeta(url, title);
 
-      if (siteName?.startsWith("http")) {
-        const site = await getMeta(siteName);
-
-        meta.siteName = site.title;
-        meta.siteUrl = siteName;
-      } else if (siteName) {
-        meta.siteName = siteName;
-      }
+      // Remove siteName processing as it's no longer used
 
       if (meta.image) {
         meta.image = await processImageUrl(meta.image, url);
@@ -117,7 +108,10 @@ export async function crawlSites(filename: string, items: Common[]) {
       const processedLinks = await processLinks(links as string[], linkCache);
 
       const result = {
-        ...meta,
+        title: meta.title,
+        description: meta.description,
+        image: meta.image,
+        name: meta.name,
         url,
         hot,
         comment,
@@ -130,8 +124,8 @@ export async function crawlSites(filename: string, items: Common[]) {
         title: meta.title,
         description: meta.description,
         image: meta.image,
-        siteName: meta.siteName,
-        siteUrl: meta.siteUrl,
+        name: meta.name,
+        url: meta.url,
       } as LinkMeta);
 
       return result;

@@ -40,8 +40,7 @@ type Article = {
   image: string;
   description: string;
   publishedAt: string;
-  siteName: string;
-  siteUrl: string;
+  name: string;
 };
 
 async function parseRss(
@@ -58,8 +57,7 @@ async function parseRss(
         .replace(/\<\/(link)\>/g, "</linkTag>"),
     );
   const platform = {
-    siteName: removeCData(load(res)("channel > title").text()),
-    siteUrl: load(res)("channel > linkTag").text(),
+    name: removeCData(load(res)("channel > title").text()),
   };
   const items = (
     await Promise.all(

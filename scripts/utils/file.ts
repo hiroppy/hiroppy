@@ -33,7 +33,7 @@ function processUrlsInObject(obj: unknown): unknown {
     const processed: Record<string, unknown> = {};
     for (const [key, value] of Object.entries(obj)) {
       // Process URL fields
-      if ((key === "url" || key === "siteUrl") && typeof value === "string") {
+      if (key === "url" && typeof value === "string") {
         processed[key] = normalizeUrl(value);
       } else if (key === "links" && Array.isArray(value)) {
         // Process links array
@@ -45,9 +45,6 @@ function processUrlsInObject(obj: unknown): unknown {
             return {
               ...link,
               url: link.url ? normalizeUrl(link.url as string) : link.url,
-              siteUrl: link.siteUrl
-                ? normalizeUrl(link.siteUrl as string)
-                : link.siteUrl,
             };
           }
           return link;

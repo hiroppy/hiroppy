@@ -2,9 +2,7 @@ export type LinkMeta = {
   title?: string;
   description?: string;
   image?: string;
-  siteName?: string;
-  // 廃止して、urlへ統一
-  siteUrl: string;
+  name?: string;
   url?: string;
   error?: string;
 };

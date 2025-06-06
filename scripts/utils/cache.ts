@@ -63,8 +63,8 @@ export async function collectAlreadyHavingLinks(filename: string) {
       for (const item of data) {
         if (item.links && Array.isArray(item.links)) {
           for (const link of item.links) {
-            if (typeof link === "object" && link.siteUrl) {
-              const normalizedUrl = normalizeUrl(link.siteUrl);
+            if (typeof link === "object" && link.url) {
+              const normalizedUrl = normalizeUrl(link.url);
               if (!cache.has(normalizedUrl)) {
                 cache.set(normalizedUrl, link);
               }

@@ -18,8 +18,8 @@ if (errors.length !== 0) {
 
 // connpassのog:titleに付いている日付を消す
 for (const talk of data) {
-  if (talk.siteName) {
-    talk.siteName = talk.siteName.replace(/\(.+?\)$/, "").trim();
+  if (talk.name) {
+    talk.name = talk.name.replace(/\(.+?\)$/, "").trim();
   }
 }
 

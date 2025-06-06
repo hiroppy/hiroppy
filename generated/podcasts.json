@@ -3,8 +3,7 @@
     "title": "ep177 Monthly Ecosystem 202505 | mozaic.fm",
     "description": "第 177 回のテーマは 2025 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html",
     "publishedAt": "2025-05-17",
     "links": []
@@ -13,8 +12,7 @@
     "title": "ep175 Monthly Ecosystem 202504 | mozaic.fm",
     "description": "第 175 回のテーマは 2025 年 4 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/175/monthly-ecosystem-202504.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/175/monthly-ecosystem-202504.html",
     "publishedAt": "2025-04-17",
     "links": []
@@ -23,8 +21,7 @@
     "title": "ep171 Monthly Ecosystem 202502 | mozaic.fm",
     "description": "第 171 回のテーマは 2025 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/171/monthly-ecosystem-202502.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/171/monthly-ecosystem-202502.html",
     "publishedAt": "2025-02-20",
     "links": []
@@ -33,8 +30,7 @@
     "title": "ep169 Monthly Ecosystem 202501 | mozaic.fm",
     "description": "第 169 回のテーマは 2025 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/169/monthly-ecosystem-202501.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/169/monthly-ecosystem-202501.html",
     "publishedAt": "2025-01-16",
     "links": []
@@ -43,8 +39,7 @@
     "title": "ep167 Yearly Ecosystem 2024 | mozaic.fm",
     "description": "第 167 回のテーマは 2024 年の Yearly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/167/yearly-ecosystem-2024.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/167/yearly-ecosystem-2024.html",
     "publishedAt": "2024-12-10",
     "links": []
@@ -53,8 +48,7 @@
     "title": "ep165 Monthly Ecosystem 202411 | mozaic.fm",
     "description": "第 165 回のテーマは 2024 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/165/monthly-ecosystem-202411.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/165/monthly-ecosystem-202411.html",
     "publishedAt": "2024-11-16",
     "links": []
@@ -63,8 +57,7 @@
     "title": "ep160 Monthly Ecosystem 202409 | mozaic.fm",
     "description": "第 160 回のテーマは 2024 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/160/monthly-ecosystem-202409.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/160/monthly-ecosystem-202409.html",
     "publishedAt": "2024-09-20",
     "links": []
@@ -73,8 +66,7 @@
     "title": "ep158 Monthly Ecosystem 202408 | mozaic.fm",
     "description": "第 158 回のテーマは 2024 年 8 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/158/monthly-ecosystem-202408.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/158/monthly-ecosystem-202408.html",
     "publishedAt": "2024-08-15",
     "links": []
@@ -83,8 +75,7 @@
     "title": "ep156 Monthly Ecosystem 202407 | mozaic.fm",
     "description": "第 156 回のテーマは 2024 年 7 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/156/monthly-ecosystem-202407.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/156/monthly-ecosystem-202407.html",
     "publishedAt": "2024-07-18",
     "links": []
@@ -93,8 +84,7 @@
     "title": "ep153 Monthly Ecosystem 202406 | mozaic.fm",
     "description": "第 153 回のテーマは 2024 年 6 月の Monthly Ecosystem です。(冒頭で間違えて 5 月って言ってた。)",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/153/mozaic-ecosystem-202406.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/153/mozaic-ecosystem-202406.html",
     "publishedAt": "2024-06-11",
     "links": []
@@ -103,8 +93,7 @@
     "title": "ep150 Monthly Ecosystem 202405 | mozaic.fm",
     "description": "第 150 回のテーマは 2024 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/150/monthly-ecosystem-202405.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/150/monthly-ecosystem-202405.html",
     "publishedAt": "2024-05-16",
     "links": []
@@ -113,8 +102,7 @@
     "title": "ep148 mozaic.fm Renewal Project 202404 | mozaic.fm",
     "description": "第 148 回のテーマは 2024 年 4 月の mozaic.fm renewal project です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/148/mozaic-renewal-202404.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/148/mozaic-renewal-202404.html",
     "publishedAt": "2024-04-22",
     "links": []
@@ -123,8 +111,7 @@
     "title": "ep145 mozaic.fm Renewal Project 202403 | mozaic.fm",
     "description": "第 145 回のテーマは 2024 年 3 月の mozaic.fm renewal project です。Monthly Ecosystem では、様々なツールやフレームワーク、開発手法に触れていますが、実践する機会を確保するのが難しい場合もあります。そこで、最新のフレー...",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/145/mozaic-renewal-202303.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/145/mozaic-renewal-202303.html",
     "publishedAt": "2024-03-26",
     "links": []
@@ -133,8 +120,7 @@
     "title": "ep144 Monthly Ecosystem 202403 | mozaic.fm",
     "description": "第 144 回のテーマは 2024 年 3 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/144/monthly-ecosystem-202403.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/144/monthly-ecosystem-202403.html",
     "publishedAt": "2024-03-17",
     "links": []
@@ -143,8 +129,7 @@
     "title": "ep143 mozaic.fm 10 周年記念イベント | mozaic.fm",
     "description": "第 143 回のテーマは mozaic.fm 10 周年記念イベントです。2024/03/08 に五反田ゲンロンカフェで実施したイベントの様子を配信します。Session 2 は、会場限定のコンテンツのため、本編には含まれていません。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/143/mozaicfm-10-years-anniv.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/143/mozaicfm-10-years-anniv.html",
     "publishedAt": "2024-03-13",
     "links": []
@@ -153,8 +138,7 @@
     "title": "ep141 Monthly Ecosystem 202402 | mozaic.fm",
     "description": "第 141 回のテーマは 2024 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/141/monthly-ecosystem-202402.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/141/monthly-ecosystem-202402.html",
     "publishedAt": "2024-02-19",
     "links": []
@@ -163,8 +147,7 @@
     "title": "ep139 Monthly Ecosystem 202401 | mozaic.fm",
     "description": "第 139 回のテーマは 2023 年 12 月 ~ 2024 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/139/monthly-ecosystem-202401.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/139/monthly-ecosystem-202401.html",
     "publishedAt": "2024-01-18",
     "links": []
@@ -173,8 +156,7 @@
     "title": "ep137 Yearly Ecosystem 2023 | mozaic.fm",
     "description": "第 137 回のテーマは 2023 年を振り返る Yearly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/137/yearly-ecosystem-2023.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/137/yearly-ecosystem-2023.html",
     "publishedAt": "2023-12-23",
     "links": []
@@ -183,8 +165,7 @@
     "title": "ep135 Monthly Ecosystem 202311 | mozaic.fm",
     "description": "第 135 回のテーマは 2023 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/135/monthly-ecosystem-202311.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/135/monthly-ecosystem-202311.html",
     "publishedAt": "2023-11-19",
     "links": []
@@ -193,8 +174,7 @@
     "title": "ep133 Monthly Ecosystem 202310 | mozaic.fm",
     "description": "第 133 回のテーマは 2023 年 10 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/133/monthly-ecosystem-202310.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/133/monthly-ecosystem-202310.html",
     "publishedAt": "2023-10-22",
     "links": []
@@ -203,8 +183,7 @@
     "title": "ep130 Monthly Ecosystem 202309 | mozaic.fm",
     "description": "第 130 回のテーマは 2023 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/130/monthly-ecosystem-202309.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/130/monthly-ecosystem-202309.html",
     "publishedAt": "2023-09-17",
     "links": []
@@ -213,8 +192,7 @@
     "title": "ep126 Monthly Ecosystem 202307 | mozaic.fm",
     "description": "第 126 回のテーマは 2023 年 7 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/126/monthly-ecosystem-202307.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/126/monthly-ecosystem-202307.html",
     "publishedAt": "2023-07-16",
     "links": []
@@ -223,8 +201,7 @@
     "title": "ep124 Monthly Ecosystem 202306 | mozaic.fm",
     "description": "第 124 回のテーマは 2023 年 6 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/124/monthly-ecosystem-202306.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/124/monthly-ecosystem-202306.html",
     "publishedAt": "2023-06-18",
     "links": []
@@ -233,8 +210,7 @@
     "title": "ep121 Monthly Ecosystem 202305 | mozaic.fm",
     "description": "第 121 回のテーマは 2023 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/121/monthly-ecosystem-202305.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/121/monthly-ecosystem-202305.html",
     "publishedAt": "2023-05-16",
     "links": []
@@ -243,8 +219,7 @@
     "title": "ep118 Monthly Ecosystem 202304 | mozaic.fm",
     "description": "第 118 回のテーマは 2023 年 4 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/118/monthly-ecosystem-202304.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/118/monthly-ecosystem-202304.html",
     "publishedAt": "2023-04-15",
     "links": []
@@ -253,8 +228,7 @@
     "title": "ep116 Monthly Ecosystem 202303 | mozaic.fm",
     "description": "第 116 回のテーマは 2023 年 3 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/116/monthly-ecosystem-202303.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/116/monthly-ecosystem-202303.html",
     "publishedAt": "2023-03-18",
     "links": []
@@ -263,8 +237,7 @@
     "title": "ep114 Monthly Ecosystem 202302 | mozaic.fm",
     "description": "第 114 回のテーマは 2023 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/114/monthly-ecosystem-202302.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/114/monthly-ecosystem-202302.html",
     "publishedAt": "2023-02-11",
     "links": []
@@ -273,8 +246,7 @@
     "title": "ep112 Monthly Ecosystem 202301 | mozaic.fm",
     "description": "第 112 回のテーマは 2023 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/112/monthly-ecosystem-202301.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/112/monthly-ecosystem-202301.html",
     "publishedAt": "2023-01-15",
     "links": []
@@ -283,8 +255,7 @@
     "title": "ep110 Yearly Ecosystem 2022 | mozaic.fm",
     "description": "第 110 回のテーマは 2022 年 の Yearly Ecosystem です。今年の 8 月に開始した Ecosystem と、今回作成したそれ以前のまとめを踏まえ、今年の Web Ecosystem を振り返ります。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/110/yearly-ecosystem-2022.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/110/yearly-ecosystem-2022.html",
     "publishedAt": "2022-12-04",
     "links": []
@@ -293,8 +264,7 @@
     "title": "ep108 Monthly Ecosystem 202211 | mozaic.fm",
     "description": "第 108 回のテーマは 2022 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/108/monthly-ecosystem-202211.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/108/monthly-ecosystem-202211.html",
     "publishedAt": "2022-11-12",
     "links": []
@@ -303,8 +273,7 @@
     "title": "ep106 Monthly Ecosystem 202210 | mozaic.fm",
     "description": "第 106 回のテーマは 2022 年 10 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/106/monthly-ecosystem-202210.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/106/monthly-ecosystem-202210.html",
     "publishedAt": "2022-10-19",
     "links": []
@@ -313,8 +282,7 @@
     "title": "ep104 Monthly Ecosystem 202209 | mozaic.fm",
     "description": "第 104 回のテーマは 2022 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/104/monthly-ecosystem-202209.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/104/monthly-ecosystem-202209.html",
     "publishedAt": "2022-09-21",
     "links": []
@@ -323,8 +291,7 @@
     "title": "ep102 Monthly Ecosystem 202208 | mozaic.fm",
     "description": "第 102 回のテーマは 2022 年 8 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "siteName": "mozaic.fm",
-    "siteUrl": "https://mozaic.fm/episodes/102/monthly-ecosystem-202208.html",
+    "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/102/monthly-ecosystem-202208.html",
     "publishedAt": "2022-08-20",
     "links": []
@@ -333,8 +300,7 @@
     "title": "ep.100 『100回記念8時間生放送』 | UIT INSIDE",
     "description": "こちらは YouTube 配信の内容より、休憩時間などをカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n<iframe width=\"560\" height=\"315\" style=\"width:100%;height: 513px;margin: -10px 0 10px\" src=\"https://www.youtube.com/embed/Qsuk2KCDIxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n<iframe title=\"Twitter Share\" src=\"https://platform.twitter.com/widgets/tweet_button.html?url=https://uit-inside.linecorp.com/episode/100&amp;hashtags=UIT_INSIDE&amp;related=LINE_DEV\" width=\"81\" height=\"21\" style=\"overflow: hidden;\"></iframe>\n\n---\n\n音声版はこちら\n\n<audio src=\"https://vos.line-scdn.net/podcast/episodes/uit-inside-100.mp3\" controls ></audio>\n\nこちらは YouTube 配信の内容より、休憩時間やプレゼント企画など、リアルタイム配信限定の部分をカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n---\n\n2018年12月からはじまり2年半、合計10万を超える視聴、2021年10月1日をもって ep.99 まで達した UIT INSIDE。ついに迎える ep.100 として、8時間生放送を実施します！\nhttps://uit-inside.linecorp.com\n\nこれまで UIT INSIDE に出演いただいたゲストを招待し、プロジェクトのその後・今考えていること・新しく行っている取り組みなどについて語っていただく8時間を予定しております。\n\nまた、ep.100 を記念して UIT に関するノベルティのプレゼント企画や、これまでの UIT INSIDE の人気エピソードの紹介・振り返りなどなど、 UIT のコンテンツを普段視聴してくださっているかたにこそ楽しんでいただけるコンテンツもたくさんお送りする予定ですので、ぜひ業務のお供にご視聴ください。\n\n<style>\n#__content-inner > div > div > div:nth-child(3) > div > div > div > div > p:nth-child(1),\n#__content-inner > div > div > div.container-xl.bg-white.mx-auto.flex.items-stretch.justify-between,\n.TheEpisodeCardHero,\n.TheEpisodeCardHero__icons {\n  display: none;\n}\n</style>\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n  - 2023 年卒向けページは近日公開！\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUxMDAucG5n.webp",
-    "siteName": "UIT INSIDE",
-    "siteUrl": "https://uit-inside.linecorp.com/episode/100/",
+    "name": "UIT INSIDE",
     "url": "https://uit-inside.linecorp.com/episode/100/",
     "publishedAt": "2021-10-08",
     "links": []
@@ -343,8 +309,7 @@
     "title": "#17 Tech Talk 舞台裏！「クリエイティブな人は制約条件がある方がよりクリエイティブになれる」CTO名村とエンジニアが語る赤裸々トーク！",
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
-    "siteName": "Spotify",
-    "siteUrl": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/",
+    "name": "Spotify",
     "url": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/",
     "publishedAt": "2021-09-15",
     "links": []
@@ -353,8 +318,7 @@
     "title": "#12 Souzoh Tech Talk 終了後のフロントエンドエンジニア @motokiee @gentlejkov @sottar_ @about_hiroppy @protosdhkを突撃！イベント裏話",
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
-    "siteName": "Spotify",
-    "siteUrl": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/",
+    "name": "Spotify",
     "url": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/",
     "publishedAt": "2021-09-10",
     "links": [
@@ -362,8 +326,8 @@
         "title": "Souzoh Tech Talk #03: Frontend",
         "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
         "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
-        "siteName": "【増枠】Souzoh Tech Talk #03: Frontend (2021/09/01 19:30〜)",
-        "siteUrl": "https://mercari.connpass.com/event/221978/"
+        "name": "YouTube",
+        "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g"
       }
     ]
   },
@@ -371,8 +335,7 @@
     "title": "ep.93『開発者目線のFront-end Toolingを考える - UIT Meetup vol. 13 After show』 | UIT INSIDE",
     "description": "@spring_raining、@miyoshi、@pittanko_pta、@about_hiroppy の 4 人で UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』を振り返りました。\n\n## UIT Meetup vol. 13 について\n\nイベントアフターレポートはこちら → https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/\n\n<div class=\"w-full block text-center mx-auto\">\n<iframe width=\"560\" height=\"315\" class=\"mx-auto\" src=\"https://www.youtube.com/embed/XyoeJ1TRaMk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n## Webpackのハードル\n\n* Webpackを難しいと感じることについて\n  - Webpackのバージョンアップへの対応\n    - マイグレーションツールについて\n  - どうやってつまづきを解決するか？\n    - つまづきを通してWebpackに詳しくなる\n* 最近のWebpackの進化\n\n## Front-end toolingの高レイヤー化とConfig\n\n* あるツールの上に実装されるより高レイヤーのツール\n  - ツールの設定を秘匿して、導入時のつまづきがより少なくなっている\n  - 内部のツールの設定に手を加えたい場合には？\n* 内部的にWebpackを利用するツールが、Webpackの設定を変更できる手段を提供する例\n  - 例: Vue CLIが採用しているwebpack-chain https://cli.vuejs.org/guide/webpack.html#chaining-advanced\n  - 例: react-app-rewired https://github.com/timarney/react-app-rewired\n* Viteの例\n  - Rollupのエコシステムと一体化しており、それぞれの設定の透過性が高い\n  - Rollup自体の設定も不満はない\n* Snowpackの例\n  - Develop環境が中心のため、基本的にビルド関連の設定には立ち入らない\n  - Webpackを使うためのプラグインをSnowpackが提供している\n* DevelopmentとProductionで環境が異なることについて\n* 各種ツールを垂直統合するRomeが出るとどうなる？\n  - Rome: https://rome.tools/\n* ParcelやFuseBoxが目指すZero configuration\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUwOTMucG5n.webp",
-    "siteName": "UIT INSIDE",
-    "siteUrl": "https://uit-inside.linecorp.com/episode/93/",
+    "name": "UIT INSIDE",
     "url": "https://uit-inside.linecorp.com/episode/93/",
     "publishedAt": "2021-07-30",
     "links": [
@@ -380,8 +343,8 @@
         "title": "UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました",
         "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
         "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
-        "siteName": "LINE ENGINEERING",
-        "siteUrl": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
+        "name": "LINE ENGINEERING",
+        "url": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
       }
     ]
   }

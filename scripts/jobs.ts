@@ -48,7 +48,6 @@ async function processJobWithLinks(
         } catch (error) {
           console.error(`Failed to crawl link ${linkUrl}:`, error);
           const errorResult = {
-            siteUrl: linkUrl,
             url: linkUrl,
             error: (error as Error).message,
           } as LinkMeta;

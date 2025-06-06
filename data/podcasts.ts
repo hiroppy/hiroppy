@@ -1,6 +1,9 @@
 import type { Common } from "./type.ts";
 
-export type Podcast = Pick<Common, "publishedAt" | "url" | "hot" | "links">;
+export type Podcast = Pick<
+  Common,
+  "publishedAt" | "url" | "hot" | "links" | "title"
+>;
 
 export const podcasts = [
   {

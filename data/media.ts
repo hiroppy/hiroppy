@@ -1,6 +1,6 @@
 import type { Common } from "./type.ts";
 
-type Media = Pick<Common, "publishedAt" | "url" | "links">;
+type Media = Pick<Common, "publishedAt" | "url" | "links" | "title">;
 
 export const pressReleases = [
   {
