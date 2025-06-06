@@ -14,7 +14,7 @@
     "linkedin": "https://www.linkedin.com/in/hiroppy/",
     "connpass": "https://connpass.com/user/about_hiroppy/"
   },
-  "profile": "合同会社 Coder Penguin で複数の企業で技術顧問や開発支援を行う。\n2015年から株式会社ドワンゴや株式会社メルカリでソフトウェアエンジニアとして新規サービス開発や動画最適化の研究などを担当。\n2021年にメルカリのグループ会社として設立された株式会社ソウゾウに転籍し、メルカリ Shops の立ち上げに参加。\nその後、株式会社Yuimedi に VPoE として組織改善やサービス開発を担当。\nTSKaigiのプロポーザル審査委員やJSConfJPなどのコミュニティ活動、 Node.js や webpack など OSS へもコミットも行ってきた。",
+  "profile": "Node.jsをはじめとして、JavaScriptが好きなエンジニア。\n現在は、合同会社 Coder Penguin で多くの企業で技術顧問として、開発支援や技術選定、エンジニア採用を行っている。\nN予備校やメルカリ、メルカリShopsの0からの立ち上げなどをし、主に大規模トラフィックを扱うサービスの全体設計が得意。\n大学では画像処理を専攻し、ドワンゴではニコニコ生放送の遅延に関する最適化の研究も行ってきた。\nコミュニティ活動では、TSKaigiのプロポーザル審査委員やJSConfJPの運営、 Node.js や webpack など OSS へもコミットも行ってきた。",
   "community": {
     "nodeFest": {
       "title": "東京Node学園祭 コアメンバー",
