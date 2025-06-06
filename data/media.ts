@@ -1,6 +1,6 @@
 import type { Common } from "./type.ts";
 
-type Media = Pick<Common, "publishedAt" | "url" | "siteName">;
+type Media = Pick<Common, "publishedAt" | "url" | "links">;
 
 export const pressReleases = [
   {
@@ -61,12 +61,10 @@ export const articles = [
   {
     publishedAt: "2022-11-10",
     url: "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b",
-    siteName: "Yuimedi",
   },
   {
     publishedAt: "2022-11-10",
     url: "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64",
-    siteName: "Yuimedi",
   },
   {
     publishedAt: "2021-08-23",

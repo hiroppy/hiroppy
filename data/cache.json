@@ -21,6 +21,13 @@
     "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",
     "siteUrl": "https://2025.tskaigi.org/"
   },
+  "https://bpstudy.connpass.com/event/90777/": {
+    "title": "BPStudy#131〜JavaScriptの今を語る (2018/07/25 19:00〜)",
+    "description": "ユーザーが快適にシステムを使い続けるには、UX(User Experience) がとても重要です。  快適なUXを実現するためには優れたUIが必要です。  そして優れたUIを実現するために、JavaScriptは必須の技術となりました。  一方サーバーサイドでもリアルタイム性が問われるシステムを実現するためにNode.jsが活用されています。  このようにJavaScriptの活用範囲が年々広がってきていますが、JavaScriptは技術の進化が速いジャンルです。  その進化の速いJavaScriptの「今」を把握するために今回のBPStudyはJavaScriptを使って活躍されてい...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNS9jNy9jNWM3Mzg4MTdmNGU4MDg2YTkzMmFkOWM5MjhjMGE1NC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://bpstudy.connpass.com/event/90777/"
+  },
   "https://careers.mercari.com/mercan/articles/28113/": {
     "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
     "description": "2021年1月28日に設立された「株式会社ソウゾウ(souzoh)」。 メルカリグループの次の柱となる事業を目指して発足。具体的な事業内容は明らかにされていませんが、着々とプロダクトリリースへの準備が進められています。  …\n",
@@ -34,7 +41,20 @@
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Mi82YS85MjZhZTk3NGEwZTRlYjcyNzc2YTU1MTkwMDQzYjFmNS5wbm.webp",
     "siteUrl": "https://togetter.com/li/1708701"
   },
+  "https://cybozu.github.io/frontend-monthly/posts/2022-07/": {
+    "title": "Cybozu Frontend Monthly #25",
+    "description": "サイボウズのフロントエンドエキスパートチームが月イチでお届けするフロントエンド情報",
+    "image": "/images/Y3lib3p1LmdpdGh1Yi5pby9mcm9udGVuZC1tb250aGx5L2ltZy9oZWFkZXIucG5n.webp",
+    "siteUrl": "https://cybozu.github.io/frontend-monthly/posts/2022-07/"
+  },
   "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744": {
+    "title": "Yuimedi の Internship に参加しました。 - Daiki Sakuma の日記",
+    "description": "はじめに なぜ Yuimedi で Internship をしたのか Yuimedi でしたこと Yuimedi で得られたもの Agility マインドセット テスト まとめ 最後に はじめに どうも、Daiki Sakuma *1 です。 Yuimedi*2さんに12月中旬から3月末までの約3ヶ月半、Software Engineer として参加させていただきました。 そこで僕が何をして何を得たのか等、記憶が鮮明なうちにつらつらと書き記していこうと思います。 なぜ Yuimedi で Internship をしたのか 僕自身4月から別の会社で23卒として働くのですが、その前にどこかで In…",
+    "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
+    "siteName": "Daiki Sakuma の日記",
+    "siteUrl": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
+  },
+  "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/": {
     "title": "Yuimedi の Internship に参加しました。 - Daiki Sakuma の日記",
     "description": "はじめに なぜ Yuimedi で Internship をしたのか Yuimedi でしたこと Yuimedi で得られたもの Agility マインドセット テスト まとめ 最後に はじめに どうも、Daiki Sakuma *1 です。 Yuimedi*2さんに12月中旬から3月末までの約3ヶ月半、Software Engineer として参加させていただきました。 そこで僕が何をして何を得たのか等、記憶が鮮明なうちにつらつらと書き記していこうと思います。 なぜ Yuimedi で Internship をしたのか 僕自身4月から別の会社で23卒として働くのですが、その前にどこかで In…",
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
@@ -88,6 +108,12 @@
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
     "siteUrl": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
   },
+  "https://events.html5j.org/conference/2018/11/": {
+    "title": "HTML5 Conference",
+    "description": "HTML5 Conference - 2018年11月25日（日）東京電機大学 千住キャンパスにて開催。",
+    "image": "/images/ZXZlbnRzLmh0bWw1ai5vcmcvY29uZmVyZW5jZS8yMDE4LzExL2Fzc2V0cy9pbWcvb2dwLnBuZw==.webp",
+    "siteUrl": "https://events.html5j.org/conference/2018/11/"
+  },
   "https://findy-code.io/engineer-lab/hiroppy/": {
     "title": "プログラミングを強みに生き残れるか？ 焦燥感にとらわれた20代を越えて広がったキャリアの可能性  - Findy Engineer Lab",
     "description": "OSS活動をする中で知った、届かない存在に対する焦燥感。ソフトウェアエンジニアとしてプログラミングが一番の強みだという廣戸裕大（hiroppy）さんですが、IC（Individual Contributor）のキャリアを歩むなかで技術のキャッチアップにもがき、悩んだ時期もあったといいます。その焦燥感をどう解消していったのか、今につながった転機を寄稿いただきました。",
@@ -103,6 +129,13 @@
     "siteUrl": "https://findy-code.io/engineer-lab/influential-books-3/"
   },
   "https://findy-code.io/pick-up/interviews/souzoh-engineer": {
+    "title": "NestJSでスケーラブルなBFFを構築。メルカリShopsエンジニアがGraphQL活用のリアルを語る【技術選定の裏側：GraphQL編 vol.2】 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
+    "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
+    "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
+    "siteName": "IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
+    "siteUrl": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
+  },
+  "https://findy-code.io/pick-up/interviews/souzoh-engineer/": {
     "title": "NestJSでスケーラブルなBFFを構築。メルカリShopsエンジニアがGraphQL活用のリアルを語る【技術選定の裏側：GraphQL編 vol.2】 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
     "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
     "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
@@ -126,6 +159,55 @@
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the fifth time event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjQvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
     "siteUrl": "https://jsconf.jp/2024/"
+  },
+  "https://kbkz.connpass.com/event/5150/": {
+    "title": "歌舞伎座.tech#14「OSSドキュメンテーション勉強会」 (2017/11/18 13:30〜)",
+    "description": "日頃、OSSのドキュメントの書き方に悩んでいる人たちが集まって知見を共有する 勉強会です。  たとえば、    * APIドキュメントをどう書くか   * チュートリアルをどう書くか   * ドキュメント内に各種要素をどう配置するか   * ドキュメント生成ツールについて   * 英語ドキュメントを書く場合の注意  といったことについて知見を共有できればと考えています。  主に、OSSのドキュメントを書く立場からの発表を募集しますが、読む側から、「こうなっていて欲しい」という 発表でも構いません。対象となるプログラミング言語等は問いませんし、非プログラマ向けのソフトウェアの ドキュメント...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNy9lNS9jN2U1MTIxNTQyOTgzZThhNWIzZmNjYzg5MTFhZjZlOC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://kbkz.connpass.com/event/5150/"
+  },
+  "https://kyotojs.connpass.com/event/80019/": {
+    "title": "Kyoto.js 14 (2018/03/24 13:00〜)",
+    "description": "Kyoto.jsは京都のJavaScriptコミュニティです!  テーマはJSに関係することなら何でもOK! JSに関係なくてもOK!   技術に関すること、Webに関すること、デザインに関すること、なんでも喋ってってください〜  # タイムテーブル  時刻 | タイトル | 発表者   ---|---|---   13:00 | 乾杯 |   13:05 | puppeteer向けのタスクランナーみたいなの書いたので紹介します | pastak   13:20 | V8周りの話(仮) | hiroppy   13:35 | aws-serverless-expressの話(仮) | p...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jZi84Yi9jZjhiMWE4ZDIwZWE5MGZhNGY2OTFhNTk2NWVkOTQ5MC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://kyotojs.connpass.com/event/80019/"
+  },
+  "https://layerx.connpass.com/event/328945/": {
+    "title": "Unleash Next.js - LayerX Web Frontend Night (2024/09/18 19:00〜)",
+    "description": "## 概要  LayerXでは、より良い体験を作り出し、お客様に価値を届けることを最も重視しています。 昨年策定したバクラクフロントエンドVisionでは「お客様に最高の体験を届けたい」「Webフロントエンドを楽しくしたい」という願いが込められています。  この願いを実現するために、バクラク事業部のフロントエンドギルドは、「Bet Technology」を基盤に、3つの柱「Easy Build」「Fast Delivery」「Safety Challenge」を中心に取り組んでいます。  本イベントでは、これらの取り組みの一環として、LayerXで利用されている基盤技術の一つであるNex...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lMi8xOS9lMjE5NGJmODQ5MmM2ZWRjNzM1NmEyMzA1ZmQ0NmM2Ni5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://layerx.connpass.com/event/328945/"
+  },
+  "https://meguroes.connpass.com/event/342717/": {
+    "title": "Meguro.es #29 @ oRo (2025/02/27 19:30〜)",
+    "description": "# イベント概要  Meguro.es は、目黒周辺の ECMAScript 関連の開発者のためのコミュニティーです。  第29回は、株式会社オロ様にて開催いたします！  ## こんな方におすすめ  目黒とゆかりがなくても参加できます！  特にこんな方にはオススメです。    * ECMAScript あるいは JavaScript の関連技術の知見を深めたい・広めたい・共有したい方   * ECMAScript あるいは JavaScript の関連技術の困っていること・悩みを共有したい方   * 過去の会の参加者で、引き続き Meguro.es を盛り上げていただける方  ## 発表...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mYy9mOC9mY2Y4MjM2ZmM1Y2VjZjdhOWJiNWYyNWY5OWE1NDNmMC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://meguroes.connpass.com/event/342717/"
+  },
+  "https://mercari.connpass.com/event/221978/": {
+    "title": "【増枠】Souzoh Tech Talk #03: Frontend (2021/09/01 19:30〜)",
+    "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第3回のテーマは「Frontend」です。メルカリShopsはメルカリiOS/Androidアプリ上でWebViewとFrontendの技術を利用してサービスを提供しています。Web Frontend開発での工夫、WebViewでの開発で発生する問題への対処など、ディスカッション形式でお届けします。    皆さまのご参加をお待ちしております！    # こんな方におすすめ      * なぜメルカリShopsがサクサク動...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy83MS8xYS83MTFhMDZlMzRmNjhiMTZiZDE5YzhiZmRiMWRlZWRjNi5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://mercari.connpass.com/event/221978/"
+  },
+  "https://mercari.connpass.com/event/221980/": {
+    "title": "【増枠】Souzoh Tech Talk #05:Infrastructure (2021/09/15 19:30〜)",
+    "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第5回のテーマは「Infrastructure」です。先日のブログで全体のアーキテクチャや、CI/CDについても紹介していますが、ソウゾウで取り組んでいるアーキテクチャやキャッシュ戦略、セキュアな環境構築の工夫など、ブログの執筆者が登壇し、ディスカッション形式でお届けします。  皆さまのご参加をお待ちしております！    # こんな方におすすめ    * Cloud Run + Cloud SQL (PostgreSQL...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8zOS82MS8zOTYxOWI5NDYwODRlNzgwZDkwNGQ4NTRmY2NhN2ZiNC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://mercari.connpass.com/event/221980/"
+  },
+  "https://mercari.connpass.com/event/79046/": {
+    "title": "【さらに増枠】SRE-SET Automation Night #2 (2018/03/06 19:15〜)",
+    "description": "# イベント概要  \"２回以上やることはなんでも自動化されるべきだ\" Adam Stone, CEO, D-Tools  SREとSETという役割は、インフラやQAなどソフトウェア開発において手動で操作されることが多い領域を自動化するためにGoogleで作られました。このMeetupは例えば下記のような、生産性とプロダクトの品質を向上するための自動化ハックを学習し、共有し、コラボレーションするためのものです。    * CI/CDを用いたプロダクトリリースの自動化に関する経験   * Ansibleなどを用いたDevOpsの自動化   * AppiumやSeleniumなどのUIオートメ...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85ZS84OS85ZTg5NzE1ZDU2NjEwMTYzMjNiMDk5ZWI0YThmZDIzNi5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://mercari.connpass.com/event/79046/"
   },
   "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1": {
     "title": "2023年の振り返り",
@@ -389,6 +471,27 @@
     "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
     "siteUrl": "https://nodefest.jp/2018/"
   },
+  "https://nodejs.connpass.com/event/221358/": {
+    "title": "Node学園 37時限目 オンライン (2021/08/30 19:00〜)",
+    "description": "オンラインで Node学園 をやってみます。 37時限目です。  # 概要  Node.js日本ユーザグループ(https://nodejs.jp/) 主催による、Node.jsの勉強会です。  # タイムテーブル  タイムテーブルは今後発表者を追加していきたいと思います。  時間 | コンテンツ   ---|---   19:00 - 19:10 | はじめに by yosuke_furukawa   19:10 - 19:30 | Node.js WHATWG Stream の話とかしてみる by yosuke_furukawa   19:30 - 19:50 | corepack ...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy80YS85ZC80YTlkNjA2ZmJiMGJjMTZhNWI4YWM5NzNmZTU3OWUyMC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://nodejs.connpass.com/event/221358/"
+  },
+  "https://nodejs.connpass.com/event/53534/": {
+    "title": "Node学園 24時限目 (2017/03/31 19:30〜)",
+    "description": "# 概要  Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 場所は 3/21 に決定します！ 募集は 3/29(水)から開始します。  # News  そろそろ Node v8 が出ますー！あと特別ゲストも何名か！！  # タイムテーブル  時間 |   ---|---   19:00-19:30 (30min) | 開場   19:30-20:00 (30min) | 「Node.js x WebAssembly」 by yosuke_furukawa   20:00-20:10 (10min) | 「Node.js+GraphQLでBFFを作った話」 by...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy84YS9iYi84YWJiNDA5ZmQzODBjZDY0ZDFkYmY3MTg5YzY1OTIwNC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://nodejs.connpass.com/event/53534/"
+  },
+  "https://nodejs.connpass.com/event/54749/": {
+    "title": "Node学園 25時限目 (2017/04/24 19:30〜)",
+    "description": "Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 募集は 4/21(金)から開始します。  時間 |   ---|---   19:00 - 19:30(30min) | 開場   19:30 - 20:00(30min) | Node v8 by abouthiroppy   20:00 - 20:30(30min) | Introduction to Rust by Akito0107   20:30 - 20:40(10min) | 休憩   20:40 - 20:50(10min) | Cycle.js by wakasmha   20:50 - 21:...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iYi8yNi9iYjI2M2M5ZDU5ZDEwM2NmZjM1YjBmZWVhYjZhMGY2NC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://nodejs.connpass.com/event/54749/"
+  },
   "https://note.com/osstokyo/n/n01a333562fad/": {
     "title": "退勤後、深夜のプルリク対応。それでも楽しいOSSコミュニティ運営の魅力【kazupon×Hiroppy】｜OPENSOURCE.TOKYO",
     "description": "「才能が公正に評価され、どこでも誰とでも働けるプラットフォームを作る」–––オープンソースプロジェクトのための報賞金サービス『IssueHunt』を開発・運営する、BoostIO株式会社のミッションです。達成に向けて、いかなる社会変革が必要なのでしょうか。オープンソースを日本の“文化”へと昇華させるべく、先進的な取り組みを紹介していきます。 BoostIOは、「OPENSOURCE.TOKYO MEETUP」と題し、オープンソースの現在地と未来を語るイベントを定期的に開催しています。第4回は「オープンソースのつらいことをあれこれ話そう！」をテーマに、Vue.js core team &",
@@ -425,6 +528,13 @@
     "siteUrl": "https://note.com/tabelog_frontend/n/n35664347180a/"
   },
   "https://note.com/tabelog_frontend/n/na9a2ce24a4d5": {
+    "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
+    "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
+    "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
+    "siteName": "note（ノート）",
+    "siteUrl": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
+  },
+  "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/": {
     "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
     "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
@@ -479,6 +589,27 @@
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lYS9lNy9lYWU3YjBkMmZjOGYzMGYwZTQ0MzA5ZjM5OGYyM2E5MS5wbm.webp",
     "siteName": "connpass",
     "siteUrl": "https://reactjs-meetup.connpass.com/"
+  },
+  "https://reactjs-meetup.connpass.com/event/115274/": {
+    "title": "React.js meetup #6 (2019/01/31 19:00〜)",
+    "description": "## React.js meetup #6  React.js meetup #6 を開催します！  今回は会場・懇親会共にヤフー株式会社様にスポンサー頂きます。  また今回は、@koba04さん、@about_hiroppyさんにTalkして頂く予定です。  ## LT登壇について  登壇についてはReactに関することであればテーマは自由です♪   初心者の方から業務でバリバリ使いこなしている方までどなたでもご登壇ください！  ### LT時間  5~10分  ## 開催概要  ### 日時  2019/01/31(木)19:00~  ### タイムスケジュール  | 時間 | 内容...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9hMy82Yy9hMzZjYWMzZDE0NDQzNDYyZGJmZjc3NzI3N2M4ZDRiMy5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://reactjs-meetup.connpass.com/event/115274/"
+  },
+  "https://roppongi-js.connpass.com/event/82998/": {
+    "title": "【増枠】Roppongi.js #2@メルカリ (2018/04/24 19:00〜)",
+    "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  第2回目もLT大会！  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 ->...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://roppongi-js.connpass.com/event/82998/"
+  },
+  "https://roppongi-js.connpass.com/event/86684/": {
+    "title": "Roppongi.js #4@DMM.com (2018/06/26 19:00〜)",
+    "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 -> LTの発表なしで聴衆と...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://roppongi-js.connpass.com/event/86684/"
   },
   "https://route06.co.jp/news/38": {
     "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ - 株式会社ROUTE06 (ルートシックス)",
@@ -658,7 +789,28 @@
     "siteName": "Speaker Deck",
     "siteUrl": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
   },
+  "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/": {
+    "title": "Web Re-Architecture プロジェクトにおける技術的チャレンジ",
+    "description": "- どのように最新技術を取り入れているのか\n- どのような技術的チャレンジをしているのか\n- プロダクト開発と技術イノベーションとの関係",
+    "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYjU4MTNmMDUxZmEyNDczZDkwOWQwMzU5YWQ0YjFiZD.webp",
+    "siteName": "Speaker Deck",
+    "siteUrl": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
+  },
+  "https://stract.connpass.com/event/354163/": {
+    "title": "カンファレンス直前！スタートアップのTypeScript実践Tips (2025/05/19 19:00〜)",
+    "description": "## 🧩 カンファレンス直前！スタートアップのTypeScript実践Tips  ショッピングアシストアプリ『PLUG』を開発・運営する株式会社STRACTが主催する、   エンジニア向けコミュニティイベント。  初開催の今回のテーマはスタートアップ×TypeScript。  TypeScriptに関連する大型カンファレンス直前に実施する本イベントでは、実際に当日登壇される2名のゲストを招き、   Lintルール設計・Node.js活用・社内ツールの自動化事例など、プロダクト開発の「今」がわかる内容をお届け。  現場の実践知が詰まったLT・パネルセッションに加え、オフラインでは軽食を囲ん...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMC9iMi8xMGIyYTI5ZDA0MmZlYTg2YTE3Mjk0ZGFiYjczMzQ2MS5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://stract.connpass.com/event/354163/"
+  },
   "https://tech-blog.tabelog.com/entry/using-static-exports-in-production": {
+    "title": "Next.jsのStatic Exportsを本番プロダクトで利用してみた感想と注意点 - Tabelog Tech Blog",
+    "description": "目次 はじめに Static Exportsとは Static Exportsを採用した経緯 Static Exportsを利用する際の注意点 Dynamic Routingが使えない 対策 運用してみての感想 まとめ 最後に はじめに こんにちは。食べログ ウェブ開発部 FEチームの原田です。 昨年リリースした食べログノートではNext.jsを利用しており、Static Exportsを採用しています。 今回は食べログノートでStatic Exportsを採用した経緯や採用するための注意点、実際に運用してみての感想をお伝えします。 食べログノートの詳細については以下の記事も是非ご覧ください。…",
+    "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
+    "siteName": "Tabelog Tech Blog",
+    "siteUrl": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/"
+  },
+  "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/": {
     "title": "Next.jsのStatic Exportsを本番プロダクトで利用してみた感想と注意点 - Tabelog Tech Blog",
     "description": "目次 はじめに Static Exportsとは Static Exportsを採用した経緯 Static Exportsを利用する際の注意点 Dynamic Routingが使えない 対策 運用してみての感想 まとめ 最後に はじめに こんにちは。食べログ ウェブ開発部 FEチームの原田です。 昨年リリースした食べログノートではNext.jsを利用しており、Static Exportsを採用しています。 今回は食べログノートでStatic Exportsを採用した経緯や採用するための注意点、実際に運用してみての感想をお伝えします。 食べログノートの詳細については以下の記事も是非ご覧ください。…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
@@ -693,6 +845,13 @@
     "siteName": "ROUTE06 Tech Blog",
     "siteUrl": "https://tech.route06.co.jp/entry/2024/03/28/091000/"
   },
+  "https://techfeed.connpass.com/event/213218/": {
+    "title": "TechFeed Summit#6 - v16リリース記念！Node.jsの最新動向を語り尽くす！ (2021/05/26 19:30〜)",
+    "description": "## エキスパートだらけのカンファレンス  TechFeed Summitのコンセプトは、「エキスパートだらけのカンファレンス」。エキスパート向けの情報サービスであるTechFeed Pro、そしてそれを支えるエキスパートコミュニティの魅力を存分に凝縮したオンラインイベントを目指しています。  ## TechFeed Summit #6のテーマはNode.js v16リリース  Yosuke Furukawa さん​、Masashi Hirano さん​、Yuta Hiroto さん​をお招きして、Node.js v16リリースの注目ポイントやNode.jsの最新動向まで、余すことなくお...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Yy9lNy85Y2U3ZTk0YmEwYzk0NzRjZTg4NThhMDQ2YTI5M2NhZC5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://techfeed.connpass.com/event/213218/"
+  },
   "https://techfeed.io/people/@hiroppy/": {
     "title": "TechFeed 公認エキスパート",
     "description": "OSS engineer. Core committer of @nodejs and @webpack.",
@@ -705,6 +864,9 @@
     "description": "Hi everyone!",
     "image": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9pbWcvVFdJUl9QT1NULmpwZw==.webp",
     "siteUrl": "https://thisweekinreact.com/newsletter/171/"
+  },
+  "https://togetter.com/li/1708701/": {
+    "siteUrl": "https://togetter.com/li/1708701/"
   },
   "https://tskaigi.hatenablog.com/entry/2024/02/14/170000/": {
     "title": "TSKaigi 2024のプロポーザルを募集しています！ - TSKaigi 公式ブログ",
@@ -726,6 +888,34 @@
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUwOTMucG5n.webp",
     "siteName": "UIT INSIDE",
     "siteUrl": "https://uit-inside.linecorp.com/episode/93/"
+  },
+  "https://uit.connpass.com/event/216043/": {
+    "title": "UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』 (2021/07/07 19:00〜)",
+    "description": "YouTube Live: https://www.youtube.com/watch?v=XyoeJ1TRaMk  UIT Meetup vol. 13では、Vite、Snowpack、esbuild など、昨今多くの提案がされている Frontend Tooling の分野を深堀りしていきます。  なぜ今新しいツールやバンドラーが求められているのか？ それぞれのツールの詳しい使い勝手、そして今後従来のツールを置き換えるものとなるのか？ など、フロントエンドのトレンドについてゲストの方と話していきます。  これらのツールは最近でも活発に変更が加えられていますが、今回のイベントではしっか...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iZS9jNC9iZWM0ZGMwYmFmZjYyZTFhMWNmYmY5NThhZjA4NmY0OS5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://uit.connpass.com/event/216043/"
+  },
+  "https://wajs.connpass.com/event/103761/": {
+    "title": "We Are JavaScripters! @25th【初心者歓迎LT大会 (2018/10/24 19:30〜)",
+    "description": "## 20時以降に参加される方へ  エントランスと5Fに設置している看板は20時に撤去されます。 出口は出入り自由なので普通に入ってきていただいて問題ございません。 わからないかたは #wejs でつぶやいてください！  ## 10月もWe Are JavaScripters!!  少し寒くなってきましたね。。。 皆さん体調は大丈夫ですか？  10月のWe Are JavaScriptersは株式会社メディアドゥで開催します！  普段のお仕事で勉強したことやシェアしたいことがある方、ぜひぜひ登壇されてください！！  ### 登壇枠に関して  ※ 現在connpassの仕様上、facebo...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8yNC8wZS8yNDBlMDFkNGYzZWUyODMyNWRjYWVmZmRmYWUwZDc5ZS5wbm.webp",
+    "siteName": "connpass",
+    "siteUrl": "https://wajs.connpass.com/event/103761/"
+  },
+  "https://wakate.org/2014/09/16/47threport/": {
+    "title": "第47回 情報科学若手の会 開催報告 | 情報科学若手の会",
+    "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
+    "image": "",
+    "siteName": "情報科学若手の会",
+    "siteUrl": "https://wakate.org/2014/09/16/47threport/"
+  },
+  "https://wakate.org/2017/10/10/50threport/": {
+    "title": "第50回 情報科学若手の会 開催報告 | 情報科学若手の会",
+    "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
+    "image": "",
+    "siteName": "情報科学若手の会",
+    "siteUrl": "https://wakate.org/2017/10/10/50threport/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235": {
     "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
@@ -749,6 +939,12 @@
     "siteUrl": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
   },
   "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview": {
+    "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
+    "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
+    "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
+    "siteUrl": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
+  },
+  "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/": {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
     "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
     "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
@@ -830,6 +1026,13 @@
     "siteUrl": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/"
   },
   "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375": {
+    "title": "Yuimediのプロダクト開発 | Notion",
+    "description": "│ 主なメンバー",
+    "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
+    "siteName": "yuimedi on Notion",
+    "siteUrl": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/"
+  },
+  "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/": {
     "title": "Yuimediのプロダクト開発 | Notion",
     "description": "│ 主なメンバー",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",

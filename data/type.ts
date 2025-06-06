@@ -14,7 +14,6 @@ export type Common = {
   url: string;
   hot?: boolean;
   title?: string;
-  siteName?: string;
   links?: string[] | LinkMeta[];
   comment?: string;
 };
