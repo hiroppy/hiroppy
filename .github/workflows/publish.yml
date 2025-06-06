@@ -84,6 +84,7 @@ jobs:
           # Commit version bump
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          pnpm lint
           git add package.json
           git commit -m "chore: bump version to $NEW_VERSION [skip ci]"
           git push

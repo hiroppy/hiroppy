@@ -34,10 +34,7 @@
   },
   "author": "hiroppy <git@hiroppy.me> (https://hiroppy.me/)",
   "license": "MIT",
-  "files": [
-    "generated",
-    "scripts/decompress-images.js"
-  ],
+  "files": ["generated", "scripts/decompress-images.js"],
   "publishConfig": {
     "access": "public"
   },
