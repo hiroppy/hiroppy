@@ -19,7 +19,8 @@ export async function getMeta(url: string, title?: string) {
       title:
         title ??
         ($("meta[property='og:title']").attr("content") ||
-          $("meta[name='og:title']").attr("content")),
+          $("meta[name='og:title']").attr("content") ||
+          $("title").text()),
       description:
         $("meta[property='og:description']").attr("content") ||
         $("meta[name='og:description']").attr("content"),
@@ -33,8 +34,9 @@ export async function getMeta(url: string, title?: string) {
     };
   } catch (error) {
     console.error(`Failed to fetch metadata for ${url}:`, error);
+
     return {
-      title: title,
+      title,
       description: "",
       image: "",
       name: "",

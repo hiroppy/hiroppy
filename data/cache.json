@@ -8,7 +8,7 @@
     "url": "http://slides.hiroppy.me/util.types/"
   },
   "https://2024.tskaigi.org/": {
-    "title": "TSKaigi プロポーザル審査委員",
+    "title": "TSKaigi 2024",
     "description": "TSKaigi 2024は、日本最大級のTypeScriptカンファレンスを開催します。",
     "image": "",
     "url": "https://2024.tskaigi.org/"
@@ -142,7 +142,7 @@
     "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
   },
   "https://jsconf.jp/2021/": {
-    "title": "JSConf JP コアメンバー",
+    "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
     "url": "https://jsconf.jp/2021/"
@@ -453,7 +453,7 @@
     "url": "https://nextpublishing.jp/book/11906.html"
   },
   "https://nodefest.jp/2016/": {
-    "title": "東京Node学園祭 コアメンバー",
+    "title": "東京Node学園祭2016 | 11月12日,13日開催！",
     "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
     "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
     "url": "https://nodefest.jp/2016/"
@@ -583,7 +583,7 @@
     "url": "https://prtimes.jp/main/html/rd/p/000000097.000021828.html"
   },
   "https://reactjs-meetup.connpass.com/": {
-    "title": "React.js meetup コアメンバー",
+    "title": "React.js meetup",
     "description": "React.js meetup",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lYS9lNy9lYWU3YjBkMmZjOGYzMGYwZTQ0MzA5ZjM5OGYyM2E5MS5wbm.webp",
     "name": "connpass",
@@ -852,7 +852,7 @@
     "url": "https://techfeed.connpass.com/event/213218/"
   },
   "https://techfeed.io/people/@hiroppy/": {
-    "title": "TechFeed 公認エキスパート",
+    "title": "Yuta Hiroto on TechFeed",
     "description": "OSS engineer. Core committer of @nodejs and @webpack.",
     "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
     "name": "TechFeed",
@@ -917,6 +917,10 @@
     "url": "https://wakate.org/2017/10/10/50threport/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235": {
+    "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
+    "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
+    "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
+    "name": "estie inside blog",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235/": {

@@ -17,12 +17,12 @@
   "profile": "Node.jsをはじめとして、JavaScriptが好きなエンジニア。\n現在は、合同会社 Coder Penguin で多くの企業で技術顧問として、開発支援や技術選定、エンジニア採用を行っている。\nN予備校やメルカリ、メルカリShopsの0からの立ち上げなどをし、主に大規模トラフィックを扱うサービスの全体設計が得意。\n大学では画像処理を専攻し、ドワンゴではニコニコ生放送の遅延に関する最適化の研究も行ってきた。\nコミュニティ活動では、TSKaigiのプロポーザル審査委員やJSConfJPの運営、 Node.js や webpack など OSS へもコミットも行ってきた。",
   "community": {
     "nodeFest": {
-      "title": "東京Node学園祭 コアメンバー",
+      "position": "東京Node学園祭 コアメンバー",
       "start": "2016",
       "end": "2018",
       "links": [
         {
-          "title": "東京Node学園祭 コアメンバー",
+          "title": "東京Node学園祭2016 | 11月12日,13日開催！",
           "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
           "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
           "url": "https://nodefest.jp/2016/"
@@ -42,12 +42,12 @@
       ]
     },
     "jsconfJp": {
-      "title": "JSConf JP コアメンバー",
+      "position": "JSConf JP コアメンバー",
       "start": "2021",
       "end": null,
       "links": [
         {
-          "title": "JSConf JP コアメンバー",
+          "title": "JSConf JP",
           "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
           "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
           "url": "https://jsconf.jp/2021/"
@@ -67,12 +67,12 @@
       ]
     },
     "tsKaigi": {
-      "title": "TSKaigi プロポーザル審査委員",
+      "position": "TSKaigi プロポーザル審査委員",
       "start": "2024",
       "end": null,
       "links": [
         {
-          "title": "TSKaigi プロポーザル審査委員",
+          "title": "TSKaigi 2024",
           "description": "TSKaigi 2024は、日本最大級のTypeScriptカンファレンスを開催します。",
           "image": "",
           "url": "https://2024.tskaigi.org/"
@@ -86,12 +86,12 @@
       ]
     },
     "reactjs": {
-      "title": "React.js meetup コアメンバー",
+      "position": "React.js meetup コアメンバー",
       "start": "2017",
       "end": "2019",
       "links": [
         {
-          "title": "React.js meetup コアメンバー",
+          "title": "React.js meetup",
           "description": "React.js meetup",
           "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lYS9lNy9lYWU3YjBkMmZjOGYzMGYwZTQ0MzA5ZjM5OGYyM2E5MS5wbm.webp",
           "name": "connpass",
@@ -100,12 +100,12 @@
       ]
     },
     "techfeed": {
-      "title": "TechFeed 公認エキスパート",
+      "position": "TechFeed 公認エキスパート",
       "start": "2020",
       "end": null,
       "links": [
         {
-          "title": "TechFeed 公認エキスパート",
+          "title": "Yuta Hiroto on TechFeed",
           "description": "OSS engineer. Core committer of @nodejs and @webpack.",
           "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
           "name": "TechFeed",

@@ -13,7 +13,7 @@ if (meta.community) {
     if (value.links && value.links.length > 0) {
       communityItems.push({
         url: value.links[0], // Use first link as main URL for metadata
-        title: value.title,
+        position: value.position,
         links: value.links,
         publishedAt: new Date().toISOString(), // Add dummy date for crawlSites
       });
@@ -31,7 +31,7 @@ if (meta.community) {
         );
         if (crawledItem) {
           transformedMeta.community[key] = {
-            title: value.title,
+            position: value.position,
             start: value.start,
             end: value.end,
             links: crawledItem.links,

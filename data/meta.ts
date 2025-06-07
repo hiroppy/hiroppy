@@ -23,7 +23,7 @@ N予備校やメルカリ、メルカリShopsの0からの立ち上げなどを�
   `,
   community: {
     nodeFest: {
-      title: "東京Node学園祭 コアメンバー",
+      position: "東京Node学園祭 コアメンバー",
       start: "2016",
       end: "2018",
       links: [
@@ -33,7 +33,7 @@ N予備校やメルカリ、メルカリShopsの0からの立ち上げなどを�
       ],
     },
     jsconfJp: {
-      title: "JSConf JP コアメンバー",
+      position: "JSConf JP コアメンバー",
       start: "2021",
       end: null,
       links: [
@@ -43,19 +43,19 @@ N予備校やメルカリ、メルカリShopsの0からの立ち上げなどを�
       ],
     },
     tsKaigi: {
-      title: "TSKaigi プロポーザル審査委員",
+      position: "TSKaigi プロポーザル審査委員",
       start: "2024",
       end: null,
       links: ["https://2024.tskaigi.org/", "https://2025.tskaigi.org/"],
     },
     reactjs: {
-      title: "React.js meetup コアメンバー",
+      position: "React.js meetup コアメンバー",
       start: "2017",
       end: "2019",
       links: ["https://reactjs-meetup.connpass.com/"],
     },
     techfeed: {
-      title: "TechFeed 公認エキスパート",
+      position: "TechFeed 公認エキスパート",
       start: "2020",
       end: null,
       links: ["https://techfeed.io/people/@hiroppy/"],
