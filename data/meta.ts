@@ -22,16 +22,6 @@ N予備校やメルカリ、メルカリShopsの0からの立ち上げなどを�
 コミュニティ活動では、TSKaigiのプロポーザル審査委員やJSConfJPの運営、 Node.js や webpack など OSS へもコミットも行ってきた。
   `,
   community: {
-    nodeFest: {
-      position: "東京Node学園祭 コアメンバー",
-      start: "2016",
-      end: "2018",
-      links: [
-        "https://nodefest.jp/2016/",
-        "https://nodefest.jp/2017/",
-        "https://nodefest.jp/2018/",
-      ],
-    },
     jsconfJp: {
       position: "JSConf JP コアメンバー",
       start: "2021",
@@ -47,6 +37,16 @@ N予備校やメルカリ、メルカリShopsの0からの立ち上げなどを�
       start: "2024",
       end: null,
       links: ["https://2024.tskaigi.org/", "https://2025.tskaigi.org/"],
+    },
+    nodeFest: {
+      position: "東京Node学園祭 コアメンバー",
+      start: "2016",
+      end: "2018",
+      links: [
+        "https://nodefest.jp/2016/",
+        "https://nodefest.jp/2017/",
+        "https://nodefest.jp/2018/",
+      ],
     },
     reactjs: {
       position: "React.js meetup コアメンバー",
