@@ -119,8 +119,8 @@ export const jobs: Job = {
       position: "Founder",
       initialState: "0",
       description: `
-もともと副業の受け口として利用していた会社を独立し、１本化した。
-Coder Penguinでは、様々な会社でフロントエンドの技術顧問やアーキテクチャ設計、Next.jsを利用したサービスの開発を行う。
+もともと持っていた会社をメインに独立。
+合同会社Coder Penguinでは、様々な会社でフロントエンドの技術顧問やアーキテクチャ設計、開発、エンジニア採用を行う。
 最近は、LLMを利用したサービス開発も多め。
       `,
       company: "coderPenguin",
