@@ -16,31 +16,6 @@
   },
   "profile": "Node.jsをはじめとして、JavaScriptが好きなエンジニア。\n現在は、合同会社 Coder Penguin で多くの企業で技術顧問として、開発支援や技術選定、エンジニア採用を行っている。\nN予備校やメルカリ、メルカリShopsの0からの立ち上げなどをし、主に大規模トラフィックを扱うサービスの全体設計が得意。\n大学では画像処理を専攻し、ドワンゴではニコニコ生放送の遅延に関する最適化の研究も行ってきた。\nコミュニティ活動では、TSKaigiのプロポーザル審査委員やJSConfJPの運営、 Node.js や webpack など OSS へもコミットも行ってきた。",
   "community": {
-    "nodeFest": {
-      "position": "東京Node学園祭 コアメンバー",
-      "start": "2016",
-      "end": "2018",
-      "links": [
-        {
-          "title": "東京Node学園祭2016 | 11月12日,13日開催！",
-          "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "url": "https://nodefest.jp/2016/"
-        },
-        {
-          "title": "東京Node学園祭2017 | 11月25日,26日開催予定！",
-          "description": "2017年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxNy9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "url": "https://nodefest.jp/2017/"
-        },
-        {
-          "title": "東京Node学園祭2018 | 11月23日,24日開催予定！",
-          "description": "2018年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
-          "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
-          "url": "https://nodefest.jp/2018/"
-        }
-      ]
-    },
     "jsconfJp": {
       "position": "JSConf JP コアメンバー",
       "start": "2021",
@@ -82,6 +57,31 @@
           "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2025/5/23 (金) - 24 (土) の日程で開催します。",
           "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",
           "url": "https://2025.tskaigi.org/"
+        }
+      ]
+    },
+    "nodeFest": {
+      "position": "東京Node学園祭 コアメンバー",
+      "start": "2016",
+      "end": "2018",
+      "links": [
+        {
+          "title": "東京Node学園祭2016 | 11月12日,13日開催！",
+          "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
+          "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
+          "url": "https://nodefest.jp/2016/"
+        },
+        {
+          "title": "東京Node学園祭2017 | 11月25日,26日開催予定！",
+          "description": "2017年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
+          "image": "/images/bm9kZWZlc3QuanAvMjAxNy9pbWcvb2dpbWFnZS5wbmc=.webp",
+          "url": "https://nodefest.jp/2017/"
+        },
+        {
+          "title": "東京Node学園祭2018 | 11月23日,24日開催予定！",
+          "description": "2018年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
+          "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
+          "url": "https://nodefest.jp/2018/"
         }
       ]
     },
