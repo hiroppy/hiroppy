@@ -8,6 +8,11 @@ export function normalizeUrl(url: string): string {
       return url;
     }
 
+    // Skip normalization for Google Docs URLs
+    if (urlObj.hostname === "docs.google.com") {
+      return url;
+    }
+
     // Check if pathname ends with a file extension
     const pathname = urlObj.pathname;
     const hasFileExtension = /\.[a-zA-Z0-9]+$/.test(
