@@ -1,6 +1,6 @@
 {
   "name": "hiroppy",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "packageManager": "pnpm@10.11.1",
   "type": "module",
   "exports": {
