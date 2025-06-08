@@ -29,6 +29,10 @@ function getMediaLinksByCompany(
 
       return isAfterStart && isBeforeEnd;
     })
+    .sort(
+      (a, b) =>
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+    )
     .map((media) => media.url);
 }
 
