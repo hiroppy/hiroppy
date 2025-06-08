@@ -15,11 +15,11 @@ export const meta = {
     connpass: "https://connpass.com/user/about_hiroppy/",
   },
   profile: `
-Node.jsをはじめとして、JavaScriptが好きなエンジニア。
-現在は、合同会社 Coder Penguin で多くの企業で技術顧問として、開発支援や技術選定、エンジニア採用を行っている。
-N予備校やメルカリ、メルカリShopsの0からの立ち上げなどをし、主に大規模トラフィックを扱うサービスの全体設計が得意。
-大学では画像処理を専攻し、ドワンゴではニコニコ生放送の遅延に関する最適化の研究も行ってきた。
-コミュニティ活動では、TSKaigiのプロポーザル審査委員やJSConfJPの運営、 Node.js や webpack など OSS へもコミットも行ってきた。
+Node.js を中心に JavaScript をよく使うエンジニア。
+現在は合同会社 Coder Penguin で複数企業の技術顧問を務め、開発支援・技術選定・エンジニア採用をサポートしている。
+N予備校、メルカリ、メルカリShops などをゼロから立ち上げ、大規模トラフィックを扱うサービスの全体設計が得意。
+大学では画像処理を専攻し、ドワンゴ在籍時にはニコニコ生放送の遅延最適化に関する研究に従事。
+コミュニティ活動では TSKaigi のプロポーザル審査委員や JSConf JP の運営を担い、Node.js・webpack など OSS のメンテナンスもしていた。
   `,
   community: {
     jsconfJp: {
