@@ -1,6 +1,7 @@
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { type JobContent, jobs, meta } from "../data/jobs.ts";
+import { articles, pressReleases } from "../data/media.ts";
 import type { LinkMeta } from "../data/type.ts";
 import {
   collectAlreadyHavingLinks,
@@ -9,62 +10,95 @@ import {
   getMeta,
 } from "./utils/index.ts";
 
+function getMediaLinksByCompany(
+  companyKey: string,
+  jobStart: Date,
+  jobEnd: Date | null,
+): string[] {
+  const allMedia = [...articles, ...pressReleases];
+  return allMedia
+    .filter((media) => {
+      if (media.company !== companyKey) return false;
+
+      // Parse the article's published date (format: YYYY-MM-DD)
+      const articleDate = new Date(media.publishedAt);
+
+      // Check if article date falls within job period
+      const isAfterStart = articleDate >= jobStart;
+      const isBeforeEnd = jobEnd === null || articleDate <= jobEnd;
+
+      return isAfterStart && isBeforeEnd;
+    })
+    .map((media) => media.url);
+}
+
 async function processJobWithLinks(
   job: JobContent,
   linkCache: Map<string, LinkMeta>,
 ): Promise<JobContent> {
-  if (!job.links || job.links.length === 0) {
+  // Get media articles for this job's company within the job period
+  const mediaLinks = getMediaLinksByCompany(job.company, job.start, job.end);
+
+  // Combine existing links with media links
+  const existingLinks = job.links || [];
+  const existingLinkUrls = new Set(
+    typeof existingLinks[0] === "string"
+      ? (existingLinks as string[])
+      : ((existingLinks as LinkMeta[])
+          .map((link) => link.url)
+          .filter(Boolean) as string[]),
+  );
+
+  // Add media links that aren't already in existing links
+  const newMediaLinks = mediaLinks.filter((url) => !existingLinkUrls.has(url));
+  const allLinks = [...(existingLinks as string[]), ...newMediaLinks];
+
+  if (allLinks.length === 0) {
     return job;
   }
 
-  const isStringArray =
-    job.links.length > 0 && typeof job.links[0] === "string";
+  // Always treat as string array since we've combined everything as URLs
+  const linkPromises = allLinks.map(
+    async (linkUrl: string): Promise<LinkMeta> => {
+      const cachedLink = linkCache.get(linkUrl);
+      if (cachedLink) {
+        return cachedLink;
+      }
 
-  if (isStringArray) {
-    const linkPromises = (job.links as string[]).map(
-      async (linkUrl: string): Promise<LinkMeta> => {
-        const cachedLink = linkCache.get(linkUrl);
-        if (cachedLink) {
-          return cachedLink;
+      try {
+        console.log("crawling link", linkUrl);
+        const linkMeta = await getMeta(linkUrl);
+
+        if (linkMeta.image) {
+          const imageURL = /^http/.test(linkMeta.image)
+            ? linkMeta.image
+            : `${new URL(linkUrl).origin}${linkMeta.image}`;
+
+          linkMeta.image = await downloadImage(imageURL);
         }
 
-        try {
-          console.log("crawling link", linkUrl);
-          const linkMeta = await getMeta(linkUrl);
+        const result = linkMeta as LinkMeta;
 
-          if (linkMeta.image) {
-            const imageURL = /^http/.test(linkMeta.image)
-              ? linkMeta.image
-              : `${new URL(linkUrl).origin}${linkMeta.image}`;
+        linkCache.set(linkUrl, result);
 
-            linkMeta.image = await downloadImage(imageURL);
-          }
+        return result;
+      } catch (error) {
+        console.error(`Failed to crawl link ${linkUrl}:`, error);
+        const errorResult = {
+          url: linkUrl,
+          error: (error as Error).message,
+        } as LinkMeta;
 
-          const result = linkMeta as LinkMeta;
+        return errorResult;
+      }
+    },
+  );
 
-          linkCache.set(linkUrl, result);
-
-          return result;
-        } catch (error) {
-          console.error(`Failed to crawl link ${linkUrl}:`, error);
-          const errorResult = {
-            url: linkUrl,
-            error: (error as Error).message,
-          } as LinkMeta;
-
-          return errorResult;
-        }
-      },
-    );
-
-    const processedLinks = await Promise.all(linkPromises);
-    return {
-      ...job,
-      links: processedLinks,
-    };
-  }
-
-  return job;
+  const processedLinks = await Promise.all(linkPromises);
+  return {
+    ...job,
+    links: processedLinks,
+  };
 }
 
 async function processCompanyImages(metaObj: typeof meta) {

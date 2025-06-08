@@ -1,91 +1,8 @@
+import { type CompanyKey, companies } from "./companies.ts";
 import type { LinkMeta } from "./type.ts";
 
-export type Meta = Record<
-  string,
-  {
-    image: string;
-    url: string;
-  }
->;
-
-export const meta = {
-  coderPenguin: {
-    image: "coderPenguin.png",
-    url: "https://coder-penguin.com/",
-  },
-  layerX: {
-    image: "layerx.png",
-    url: "https://layerx.co.jp/",
-  },
-  ship: {
-    image: "ship.png",
-    url: "https://www.shipinc.jp/",
-  },
-  stract: {
-    image: "stract.png",
-    url: "https://stract.co.jp/",
-  },
-  aidemy: {
-    image: "aidemy.png",
-    url: "https://aidemy.net/",
-  },
-  mercari: {
-    image: "mercari.png",
-    url: "https://about.mercari.com/",
-  },
-  yuimedi: {
-    image: "yuimedi.jpeg",
-    url: "https://yuimedi.com/",
-  },
-  dwango: {
-    image: "dwango.jpeg",
-    url: "https://dwango.co.jp/",
-  },
-  estie: {
-    image: "estie.png",
-    url: "https://www.estie.jp/",
-  },
-  runpeace: {
-    image: "runpeace.jpg",
-    url: "https://www.runpeace.biz/",
-  },
-  rebase: {
-    image: "rebase.png",
-    url: "https://rebase.co.jp/",
-  },
-  route06: {
-    image: "route06.jpg",
-    url: "https://route06.co.jp/",
-  },
-  anotherworks: {
-    image: "anotherworks.webp",
-    url: "https://anotherworks.co.jp/",
-  },
-  alpaca: {
-    image: "alpaca.jpg",
-    url: "https://alpc.tokyo/",
-  },
-  black: {
-    image: "black.jpg",
-    url: "https://by.black/",
-  },
-  kakakucom: {
-    image: "tabelog.jpg",
-    url: "https://corporate.kakaku.com/",
-  },
-  bizreach: {
-    image: "bizreach.jpeg",
-    url: "https://www.bizreach.co.jp/",
-  },
-  eyesjapan: {
-    image: "eyesjapan.jpg",
-    url: "https://www.nowhere.co.jp/",
-  },
-  cyberagent: {
-    image: "cyberagent.png",
-    url: "https://www.cyberagent.co.jp/",
-  },
-} as const satisfies Meta;
+// Re-export for backward compatibility
+export { companies as meta } from "./companies.ts";
 
 export type Job = {
   main: JobContent[];
@@ -107,7 +24,7 @@ export type JobContent = {
     | "Enabling Team (Frontend/LLM)";
   initialState: "0" | "1-100" | "100";
   links: string[] | LinkMeta[];
-  company: keyof typeof meta;
+  company: CompanyKey;
 };
 
 export const jobs: Job = {
@@ -124,7 +41,7 @@ export const jobs: Job = {
 最近は、LLMを利用したサービス開発も多め。
       `,
       company: "coderPenguin",
-      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
+      links: [],
     },
     {
       name: "Yuimedi",
@@ -141,7 +58,6 @@ export const jobs: Job = {
       `,
       links: [
         "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375",
-        "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b",
         "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744",
         "https://www.youtube.com/watch?v=QbWjVloaAuY",
       ],
@@ -159,9 +75,7 @@ export const jobs: Job = {
 後に100%子会社であるSouzohの立ち上げ時に出向として参加し、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当。リリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。
 `,
       links: [
-        "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
         "https://findy-code.io/pick-up/interviews/souzoh-engineer",
-        "https://careers.mercari.com/mercan/articles/28113/",
         "https://www.youtube.com/watch?v=YNLvIkqRC-g",
         "https://www.youtube.com/watch?v=1uCWzfaIedE",
       ],
@@ -224,8 +138,6 @@ Ruby on RailsからNext.jsへの移行方針の提案、実装サポート。ま
 エンジニアの育成。
       `,
       links: [
-        "https://note.com/tabelog_frontend/n/n21b819c09121",
-        "https://note.com/tabelog_frontend/n/n35664347180a",
         "https://note.com/tabelog_frontend/n/na9a2ce24a4d5",
         "https://tech-blog.tabelog.com/entry/using-static-exports-in-production",
       ],
@@ -282,9 +194,7 @@ Next.jsのApp Routerを利用したサービスを展開しているので、そ
 Ruby on Railsからフロントエンドを剥がす過程の提案、リファクタリングサポート。
       `,
       links: [
-        "https://prtimes.jp/main/html/rd/p/000000097.000021828.html",
         "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview",
-        "https://www.wantedly.com/companies/rebase/post_articles/887970",
       ],
       company: "rebase",
     },
@@ -298,9 +208,6 @@ Ruby on Railsからフロントエンドを剥がす過程の提案、リファ�
 ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。
       `,
       links: [
-        "https://route06.co.jp/news/38",
-        "https://tech.route06.co.jp/entry/2024/03/28/091000",
-        "https://tech.route06.co.jp/entry/2023/09/07/091000",
         "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1",
       ],
       company: "route06",
@@ -350,7 +257,7 @@ App Routerを利用したtoBサービスの開発、サポート。
       description: `
 フロントエンド改善支援
       `,
-      links: ["https://www.estie.jp/blog/entry/2024/08/05/183235"],
+      links: [],
       company: "estie",
     },
     {

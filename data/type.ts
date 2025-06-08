@@ -1,3 +1,5 @@
+import type { CompanyKey } from "./companies.ts";
+
 export type LinkMeta = {
   title?: string;
   description?: string;
@@ -14,4 +16,5 @@ export type Common = {
   title?: string;
   links?: string[] | LinkMeta[];
   comment?: string;
+  company?: CompanyKey;
 };
