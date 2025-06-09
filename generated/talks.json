@@ -222,14 +222,29 @@
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules/",
     "publishedAt": "2020-04-17",
-    "links": []
+    "links": [
+      {
+        "title": "#remo_study",
+        "description": "remo を試し、オンラインイベントの可能性を探る",
+        "image": "/images/aW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNDUwNjA5MjgzMDU4LTBlYzUyZmE3ZWFjND9jcm9wPWVudHJvcHkmY3.webp",
+        "url": "https://live.remo.co/e/remo_study/register/"
+      }
+    ]
   },
   {
     "title": "top level await",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/top-level-await/",
     "publishedAt": "2019-10-09",
-    "links": []
+    "links": [
+      {
+        "title": "#tc39_study (2019/10/09 19:30〜)",
+        "description": "# TC39 Proposals Study  ## Intro  TC39 に提案されている Stage 0 から Stage 3 までの好きな Proposal を選び、それについて 1min ~ 5min の間で LT する。というのを時間の限り繰り返す。そんな LT 大会です。  This is a Lightling Talk Only Meetup for TC39 Proposals. Speakers Choice Proposals from Stage 0-3, and give a talk in 1-5 min.    * stage3,2: https://gi...",
+        "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMi8xNy8xMjE3ZjAwZTMyMDc3OTFhMTEwYzkzZTAyZDc5YjljMi5wbm.webp",
+        "name": "connpass",
+        "url": "https://web-study.connpass.com/event/147538/"
+      }
+    ]
   },
   {
     "title": "introduce ecmascript modules of node.js",
@@ -238,7 +253,12 @@
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/node-esm/",
     "publishedAt": "2019-04-25",
-    "links": []
+    "links": [
+      {
+        "title": "",
+        "url": "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/"
+      }
+    ]
   },
   {
     "title": "apollo と react を使ったアプリケーション設計",

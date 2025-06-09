@@ -60,13 +60,11 @@ export const talks = [
     publishedAt: "2021-07-07",
     url: "https://slides.hiroppy.me/tools-history-and-future/",
     links: ["https://uit.connpass.com/event/216043/"],
-    title: "ツールの成長の歴史とこれから求められるもの",
   },
   {
     publishedAt: "2021-05-26",
     url: "https://slides.hiroppy.me/sourcemap-v3/",
     links: ["https://techfeed.connpass.com/event/213218/"],
-    title: "Source Maps v3",
   },
   {
     publishedAt: "2021-05-07",
@@ -77,28 +75,28 @@ export const talks = [
   {
     publishedAt: "2021-01-25",
     url: "https://slides.hiroppy.me/a-deep-dive-into-module-graph/",
-    title: "a deep dive into module graph",
   },
   {
     publishedAt: "2020-04-17",
     url: "https://slides.hiroppy.me/introducing-webpack-asset-modules/",
-    title: "Introducing webpack asset modules",
+    links: ["https://live.remo.co/e/remo_study/register"],
   },
   {
     publishedAt: "2019-10-09",
     url: "https://slides.hiroppy.me/top-level-await/",
-    title: "top level await",
+    links: ["https://web-study.connpass.com/event/147538/"],
   },
   {
     publishedAt: "2019-04-25",
     url: "https://slides.hiroppy.me/node-esm/",
-    title: "introduce ecmascript modules of node.js",
+    links: [
+      "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/",
+    ],
   },
   {
     publishedAt: "2019-01-31",
     url: "https://slides.hiroppy.me/introduce-apollo/",
     links: ["https://reactjs-meetup.connpass.com/event/115274/"],
-    title: "apollo と react を使ったアプリケーション設計",
   },
   {
     publishedAt: "2018-11-25",
@@ -109,31 +107,26 @@ export const talks = [
     publishedAt: "2018-10-24",
     url: "https://slides.hiroppy.me/the-event-loop-of-node/",
     links: ["https://wajs.connpass.com/event/103761/"],
-    title: "the event loop of node",
   },
   {
     publishedAt: "2018-07-25",
     url: "https://slides.hiroppy.me/future-of-node/",
     links: ["https://bpstudy.connpass.com/event/90777/"],
-    title: "future of node",
   },
   {
     publishedAt: "2018-06-26",
     url: "https://slides.hiroppy.me/worker_threads/",
     links: ["https://roppongi-js.connpass.com/event/86684/"],
-    title: "Worker Threads",
   },
   {
     publishedAt: "2018-04-24",
     url: "http://slides.hiroppy.me/util.types/",
     links: ["https://roppongi-js.connpass.com/event/82998/"],
-    title: "util.types",
   },
   {
     publishedAt: "2018-03-24",
     url: "http://slides.hiroppy.me/performance-timing-api-with-node.js/",
     links: ["https://kyotojs.connpass.com/event/80019/"],
-    title: "performance timing api with node.js",
   },
   {
     publishedAt: "2018-03-06",
@@ -153,6 +146,7 @@ export const talks = [
   {
     publishedAt: "2017-05-29",
     url: "https://slides.hiroppy.me/nicohaco/",
+    title: "nicohacoを作った",
   },
   {
     publishedAt: "2017-04-24",
@@ -179,6 +173,7 @@ export const talks = [
   {
     publishedAt: "2016-08-10",
     url: "https://speakerdeck.com/abouthiroppy/my-tools",
+    title: "最近の自分のツール事情",
   },
   {
     publishedAt: "2016-04-18",

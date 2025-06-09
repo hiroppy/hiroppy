@@ -180,6 +180,12 @@
     "name": "connpass",
     "url": "https://layerx.connpass.com/event/328945/"
   },
+  "https://live.remo.co/e/remo_study/register/": {
+    "title": "#remo_study",
+    "description": "remo を試し、オンラインイベントの可能性を探る",
+    "image": "/images/aW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNDUwNjA5MjgzMDU4LTBlYzUyZmE3ZWFjND9jcm9wPWVudHJvcHkmY3.webp",
+    "url": "https://live.remo.co/e/remo_study/register/"
+  },
   "https://meguroes.connpass.com/event/342717/": {
     "title": "Meguro.es #29 @ oRo (2025/02/27 19:30〜)",
     "description": "# イベント概要  Meguro.es は、目黒周辺の ECMAScript 関連の開発者のためのコミュニティーです。  第29回は、株式会社オロ様にて開催いたします！  ## こんな方におすすめ  目黒とゆかりがなくても参加できます！  特にこんな方にはオススメです。    * ECMAScript あるいは JavaScript の関連技術の知見を深めたい・広めたい・共有したい方   * ECMAScript あるいは JavaScript の関連技術の困っていること・悩みを共有したい方   * 過去の会の参加者で、引き続き Meguro.es を盛り上げていただける方  ## 発表...",
@@ -916,6 +922,13 @@
     "name": "情報科学若手の会",
     "url": "https://wakate.org/2017/10/10/50threport/"
   },
+  "https://web-study.connpass.com/event/147538/": {
+    "title": "#tc39_study (2019/10/09 19:30〜)",
+    "description": "# TC39 Proposals Study  ## Intro  TC39 に提案されている Stage 0 から Stage 3 までの好きな Proposal を選び、それについて 1min ~ 5min の間で LT する。というのを時間の限り繰り返す。そんな LT 大会です。  This is a Lightling Talk Only Meetup for TC39 Proposals. Speakers Choice Proposals from Stage 0-3, and give a talk in 1-5 min.    * stage3,2: https://gi...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMi8xNy8xMjE3ZjAwZTMyMDc3OTFhMTEwYzkzZTAyZDc5YjljMi5wbm.webp",
+    "name": "connpass",
+    "url": "https://web-study.connpass.com/event/147538/"
+  },
   "https://www.estie.jp/blog/entry/2024/08/05/183235": {
     "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
     "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
@@ -929,6 +942,10 @@
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
     "name": "estie inside blog",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
+  },
+  "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/": {
+    "title": "",
+    "url": "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/"
   },
   "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/": {
     "title": "LayerX、AIエージェントに参入　請求書受け取り代行など - 日本経済新聞",
