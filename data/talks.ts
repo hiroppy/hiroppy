@@ -13,6 +13,10 @@ export const talks = [
     url: "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit",
   },
   {
+    publishedAt: "2025-03-28",
+    url: "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit",
+  },
+  {
     publishedAt: "2025-02-27",
     url: "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit",
     links: ["https://meguroes.connpass.com/event/342717/"],
