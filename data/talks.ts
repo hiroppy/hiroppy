@@ -6,7 +6,10 @@ export const talks = [
   {
     publishedAt: "2025-05-19",
     url: "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit",
-    links: ["https://stract.connpass.com/event/354163/"],
+    links: [
+      "https://stract.connpass.com/event/354163/",
+      "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
+    ],
   },
   {
     publishedAt: "2025-04-02",
@@ -15,6 +18,10 @@ export const talks = [
   {
     publishedAt: "2025-03-28",
     url: "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit",
+    links: [
+      "https://dinii.connpass.com/event/348179/",
+      "https://prtimes.jp/main/html/rd/p/000000086.000043056.html",
+    ],
   },
   {
     publishedAt: "2025-02-27",

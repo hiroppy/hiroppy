@@ -13,6 +13,13 @@
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMC9iMi8xMGIyYTI5ZDA0MmZlYTg2YTE3Mjk0ZGFiYjczMzQ2MS5wbm.webp",
         "name": "connpass",
         "url": "https://stract.connpass.com/event/354163/"
+      },
+      {
+        "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
+        "description": "株式会社STRACTのプレスリリース（2025年4月30日 11時05分）STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
+        "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
+        "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html"
       }
     ]
   },
@@ -32,7 +39,22 @@
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit",
     "publishedAt": "2025-03-28",
-    "links": []
+    "links": [
+      {
+        "title": "noren.ts #1 〜TypeScriptのエラーハンドリングを極める〜 (2025/03/28 19:00〜)",
+        "description": "## 📝 noren.ts とは？  #### noren.ts は株式会社ダイニーが主催する TypeScript をテーマにした勉強会です！  記念すべき第1回となる今回は TypeScriptのエラーハンドリング をテーマに開催します！  noren.ts  は「のれん」と「TypeScript」を掛け合わせた名称で、誰でも気軽に参加できる場を提供するというコンセプトを表しています。  ダイニーがフルスタックに TypeScript を活用している経験や、有識者による実践的な知見などを皆様と交換することで、TypeScript について学び合える場にしたいと思っています。今後も定期...",
+        "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Zi8yOS85ZjI5ZTIzZTRkNzMxNmI1NDY2ZDk2Y2JmYTZkNGYxOS5wbm.webp",
+        "name": "connpass",
+        "url": "https://dinii.connpass.com/event/348179/"
+      },
+      {
+        "title": "ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
+        "description": "株式会社ダイニーのプレスリリース（2025年3月7日 09時38分）ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
+        "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvNDMwNTYvODYvNDMwNTYtODYtM2QzMjEwYjdiYW.webp",
+        "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html"
+      }
+    ]
   },
   {
     "title": "Trusted Types & Dynamic Code Brand Checks",

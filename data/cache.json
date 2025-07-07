@@ -60,6 +60,13 @@
     "name": "Daiki Sakuma の日記",
     "url": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
   },
+  "https://dinii.connpass.com/event/348179/": {
+    "title": "noren.ts #1 〜TypeScriptのエラーハンドリングを極める〜 (2025/03/28 19:00〜)",
+    "description": "## 📝 noren.ts とは？  #### noren.ts は株式会社ダイニーが主催する TypeScript をテーマにした勉強会です！  記念すべき第1回となる今回は TypeScriptのエラーハンドリング をテーマに開催します！  noren.ts  は「のれん」と「TypeScript」を掛け合わせた名称で、誰でも気軽に参加できる場を提供するというコンセプトを表しています。  ダイニーがフルスタックに TypeScript を活用している経験や、有識者による実践的な知見などを皆様と交換することで、TypeScript について学び合える場にしたいと思っています。今後も定期...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Zi8yOS85ZjI5ZTIzZTRkNzMxNmI1NDY2ZDk2Y2JmYTZkNGYxOS5wbm.webp",
+    "name": "connpass",
+    "url": "https://dinii.connpass.com/event/348179/"
+  },
   "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit": {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",

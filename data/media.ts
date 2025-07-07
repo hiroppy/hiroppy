@@ -2,7 +2,7 @@ import type { Common } from "./type.ts";
 
 type Media = Pick<
   Common,
-  "publishedAt" | "url" | "links" | "title" | "company"
+  "publishedAt" | "url" | "links" | "title" | "company" | "hot"
 >;
 
 export const pressReleases = [
