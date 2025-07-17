@@ -274,6 +274,13 @@
           "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
           "name": "日本経済新聞",
           "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
+        },
+        {
+          "title": "バクラク、あらゆる形式の請求書の受領業務を“丸投げ”できる新サービス「バクラク受領代行」を提供開始 - バクラク",
+          "description": "すべての経済活動のデジタル化を目指す株式会社LayerXは、今春立ち上げたAIエージェント事業の一環として、新たにAIとBPOを掛け合わせ、紙・メール・Webサイト経由などあらゆる請求書受領業務を“丸投げ”できる新サービス「バクラク受領代行」をリリースしました。",
+          "image": "/images/YmFrdXJha3UuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvMjAyNTA3MTZfanl1cnlvLWRhaWtvX2V5ZS1jYX.webp",
+          "name": "バクラク - ハタラクをバクラクに。",
+          "url": "https://bakuraku.jp/news/20250717/"
         }
       ],
       "company": "layerX"
@@ -410,10 +417,7 @@
       "description": "フロントエンド改善支援",
       "links": [
         {
-          "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
-          "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
-          "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
-          "name": "estie inside blog",
+          "title": "404: This page could not be found.",
           "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
         }
       ],
