@@ -167,7 +167,10 @@ Enabling Teamとして、フロントエンド開発の支援、LLMの検証等�
 
 CEO直下のチームで、BPOの開発を行う。
       `,
-      links: ["https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"],
+      links: [
+        "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/",
+        "https://bakuraku.jp/news/20250717/",
+      ],
       company: "layerX",
     },
     {
