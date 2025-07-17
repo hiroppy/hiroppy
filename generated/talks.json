@@ -2,7 +2,7 @@
   {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtKWnpidURBT0RlaVprQzFkU29JR0Z1M2ZXbG.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUl6ZGNYZ3ZVMkRsT3pSLVFWa3Zhd1hIUzNkSX.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit",
     "publishedAt": "2025-05-19",
@@ -26,7 +26,7 @@
   {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxVa3B0YVk4WWJrMHplbzAybDVHUy1oNjhZZU.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtFR2o0TVRLNVl0Q0tMZFZsTWJDTmZReTBYYU.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit",
     "publishedAt": "2025-04-02",
@@ -35,7 +35,7 @@
   {
     "title": "本当にそれはエラーなのか？",
     "description": "本当にそれは エラーなのか？ 2025/03/28 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpZeDgxM2xHYUVFQUtXbnhGUUcwaGp1UEdzSk.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtqTEtMZUcySmEtRVo2R3ZfNDMtN1NFYm9tU3.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit",
     "publishedAt": "2025-03-28",
@@ -59,7 +59,7 @@
   {
     "title": "Trusted Types & Dynamic Code Brand Checks",
     "description": "Trusted Types & Dynamic Code Brand Checks 2025/02/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxRUk5DVGQ1OW0zLVpiRVZ4SlBzU0x5UW9XX1.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUowdEhjSExXWnpXanoyMi0yZFRJYU5HYm5lY0.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit",
     "publishedAt": "2025-02-27",
@@ -76,7 +76,7 @@
   {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUt0aS0yOUlpcFJZSzZSZnRsTGlfMzlnRGw0c2.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxfN3dFRGFmR25KYm5Sc2ZTak5qQWpJQUFXS1.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing",
     "publishedAt": "2024-09-19",
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "title": "ツールの成長の歴史とこれから求められるもの",
+    "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvdG9vbHMtaGlzdG9yeS1hbmQtZnV0dXJlL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/tools-history-and-future/",
@@ -210,7 +210,7 @@
     ]
   },
   {
-    "title": "Source Maps v3",
+    "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvc291cmNlbWFwLXYzL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/sourcemap-v3/",
@@ -234,12 +234,13 @@
     "publishedAt": "2021-05-07",
     "links": [
       {
+        "title": "",
         "url": "https://togetter.com/li/1708701/"
       }
     ]
   },
   {
-    "title": "a deep dive into module graph",
+    "title": "A Deep Dive into Module Graph",
     "description": "Introducing how to create/run module graph",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvYS1kZWVwLWRpdmUtaW50by1tb2R1bGUtZ3JhcGgvdGh1bWJuYWlsLnBuZw==.webp",
     "name": "hiroppy's slides",
@@ -248,22 +249,20 @@
     "links": []
   },
   {
-    "title": "Introducing webpack asset modules",
+    "title": "introducing webpack asset modules",
     "description": "introducing how to use asset modules of webpack5",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules/",
     "publishedAt": "2020-04-17",
     "links": [
       {
-        "title": "#remo_study",
-        "description": "remo を試し、オンラインイベントの可能性を探る",
-        "image": "/images/aW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNDUwNjA5MjgzMDU4LTBlYzUyZmE3ZWFjND9jcm9wPWVudHJvcHkmY3.webp",
+        "title": "Events.com Virtual (formerly Remo)",
         "url": "https://live.remo.co/e/remo_study/register/"
       }
     ]
   },
   {
-    "title": "top level await",
+    "title": "Introducing top-level-await",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/top-level-await/",
     "publishedAt": "2019-10-09",
@@ -278,7 +277,7 @@
     ]
   },
   {
-    "title": "introduce ecmascript modules of node.js",
+    "title": "Introduce ESM of Node.js",
     "description": "Node.js is implementing ECMAScript Modules. This talk will introduce how it resolves modules.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -292,7 +291,7 @@
     ]
   },
   {
-    "title": "apollo と react を使ったアプリケーション設計",
+    "title": "introduce-apollo",
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introduce-apollo/",
@@ -324,7 +323,7 @@
     ]
   },
   {
-    "title": "the event loop of node",
+    "title": "The event loop of node",
     "description": "introduce the mechanism of the event loop",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -341,7 +340,7 @@
     ]
   },
   {
-    "title": "future of node",
+    "title": "future-of-node",
     "description": "Introduce the current stability 1 modules and hot topics.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -358,7 +357,7 @@
     ]
   },
   {
-    "title": "Worker Threads",
+    "title": "worker_threads",
     "description": "introduce worker_threads",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -376,6 +375,9 @@
   },
   {
     "title": "util.types",
+    "description": "introduce util.types",
+    "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
+    "name": "abouthiroppy's slides",
     "url": "http://slides.hiroppy.me/util.types/",
     "publishedAt": "2018-04-24",
     "links": [
@@ -390,6 +392,9 @@
   },
   {
     "title": "performance timing api with node.js",
+    "description": "introduce performance timing api of Node.js",
+    "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
+    "name": "abouthiroppy's slides",
     "url": "http://slides.hiroppy.me/performance-timing-api-with-node.js/",
     "publishedAt": "2018-03-24",
     "links": [
@@ -462,7 +467,7 @@
     "links": []
   },
   {
-    "title": "nicohaco",
+    "title": "nicohacoを作った",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
     "name": "abouthiroppy's slides",
     "url": "https://slides.hiroppy.me/nicohaco/",
@@ -521,7 +526,7 @@
     "links": []
   },
   {
-    "title": "my tools",
+    "title": "最近の自分のツール事情",
     "description": "8/10の社内勉強会資料",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMGI4MTNkNjlkOTczNDcwYWJlMzJiZGMwNmRkMGJlMz.webp",
     "name": "Speaker Deck",
@@ -547,7 +552,7 @@
   },
   {
     "title": "ブラック企業から学ぶMVCモデル",
-    "description": "ブラック企業から学ぶMVCモデル - Download as a PDF or view online for free",
+    "description": "若手の会での発表資料 - Download as a PDF or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvbXZjLTE0MDkxNDIxMzkxOS1waHBhcHAwMS10aHVtYm.webp",
     "name": "SlideShare",
     "url": "https://www.slideshare.net/slideshow/mvc-39079770/39079770/",
@@ -564,7 +569,7 @@
   },
   {
     "title": "Alt01-LT",
-    "description": "Alt01-LT - Download as a PDF or view online for free",
+    "description": "今更ながらALT#1でのLT発表資料を上げました。\nangular-fullstack - Download as a PDF, PPTX or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvYWx0MDEtMTQwOTI0MDMzNzAxLXBocGFwcDAyLXRodW.webp",
     "name": "SlideShare",
     "url": "https://www.slideshare.net/slideshow/alt01/39462934/",

@@ -1,10 +1,16 @@
 {
   "http://slides.hiroppy.me/performance-timing-api-with-node.js/": {
     "title": "performance timing api with node.js",
+    "description": "introduce performance timing api of Node.js",
+    "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
+    "name": "abouthiroppy's slides",
     "url": "http://slides.hiroppy.me/performance-timing-api-with-node.js/"
   },
   "http://slides.hiroppy.me/util.types/": {
     "title": "util.types",
+    "description": "introduce util.types",
+    "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
+    "name": "abouthiroppy's slides",
     "url": "http://slides.hiroppy.me/util.types/"
   },
   "https://2024.tskaigi.org/": {
@@ -77,35 +83,35 @@
   "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit": {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtKWnpidURBT0RlaVprQzFkU29JR0Z1M2ZXbG.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUl6ZGNYZ3ZVMkRsT3pSLVFWa3Zhd1hIUzNkSX.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit"
   },
   "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit": {
     "title": "Trusted Types & Dynamic Code Brand Checks",
     "description": "Trusted Types & Dynamic Code Brand Checks 2025/02/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxRUk5DVGQ1OW0zLVpiRVZ4SlBzU0x5UW9XX1.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUowdEhjSExXWnpXanoyMi0yZFRJYU5HYm5lY0.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit"
   },
   "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing": {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUt0aS0yOUlpcFJZSzZSZnRsTGlfMzlnRGw0c2.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxfN3dFRGFmR25KYm5Sc2ZTak5qQWpJQUFXS1.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing"
   },
   "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit": {
     "title": "本当にそれはエラーなのか？",
     "description": "本当にそれは エラーなのか？ 2025/03/28 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpZeDgxM2xHYUVFQUtXbnhGUUcwaGp1UEdzSk.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtqTEtMZUcySmEtRVo2R3ZfNDMtN1NFYm9tU3.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit"
   },
   "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit": {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxVa3B0YVk4WWJrMHplbzAybDVHUy1oNjhZZU.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtFR2o0TVRLNVl0Q0tMZFZsTWJDTmZReTBYYU.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit"
   },
@@ -202,9 +208,7 @@
     "url": "https://layerx.connpass.com/event/328945/"
   },
   "https://live.remo.co/e/remo_study/register/": {
-    "title": "#remo_study",
-    "description": "remo を試し、オンラインイベントの可能性を探る",
-    "image": "/images/aW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNDUwNjA5MjgzMDU4LTBlYzUyZmE3ZWFjND9jcm9wPWVudHJvcHkmY3.webp",
+    "title": "Events.com Virtual (formerly Remo)",
     "url": "https://live.remo.co/e/remo_study/register/"
   },
   "https://meguroes.connpass.com/event/342717/": {
@@ -238,7 +242,7 @@
   "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1": {
     "title": "2023年の振り返り",
     "description": "こんにちは。もうすでに 2024 年に入ってしまいましたが、2023 年も毎度のことながら振り返りを残します。年次の振り返りはなんとか続けられていて、かれこれ 4 回目となりました。",
-    "image": "/images/bWg0Z2YuZGV2L2FydGljbGVzLzIwMjMtc3VtbWFyeS9vcGVuZ3JhcGgtaW1hZ2U_ZWU0OGE3ODgwN2FmMjk3Ng==.webp",
+    "image": "/images/bWg0Z2YuZGV2L2FydGljbGVzLzIwMjMtc3VtbWFyeS9vcGVuZ3JhcGgtaW1hZ2U_MmY1NWUyNzk3MDhlMWViNw==.webp",
     "url": "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1"
   },
   "https://mozaic.fm/episodes/102/monthly-ecosystem-202208.html": {
@@ -652,7 +656,7 @@
     "url": "https://route06.co.jp/news/38/"
   },
   "https://slides.hiroppy.me/a-deep-dive-into-module-graph/": {
-    "title": "a deep dive into module graph",
+    "title": "A Deep Dive into Module Graph",
     "description": "Introducing how to create/run module graph",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvYS1kZWVwLWRpdmUtaW50by1tb2R1bGUtZ3JhcGgvdGh1bWJuYWlsLnBuZw==.webp",
     "name": "hiroppy's slides",
@@ -666,7 +670,7 @@
     "url": "https://slides.hiroppy.me/cache-strategy-on-mercari-shops/"
   },
   "https://slides.hiroppy.me/future-of-node/": {
-    "title": "future of node",
+    "title": "future-of-node",
     "description": "Introduce the current stability 1 modules and hot topics.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -679,19 +683,19 @@
     "url": "https://slides.hiroppy.me/how-to-manage-the-document-of-Node.js/"
   },
   "https://slides.hiroppy.me/introduce-apollo/": {
-    "title": "apollo と react を使ったアプリケーション設計",
+    "title": "introduce-apollo",
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introduce-apollo/"
   },
   "https://slides.hiroppy.me/introducing-webpack-asset-modules/": {
-    "title": "Introducing webpack asset modules",
+    "title": "introducing webpack asset modules",
     "description": "introducing how to use asset modules of webpack5",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules/"
   },
   "https://slides.hiroppy.me/nicohaco/": {
-    "title": "nicohaco",
+    "title": "nicohacoを作った",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
     "name": "abouthiroppy's slides",
     "url": "https://slides.hiroppy.me/nicohaco/"
@@ -704,7 +708,7 @@
     "url": "https://slides.hiroppy.me/node-core-utils/"
   },
   "https://slides.hiroppy.me/node-esm/": {
-    "title": "introduce ecmascript modules of node.js",
+    "title": "Introduce ESM of Node.js",
     "description": "Node.js is implementing ECMAScript Modules. This talk will introduce how it resolves modules.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -724,13 +728,13 @@
     "url": "https://slides.hiroppy.me/node8/"
   },
   "https://slides.hiroppy.me/sourcemap-v3/": {
-    "title": "Source Maps v3",
+    "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvc291cmNlbWFwLXYzL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/sourcemap-v3/"
   },
   "https://slides.hiroppy.me/the-event-loop-of-node/": {
-    "title": "the event loop of node",
+    "title": "The event loop of node",
     "description": "introduce the mechanism of the event loop",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -744,13 +748,13 @@
     "url": "https://slides.hiroppy.me/the-present-and-future-of-JavaScript/"
   },
   "https://slides.hiroppy.me/tools-history-and-future/": {
-    "title": "ツールの成長の歴史とこれから求められるもの",
+    "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvdG9vbHMtaGlzdG9yeS1hbmQtZnV0dXJlL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/tools-history-and-future/"
   },
   "https://slides.hiroppy.me/top-level-await/": {
-    "title": "top level await",
+    "title": "Introducing top-level-await",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/top-level-await/"
   },
@@ -762,7 +766,7 @@
     "url": "https://slides.hiroppy.me/webpack-history/"
   },
   "https://slides.hiroppy.me/worker_threads/": {
-    "title": "Worker Threads",
+    "title": "worker_threads",
     "description": "introduce worker_threads",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
@@ -776,7 +780,7 @@
     "url": "https://speakerdeck.com/abouthiroppy/ecmascript/"
   },
   "https://speakerdeck.com/abouthiroppy/my-tools/": {
-    "title": "my tools",
+    "title": "最近の自分のツール事情",
     "description": "8/10の社内勉強会資料",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMGI4MTNkNjlkOTczNDcwYWJlMzJiZGMwNmRkMGJlMz.webp",
     "name": "Speaker Deck",
@@ -892,6 +896,7 @@
     "url": "https://thisweekinreact.com/newsletter/171/"
   },
   "https://togetter.com/li/1708701/": {
+    "title": "",
     "url": "https://togetter.com/li/1708701/"
   },
   "https://tskaigi.hatenablog.com/entry/2024/02/14/170000/": {
@@ -951,7 +956,10 @@
     "url": "https://web-study.connpass.com/event/147538/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235": {
-    "title": "404: This page could not be found.",
+    "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
+    "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
+    "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
+    "name": "estie inside blog",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235/": {
@@ -986,14 +994,14 @@
   },
   "https://www.slideshare.net/slideshow/alt01/39462934/": {
     "title": "Alt01-LT",
-    "description": "Alt01-LT - Download as a PDF or view online for free",
+    "description": "今更ながらALT#1でのLT発表資料を上げました。\nangular-fullstack - Download as a PDF, PPTX or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvYWx0MDEtMTQwOTI0MDMzNzAxLXBocGFwcDAyLXRodW.webp",
     "name": "SlideShare",
     "url": "https://www.slideshare.net/slideshow/alt01/39462934/"
   },
   "https://www.slideshare.net/slideshow/mvc-39079770/39079770/": {
     "title": "ブラック企業から学ぶMVCモデル",
-    "description": "ブラック企業から学ぶMVCモデル - Download as a PDF or view online for free",
+    "description": "若手の会での発表資料 - Download as a PDF or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvbXZjLTE0MDkxNDIxMzkxOS1waHBhcHAwMS10aHVtYm.webp",
     "name": "SlideShare",
     "url": "https://www.slideshare.net/slideshow/mvc-39079770/39079770/"

@@ -51,6 +51,42 @@ export function getSharedCache(): Map<string, LinkMeta> {
   return cache;
 }
 
+export async function loadBlockedUrls(): Promise<Map<string, LinkMeta>> {
+  try {
+    const blockedUrlsData = await readFile(
+      join(baseDataPath, "blocked-urls.json"),
+      "utf-8",
+    );
+    const blockedUrls = JSON.parse(blockedUrlsData) as Record<string, LinkMeta>;
+    const blockedUrlsMap = new Map<string, LinkMeta>();
+
+    for (const [url, meta] of Object.entries(blockedUrls)) {
+      const normalizedUrl = normalizeUrl(url);
+      blockedUrlsMap.set(normalizedUrl, meta);
+    }
+
+    return blockedUrlsMap;
+  } catch (e) {
+    return new Map<string, LinkMeta>();
+  }
+}
+
+export function isUrlBlocked(
+  url: string,
+  blockedUrls: Map<string, LinkMeta>,
+): boolean {
+  const normalizedUrl = normalizeUrl(url);
+  return blockedUrls.has(normalizedUrl);
+}
+
+export function getBlockedUrlMeta(
+  url: string,
+  blockedUrls: Map<string, LinkMeta>,
+): LinkMeta | undefined {
+  const normalizedUrl = normalizeUrl(url);
+  return blockedUrls.get(normalizedUrl);
+}
+
 export async function collectAlreadyHavingLinks(filename: string) {
   const cache = getSharedCache();
 

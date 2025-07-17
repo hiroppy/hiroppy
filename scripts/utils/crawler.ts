@@ -1,5 +1,10 @@
 import type { Common, LinkMeta } from "../../data/type.ts";
-import { collectAlreadyHavingLinks } from "./cache.ts";
+import {
+  collectAlreadyHavingLinks,
+  getBlockedUrlMeta,
+  isUrlBlocked,
+  loadBlockedUrls,
+} from "./cache.ts";
 import { downloadImage } from "./image.ts";
 import { normalizeUrl } from "./url.ts";
 import { getMeta } from "./web.ts";
@@ -25,6 +30,7 @@ async function processImageUrl(
 async function processLinks(
   links: string[] | undefined,
   linkCache: Map<string, LinkMeta>,
+  blockedUrls: Map<string, LinkMeta>,
 ): Promise<LinkMeta[]> {
   if (!links || links.length === 0) return [];
 
@@ -35,6 +41,16 @@ async function processLinks(
     if (cachedLink) {
       console.log("using cached link", normalizedUrl);
       return cachedLink;
+    }
+
+    // Check if URL is blocked from updates
+    if (isUrlBlocked(linkUrl, blockedUrls)) {
+      console.log("URL is blocked from updates, using saved meta", linkUrl);
+      const blockedMeta = getBlockedUrlMeta(linkUrl, blockedUrls);
+      if (blockedMeta) {
+        linkCache.set(normalizedUrl, blockedMeta);
+        return blockedMeta;
+      }
     }
 
     try {
@@ -69,17 +85,49 @@ async function processLinks(
 
 export async function crawlSites(filename: string, items: Common[]) {
   const linkCache = await collectAlreadyHavingLinks(filename);
+  const blockedUrls = await loadBlockedUrls();
 
   const promises = items.map(
     async ({ url, comment, publishedAt, links, hot, title }) => {
       const normalizedUrl = normalizeUrl(url);
       const cachedSite = linkCache.get(normalizedUrl);
 
-      if (cachedSite?.title && !cachedSite.error) {
+      // Check if the main URL is blocked from updates
+      if (isUrlBlocked(url, blockedUrls)) {
+        console.log("Main URL is blocked from updates, using saved meta", url);
+        const blockedMeta = getBlockedUrlMeta(url, blockedUrls);
+
+        if (blockedMeta) {
+          // Process links URLs even for blocked sites
+          const processedLinks = await processLinks(
+            links as string[],
+            linkCache,
+            blockedUrls,
+          );
+
+          return {
+            title: blockedMeta.title,
+            description: blockedMeta.description,
+            image: blockedMeta.image,
+            name: blockedMeta.name,
+            url: blockedMeta.url || url,
+            hot,
+            comment,
+            publishedAt,
+            links: processedLinks,
+          };
+        }
+      }
+
+      if (cachedSite?.title && !cachedSite.error && !cachedSite.skipUpdate) {
         console.log("using cached site", normalizedUrl);
 
         // Process links URLs even for cached sites
-        const processedLinks = await processLinks(links as string[], linkCache);
+        const processedLinks = await processLinks(
+          links as string[],
+          linkCache,
+          blockedUrls,
+        );
 
         return {
           title: cachedSite.title,
@@ -105,7 +153,11 @@ export async function crawlSites(filename: string, items: Common[]) {
       }
 
       // Process links URLs
-      const processedLinks = await processLinks(links as string[], linkCache);
+      const processedLinks = await processLinks(
+        links as string[],
+        linkCache,
+        blockedUrls,
+      );
 
       const result = {
         title: meta.title,
