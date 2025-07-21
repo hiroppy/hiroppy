@@ -46,7 +46,7 @@
     "@biomejs/biome": "1.9.4",
     "@types/emoji-js": "3.5.2",
     "@types/node": "22.16.5",
-    "cheerio": "1.1.1",
+    "cheerio": "1.1.2",
     "emoji-js": "3.8.1",
     "lefthook": "1.12.2",
     "octokit": "5.0.3",
