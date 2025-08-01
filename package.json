@@ -1,7 +1,7 @@
 {
   "name": "hiroppy",
   "version": "1.0.48",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "type": "module",
   "exports": {
     "./data/*": {
