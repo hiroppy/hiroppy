@@ -19,7 +19,7 @@ export async function loadCache(): Promise<Map<string, LinkMeta>> {
     }
 
     return linkCache;
-  } catch (e) {
+  } catch {
     return new Map<string, LinkMeta>();
   }
 }
@@ -66,7 +66,7 @@ export async function loadBlockedUrls(): Promise<Map<string, LinkMeta>> {
     }
 
     return blockedUrlsMap;
-  } catch (e) {
+  } catch {
     return new Map<string, LinkMeta>();
   }
 }
@@ -111,7 +111,7 @@ export async function collectAlreadyHavingLinks(filename: string) {
     }
 
     return cache;
-  } catch (e) {
+  } catch {
     return cache;
   }
 }

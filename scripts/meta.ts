@@ -9,7 +9,7 @@ if (meta.community) {
   const communityEntries = Object.entries(meta.community);
   const communityItems = [];
 
-  for (const [key, value] of communityEntries) {
+  for (const [, value] of communityEntries) {
     if (value.links && value.links.length > 0) {
       communityItems.push({
         url: value.links[0], // Use first link as main URL for metadata
