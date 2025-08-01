@@ -35,7 +35,7 @@ test("Images can be imported", async (t) => {
 
   try {
     imageFiles = await readdir(imagesDir);
-  } catch (error) {
+  } catch {
     console.warn("No images directory found, skipping image tests");
     return;
   }

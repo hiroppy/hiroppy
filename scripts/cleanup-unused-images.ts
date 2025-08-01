@@ -1,4 +1,4 @@
-import { readFile, readdir, unlink } from "node:fs/promises";
+import { readdir, readFile, unlink } from "node:fs/promises";
 import { join } from "node:path";
 import { baseImageOutputPath, generatedDataPath } from "./utils/index.ts";
 

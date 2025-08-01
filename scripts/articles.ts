@@ -53,8 +53,8 @@ async function parseRss(
     .then((res) =>
       // cheerioはlinkのタグを抽出できない
       res
-        .replace(/\<(link)\>/g, "<linkTag>")
-        .replace(/\<\/(link)\>/g, "</linkTag>"),
+        .replace(/<(link)>/g, "<linkTag>")
+        .replace(/<\/(link)>/g, "</linkTag>"),
     );
   const platform = {
     name: removeCData(load(res)("channel > title").text()),

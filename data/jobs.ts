@@ -1,4 +1,4 @@
-import { type CompanyKey, companies } from "./companies.ts";
+import type { CompanyKey } from "./companies.ts";
 import type { LinkMeta } from "./type.ts";
 
 // Re-export for backward compatibility
