@@ -23,6 +23,14 @@ export const companies = {
     image: "stract.png",
     url: "https://stract.co.jp/",
   },
+  commune: {
+    image: "commune.jpg",
+    url: "https://communeinc.com/",
+  },
+  hokuto: {
+    image: "hokuto.webp",
+    url: "https://corp.hokuto.app/",
+  },
   aidemy: {
     image: "aidemy.png",
     url: "https://aidemy.net/",

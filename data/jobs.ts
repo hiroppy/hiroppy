@@ -202,18 +202,17 @@ Ruby on Railsからフロントエンドを剥がす過程の提案、リファ�
       company: "rebase",
     },
     {
-      name: "ROUTE06",
-      start: new Date("2023-07-01"),
+      name: "Commune",
+      start: new Date("2025-08-01"),
       end: null,
       position: "Technical Advisor",
       initialState: "1-100",
       description: `
-ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。
+コミューンの設計、デザインシステム作成支援。
+LLM効率化のための基盤作成支援。
       `,
-      links: [
-        "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1",
-      ],
-      company: "route06",
+      links: [],
+      company: "commune",
     },
     {
       name: "Stract",
@@ -226,6 +225,32 @@ ADRの各意思決定の確認や議論、今後スケールする組織のた�
       `,
       links: [],
       company: "stract",
+    },
+    {
+      name: "Hokuto",
+      start: new Date("2025-08-01"),
+      end: null,
+      position: "Technical Advisor",
+      initialState: "0",
+      description: `
+フロントエンド、Node.js、パフォーマンス支援
+      `,
+      links: [],
+      company: "hokuto",
+    },
+    {
+      name: "ROUTE06",
+      start: new Date("2023-07-01"),
+      end: null,
+      position: "Technical Advisor",
+      initialState: "1-100",
+      description: `
+ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。
+      `,
+      links: [
+        "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1",
+      ],
+      company: "route06",
     },
     {
       name: "Ship",
