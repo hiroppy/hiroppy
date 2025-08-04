@@ -16,6 +16,14 @@
       "image": "/images/cHVibGljL2NvbXBhbmllcy9zdHJhY3QucG5n.webp",
       "url": "https://stract.co.jp/"
     },
+    "commune": {
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9jb21tdW5lLmpwZw==.webp",
+      "url": "https://communeinc.com/"
+    },
+    "hokuto": {
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9ob2t1dG8ud2VicA==.webp",
+      "url": "https://corp.hokuto.app/"
+    },
     "aidemy": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9haWRlbXkucG5n.webp",
       "url": "https://aidemy.net/"
@@ -326,6 +334,51 @@
       "company": "rebase"
     },
     {
+      "name": "Commune",
+      "start": "2025-08-01",
+      "end": null,
+      "position": "Technical Advisor",
+      "initialState": "1-100",
+      "description": "コミューンの設計、デザインシステム作成支援。\nLLM効率化のための基盤作成支援。",
+      "links": [],
+      "company": "commune"
+    },
+    {
+      "name": "Stract",
+      "start": "2025-03-01",
+      "end": null,
+      "position": "Technical Advisor",
+      "initialState": "0",
+      "description": "フロントエンド、Node.js、パフォーマンス支援",
+      "links": [
+        {
+          "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
+          "description": "株式会社STRACTのプレスリリース（2025年4月30日 11時05分）STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
+          "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
+          "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+          "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html"
+        },
+        {
+          "title": "ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
+          "description": "株式会社STRACTのプレスリリース（2025年4月2日 11時00分）ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
+          "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzUvMzU5MjAtMzUtYjIwMDc0Zjc2Yz.webp",
+          "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+          "url": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html"
+        }
+      ],
+      "company": "stract"
+    },
+    {
+      "name": "Hokuto",
+      "start": "2025-08-01",
+      "end": null,
+      "position": "Technical Advisor",
+      "initialState": "0",
+      "description": "フロントエンド、Node.js、パフォーマンス支援",
+      "links": [],
+      "company": "hokuto"
+    },
+    {
       "name": "ROUTE06",
       "start": "2023-07-01",
       "end": null,
@@ -361,31 +414,6 @@
       "company": "route06"
     },
     {
-      "name": "Stract",
-      "start": "2025-03-01",
-      "end": null,
-      "position": "Technical Advisor",
-      "initialState": "0",
-      "description": "フロントエンド、Node.js、パフォーマンス支援",
-      "links": [
-        {
-          "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
-          "description": "株式会社STRACTのプレスリリース（2025年4月30日 11時05分）STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
-          "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
-          "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
-          "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html"
-        },
-        {
-          "title": "ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
-          "description": "株式会社STRACTのプレスリリース（2025年4月2日 11時00分）ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
-          "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzUvMzU5MjAtMzUtYjIwMDc0Zjc2Yz.webp",
-          "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
-          "url": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html"
-        }
-      ],
-      "company": "stract"
-    },
-    {
       "name": "Ship",
       "start": "2025-03-01",
       "end": null,
@@ -414,10 +442,7 @@
       "description": "フロントエンド改善支援",
       "links": [
         {
-          "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
-          "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
-          "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
-          "name": "estie inside blog",
+          "title": "404: This page could not be found.",
           "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
         }
       ],
