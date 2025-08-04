@@ -19,7 +19,7 @@ jobs:
       - uses: ./.github/actions/setup-node
       - run: pnpm build
         env:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: pnpm lint
       - name: Check for changes
         id: verify-changed-files
