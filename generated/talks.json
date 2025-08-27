@@ -1,5 +1,22 @@
 [
   {
+    "title": "Next.js Internal MCP",
+    "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtsSFJNc1RVTmszSnRPTmFLSWtQRkNDbVoybT.webp",
+    "name": "Google Docs",
+    "url": "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit",
+    "publishedAt": "2025-08-27",
+    "links": [
+      {
+        "title": "「実践Next.js！AIアウトプットと コンポーネント設計」  最新事情 LT (2025/08/27 19:00〜)",
+        "description": "※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれば幸いです。      同日お昼の時間帯に同テーマで実施する...",
+        "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mMC83ZC9mMDdkODVhYTZkMWUzNTUzOTdmZGI0MDEwZjJhZGU3NS5wbm.webp",
+        "name": "connpass",
+        "url": "https://findy.connpass.com/event/365880/"
+      }
+    ]
+  },
+  {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
     "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUl6ZGNYZ3ZVMkRsT3pSLVFWa3Zhd1hIUzNkSX.webp",

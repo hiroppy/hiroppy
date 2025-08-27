@@ -94,6 +94,13 @@
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit"
   },
+  "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit": {
+    "title": "Next.js Internal MCP",
+    "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtsSFJNc1RVTmszSnRPTmFLSWtQRkNDbVoybT.webp",
+    "name": "Google Docs",
+    "url": "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit"
+  },
   "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing": {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
@@ -167,6 +174,13 @@
     "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
     "name": "IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
     "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
+  },
+  "https://findy.connpass.com/event/365880/": {
+    "title": "「実践Next.js！AIアウトプットと コンポーネント設計」  最新事情 LT (2025/08/27 19:00〜)",
+    "description": "※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれば幸いです。      同日お昼の時間帯に同テーマで実施する...",
+    "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mMC83ZC9mMDdkODVhYTZkMWUzNTUzOTdmZGI0MDEwZjJhZGU3NS5wbm.webp",
+    "name": "connpass",
+    "url": "https://findy.connpass.com/event/365880/"
   },
   "https://jsconf.jp/2021/": {
     "title": "JSConf JP",
@@ -475,6 +489,20 @@
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html"
+  },
+  "https://mozaic.fm/episodes/181/monthly-ecosystem-2025.html": {
+    "title": "ep181 Monthly Ecosystem 202507 | mozaic.fm",
+    "description": "第 181 回のテーマは 2025 年 7 月の Monthly Ecosystem です。",
+    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
+    "name": "mozaic.fm",
+    "url": "https://mozaic.fm/episodes/181/monthly-ecosystem-2025.html"
+  },
+  "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html": {
+    "title": "ep183 Monthly Ecosystem 202508 | mozaic.fm",
+    "description": "第 183 回のテーマは 2025 年 8 月の Monthly Ecosystem です。",
+    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
+    "name": "mozaic.fm",
+    "url": "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html"
   },
   "https://nextpublishing.jp/book/11906.html": {
     "title": "レベルアップNode.js | インプレス NextPublishing",
