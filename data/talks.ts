@@ -4,6 +4,11 @@ type Talk = Pick<Common, "publishedAt" | "url" | "title" | "links">;
 
 export const talks = [
   {
+    publishedAt: "2025-08-27",
+    url: "https://docs.google.com/presentation/d/16SCdOUhGZ2cQyO_jn09jBv2NqunC4TfjNxWr24eY7rQ/edit",
+    links: ["https://findy.connpass.com/event/365880/"],
+  },
+  {
     publishedAt: "2025-05-19",
     url: "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit",
     links: [

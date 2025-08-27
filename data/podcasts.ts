@@ -7,6 +7,14 @@ export type Podcast = Pick<
 
 export const podcasts = [
   {
+    publishedAt: "2025-08-16",
+    url: "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html",
+  },
+  {
+    publishedAt: "2025-07-19",
+    url: "https://mozaic.fm/episodes/181/monthly-ecosystem-2025.html",
+  },
+  {
     publishedAt: "2025-05-17",
     url: "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html",
   },
