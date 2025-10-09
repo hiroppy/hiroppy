@@ -48,7 +48,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.2.5",
     "@types/emoji-js": "3.5.2",
-    "@types/node": "22.18.8",
+    "@types/node": "22.18.9",
     "cheerio": "1.1.2",
     "emoji-js": "3.8.1",
     "lefthook": "1.13.6",
