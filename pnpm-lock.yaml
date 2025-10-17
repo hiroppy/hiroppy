@@ -15,8 +15,8 @@ importers:
         specifier: 3.5.2
         version: 3.5.2
       '@types/node':
-        specifier: 22.18.10
-        version: 22.18.10
+        specifier: 22.18.11
+        version: 22.18.11
       cheerio:
         specifier: 1.1.2
         version: 1.1.2
@@ -336,8 +336,8 @@ packages:
   '@types/emoji-js@3.5.2':
     resolution: {integrity: sha512-qPR85yjSPk2UEbdjYYNHfcOjVod7DCARSrJlPcL+cwaDFwdnmOFhPyYUvP5GaW0YZEy8mU93ZjTNgsVWz1zzlg==}
 
-  '@types/node@22.18.10':
-    resolution: {integrity: sha512-anNG/V/Efn/YZY4pRzbACnKxNKoBng2VTFydVu8RRs5hQjikP8CQfaeAV59VFSCzKNp90mXiVXW2QzV56rwMrg==}
+  '@types/node@22.18.11':
+    resolution: {integrity: sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==}
 
   before-after-hook@4.0.0:
     resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
@@ -807,7 +807,7 @@ snapshots:
 
   '@types/emoji-js@3.5.2': {}
 
-  '@types/node@22.18.10':
+  '@types/node@22.18.11':
     dependencies:
       undici-types: 6.21.0
 
