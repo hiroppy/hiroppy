@@ -54,7 +54,7 @@
     "lefthook": "1.13.6",
     "octokit": "5.0.5",
     "prettier": "3.6.2",
-    "sharp": "0.34.4",
+    "sharp": "0.34.5",
     "typescript": "5.9.3"
   }
 }
