@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/hiroppy/hiroppy#readme",
   "devDependencies": {
-    "@biomejs/biome": "2.3.4",
+    "@biomejs/biome": "2.3.5",
     "@types/emoji-js": "3.5.2",
     "@types/node": "22.19.0",
     "cheerio": "1.1.2",
