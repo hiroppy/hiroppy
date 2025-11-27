@@ -277,6 +277,18 @@ App Routerを利用したtoBサービスの開発、サポート。
       company: "runpeace",
     },
     {
+      name: "Aidemy",
+      start: new Date("2024-04-01"),
+      end: new Date("2024-12-31"),
+      position: "Architect",
+      initialState: "0",
+      description: `
+サービスのリプレイスでの設計構築、App Routerの導入支援。
+      `,
+      links: [],
+      company: "aidemy",
+    },
+    {
       name: "estie",
       start: new Date("2024-04-01"),
       end: new Date("2024-08-31"),
