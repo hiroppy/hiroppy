@@ -15,15 +15,15 @@ export const meta = {
     connpass: "https://connpass.com/user/about_hiroppy/",
   },
   profile: `
-Node.js を中心に JavaScript をよく使うエンジニア。
-2018年からカカクコムやメルカリなどの企業で技術顧問を勤め、開発支援・技術選定・エンジニア採用をサポートしている。
-本業では、N予備校、メルカリJP、メルカリUS、メルカリShops などをゼロから立ち上げており、大規模トラフィックを扱うサービスの全体設計が得意。
+2008年からプログラミングをはじめ、今は Node.js を中心に JavaScript をよく使うエンジニア。
+2018年からカカクコムやメルカリなどの企業で技術顧問を勤め、20社以上で開発支援・技術選定・エンジニア採用をサポートしている。
+独立前は、ニコナレ、N予備校、メルカリJP、メルカリUS、メルカリShops などをゼロから立ち上げており、大規模トラフィックを扱うサービスの全体設計が得意。
 大学では画像処理を専攻し、ドワンゴ在籍時にはニコニコ生放送の遅延最適化に関する研究に従事。
-コミュニティ活動では TSKaigi のプロポーザル審査委員や JSConf JP の運営を担い、Node.js、webpack など OSS のメンテナンスもしていた。
+コミュニティ活動では JSConf JP の運営やTSKaigi のプロポーザル審査委員をしたり、昔は Node.js、webpack などの OSS のメンテナンスもしていた。
   `,
   community: {
     jsconfJp: {
-      position: "JSConf JP コアメンバー",
+      position: "JSConf JP メンバー",
       start: "2021",
       end: null,
       links: [
@@ -39,7 +39,7 @@ Node.js を中心に JavaScript をよく使うエンジニア。
       links: ["https://2024.tskaigi.org/", "https://2025.tskaigi.org/"],
     },
     nodeFest: {
-      position: "東京Node学園祭 コアメンバー",
+      position: "東京Node学園祭 メンバー",
       start: "2016",
       end: "2018",
       links: [
@@ -49,7 +49,7 @@ Node.js を中心に JavaScript をよく使うエンジニア。
       ],
     },
     reactjs: {
-      position: "React.js meetup コアメンバー",
+      position: "React.js meetup メンバー",
       start: "2017",
       end: "2019",
       links: ["https://reactjs-meetup.connpass.com/"],

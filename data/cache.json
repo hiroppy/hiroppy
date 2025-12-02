@@ -46,6 +46,13 @@
     "name": "mercan (メルカン)",
     "url": "https://careers.mercari.com/mercan/articles/28113/"
   },
+  "https://coder-penguin.com/": {
+    "title": "合同会社Coder Penguin",
+    "description": "合同会社Coder Penguinは、主にフロントエンドやNode.jsのパフォーマンス改善、技術選定サポート、組織課題解決、エンジニア採用など多岐にわたる支援を行っている会社です。",
+    "image": "/images/Y29kZXItcGVuZ3Vpbi5jb20vX2FzdHJvL29ncC5Cb1B0ZnM2TS5qcGc=.webp",
+    "name": "合同会社Coder Penguin",
+    "url": "https://coder-penguin.com/"
+  },
   "https://connpass.com/event/211877/": {
     "title": "Web24 (Frontend Tooling)",
     "description": "# Web24  ## tl;dr;    * Web のことをただひたすら 24 時間議論する   * 5/7 18:00 ~ 5/8: 18:00   * YouTube Live, 無料, アーカイブなし   * 登壇者の発言は個人のものであり所属する組織とは関係なし  ## 配信 URL    * https://bit.ly/web24live     * 連続配信の仕様のため Youtube Live の URL は途中で変わります     * Youtube Live の URL が変わったらこの bitly の遷移先を書き換えます     * シェアなどにはこの短縮 UR...",
@@ -504,6 +511,27 @@
     "name": "mozaic.fm",
     "url": "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html"
   },
+  "https://mozaic.fm/episodes/183/monthly-ecosystem-202508.html": {
+    "title": "ep183 Monthly Ecosystem 202508 | mozaic.fm",
+    "description": "第 183 回のテーマは 2025 年 8 月の Monthly Ecosystem です。",
+    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
+    "name": "mozaic.fm",
+    "url": "https://mozaic.fm/episodes/183/monthly-ecosystem-202508.html"
+  },
+  "https://mozaic.fm/episodes/187/monthly-ecosystem-202510.html": {
+    "title": "ep187 Monthly Ecosystem 202510 | mozaic.fm",
+    "description": "第 187 回のテーマは 2025 年 10 月の Monthly Ecosystem です。",
+    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
+    "name": "mozaic.fm",
+    "url": "https://mozaic.fm/episodes/187/monthly-ecosystem-202510.html"
+  },
+  "https://mozaic.fm/episodes/190/monthly-ecosystem-202511.html": {
+    "title": "ep190 Monthly Ecosystem 202511 | mozaic.fm",
+    "description": "第 190 回のテーマは 2025 年 11 月の Monthly Ecosystem です。",
+    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
+    "name": "mozaic.fm",
+    "url": "https://mozaic.fm/episodes/190/monthly-ecosystem-202511.html"
+  },
   "https://nextpublishing.jp/book/11906.html": {
     "title": "レベルアップNode.js | インプレス NextPublishing",
     "description": "本書は入門書の次に読むことを想定にした、中級者へのステップアップを目指すNode.js解説書です。主にNode.jsに対する技術的な内容を扱います。本...",
@@ -951,6 +979,10 @@
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iZS9jNC9iZWM0ZGMwYmFmZjYyZTFhMWNmYmY5NThhZjA4NmY0OS5wbm.webp",
     "name": "connpass",
     "url": "https://uit.connpass.com/event/216043/"
+  },
+  "https://us.yuimedi.com/product-yuiquery-research/": {
+    "title": "",
+    "url": "https://us.yuimedi.com/product-yuiquery-research/"
   },
   "https://wajs.connpass.com/event/103761/": {
     "title": "We Are JavaScripters! @25th【初心者歓迎LT大会 (2018/10/24 19:30〜)",

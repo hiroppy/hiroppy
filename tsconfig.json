@@ -7,5 +7,5 @@
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true
   },
-  "include": ["scripts/*.ts", "data/*.ts"]
+  "include": ["scripts/*.ts", "data/*.ts", "types/generated.d.ts"]
 }

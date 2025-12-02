@@ -88,11 +88,11 @@
   "main": [
     {
       "name": "Coder Penguin",
-      "start": "2025-04-01",
+      "start": "2024-04-01",
       "end": null,
       "position": "Founder",
       "initialState": "0",
-      "description": "もともと持っていた会社をメインに独立。\n合同会社Coder Penguinでは、様々な会社でフロントエンドの技術顧問やアーキテクチャ設計、開発、エンジニア採用を行う。\n最近は、LLMを利用したサービス開発も多め。",
+      "description": "合同会社Coder Penguinでは、多くの会社で技術顧問として様々な会社の支援を行う。\n\n- Next.js, Node.jsなどのアーキテクチャ設計\n- 大規模フロントエンドのパフォーマンスチューニング\n- LLMを利用したアプリケーション開発支援\n- エンジニア採用支援\n- エンジニア組織計画と成長戦略相談\n\n何をやったかは、My Companyセクションを参照。",
       "company": "coderPenguin",
       "links": []
     },
@@ -102,7 +102,7 @@
       "end": "2025-03-31",
       "position": "VPoE",
       "initialState": "0",
-      "description": "[Yuicleaner](https://yuimedi.com/yuicleaner)の開発をリードし、\n[react-flow](https://reactflow.dev/)の導入と複雑なUIの作成、数百万データを高速に処理できるようにアーキテクチャの設計と実装、\n既存コードをすべて置換し、Next.jsの導入などを行った。\n\nまたVPoEとしてエンジニア組織の構築も行い、エンジニアラダーの作成し評価制度のベース作成、スケールしやすい組織構築も模索しながら行っている。",
+      "description": "VPoEとしてエンジニア組織の構築とフロントエンドの開発をリード。\n\n- [Yuicleaner](https://yuimedi.com/yuicleaner)の開発をリード\n- 製薬企業様向けに数千万データを高速に処理できるようにNode.jsを用いてアーキテクチャの設計と実装\n- [YuiQuery Research](https://us.yuimedi.com/product-yuiquery-research/)でLLMを使った自然言語からSQL生成システムの実装\n- エンジニア組織の構築とエンジニアラダーの作成し評価制度のベース作成",
       "links": [
         {
           "title": "Yuimediのプロダクト開発 | Notion",
@@ -146,9 +146,9 @@
       "name": "Mercari/Souzoh",
       "start": "2019-11-01",
       "end": "2022-07-31",
-      "position": "Architect",
+      "position": "Enabling Team",
       "initialState": "0",
-      "description": "技術顧問から正社員として復職し、再度入社。JPでは[Mercari Web](https://jp.mercari.com/)の0から作成するプロジェクトである[GroundUP App プロジェクト](https://engineering.mercari.com/blog/entry/20221213-ground-up-app/)に立ち上げ参加。\n\n後に100%子会社であるSouzohの立ち上げ時に出向として参加し、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当。リリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。",
+      "description": "技術顧問から正社員として復職し、再度入社。\n\n- [Mercari Web](https://jp.mercari.com/)の0から作成するプロジェクトである[GroundUP App プロジェクト](https://engineering.mercari.com/blog/entry/20221213-ground-up-app/)に立ち上げ参加\n- Souzohの立ち上げを行い、[Mercari Shops](https://mercari-shops.com/)リリースまでの8ヶ月間、フロントエンドの開発をほぼ一人で担当\n- Shopsリリース後は[Enabling TeamとしてStream-aligned team](https://engineering.mercari.com/blog/entry/20210812-team-topologies-in-souzoh/)をサポート。",
       "links": [
         {
           "title": "NestJSでスケーラブルなBFFを構築。メルカリShopsエンジニアがGraphQL活用のリアルを語る【技術選定の裏側：GraphQL編 vol.2】 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
@@ -193,7 +193,7 @@
       "end": "2019-10-31",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "前のドワンゴ退職から半年しか経ってないため、特に以前と開発の状態は大きく変わらず[N予備校](\"https://www.nnn.ed.nico/\")に復職。引き続き機能開発やwssを利用したリアルタイムイベントを管理するシステムをメンテナンス。\nまた、N校のプログラミング教材のレビューも行った。\n\n後にニコニコ生放送への部署に移り、動画の低遅延、安定化の研究。WebRTCやこのときにはまだ仕様策定中であった[CMAF](https://www.liveinstantly.com/ja/resources/cross-posts/cmaf-format/)の実装調査を行った。",
+      "description": "前のドワンゴ退職から半年しか経ってないため、以前と開発の状態は大きく変わらず[N予備校](\"https://www.nnn.ed.nico/\")に復職。\n\n- 引き続き機能開発やwssを利用したリアルタイムイベントを管理するシステムをメンテナンス\n- N校のJavaScriptに関するプログラミング教材のレビュー\n- ニコニコ生放送の部署に移り、動画の低遅延、安定化の研究。WebRTCやこのときにはまだ仕様策定中であった[CMAF](https://www.liveinstantly.com/ja/resources/cross-posts/cmaf-format/)の導入検証を行う",
       "links": [],
       "company": "dwango"
     },
@@ -203,7 +203,7 @@
       "end": "2017-12-01",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "[Mercari US](https://www.mercari.com/)の開発に従事し、現地にいったりし、ほぼなにもない状態のサービスを開発を行う。\n\nMercari JPではPWAやReactの導入をリードし行った。",
+      "description": "主にUSチームでWebの開発に従事。フロントエンドエンジニア3人目。\n\n- [Mercari US](https://www.mercari.com/)の開発をリード\n- Mercari JPではAMP, PWA, Reactの導入をリード",
       "links": [],
       "company": "mercari"
     },
@@ -213,7 +213,7 @@
       "end": "2017-05-31",
       "position": "Engineer",
       "initialState": "0",
-      "description": "新卒で入社。新規開発を行うフロンティアチームで社内レジュメシステムの開発。その後に[ニコナレ](https://blog.nicovideo.jp/niconews/115830.html)の立ち上げを行いフロントエンド一人で開発。初React導入。\n\n次に[N予備校](https://www.nnn.ed.nico/)の立ち上げを行い、主にwssを利用したリアルタイムイベントを管理するシステムを開発。",
+      "description": "新卒で入社し、新規開発を行うフロンティアチームに配属。\n\n- 社内レジュメシステムの開発\n- [ニコナレ](https://blog.nicovideo.jp/niconews/115830.html)の立ち上げを行いフロントエンド一人で開発。初React導入。\n- [N予備校](https://www.nnn.ed.nico/)の立ち上げを行い、主にwssを利用したリアルタイムイベントを管理するシステムを開発",
       "links": [],
       "company": "dwango"
     }
@@ -225,7 +225,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "Ruby on RailsからNext.jsへの移行方針の提案、実装サポート。また、jQueryからReactへの移行サポート。\n\nエンジニアの育成。",
+      "description": "- Ruby on RailsからNext.jsへの移行方針の設計支援\n- jQueryからReactへの移行サポート\n- エンジニア採用支援\n- エンジニア育成",
       "links": [
         {
           "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
@@ -264,7 +264,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "退職後引き続き、Architectとして社内のフロントエンドサポートと大規模な処理に耐えれるようにパフォーマンスチューニング。\nエンジニア採用のサポート。",
+      "description": "- フロントエンド、Node.jsのセキュリティ強化支援\n- 大規模トラフィックに耐えうる設計、パフォーマンスチューニング支援\n- エンジニア採用支援",
       "links": [],
       "company": "mercari"
     },
@@ -274,7 +274,7 @@
       "end": null,
       "position": "Enabling Team (Frontend/LLM)",
       "initialState": "0",
-      "description": "Enabling Teamとして、フロントエンド開発の支援、LLMの検証等を行う。\n\nCEO直下のチームで、BPOの開発を行う。",
+      "description": "- CEO直下のチームで、新規プロダクトのBPO\n- バクラクのフロントエンド開発\n- 会社全体リポジトリのフロントエンドインフラ改善",
       "links": [
         {
           "title": "LayerX、AIエージェントに参入　請求書受け取り代行など - 日本経済新聞",
@@ -299,8 +299,13 @@
       "end": null,
       "position": "Engineer",
       "initialState": "100",
-      "description": "Yuiqueryの開発を引き続き手伝う。",
-      "links": [],
+      "description": "- YuiQuery Researchの開発を引き続き行う",
+      "links": [
+        {
+          "title": "",
+          "url": "https://us.yuimedi.com/product-yuiquery-research/"
+        }
+      ],
       "company": "yuimedi"
     },
     {
@@ -309,7 +314,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "Next.jsのApp Routerを利用したサービスを展開しているので、そこで発生した問題点を解決するアドバイスを行う。\n\nRuby on Railsからフロントエンドを剥がす過程の提案、リファクタリングサポート。",
+      "description": "- Ruby on RailsからNext.jsへの移行方針の設計支援\n- Next.js App Routerアーキテクチャ設計支援\n- 新規プロダクト設計支援\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- エンジニア採用支援\n- エンジニア育成",
       "links": [
         {
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
@@ -339,7 +344,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "コミューンの設計、デザインシステム作成支援。\nLLM効率化のための基盤作成支援。",
+      "description": "- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- 大規模トラフィックに耐えうる設計、パフォーマンスチューニング支援\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- リプレイス移行設計支援\n- LLM効率化のための基盤作成支援\n- エンジニア採用支援",
       "links": [],
       "company": "commune"
     },
@@ -349,7 +354,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "フロントエンド、Node.js、パフォーマンス支援",
+      "description": "- Next.js App Routerアーキテクチャ設計支援\n- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- LLM効率化のための基盤作成支援\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- エンジニア採用支援",
       "links": [
         {
           "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
@@ -374,7 +379,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "フロントエンド、Node.js、パフォーマンス支援",
+      "description": "- リプレイス移行設計支援\n- LLM効率化のための基盤作成支援\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)",
       "links": [],
       "company": "hokuto"
     },
@@ -384,7 +389,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案。",
+      "description": "- ADRの各意思決定の確認や議論、今後スケールする組織のためのアーキテクチャの提案\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- 新規プロダクト設計支援",
       "links": [
         {
           "title": "2023年の振り返り",
@@ -419,7 +424,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "フロントエンド、Node.js、パフォーマンス支援",
+      "description": "- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- 新規プロダクト設計支援",
       "links": [],
       "company": "ship"
     },
@@ -429,7 +434,7 @@
       "end": null,
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "App Routerを利用したtoBサービスの開発、サポート。",
+      "description": "- App Routerを利用したtoBサービスの開発、サポート",
       "links": [],
       "company": "runpeace"
     },
@@ -439,7 +444,7 @@
       "end": "2024-12-31",
       "position": "Architect",
       "initialState": "0",
-      "description": "サービスのリプレイスでの設計構築、App Routerの導入支援。",
+      "description": "- Next.js App Routerアーキテクチャ設計支援\n- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- リプレイス移行設計支援",
       "links": [],
       "company": "aidemy"
     },
@@ -449,7 +454,7 @@
       "end": "2024-08-31",
       "position": "Technical Advisor",
       "initialState": "100",
-      "description": "フロントエンド改善支援",
+      "description": "- Next.js App Routerアーキテクチャ設計支援\n- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- リプレイス移行設計支援",
       "links": [
         {
           "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
@@ -467,7 +472,7 @@
       "end": "2023-12-31",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "CTOへの技術、組織的な改善提案。DDDからの脱却するため、リファクタリングへのテストの追加と安定性のサポート。",
+      "description": "- Next.js App Routerアーキテクチャ設計支援\n- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- リプレイス移行設計支援",
       "links": [],
       "company": "anotherworks"
     },
@@ -477,7 +482,7 @@
       "end": "2022-06-01",
       "position": "Engineer",
       "initialState": "1-100",
-      "description": "[Yuicleaner](https://yuimedi.com/yuicleaner)の実装。",
+      "description": "- [Yuicleaner](https://yuimedi.com/yuicleaner)の実装",
       "links": [],
       "company": "yuimedi"
     },
@@ -487,7 +492,7 @@
       "end": "2022-05-31",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "コードが複雑になっていたため、リファクタリングの提案。事業転換が発生したため、短い期間でのサポートとなった。\n\nエンジニアの育成。",
+      "description": "- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- エンジニア育成\n\n事業転換が発生したため、短い期間でのサポート",
       "links": [],
       "company": "alpaca"
     },
@@ -497,7 +502,7 @@
       "end": "2020-05-31",
       "position": "Technical Advisor",
       "initialState": "1-100",
-      "description": "create-react-appからNext.jsへの移行サポート。ゲーム開発のコードレビューとパフォーマンス改善提案。",
+      "description": "- create-react-appからNext.jsへの移行サポート\n- ゲーム開発のコードレビューとパフォーマンス改善提案",
       "links": [],
       "company": "black"
     },
@@ -507,7 +512,7 @@
       "end": "2019-10-31",
       "position": "Technical Advisor",
       "initialState": "0",
-      "description": "アイルランドからのリモートワークで、Mercari JPを1から作り直すプロジェクトに顧問として参加。\n\nNext.jsを初期から選択し、セキュリティをはじめとしたアーキテクチャの設計と実装をサポート。",
+      "description": "- Mercari JPを1から作り直すプロジェクトに顧問として参加\n- Next.jsを初期から選択し、セキュリティをはじめとしたアーキテクチャの設計と実装をサポート\n- 大規模トラフィックに耐えうる設計、パフォーマンスチューニング支援\n- リプレイス移行設計支援",
       "links": [
         {
           "title": "Web Re-Architecture プロジェクトにおける技術的チャレンジ",
@@ -525,7 +530,7 @@
       "end": "2017-10-01",
       "position": "Engineer",
       "initialState": "100",
-      "description": "スポットで開発に参加、Scalaを利用。",
+      "description": "- スポットで開発に参加、Scalaを利用",
       "links": [],
       "company": "bizreach"
     },
@@ -535,7 +540,7 @@
       "end": "2015-03-03",
       "position": "Engineer",
       "initialState": "100",
-      "description": "Backbone.jsやjQueryを利用し、学生アルバイトとして開発。",
+      "description": "- Backbone.jsやjQueryを利用し、学生アルバイトとして開発",
       "links": [],
       "company": "eyesjapan"
     },
@@ -545,7 +550,7 @@
       "end": "2013-10-01",
       "position": "Intern",
       "initialState": "0",
-      "description": "Titaniumを利用した画像処理アプリ開発。",
+      "description": "- Titaniumを利用した画像処理アプリ開発",
       "links": [],
       "company": "cyberagent"
     }
