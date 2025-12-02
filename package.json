@@ -51,7 +51,7 @@
     "@types/node": "24.10.1",
     "cheerio": "1.1.2",
     "emoji-js": "3.9.0",
-    "lefthook": "2.0.4",
+    "lefthook": "2.0.5",
     "octokit": "5.0.5",
     "prettier": "3.7.3",
     "sharp": "0.34.5",
