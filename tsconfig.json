@@ -5,7 +5,13 @@
     "module": "nodenext",
     "rewriteRelativeImportExtensions": true,
     "erasableSyntaxOnly": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true
   },
-  "include": ["scripts/*.ts", "data/*.ts", "types/generated.d.ts"]
+  "include": [
+    "scripts/*.ts",
+    "data/*.ts",
+    "types/generated.d.ts",
+    "generated/types/*.d.ts"
+  ]
 }

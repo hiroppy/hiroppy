@@ -19,4 +19,6 @@ await cacheStorage.run(initialCache, async () => {
   if (finalCache) {
     await saveCache(finalCache);
   }
+
+  await import("./generate-types.ts");
 });
