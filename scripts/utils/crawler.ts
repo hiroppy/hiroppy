@@ -144,7 +144,7 @@ export async function crawlSites(filename: string, items: Common[]) {
         };
       }
 
-      console.log("new", url);
+      console.log("new url", url);
 
       const meta = await getMeta(url, title);
 

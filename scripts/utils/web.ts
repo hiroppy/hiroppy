@@ -1,19 +1,55 @@
-import { exec } from "node:child_process";
-import { promisify } from "node:util";
+import { spawn } from "node:child_process";
 import { load } from "cheerio";
 import type { LinkMeta } from "../../data/type.ts";
 import { convertName } from "./mapping-name.ts";
 import { normalizeUrl } from "./url.ts";
 
-const promisifyExec = promisify(exec);
+async function runWithSpawn(cmd: string, args: string[]) {
+  return new Promise<string>((resolve, reject) => {
+    const child = spawn(cmd, args, {
+      shell: true,
+    });
+    let stdout = "";
+    let stderr = "";
+
+    if (child.stdout) {
+      child.stdout.on("data", (data) => {
+        stdout += data.toString();
+      });
+    }
+
+    if (child.stderr) {
+      child.stderr.on("data", (data) => {
+        stderr += data.toString();
+      });
+    }
+
+    child.on("close", (code) => {
+      if (code === 0) {
+        resolve(stdout);
+      } else {
+        reject(new Error(`Command failed with code ${code}: ${stderr}`));
+      }
+    });
+  });
+}
 
 export async function getMeta(url: string, title?: string): Promise<LinkMeta> {
   try {
+    if (url.startsWith("https://www.youtube.com/")) {
+      console.log("----------", `curl ${url}`);
+    }
+
     // twitterはbotをつけないとogをつけない
     // nodeライブラリは基本、user-agentを変えれない
-    const { stdout: html } = await promisifyExec(
-      `curl -m 10 '${url}' -H 'User-Agent: bot'`,
-    );
+    const command = `curl -m 10 '${url}' -H 'User-Agent: bot'`;
+    const [cmd, ...args] = command.split(" ");
+    const html = await runWithSpawn(cmd, args);
+
+    if (url.startsWith("https://www.youtube.com/")) {
+      console.log(html);
+    }
+
     const $ = load(html);
 
     const faviconHref =
@@ -68,11 +104,6 @@ function mappedSite(url: string) {
     {
       match: /careers\.mercari\.com\/mercan/,
       favicon: "https://careers.mercari.com/favicon.ico",
-    },
-    {
-      match: /www\.youtube\.com/,
-      favicon:
-        "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     },
   ];
 
