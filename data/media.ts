@@ -22,7 +22,7 @@ export const pressReleases = [
   },
   {
     publishedAt: "2024-03-28",
-    url: "https://route06.co.jp/news/38",
+    url: "https://route06.com/jp/news/38",
     company: "route06",
   },
   {

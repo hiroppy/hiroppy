@@ -11,18 +11,9 @@ export interface Talk {
   title: string;
   description?: string;
   image?: string;
-  name:
-    | "Google Docs"
-    | "connpass"
-    | "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES"
-    | "YouTube"
-    | "hiroppy's slides"
-    | "LINE ENGINEERING"
-    | "abouthiroppy's slides"
-    | "情報科学若手の会"
-    | "Speaker Deck"
-    | "SlideShare";
+  name: string;
   url: string;
+  favicon: string;
   publishedAt: string;
   links?: LinkMeta[];
 }

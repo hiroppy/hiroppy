@@ -2,16 +2,18 @@
   {
     "title": "Next.js Internal MCP",
     "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtsSFJNc1RVTmszSnRPTmFLSWtQRkNDbVoybT.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUsxVlRLX08walk1NGhlRHBUcXVxUHMteENpMX.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2025-08-27",
     "links": [
       {
         "title": "「実践Next.js！AIアウトプットと コンポーネント設計」  最新事情 LT (2025/08/27 19:00〜)",
-        "description": "※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれば幸いです。      同日お昼の時間帯に同テーマで実施する...",
+        "description": "# 🎥 アーカイブ動画  アーカイブ動画はこちらから    ※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれ...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mMC83ZC9mMDdkODVhYTZkMWUzNTUzOTdmZGI0MDEwZjJhZGU3NS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://findy.connpass.com/event/365880/"
       }
     ]
@@ -19,9 +21,10 @@
   {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUl6ZGNYZ3ZVMkRsT3pSLVFWa3Zhd1hIUzNkSX.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtMNlRjMnFmWmdqMWZNWC1YMFNnTEw1eldwMm.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2025-05-19",
     "links": [
       {
@@ -29,13 +32,15 @@
         "description": "## 🧩 カンファレンス直前！スタートアップのTypeScript実践Tips  ショッピングアシストアプリ『PLUG』を開発・運営する株式会社STRACTが主催する、   エンジニア向けコミュニティイベント。  初開催の今回のテーマはスタートアップ×TypeScript。  TypeScriptに関連する大型カンファレンス直前に実施する本イベントでは、実際に当日登壇される2名のゲストを招き、   Lintルール設計・Node.js活用・社内ツールの自動化事例など、プロダクト開発の「今」がわかる内容をお届け。  現場の実践知が詰まったLT・パネルセッションに加え、オフラインでは軽食を囲ん...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMC9iMi8xMGIyYTI5ZDA0MmZlYTg2YTE3Mjk0ZGFiYjczMzQ2MS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://stract.connpass.com/event/354163/"
       },
       {
         "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
         "description": "株式会社STRACTのプレスリリース（2025年4月30日 11時05分）STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
         "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
-        "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+        "name": "PR TIMES",
+        "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
         "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html"
       }
     ]
@@ -43,18 +48,20 @@
   {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtFR2o0TVRLNVl0Q0tMZFZsTWJDTmZReTBYYU.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUt4UHAwNnBDaVhpUDdIYnEyWThXbkVEczltMk.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2025-04-02",
     "links": []
   },
   {
     "title": "本当にそれはエラーなのか？",
     "description": "本当にそれは エラーなのか？ 2025/03/28 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtqTEtMZUcySmEtRVo2R3ZfNDMtN1NFYm9tU3.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxiSEw3RlNDRU5jWDlRR3NleUt5YWl0MWgtbn.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2025-03-28",
     "links": [
       {
@@ -62,13 +69,15 @@
         "description": "## 📝 noren.ts とは？  #### noren.ts は株式会社ダイニーが主催する TypeScript をテーマにした勉強会です！  記念すべき第1回となる今回は TypeScriptのエラーハンドリング をテーマに開催します！  noren.ts  は「のれん」と「TypeScript」を掛け合わせた名称で、誰でも気軽に参加できる場を提供するというコンセプトを表しています。  ダイニーがフルスタックに TypeScript を活用している経験や、有識者による実践的な知見などを皆様と交換することで、TypeScript について学び合える場にしたいと思っています。今後も定期...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Zi8yOS85ZjI5ZTIzZTRkNzMxNmI1NDY2ZDk2Y2JmYTZkNGYxOS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://dinii.connpass.com/event/348179/"
       },
       {
         "title": "ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
         "description": "株式会社ダイニーのプレスリリース（2025年3月7日 09時38分）ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
         "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvNDMwNTYvODYvNDMwNTYtODYtM2QzMjEwYjdiYW.webp",
-        "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+        "name": "PR TIMES",
+        "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
         "url": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html"
       }
     ]
@@ -76,9 +85,10 @@
   {
     "title": "Trusted Types & Dynamic Code Brand Checks",
     "description": "Trusted Types & Dynamic Code Brand Checks 2025/02/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUowdEhjSExXWnpXanoyMi0yZFRJYU5HYm5lY0.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpTZEhseXItbHNBQVZpMkwwY1VnUHZkZ3RnWj.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2025-02-27",
     "links": [
       {
@@ -86,6 +96,7 @@
         "description": "# イベント概要  Meguro.es は、目黒周辺の ECMAScript 関連の開発者のためのコミュニティーです。  第29回は、株式会社オロ様にて開催いたします！  ## こんな方におすすめ  目黒とゆかりがなくても参加できます！  特にこんな方にはオススメです。    * ECMAScript あるいは JavaScript の関連技術の知見を深めたい・広めたい・共有したい方   * ECMAScript あるいは JavaScript の関連技術の困っていること・悩みを共有したい方   * 過去の会の参加者で、引き続き Meguro.es を盛り上げていただける方  ## 発表...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mYy9mOC9mY2Y4MjM2ZmM1Y2VjZjdhOWJiNWYyNWY5OWE1NDNmMC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://meguroes.connpass.com/event/342717/"
       }
     ]
@@ -93,9 +104,10 @@
   {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxfN3dFRGFmR25KYm5Sc2ZTak5qQWpJQUFXS1.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUp6TFBBOWZJb3FtU0dxY3hSNVd5UGE5LUFySm.webp",
     "name": "Google Docs",
     "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "publishedAt": "2024-09-19",
     "links": [
       {
@@ -103,6 +115,7 @@
         "description": "## 概要  LayerXでは、より良い体験を作り出し、お客様に価値を届けることを最も重視しています。 昨年策定したバクラクフロントエンドVisionでは「お客様に最高の体験を届けたい」「Webフロントエンドを楽しくしたい」という願いが込められています。  この願いを実現するために、バクラク事業部のフロントエンドギルドは、「Bet Technology」を基盤に、3つの柱「Easy Build」「Fast Delivery」「Safety Challenge」を中心に取り組んでいます。  本イベントでは、これらの取り組みの一環として、LayerXで利用されている基盤技術の一つであるNex...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lMi8xOS9lMjE5NGJmODQ5MmM2ZWRjNzM1NmEyMzA1ZmQ0NmM2Ni5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://layerx.connpass.com/event/328945/"
       }
     ]
@@ -113,12 +126,14 @@
     "image": "/images/aS55dGltZy5jb20vdmkvUWJXalZsb2FBdVkvbWF4cmVzZGVmYXVsdC5qcGc=.webp",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=QbWjVloaAuY",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "publishedAt": "2022-07-26",
     "links": [
       {
         "title": "Cybozu Frontend Monthly #25",
-        "description": "サイボウズのフロントエンドエキスパートチームが月イチでお届けするフロントエンド情報",
+        "description": "サイボウズのフロントエンドエンジニアが月イチでお届けするフロントエンド情報",
         "image": "/images/Y3lib3p1LmdpdGh1Yi5pby9mcm9udGVuZC1tb250aGx5L2ltZy9oZWFkZXIucG5n.webp",
+        "favicon": "https://cybozu.github.io/frontend-monthly/icons/favicon-32x32.png",
         "url": "https://cybozu.github.io/frontend-monthly/posts/2022-07/"
       }
     ]
@@ -129,6 +144,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvMXVDV3pmYUllZEUvaHFkZWZhdWx0LmpwZw==.webp",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=1uCWzfaIedE",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "publishedAt": "2021-09-15",
     "links": [
       {
@@ -136,12 +152,15 @@
         "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第5回のテーマは「Infrastructure」です。先日のブログで全体のアーキテクチャや、CI/CDについても紹介していますが、ソウゾウで取り組んでいるアーキテクチャやキャッシュ戦略、セキュアな環境構築の工夫など、ブログの執筆者が登壇し、ディスカッション形式でお届けします。  皆さまのご参加をお待ちしております！    # こんな方におすすめ    * Cloud Run + Cloud SQL (PostgreSQL...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8zOS82MS8zOTYxOWI5NDYwODRlNzgwZDkwNGQ4NTRmY2NhN2ZiNC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://mercari.connpass.com/event/221980/"
       },
       {
         "title": "メルカリShops の CI/CD と Pull Request 環境 | メルカリエンジニアリング",
         "description": "こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：「メルカリShops」プレオープンまでの開発の裏側の８日目を担当させていただきます。この記事では、メルカリShops 開発において、日々バリバリに",
         "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9iZThiOTgxNy1kcmFnb2.webp",
+        "name": "Mercari Engineering blog",
+        "favicon": "https://engineering.mercari.com/favicon.ico",
         "url": "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
       }
     ]
@@ -152,6 +171,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "publishedAt": "2021-09-01",
     "links": [
       {
@@ -159,12 +179,15 @@
         "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第3回のテーマは「Frontend」です。メルカリShopsはメルカリiOS/Androidアプリ上でWebViewとFrontendの技術を利用してサービスを提供しています。Web Frontend開発での工夫、WebViewでの開発で発生する問題への対処など、ディスカッション形式でお届けします。    皆さまのご参加をお待ちしております！    # こんな方におすすめ      * なぜメルカリShopsがサクサク動...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy83MS8xYS83MTFhMDZlMzRmNjhiMTZiZDE5YzhiZmRiMWRlZWRjNi5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://mercari.connpass.com/event/221978/"
       },
       {
         "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
         "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
         "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
+        "name": "Mercari Engineering blog",
+        "favicon": "https://engineering.mercari.com/favicon.ico",
         "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
       }
     ]
@@ -175,6 +198,7 @@
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvY2FjaGUtc3RyYXRlZ3ktb24tbWVyY2FyaS1zaG9wcy90aHVtYm5haWwucG5n.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/cache-strategy-on-mercari-shops/",
+    "favicon": "",
     "publishedAt": "2021-08-30",
     "links": [
       {
@@ -182,6 +206,7 @@
         "description": "オンラインで Node学園 をやってみます。 37時限目です。  # 概要  Node.js日本ユーザグループ(https://nodejs.jp/) 主催による、Node.jsの勉強会です。  # タイムテーブル  タイムテーブルは今後発表者を追加していきたいと思います。  時間 | コンテンツ   ---|---   19:00 - 19:10 | はじめに by yosuke_furukawa   19:10 - 19:30 | Node.js WHATWG Stream の話とかしてみる by yosuke_furukawa   19:30 - 19:50 | corepack ...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy80YS85ZC80YTlkNjA2ZmJiMGJjMTZhNWI4YWM5NzNmZTU3OWUyMC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://nodejs.connpass.com/event/221358/"
       }
     ]
@@ -192,6 +217,7 @@
     "image": "/images/aS55dGltZy5jb20vdmkvWHlvZUoxVFJhTWsvaHFkZWZhdWx0LmpwZw==.webp",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=XyoeJ1TRaMk",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "publishedAt": "2021-07-15",
     "links": [
       {
@@ -199,6 +225,7 @@
         "description": "YouTube Live: https://www.youtube.com/watch?v=XyoeJ1TRaMk  UIT Meetup vol. 13では、Vite、Snowpack、esbuild など、昨今多くの提案がされている Frontend Tooling の分野を深堀りしていきます。  なぜ今新しいツールやバンドラーが求められているのか？ それぞれのツールの詳しい使い勝手、そして今後従来のツールを置き換えるものとなるのか？ など、フロントエンドのトレンドについてゲストの方と話していきます。  これらのツールは最近でも活発に変更が加えられていますが、今回のイベントではしっか...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iZS9jNC9iZWM0ZGMwYmFmZjYyZTFhMWNmYmY5NThhZjA4NmY0OS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://uit.connpass.com/event/216043/"
       },
       {
@@ -206,6 +233,7 @@
         "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
         "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
         "name": "LINE ENGINEERING",
+        "favicon": "https://engineering.linecorp.com/favicon-32x32.png?v=6d6085f233d02c34273fa8a8849b502a",
         "url": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
       }
     ]
@@ -215,6 +243,7 @@
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvdG9vbHMtaGlzdG9yeS1hbmQtZnV0dXJlL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/tools-history-and-future/",
+    "favicon": "",
     "publishedAt": "2021-07-07",
     "links": [
       {
@@ -222,6 +251,7 @@
         "description": "YouTube Live: https://www.youtube.com/watch?v=XyoeJ1TRaMk  UIT Meetup vol. 13では、Vite、Snowpack、esbuild など、昨今多くの提案がされている Frontend Tooling の分野を深堀りしていきます。  なぜ今新しいツールやバンドラーが求められているのか？ それぞれのツールの詳しい使い勝手、そして今後従来のツールを置き換えるものとなるのか？ など、フロントエンドのトレンドについてゲストの方と話していきます。  これらのツールは最近でも活発に変更が加えられていますが、今回のイベントではしっか...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iZS9jNC9iZWM0ZGMwYmFmZjYyZTFhMWNmYmY5NThhZjA4NmY0OS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://uit.connpass.com/event/216043/"
       }
     ]
@@ -231,6 +261,7 @@
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvc291cmNlbWFwLXYzL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/sourcemap-v3/",
+    "favicon": "",
     "publishedAt": "2021-05-26",
     "links": [
       {
@@ -238,6 +269,7 @@
         "description": "## エキスパートだらけのカンファレンス  TechFeed Summitのコンセプトは、「エキスパートだらけのカンファレンス」。エキスパート向けの情報サービスであるTechFeed Pro、そしてそれを支えるエキスパートコミュニティの魅力を存分に凝縮したオンラインイベントを目指しています。  ## TechFeed Summit #6のテーマはNode.js v16リリース  Yosuke Furukawa さん​、Masashi Hirano さん​、Yuta Hiroto さん​をお招きして、Node.js v16リリースの注目ポイントやNode.jsの最新動向まで、余すことなくお...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Yy9lNy85Y2U3ZTk0YmEwYzk0NzRjZTg4NThhMDQ2YTI5M2NhZC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://techfeed.connpass.com/event/213218/"
       }
     ]
@@ -248,10 +280,12 @@
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Mi82YS85MjZhZTk3NGEwZTRlYjcyNzc2YTU1MTkwMDQzYjFmNS5wbm.webp",
     "name": "connpass",
     "url": "https://connpass.com/event/211877/",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "publishedAt": "2021-05-07",
     "links": [
       {
         "title": "",
+        "favicon": "",
         "url": "https://togetter.com/li/1708701/"
       }
     ]
@@ -262,6 +296,7 @@
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvYS1kZWVwLWRpdmUtaW50by1tb2R1bGUtZ3JhcGgvdGh1bWJuYWlsLnBuZw==.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/a-deep-dive-into-module-graph/",
+    "favicon": "",
     "publishedAt": "2021-01-25",
     "links": []
   },
@@ -270,10 +305,12 @@
     "description": "introducing how to use asset modules of webpack5",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules/",
+    "favicon": "",
     "publishedAt": "2020-04-17",
     "links": [
       {
         "title": "Events.com Virtual (formerly Remo)",
+        "favicon": "https://live.remo.co/favicon.ico?v=109.2.4",
         "url": "https://live.remo.co/e/remo_study/register/"
       }
     ]
@@ -282,6 +319,7 @@
     "title": "Introducing top-level-await",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/top-level-await/",
+    "favicon": "",
     "publishedAt": "2019-10-09",
     "links": [
       {
@@ -289,6 +327,7 @@
         "description": "# TC39 Proposals Study  ## Intro  TC39 に提案されている Stage 0 から Stage 3 までの好きな Proposal を選び、それについて 1min ~ 5min の間で LT する。というのを時間の限り繰り返す。そんな LT 大会です。  This is a Lightling Talk Only Meetup for TC39 Proposals. Speakers Choice Proposals from Stage 0-3, and give a talk in 1-5 min.    * stage3,2: https://gi...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMi8xNy8xMjE3ZjAwZTMyMDc3OTFhMTEwYzkzZTAyZDc5YjljMi5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://web-study.connpass.com/event/147538/"
       }
     ]
@@ -299,10 +338,12 @@
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/node-esm/",
+    "favicon": "",
     "publishedAt": "2019-04-25",
     "links": [
       {
         "title": "",
+        "favicon": "",
         "url": "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/"
       }
     ]
@@ -312,6 +353,7 @@
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/introduce-apollo/",
+    "favicon": "",
     "publishedAt": "2019-01-31",
     "links": [
       {
@@ -319,6 +361,7 @@
         "description": "## React.js meetup #6  React.js meetup #6 を開催します！  今回は会場・懇親会共にヤフー株式会社様にスポンサー頂きます。  また今回は、@koba04さん、@about_hiroppyさんにTalkして頂く予定です。  ## LT登壇について  登壇についてはReactに関することであればテーマは自由です♪   初心者の方から業務でバリバリ使いこなしている方までどなたでもご登壇ください！  ### LT時間  5~10分  ## 開催概要  ### 日時  2019/01/31(木)19:00~  ### タイムスケジュール  | 時間 | 内容...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9hMy82Yy9hMzZjYWMzZDE0NDQzNDYyZGJmZjc3NzI3N2M4ZDRiMy5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://reactjs-meetup.connpass.com/event/115274/"
       }
     ]
@@ -329,12 +372,14 @@
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjEwNTc5MT9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/webpack-history/",
+    "favicon": "",
     "publishedAt": "2018-11-25",
     "links": [
       {
         "title": "HTML5 Conference",
         "description": "HTML5 Conference - 2018年11月25日（日）東京電機大学 千住キャンパスにて開催。",
         "image": "/images/ZXZlbnRzLmh0bWw1ai5vcmcvY29uZmVyZW5jZS8yMDE4LzExL2Fzc2V0cy9pbWcvb2dwLnBuZw==.webp",
+        "favicon": "",
         "url": "https://events.html5j.org/conference/2018/11/"
       }
     ]
@@ -345,6 +390,7 @@
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/the-event-loop-of-node/",
+    "favicon": "",
     "publishedAt": "2018-10-24",
     "links": [
       {
@@ -352,6 +398,7 @@
         "description": "## 20時以降に参加される方へ  エントランスと5Fに設置している看板は20時に撤去されます。 出口は出入り自由なので普通に入ってきていただいて問題ございません。 わからないかたは #wejs でつぶやいてください！  ## 10月もWe Are JavaScripters!!  少し寒くなってきましたね。。。 皆さん体調は大丈夫ですか？  10月のWe Are JavaScriptersは株式会社メディアドゥで開催します！  普段のお仕事で勉強したことやシェアしたいことがある方、ぜひぜひ登壇されてください！！  ### 登壇枠に関して  ※ 現在connpassの仕様上、facebo...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8yNC8wZS8yNDBlMDFkNGYzZWUyODMyNWRjYWVmZmRmYWUwZDc5ZS5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://wajs.connpass.com/event/103761/"
       }
     ]
@@ -362,6 +409,7 @@
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/future-of-node/",
+    "favicon": "",
     "publishedAt": "2018-07-25",
     "links": [
       {
@@ -369,6 +417,7 @@
         "description": "ユーザーが快適にシステムを使い続けるには、UX(User Experience) がとても重要です。  快適なUXを実現するためには優れたUIが必要です。  そして優れたUIを実現するために、JavaScriptは必須の技術となりました。  一方サーバーサイドでもリアルタイム性が問われるシステムを実現するためにNode.jsが活用されています。  このようにJavaScriptの活用範囲が年々広がってきていますが、JavaScriptは技術の進化が速いジャンルです。  その進化の速いJavaScriptの「今」を把握するために今回のBPStudyはJavaScriptを使って活躍されてい...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNS9jNy9jNWM3Mzg4MTdmNGU4MDg2YTkzMmFkOWM5MjhjMGE1NC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://bpstudy.connpass.com/event/90777/"
       }
     ]
@@ -379,6 +428,7 @@
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/worker_threads/",
+    "favicon": "",
     "publishedAt": "2018-06-26",
     "links": [
       {
@@ -386,6 +436,7 @@
         "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 -> LTの発表なしで聴衆と...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://roppongi-js.connpass.com/event/86684/"
       }
     ]
@@ -394,8 +445,9 @@
     "title": "util.types",
     "description": "introduce util.types",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "http://slides.hiroppy.me/util.types/",
+    "favicon": "",
     "publishedAt": "2018-04-24",
     "links": [
       {
@@ -403,6 +455,7 @@
         "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  第2回目もLT大会！  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 ->...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://roppongi-js.connpass.com/event/82998/"
       }
     ]
@@ -411,8 +464,9 @@
     "title": "performance timing api with node.js",
     "description": "introduce performance timing api of Node.js",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "http://slides.hiroppy.me/performance-timing-api-with-node.js/",
+    "favicon": "",
     "publishedAt": "2018-03-24",
     "links": [
       {
@@ -420,6 +474,7 @@
         "description": "Kyoto.jsは京都のJavaScriptコミュニティです!  テーマはJSに関係することなら何でもOK! JSに関係なくてもOK!   技術に関すること、Webに関すること、デザインに関すること、なんでも喋ってってください〜  # タイムテーブル  時刻 | タイトル | 発表者   ---|---|---   13:00 | 乾杯 |   13:05 | puppeteer向けのタスクランナーみたいなの書いたので紹介します | pastak   13:20 | V8周りの話(仮) | hiroppy   13:35 | aws-serverless-expressの話(仮) | p...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jZi84Yi9jZjhiMWE4ZDIwZWE5MGZhNGY2OTFhNTk2NWVkOTQ5MC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://kyotojs.connpass.com/event/80019/"
       }
     ]
@@ -428,8 +483,9 @@
     "title": "node-core-utils",
     "description": "introduce node-core-utils",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/node-core-utils/",
+    "favicon": "",
     "publishedAt": "2018-03-06",
     "links": [
       {
@@ -437,6 +493,7 @@
         "description": "# イベント概要  \"２回以上やることはなんでも自動化されるべきだ\" Adam Stone, CEO, D-Tools  SREとSETという役割は、インフラやQAなどソフトウェア開発において手動で操作されることが多い領域を自動化するためにGoogleで作られました。このMeetupは例えば下記のような、生産性とプロダクトの品質を向上するための自動化ハックを学習し、共有し、コラボレーションするためのものです。    * CI/CDを用いたプロダクトリリースの自動化に関する経験   * Ansibleなどを用いたDevOpsの自動化   * AppiumやSeleniumなどのUIオートメ...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85ZS84OS85ZTg5NzE1ZDU2NjEwMTYzMjNiMDk5ZWI0YThmZDIzNi5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://mercari.connpass.com/event/79046/"
       }
     ]
@@ -444,8 +501,9 @@
   {
     "title": "how to manage the document of Node.js",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/how-to-manage-the-document-of-Node.js/",
+    "favicon": "",
     "publishedAt": "2017-11-11",
     "links": [
       {
@@ -453,6 +511,7 @@
         "description": "日頃、OSSのドキュメントの書き方に悩んでいる人たちが集まって知見を共有する 勉強会です。  たとえば、    * APIドキュメントをどう書くか   * チュートリアルをどう書くか   * ドキュメント内に各種要素をどう配置するか   * ドキュメント生成ツールについて   * 英語ドキュメントを書く場合の注意  といったことについて知見を共有できればと考えています。  主に、OSSのドキュメントを書く立場からの発表を募集しますが、読む側から、「こうなっていて欲しい」という 発表でも構いません。対象となるプログラミング言語等は問いませんし、非プログラマ向けのソフトウェアの ドキュメント...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNy9lNS9jN2U1MTIxNTQyOTgzZThhNWIzZmNjYzg5MTFhZjZlOC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://kbkz.connpass.com/event/5150/"
       }
     ]
@@ -461,8 +520,9 @@
     "title": "the present and future of JavaScript",
     "description": "Explain how specifications are determined and how it will be in the future.",
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcyNTU4Mz92PTQmcz0yMDA=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/the-present-and-future-of-JavaScript/",
+    "favicon": "",
     "publishedAt": "2017-10-08",
     "links": [
       {
@@ -470,6 +530,7 @@
         "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
         "image": "",
         "name": "情報科学若手の会",
+        "favicon": "",
         "url": "https://wakate.org/2017/10/10/50threport/"
       }
     ]
@@ -480,14 +541,16 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYTY1NTc4NzMyMTZiNGI5MWJmZTI3NTE3YmJhMjcxNW.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/node8-dot-3-0nituite/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2017-08-04",
     "links": []
   },
   {
     "title": "nicohacoを作った",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/nicohaco/",
+    "favicon": "",
     "publishedAt": "2017-05-29",
     "links": []
   },
@@ -495,8 +558,9 @@
     "title": "node8",
     "description": "Node@8.0.0の紹介スライド",
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz92PTMmcz0yMDA=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/node8/",
+    "favicon": "",
     "publishedAt": "2017-04-24",
     "links": [
       {
@@ -504,6 +568,7 @@
         "description": "Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 募集は 4/21(金)から開始します。  時間 |   ---|---   19:00 - 19:30(30min) | 開場   19:30 - 20:00(30min) | Node v8 by abouthiroppy   20:00 - 20:30(30min) | Introduction to Rust by Akito0107   20:30 - 20:40(10min) | 休憩   20:40 - 20:50(10min) | Cycle.js by wakasmha   20:50 - 21:...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iYi8yNi9iYjI2M2M5ZDU5ZDEwM2NmZjM1YjBmZWVhYjZhMGY2NC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://nodejs.connpass.com/event/54749/"
       }
     ]
@@ -511,8 +576,9 @@
   {
     "title": "node-whatwg-url",
     "description": "whatwg-url in Node",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
     "url": "https://slides.hiroppy.me/node-whatwg-url/",
+    "favicon": "",
     "publishedAt": "2017-03-31",
     "links": [
       {
@@ -520,6 +586,7 @@
         "description": "# 概要  Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 場所は 3/21 に決定します！ 募集は 3/29(水)から開始します。  # News  そろそろ Node v8 が出ますー！あと特別ゲストも何名か！！  # タイムテーブル  時間 |   ---|---   19:00-19:30 (30min) | 開場   19:30-20:00 (30min) | 「Node.js x WebAssembly」 by yosuke_furukawa   20:00-20:10 (10min) | 「Node.js+GraphQLでBFFを作った話」 by...",
         "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy84YS9iYi84YWJiNDA5ZmQzODBjZDY0ZDFkYmY3MTg5YzY1OTIwNC5wbm.webp",
         "name": "connpass",
+        "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
         "url": "https://nodejs.connpass.com/event/53534/"
       }
     ]
@@ -530,6 +597,7 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMDE3NjI5NTQ5ODZiNGJlM2JhMGFkYmIxZGU2NzM4ZT.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/ecmascript/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2016-11-20",
     "links": []
   },
@@ -539,6 +607,7 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvZDQ3ZWY2MzM0NGYyNGI2MjkzZmY1MGE4NDk1N2E0Zm.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/repaint/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2016-11-10",
     "links": []
   },
@@ -548,6 +617,7 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMGI4MTNkNjlkOTczNDcwYWJlMzJiZGMwNmRkMGJlMz.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/my-tools/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2016-08-10",
     "links": []
   },
@@ -556,6 +626,7 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvM2U0YzY0NzMyYWJkNDFjMmE4YjI1NDlhM2ZjY2Y0OT.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/osswole-simuhua/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2016-04-18",
     "links": []
   },
@@ -564,6 +635,7 @@
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvODA4YTBmYTE1ZGUwNDBjZTkzOTU1MGU1MmJjMzM1ND.webp",
     "name": "Speaker Deck",
     "url": "https://speakerdeck.com/abouthiroppy/react-nativewohong-tutemitahua/",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "publishedAt": "2015-10-10",
     "links": []
   },
@@ -573,6 +645,7 @@
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvbXZjLTE0MDkxNDIxMzkxOS1waHBhcHAwMS10aHVtYm.webp",
     "name": "SlideShare",
     "url": "https://www.slideshare.net/slideshow/mvc-39079770/39079770/",
+    "favicon": "",
     "publishedAt": "2014-09-15",
     "links": [
       {
@@ -580,6 +653,7 @@
         "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
         "image": "",
         "name": "情報科学若手の会",
+        "favicon": "",
         "url": "https://wakate.org/2014/09/16/47threport/"
       }
     ]
@@ -588,8 +662,9 @@
     "title": "Alt01-LT",
     "description": "今更ながらALT#1でのLT発表資料を上げました。\nangular-fullstack - Download as a PDF, PPTX or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvYWx0MDEtMTQwOTI0MDMzNzAxLXBocGFwcDAyLXRodW.webp",
-    "name": "SlideShare",
+    "name": "Slideshare",
     "url": "https://www.slideshare.net/slideshow/alt01/39462934/",
+    "favicon": "https://public.slidesharecdn.com/_next/static/media/favicon-v2.259c72c8.png",
     "publishedAt": "2014-06-24",
     "links": []
   }

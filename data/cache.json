@@ -3,33 +3,38 @@
     "title": "performance timing api with node.js",
     "description": "introduce performance timing api of Node.js",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "http://slides.hiroppy.me/performance-timing-api-with-node.js/"
   },
   "http://slides.hiroppy.me/util.types/": {
     "title": "util.types",
     "description": "introduce util.types",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "http://slides.hiroppy.me/util.types/"
   },
   "https://2024.tskaigi.org/": {
     "title": "TSKaigi 2024",
     "description": "TSKaigi 2024は、日本最大級のTypeScriptカンファレンスを開催します。",
     "image": "",
+    "favicon": "https://2024.tskaigi.org/favicon.ico",
     "url": "https://2024.tskaigi.org/"
   },
   "https://2025.tskaigi.org/": {
     "title": "TSKaigi 2025",
     "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2025/5/23 (金) - 24 (土) の日程で開催します。",
     "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",
+    "favicon": "https://2025.tskaigi.org/favicon.ico",
     "url": "https://2025.tskaigi.org/"
   },
   "https://bakuraku.jp/news/20250717/": {
     "title": "バクラク、あらゆる形式の請求書の受領業務を“丸投げ”できる新サービス「バクラク受領代行」を提供開始 - バクラク",
     "description": "すべての経済活動のデジタル化を目指す株式会社LayerXは、今春立ち上げたAIエージェント事業の一環として、新たにAIとBPOを掛け合わせ、紙・メール・Webサイト経由などあらゆる請求書受領業務を“丸投げ”できる新サービス「バクラク受領代行」をリリースしました。",
     "image": "/images/YmFrdXJha3UuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvMjAyNTA3MTZfanl1cnlvLWRhaWtvX2V5ZS1jYX.webp",
-    "name": "バクラク - ハタラクをバクラクに。",
+    "name": "LayerX",
+    "favicon": "https://bakuraku.jp/wp-content/uploads/2024/09/inverse.png",
     "url": "https://bakuraku.jp/news/20250717/"
   },
   "https://bpstudy.connpass.com/event/90777/": {
@@ -37,33 +42,30 @@
     "description": "ユーザーが快適にシステムを使い続けるには、UX(User Experience) がとても重要です。  快適なUXを実現するためには優れたUIが必要です。  そして優れたUIを実現するために、JavaScriptは必須の技術となりました。  一方サーバーサイドでもリアルタイム性が問われるシステムを実現するためにNode.jsが活用されています。  このようにJavaScriptの活用範囲が年々広がってきていますが、JavaScriptは技術の進化が速いジャンルです。  その進化の速いJavaScriptの「今」を把握するために今回のBPStudyはJavaScriptを使って活躍されてい...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNS9jNy9jNWM3Mzg4MTdmNGU4MDg2YTkzMmFkOWM5MjhjMGE1NC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://bpstudy.connpass.com/event/90777/"
   },
   "https://careers.mercari.com/mercan/articles/28113/": {
     "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
     "description": "2021年1月28日に設立された「株式会社ソウゾウ(souzoh)」。 メルカリグループの次の柱となる事業を目指して発足。具体的な事業内容は明らかにされていませんが、着々とプロダクトリリースへの準備が進められています。  …\n",
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
-    "name": "mercan (メルカン)",
+    "name": "Mercari",
+    "favicon": "https://careers.mercari.com/favicon.ico",
     "url": "https://careers.mercari.com/mercan/articles/28113/"
-  },
-  "https://coder-penguin.com/": {
-    "title": "合同会社Coder Penguin",
-    "description": "合同会社Coder Penguinは、主にフロントエンドやNode.jsのパフォーマンス改善、技術選定サポート、組織課題解決、エンジニア採用など多岐にわたる支援を行っている会社です。",
-    "image": "/images/Y29kZXItcGVuZ3Vpbi5jb20vX2FzdHJvL29ncC5Cb1B0ZnM2TS5qcGc=.webp",
-    "name": "合同会社Coder Penguin",
-    "url": "https://coder-penguin.com/"
   },
   "https://connpass.com/event/211877/": {
     "title": "Web24 (Frontend Tooling)",
     "description": "# Web24  ## tl;dr;    * Web のことをただひたすら 24 時間議論する   * 5/7 18:00 ~ 5/8: 18:00   * YouTube Live, 無料, アーカイブなし   * 登壇者の発言は個人のものであり所属する組織とは関係なし  ## 配信 URL    * https://bit.ly/web24live     * 連続配信の仕様のため Youtube Live の URL は途中で変わります     * Youtube Live の URL が変わったらこの bitly の遷移先を書き換えます     * シェアなどにはこの短縮 UR...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Mi82YS85MjZhZTk3NGEwZTRlYjcyNzc2YTU1MTkwMDQzYjFmNS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://connpass.com/event/211877/"
   },
   "https://cybozu.github.io/frontend-monthly/posts/2022-07/": {
     "title": "Cybozu Frontend Monthly #25",
-    "description": "サイボウズのフロントエンドエキスパートチームが月イチでお届けするフロントエンド情報",
+    "description": "サイボウズのフロントエンドエンジニアが月イチでお届けするフロントエンド情報",
     "image": "/images/Y3lib3p1LmdpdGh1Yi5pby9mcm9udGVuZC1tb250aGx5L2ltZy9oZWFkZXIucG5n.webp",
+    "favicon": "https://cybozu.github.io/frontend-monthly/icons/favicon-32x32.png",
     "url": "https://cybozu.github.io/frontend-monthly/posts/2022-07/"
   },
   "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744": {
@@ -71,6 +73,7 @@
     "description": "はじめに なぜ Yuimedi で Internship をしたのか Yuimedi でしたこと Yuimedi で得られたもの Agility マインドセット テスト まとめ 最後に はじめに どうも、Daiki Sakuma *1 です。 Yuimedi*2さんに12月中旬から3月末までの約3ヶ月半、Software Engineer として参加させていただきました。 そこで僕が何をして何を得たのか等、記憶が鮮明なうちにつらつらと書き記していこうと思います。 なぜ Yuimedi で Internship をしたのか 僕自身4月から別の会社で23卒として働くのですが、その前にどこかで In…",
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
     "name": "Daiki Sakuma の日記",
+    "favicon": "https://daiki-skm.hatenablog.com/icon/link",
     "url": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
   },
   "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/": {
@@ -78,6 +81,7 @@
     "description": "はじめに なぜ Yuimedi で Internship をしたのか Yuimedi でしたこと Yuimedi で得られたもの Agility マインドセット テスト まとめ 最後に はじめに どうも、Daiki Sakuma *1 です。 Yuimedi*2さんに12月中旬から3月末までの約3ヶ月半、Software Engineer として参加させていただきました。 そこで僕が何をして何を得たのか等、記憶が鮮明なうちにつらつらと書き記していこうと思います。 なぜ Yuimedi で Internship をしたのか 僕自身4月から別の会社で23卒として働くのですが、その前にどこかで In…",
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
     "name": "Daiki Sakuma の日記",
+    "favicon": "https://daiki-skm.hatenablog.com/icon/link",
     "url": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
   },
   "https://dinii.connpass.com/event/348179/": {
@@ -85,48 +89,55 @@
     "description": "## 📝 noren.ts とは？  #### noren.ts は株式会社ダイニーが主催する TypeScript をテーマにした勉強会です！  記念すべき第1回となる今回は TypeScriptのエラーハンドリング をテーマに開催します！  noren.ts  は「のれん」と「TypeScript」を掛け合わせた名称で、誰でも気軽に参加できる場を提供するというコンセプトを表しています。  ダイニーがフルスタックに TypeScript を活用している経験や、有識者による実践的な知見などを皆様と交換することで、TypeScript について学び合える場にしたいと思っています。今後も定期...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Zi8yOS85ZjI5ZTIzZTRkNzMxNmI1NDY2ZDk2Y2JmYTZkNGYxOS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://dinii.connpass.com/event/348179/"
   },
   "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit": {
     "title": "Node.js 🤝 TypeScript",
     "description": "Node.js TypeScript 2025/05/19 @hiroppy TODO: スライド + スピーカーノートからLLMでブログに書き起こせるのか検証",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUl6ZGNYZ3ZVMkRsT3pSLVFWa3Zhd1hIUzNkSX.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtMNlRjMnFmWmdqMWZNWC1YMFNnTEw1eldwMm.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/128j6TkIx9RvAvsukcqcKHf7mp6eU2MPTN94NZ__zYFI/edit"
   },
   "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit": {
     "title": "Trusted Types & Dynamic Code Brand Checks",
     "description": "Trusted Types & Dynamic Code Brand Checks 2025/02/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUowdEhjSExXWnpXanoyMi0yZFRJYU5HYm5lY0.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpTZEhseXItbHNBQVZpMkwwY1VnUHZkZ3RnWj.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/1ae0ISg8sXLGWdIXNnEVnP14PSFRi9ouohWjCbpsPoEw/edit"
   },
   "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit": {
     "title": "Next.js Internal MCP",
     "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtsSFJNc1RVTmszSnRPTmFLSWtQRkNDbVoybT.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUsxVlRLX08walk1NGhlRHBUcXVxUHMteENpMX.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit"
   },
   "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing": {
     "title": "Turbopack Today",
     "description": "Turbopack Today 2024/09/18 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxfN3dFRGFmR25KYm5Sc2ZTak5qQWpJQUFXS1.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUp6TFBBOWZJb3FtU0dxY3hSNVd5UGE5LUFySm.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/1PSV8xq1GEYjLaQdT_vjlOUNlsYKsYDpPQ8SSBXahd0E/edit?usp=sharing"
   },
   "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit": {
     "title": "本当にそれはエラーなのか？",
     "description": "本当にそれは エラーなのか？ 2025/03/28 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtqTEtMZUcySmEtRVo2R3ZfNDMtN1NFYm9tU3.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUxiSEw3RlNDRU5jWDlRR3NleUt5YWl0MWgtbn.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit"
   },
   "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit": {
     "title": "eval is evil",
     "description": "eval is Evil 2025/04/02 LT @hiroppy (4/1から入った業務委託、enabling teamにいます)",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtFR2o0TVRLNVl0Q0tMZFZsTWJDTmZReTBYYU.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUt4UHAwNnBDaVhpUDdIYnEyWThXbkVEczltMk.webp",
     "name": "Google Docs",
+    "favicon": "https://ssl.gstatic.com/docs/presentations/images/favicon-2023q4.ico",
     "url": "https://docs.google.com/presentation/d/1z6aZSNjSyhdF52fNS3bPrA8eUcoUtG2mjlDh6wj1OzY/edit"
   },
   "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/": {
@@ -134,77 +145,91 @@
     "description": "&nbsp;\n7 月 7 日、LINE のフロントエンドコミュニティ UIT が主催するミートアップイベント&nbsp;UIT Meetup vol. 13『知っておきたい Front-end Tooling の今』を開催しました。この記事では、イベントの内容について振り返っていきます。\n\nUIT ...",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp",
     "name": "LINE ENGINEERING",
+    "favicon": "https://engineering.linecorp.com/favicon-32x32.png?v=6d6085f233d02c34273fa8a8849b502a",
     "url": "https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/"
   },
   "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/": {
     "title": "メルカリShops の CI/CD と Pull Request 環境 | メルカリエンジニアリング",
     "description": "こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：「メルカリShops」プレオープンまでの開発の裏側の８日目を担当させていただきます。この記事では、メルカリShops 開発において、日々バリバリに",
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9iZThiOTgxNy1kcmFnb2.webp",
+    "name": "Mercari Engineering blog",
+    "favicon": "https://engineering.mercari.com/favicon.ico",
     "url": "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
   },
   "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/": {
     "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
     "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
+    "name": "Mercari Engineering blog",
+    "favicon": "https://engineering.mercari.com/favicon.ico",
     "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
   },
   "https://events.html5j.org/conference/2018/11/": {
     "title": "HTML5 Conference",
     "description": "HTML5 Conference - 2018年11月25日（日）東京電機大学 千住キャンパスにて開催。",
     "image": "/images/ZXZlbnRzLmh0bWw1ai5vcmcvY29uZmVyZW5jZS8yMDE4LzExL2Fzc2V0cy9pbWcvb2dwLnBuZw==.webp",
+    "favicon": "",
     "url": "https://events.html5j.org/conference/2018/11/"
   },
   "https://findy-code.io/engineer-lab/hiroppy/": {
     "title": "プログラミングを強みに生き残れるか？ 焦燥感にとらわれた20代を越えて広がったキャリアの可能性  - Findy Engineer Lab",
     "description": "OSS活動をする中で知った、届かない存在に対する焦燥感。ソフトウェアエンジニアとしてプログラミングが一番の強みだという廣戸裕大（hiroppy）さんですが、IC（Individual Contributor）のキャリアを歩むなかで技術のキャッチアップにもがき、悩んだ時期もあったといいます。その焦燥感をどう解消していったのか、今につながった転機を寄稿いただきました。",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY5YmNiYTNkMTZhYjg2ZTlmOTg2ODhkYTI3OTFmYT.webp",
-    "name": "Findy Engineer Lab",
+    "name": "Findy",
+    "favicon": "https://findy-code.io/engineer-lab/icon/link",
     "url": "https://findy-code.io/engineer-lab/hiroppy/"
   },
   "https://findy-code.io/engineer-lab/influential-books-3/": {
     "title": "あなたのキャリアに影響を与えた本は何ですか？ 著名エンジニアの方々に聞いてみた【第三弾】 - Findy Engineer Lab",
     "description": "過去にエンジニアラボに登場した、8人の著名なエンジニアのキャリアに影響を与えた“珠玉の書籍”を、ご本人にまつわるエピソードとともに紹介してもらいました。",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZjU3OGUyNjQyZGQxMzRkMWY3N2FkMDI5MzlmNDEyMD.webp",
-    "name": "Findy Engineer Lab",
+    "name": "Findy",
+    "favicon": "https://findy-code.io/engineer-lab/icon/link",
     "url": "https://findy-code.io/engineer-lab/influential-books-3/"
   },
   "https://findy-code.io/pick-up/interviews/souzoh-engineer": {
     "title": "NestJSでスケーラブルなBFFを構築。メルカリShopsエンジニアがGraphQL活用のリアルを語る【技術選定の裏側：GraphQL編 vol.2】 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
     "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
     "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
-    "name": "IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
+    "name": "Findy",
+    "favicon": "https://findy-code.io/images/icons/favicon.ico",
     "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
   },
   "https://findy-code.io/pick-up/interviews/souzoh-engineer/": {
     "title": "NestJSでスケーラブルなBFFを構築。メルカリShopsエンジニアがGraphQL活用のリアルを語る【技術選定の裏側：GraphQL編 vol.2】 | IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
     "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
     "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
-    "name": "IT/Webエンジニアの転職・求人サイトFindy – GitHubからスキル偏差値を算出",
+    "name": "Findy",
+    "favicon": "https://findy-code.io/images/icons/favicon.ico",
     "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
   },
   "https://findy.connpass.com/event/365880/": {
     "title": "「実践Next.js！AIアウトプットと コンポーネント設計」  最新事情 LT (2025/08/27 19:00〜)",
-    "description": "※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれば幸いです。      同日お昼の時間帯に同テーマで実施する...",
+    "description": "# 🎥 アーカイブ動画  アーカイブ動画はこちらから    ※申込時の情報入力について   現地参加の方は入力必須となります。   オンライン視聴の方も入力が求められますが必ずしも正確な情報である必要はございません。   (なしの記載でもOKです)  # ✍️概要  本イベントでは、Next.jsを使ったAIの活用やコンポーネント設計についての実践知について   LT形式で発表いただきます。   AIの活用に悩んでいる方も、他社の実践例を知りたい人も、Next.jsで強いフロントエンドを作りたいと考える   すべての人にとって、明日からの設計に活かせるヒントを持ち帰っていただける場となれ...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mMC83ZC9mMDdkODVhYTZkMWUzNTUzOTdmZGI0MDEwZjJhZGU3NS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://findy.connpass.com/event/365880/"
   },
   "https://jsconf.jp/2021/": {
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "favicon": "https://jsconf.jp/2021/favicon-32x32.png?v=fec934935a8b84b24adead6e9feaea09",
     "url": "https://jsconf.jp/2021/"
   },
   "https://jsconf.jp/2022/": {
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjIvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "favicon": "https://jsconf.jp/2022/favicon-32x32.png?v=fec934935a8b84b24adead6e9feaea09",
     "url": "https://jsconf.jp/2022/"
   },
   "https://jsconf.jp/2024/": {
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the fifth time event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjQvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "favicon": "https://jsconf.jp/2024/favicon-32x32.png?v=fec934935a8b84b24adead6e9feaea09",
     "url": "https://jsconf.jp/2024/"
   },
   "https://kbkz.connpass.com/event/5150/": {
@@ -212,6 +237,7 @@
     "description": "日頃、OSSのドキュメントの書き方に悩んでいる人たちが集まって知見を共有する 勉強会です。  たとえば、    * APIドキュメントをどう書くか   * チュートリアルをどう書くか   * ドキュメント内に各種要素をどう配置するか   * ドキュメント生成ツールについて   * 英語ドキュメントを書く場合の注意  といったことについて知見を共有できればと考えています。  主に、OSSのドキュメントを書く立場からの発表を募集しますが、読む側から、「こうなっていて欲しい」という 発表でも構いません。対象となるプログラミング言語等は問いませんし、非プログラマ向けのソフトウェアの ドキュメント...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNy9lNS9jN2U1MTIxNTQyOTgzZThhNWIzZmNjYzg5MTFhZjZlOC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://kbkz.connpass.com/event/5150/"
   },
   "https://kyotojs.connpass.com/event/80019/": {
@@ -219,6 +245,7 @@
     "description": "Kyoto.jsは京都のJavaScriptコミュニティです!  テーマはJSに関係することなら何でもOK! JSに関係なくてもOK!   技術に関すること、Webに関すること、デザインに関すること、なんでも喋ってってください〜  # タイムテーブル  時刻 | タイトル | 発表者   ---|---|---   13:00 | 乾杯 |   13:05 | puppeteer向けのタスクランナーみたいなの書いたので紹介します | pastak   13:20 | V8周りの話(仮) | hiroppy   13:35 | aws-serverless-expressの話(仮) | p...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jZi84Yi9jZjhiMWE4ZDIwZWE5MGZhNGY2OTFhNTk2NWVkOTQ5MC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://kyotojs.connpass.com/event/80019/"
   },
   "https://layerx.connpass.com/event/328945/": {
@@ -226,10 +253,12 @@
     "description": "## 概要  LayerXでは、より良い体験を作り出し、お客様に価値を届けることを最も重視しています。 昨年策定したバクラクフロントエンドVisionでは「お客様に最高の体験を届けたい」「Webフロントエンドを楽しくしたい」という願いが込められています。  この願いを実現するために、バクラク事業部のフロントエンドギルドは、「Bet Technology」を基盤に、3つの柱「Easy Build」「Fast Delivery」「Safety Challenge」を中心に取り組んでいます。  本イベントでは、これらの取り組みの一環として、LayerXで利用されている基盤技術の一つであるNex...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lMi8xOS9lMjE5NGJmODQ5MmM2ZWRjNzM1NmEyMzA1ZmQ0NmM2Ni5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://layerx.connpass.com/event/328945/"
   },
   "https://live.remo.co/e/remo_study/register/": {
     "title": "Events.com Virtual (formerly Remo)",
+    "favicon": "https://live.remo.co/favicon.ico?v=109.2.4",
     "url": "https://live.remo.co/e/remo_study/register/"
   },
   "https://meguroes.connpass.com/event/342717/": {
@@ -237,6 +266,7 @@
     "description": "# イベント概要  Meguro.es は、目黒周辺の ECMAScript 関連の開発者のためのコミュニティーです。  第29回は、株式会社オロ様にて開催いたします！  ## こんな方におすすめ  目黒とゆかりがなくても参加できます！  特にこんな方にはオススメです。    * ECMAScript あるいは JavaScript の関連技術の知見を深めたい・広めたい・共有したい方   * ECMAScript あるいは JavaScript の関連技術の困っていること・悩みを共有したい方   * 過去の会の参加者で、引き続き Meguro.es を盛り上げていただける方  ## 発表...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9mYy9mOC9mY2Y4MjM2ZmM1Y2VjZjdhOWJiNWYyNWY5OWE1NDNmMC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://meguroes.connpass.com/event/342717/"
   },
   "https://mercari.connpass.com/event/221978/": {
@@ -244,6 +274,7 @@
     "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第3回のテーマは「Frontend」です。メルカリShopsはメルカリiOS/Androidアプリ上でWebViewとFrontendの技術を利用してサービスを提供しています。Web Frontend開発での工夫、WebViewでの開発で発生する問題への対処など、ディスカッション形式でお届けします。    皆さまのご参加をお待ちしております！    # こんな方におすすめ      * なぜメルカリShopsがサクサク動...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy83MS8xYS83MTFhMDZlMzRmNjhiMTZiZDE5YzhiZmRiMWRlZWRjNi5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://mercari.connpass.com/event/221978/"
   },
   "https://mercari.connpass.com/event/221980/": {
@@ -251,6 +282,7 @@
     "description": "# イベント概要    Souzoh Tech Talk は、毎回各テーマに興味のあるエンジニアたちが集まり、技術的な知見を共有しあうことを目的とした勉強会です。    第5回のテーマは「Infrastructure」です。先日のブログで全体のアーキテクチャや、CI/CDについても紹介していますが、ソウゾウで取り組んでいるアーキテクチャやキャッシュ戦略、セキュアな環境構築の工夫など、ブログの執筆者が登壇し、ディスカッション形式でお届けします。  皆さまのご参加をお待ちしております！    # こんな方におすすめ    * Cloud Run + Cloud SQL (PostgreSQL...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8zOS82MS8zOTYxOWI5NDYwODRlNzgwZDkwNGQ4NTRmY2NhN2ZiNC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://mercari.connpass.com/event/221980/"
   },
   "https://mercari.connpass.com/event/79046/": {
@@ -258,12 +290,14 @@
     "description": "# イベント概要  \"２回以上やることはなんでも自動化されるべきだ\" Adam Stone, CEO, D-Tools  SREとSETという役割は、インフラやQAなどソフトウェア開発において手動で操作されることが多い領域を自動化するためにGoogleで作られました。このMeetupは例えば下記のような、生産性とプロダクトの品質を向上するための自動化ハックを学習し、共有し、コラボレーションするためのものです。    * CI/CDを用いたプロダクトリリースの自動化に関する経験   * Ansibleなどを用いたDevOpsの自動化   * AppiumやSeleniumなどのUIオートメ...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85ZS84OS85ZTg5NzE1ZDU2NjEwMTYzMjNiMDk5ZWI0YThmZDIzNi5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://mercari.connpass.com/event/79046/"
   },
   "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1": {
     "title": "2023年の振り返り",
     "description": "こんにちは。もうすでに 2024 年に入ってしまいましたが、2023 年も毎度のことながら振り返りを残します。年次の振り返りはなんとか続けられていて、かれこれ 4 回目となりました。",
     "image": "/images/bWg0Z2YuZGV2L2FydGljbGVzLzIwMjMtc3VtbWFyeS9vcGVuZ3JhcGgtaW1hZ2U_MmY1NWUyNzk3MDhlMWViNw==.webp",
+    "favicon": "https://mh4gf.dev/favicon-32x32.png",
     "url": "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1"
   },
   "https://mozaic.fm/episodes/102/monthly-ecosystem-202208.html": {
@@ -271,6 +305,7 @@
     "description": "第 102 回のテーマは 2022 年 8 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/102/monthly-ecosystem-202208.html"
   },
   "https://mozaic.fm/episodes/104/monthly-ecosystem-202209.html": {
@@ -278,6 +313,7 @@
     "description": "第 104 回のテーマは 2022 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/104/monthly-ecosystem-202209.html"
   },
   "https://mozaic.fm/episodes/106/monthly-ecosystem-202210.html": {
@@ -285,6 +321,7 @@
     "description": "第 106 回のテーマは 2022 年 10 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/106/monthly-ecosystem-202210.html"
   },
   "https://mozaic.fm/episodes/108/monthly-ecosystem-202211.html": {
@@ -292,6 +329,7 @@
     "description": "第 108 回のテーマは 2022 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/108/monthly-ecosystem-202211.html"
   },
   "https://mozaic.fm/episodes/110/yearly-ecosystem-2022.html": {
@@ -299,6 +337,7 @@
     "description": "第 110 回のテーマは 2022 年 の Yearly Ecosystem です。今年の 8 月に開始した Ecosystem と、今回作成したそれ以前のまとめを踏まえ、今年の Web Ecosystem を振り返ります。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/110/yearly-ecosystem-2022.html"
   },
   "https://mozaic.fm/episodes/112/monthly-ecosystem-202301.html": {
@@ -306,6 +345,7 @@
     "description": "第 112 回のテーマは 2023 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/112/monthly-ecosystem-202301.html"
   },
   "https://mozaic.fm/episodes/114/monthly-ecosystem-202302.html": {
@@ -313,6 +353,7 @@
     "description": "第 114 回のテーマは 2023 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/114/monthly-ecosystem-202302.html"
   },
   "https://mozaic.fm/episodes/116/monthly-ecosystem-202303.html": {
@@ -320,6 +361,7 @@
     "description": "第 116 回のテーマは 2023 年 3 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/116/monthly-ecosystem-202303.html"
   },
   "https://mozaic.fm/episodes/118/monthly-ecosystem-202304.html": {
@@ -327,6 +369,7 @@
     "description": "第 118 回のテーマは 2023 年 4 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/118/monthly-ecosystem-202304.html"
   },
   "https://mozaic.fm/episodes/121/monthly-ecosystem-202305.html": {
@@ -334,6 +377,7 @@
     "description": "第 121 回のテーマは 2023 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/121/monthly-ecosystem-202305.html"
   },
   "https://mozaic.fm/episodes/124/monthly-ecosystem-202306.html": {
@@ -341,6 +385,7 @@
     "description": "第 124 回のテーマは 2023 年 6 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/124/monthly-ecosystem-202306.html"
   },
   "https://mozaic.fm/episodes/126/monthly-ecosystem-202307.html": {
@@ -348,6 +393,7 @@
     "description": "第 126 回のテーマは 2023 年 7 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/126/monthly-ecosystem-202307.html"
   },
   "https://mozaic.fm/episodes/130/monthly-ecosystem-202309.html": {
@@ -355,6 +401,7 @@
     "description": "第 130 回のテーマは 2023 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/130/monthly-ecosystem-202309.html"
   },
   "https://mozaic.fm/episodes/133/monthly-ecosystem-202310.html": {
@@ -362,6 +409,7 @@
     "description": "第 133 回のテーマは 2023 年 10 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/133/monthly-ecosystem-202310.html"
   },
   "https://mozaic.fm/episodes/135/monthly-ecosystem-202311.html": {
@@ -369,6 +417,7 @@
     "description": "第 135 回のテーマは 2023 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/135/monthly-ecosystem-202311.html"
   },
   "https://mozaic.fm/episodes/137/yearly-ecosystem-2023.html": {
@@ -376,6 +425,7 @@
     "description": "第 137 回のテーマは 2023 年を振り返る Yearly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/137/yearly-ecosystem-2023.html"
   },
   "https://mozaic.fm/episodes/139/monthly-ecosystem-202401.html": {
@@ -383,6 +433,7 @@
     "description": "第 139 回のテーマは 2023 年 12 月 ~ 2024 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/139/monthly-ecosystem-202401.html"
   },
   "https://mozaic.fm/episodes/141/monthly-ecosystem-202402.html": {
@@ -390,6 +441,7 @@
     "description": "第 141 回のテーマは 2024 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/141/monthly-ecosystem-202402.html"
   },
   "https://mozaic.fm/episodes/143/mozaicfm-10-years-anniv.html": {
@@ -397,6 +449,7 @@
     "description": "第 143 回のテーマは mozaic.fm 10 周年記念イベントです。2024/03/08 に五反田ゲンロンカフェで実施したイベントの様子を配信します。Session 2 は、会場限定のコンテンツのため、本編には含まれていません。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/143/mozaicfm-10-years-anniv.html"
   },
   "https://mozaic.fm/episodes/144/monthly-ecosystem-202403.html": {
@@ -404,6 +457,7 @@
     "description": "第 144 回のテーマは 2024 年 3 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/144/monthly-ecosystem-202403.html"
   },
   "https://mozaic.fm/episodes/145/mozaic-renewal-202303.html": {
@@ -411,6 +465,7 @@
     "description": "第 145 回のテーマは 2024 年 3 月の mozaic.fm renewal project です。Monthly Ecosystem では、様々なツールやフレームワーク、開発手法に触れていますが、実践する機会を確保するのが難しい場合もあります。そこで、最新のフレー...",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/145/mozaic-renewal-202303.html"
   },
   "https://mozaic.fm/episodes/148/mozaic-renewal-202404.html": {
@@ -418,6 +473,7 @@
     "description": "第 148 回のテーマは 2024 年 4 月の mozaic.fm renewal project です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/148/mozaic-renewal-202404.html"
   },
   "https://mozaic.fm/episodes/150/monthly-ecosystem-202405.html": {
@@ -425,6 +481,7 @@
     "description": "第 150 回のテーマは 2024 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/150/monthly-ecosystem-202405.html"
   },
   "https://mozaic.fm/episodes/153/mozaic-ecosystem-202406.html": {
@@ -432,6 +489,7 @@
     "description": "第 153 回のテーマは 2024 年 6 月の Monthly Ecosystem です。(冒頭で間違えて 5 月って言ってた。)",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/153/mozaic-ecosystem-202406.html"
   },
   "https://mozaic.fm/episodes/156/monthly-ecosystem-202407.html": {
@@ -439,6 +497,7 @@
     "description": "第 156 回のテーマは 2024 年 7 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/156/monthly-ecosystem-202407.html"
   },
   "https://mozaic.fm/episodes/158/monthly-ecosystem-202408.html": {
@@ -446,6 +505,7 @@
     "description": "第 158 回のテーマは 2024 年 8 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/158/monthly-ecosystem-202408.html"
   },
   "https://mozaic.fm/episodes/160/monthly-ecosystem-202409.html": {
@@ -453,6 +513,7 @@
     "description": "第 160 回のテーマは 2024 年 9 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/160/monthly-ecosystem-202409.html"
   },
   "https://mozaic.fm/episodes/165/monthly-ecosystem-202411.html": {
@@ -460,6 +521,7 @@
     "description": "第 165 回のテーマは 2024 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/165/monthly-ecosystem-202411.html"
   },
   "https://mozaic.fm/episodes/167/yearly-ecosystem-2024.html": {
@@ -467,6 +529,7 @@
     "description": "第 167 回のテーマは 2024 年の Yearly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/167/yearly-ecosystem-2024.html"
   },
   "https://mozaic.fm/episodes/169/monthly-ecosystem-202501.html": {
@@ -474,6 +537,7 @@
     "description": "第 169 回のテーマは 2025 年 1 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/169/monthly-ecosystem-202501.html"
   },
   "https://mozaic.fm/episodes/171/monthly-ecosystem-202502.html": {
@@ -481,6 +545,7 @@
     "description": "第 171 回のテーマは 2025 年 2 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/171/monthly-ecosystem-202502.html"
   },
   "https://mozaic.fm/episodes/175/monthly-ecosystem-202504.html": {
@@ -488,6 +553,7 @@
     "description": "第 175 回のテーマは 2025 年 4 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/175/monthly-ecosystem-202504.html"
   },
   "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html": {
@@ -495,6 +561,7 @@
     "description": "第 177 回のテーマは 2025 年 5 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/177/monthly-ecosystem-202505.html"
   },
   "https://mozaic.fm/episodes/181/monthly-ecosystem-2025.html": {
@@ -502,20 +569,15 @@
     "description": "第 181 回のテーマは 2025 年 7 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/181/monthly-ecosystem-2025.html"
-  },
-  "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html": {
-    "title": "ep183 Monthly Ecosystem 202508 | mozaic.fm",
-    "description": "第 183 回のテーマは 2025 年 8 月の Monthly Ecosystem です。",
-    "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
-    "name": "mozaic.fm",
-    "url": "https://mozaic.fm/episodes/183/monthly-ecosystem-2025.html"
   },
   "https://mozaic.fm/episodes/183/monthly-ecosystem-202508.html": {
     "title": "ep183 Monthly Ecosystem 202508 | mozaic.fm",
     "description": "第 183 回のテーマは 2025 年 8 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/183/monthly-ecosystem-202508.html"
   },
   "https://mozaic.fm/episodes/187/monthly-ecosystem-202510.html": {
@@ -523,6 +585,7 @@
     "description": "第 187 回のテーマは 2025 年 10 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/187/monthly-ecosystem-202510.html"
   },
   "https://mozaic.fm/episodes/190/monthly-ecosystem-202511.html": {
@@ -530,6 +593,7 @@
     "description": "第 190 回のテーマは 2025 年 11 月の Monthly Ecosystem です。",
     "image": "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLjYwMHg2MDAucG5n.webp",
     "name": "mozaic.fm",
+    "favicon": "https://mozaic.fm/assets/img/mozaic.svg",
     "url": "https://mozaic.fm/episodes/190/monthly-ecosystem-202511.html"
   },
   "https://nextpublishing.jp/book/11906.html": {
@@ -537,24 +601,28 @@
     "description": "本書は入門書の次に読むことを想定にした、中級者へのステップアップを目指すNode.js解説書です。主にNode.jsに対する技術的な内容を扱います。本...",
     "image": "/images/bmV4dHB1Ymxpc2hpbmcuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDYvTjAxMTY3LmpwZw==.webp",
     "name": "NextPublishing  デジタルファースト宣言！",
+    "favicon": "https://nextpublishing.jp/wp-content/themes/nextPublishing/common/img/favicon.ico",
     "url": "https://nextpublishing.jp/book/11906.html"
   },
   "https://nodefest.jp/2016/": {
     "title": "東京Node学園祭2016 | 11月12日,13日開催！",
     "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
     "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "favicon": "https://nodefest.jp/2016/img/icons/favicon-32x32.png",
     "url": "https://nodefest.jp/2016/"
   },
   "https://nodefest.jp/2017/": {
     "title": "東京Node学園祭2017 | 11月25日,26日開催予定！",
     "description": "2017年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
     "image": "/images/bm9kZWZlc3QuanAvMjAxNy9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "favicon": "https://nodefest.jp/2017/img/icons/favicon-32x32.png",
     "url": "https://nodefest.jp/2017/"
   },
   "https://nodefest.jp/2018/": {
     "title": "東京Node学園祭2018 | 11月23日,24日開催予定！",
     "description": "2018年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
     "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "favicon": "https://nodefest.jp/2018/img/icons/favicon-32x32.png",
     "url": "https://nodefest.jp/2018/"
   },
   "https://nodejs.connpass.com/event/221358/": {
@@ -562,6 +630,7 @@
     "description": "オンラインで Node学園 をやってみます。 37時限目です。  # 概要  Node.js日本ユーザグループ(https://nodejs.jp/) 主催による、Node.jsの勉強会です。  # タイムテーブル  タイムテーブルは今後発表者を追加していきたいと思います。  時間 | コンテンツ   ---|---   19:00 - 19:10 | はじめに by yosuke_furukawa   19:10 - 19:30 | Node.js WHATWG Stream の話とかしてみる by yosuke_furukawa   19:30 - 19:50 | corepack ...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy80YS85ZC80YTlkNjA2ZmJiMGJjMTZhNWI4YWM5NzNmZTU3OWUyMC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://nodejs.connpass.com/event/221358/"
   },
   "https://nodejs.connpass.com/event/53534/": {
@@ -569,6 +638,7 @@
     "description": "# 概要  Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 場所は 3/21 に決定します！ 募集は 3/29(水)から開始します。  # News  そろそろ Node v8 が出ますー！あと特別ゲストも何名か！！  # タイムテーブル  時間 |   ---|---   19:00-19:30 (30min) | 開場   19:30-20:00 (30min) | 「Node.js x WebAssembly」 by yosuke_furukawa   20:00-20:10 (10min) | 「Node.js+GraphQLでBFFを作った話」 by...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy84YS9iYi84YWJiNDA5ZmQzODBjZDY0ZDFkYmY3MTg5YzY1OTIwNC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://nodejs.connpass.com/event/53534/"
   },
   "https://nodejs.connpass.com/event/54749/": {
@@ -576,55 +646,63 @@
     "description": "Node.js日本ユーザグループ 主催による、Node.jsの勉強会です。 募集は 4/21(金)から開始します。  時間 |   ---|---   19:00 - 19:30(30min) | 開場   19:30 - 20:00(30min) | Node v8 by abouthiroppy   20:00 - 20:30(30min) | Introduction to Rust by Akito0107   20:30 - 20:40(10min) | 休憩   20:40 - 20:50(10min) | Cycle.js by wakasmha   20:50 - 21:...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iYi8yNi9iYjI2M2M5ZDU5ZDEwM2NmZjM1YjBmZWVhYjZhMGY2NC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://nodejs.connpass.com/event/54749/"
   },
   "https://note.com/osstokyo/n/n01a333562fad/": {
     "title": "退勤後、深夜のプルリク対応。それでも楽しいOSSコミュニティ運営の魅力【kazupon×Hiroppy】｜OPENSOURCE.TOKYO",
     "description": "「才能が公正に評価され、どこでも誰とでも働けるプラットフォームを作る」–––オープンソースプロジェクトのための報賞金サービス『IssueHunt』を開発・運営する、BoostIO株式会社のミッションです。達成に向けて、いかなる社会変革が必要なのでしょうか。オープンソースを日本の“文化”へと昇華させるべく、先進的な取り組みを紹介していきます。 BoostIOは、「OPENSOURCE.TOKYO MEETUP」と題し、オープンソースの現在地と未来を語るイベントを定期的に開催しています。第4回は「オープンソースのつらいことをあれこれ話そう！」をテーマに、Vue.js core team &",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMTg1MDg2MzUvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/osstokyo/n/n01a333562fad/"
   },
   "https://note.com/tabelog_frontend/n/n21b819c09121": {
     "title": "レガシーなフロントエンド環境をリプレースするためにチームでやっていること｜食べログ フロントエンドエンジニアブログ",
     "description": "はじめに   はじめまして！食べログFE（フロントエンド）チームの金野と申します。 普段は、食べログフロントエンドの設計・開発や、新規事業・食べログテイクアウトの技術サポートなどを行っています。  食べログテイクアウトについては、Nuxt.js + TypeScriptの開発について記事を書いているので、興味がある方はぜひ御覧ください。     \n\n\nNuxt.js+TypeScriptのアプリケーションのためのコーディングガイドライン - Qiita\n\n\nこの記事は食べログ Advent Calendar 2019 3日目の記事です。  はじめまして。食べログのフロントエンド\n\n\nq",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/n21b819c09121/"
   },
   "https://note.com/tabelog_frontend/n/n21b819c09121/": {
     "title": "レガシーなフロントエンド環境をリプレースするためにチームでやっていること｜食べログ フロントエンドエンジニアブログ",
     "description": "はじめに   はじめまして！食べログFE（フロントエンド）チームの金野と申します。 普段は、食べログフロントエンドの設計・開発や、新規事業・食べログテイクアウトの技術サポートなどを行っています。  食べログテイクアウトについては、Nuxt.js + TypeScriptの開発について記事を書いているので、興味がある方はぜひ御覧ください。     \n\n\nNuxt.js+TypeScriptのアプリケーションのためのコーディングガイドライン - Qiita\n\n\nこの記事は食べログ Advent Calendar 2019 3日目の記事です。  はじめまして。食べログのフロントエンド\n\n\nq",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/n21b819c09121/"
   },
   "https://note.com/tabelog_frontend/n/n35664347180a": {
     "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
     "description": "こんにちは。食べログのフロントエンドチーム の佐伯です。  昨年もメンバー紹介の記事を書きましたが、新しいメンバーも加わりましたので改めてご紹介させていただきます。以下で紹介する6名と、アドバイザーの@hiroppyさんを加えて7名で活動しています  今回は趣向を凝らしてドラッカー風エクササイズ風メンバー紹介です。  ドラッカー風エクササイズは、アジャイルサムライで紹介されたチームにおける期待をすり合わせるための手法です   ・自分は何が得意なのか？ ・どういうふうに仕事するか？ ・自分が大切に思う価値は何か？ ・チームメンバーは自分にどんな成果を期待していると思うか？  という質問を",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/n35664347180a/"
   },
   "https://note.com/tabelog_frontend/n/n35664347180a/": {
     "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
     "description": "こんにちは。食べログのフロントエンドチーム の佐伯です。  昨年もメンバー紹介の記事を書きましたが、新しいメンバーも加わりましたので改めてご紹介させていただきます。以下で紹介する6名と、アドバイザーの@hiroppyさんを加えて7名で活動しています  今回は趣向を凝らしてドラッカー風エクササイズ風メンバー紹介です。  ドラッカー風エクササイズは、アジャイルサムライで紹介されたチームにおける期待をすり合わせるための手法です   ・自分は何が得意なのか？ ・どういうふうに仕事するか？ ・自分が大切に思う価値は何か？ ・チームメンバーは自分にどんな成果を期待していると思うか？  という質問を",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/n35664347180a/"
   },
   "https://note.com/tabelog_frontend/n/na9a2ce24a4d5": {
     "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
     "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
   },
   "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/": {
     "title": "食べログノートをリリースしました！｜食べログ フロントエンドエンジニアブログ",
     "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
-    "name": "note（ノート）",
+    "name": "Note",
+    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
     "url": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
   },
   "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/": {
@@ -632,6 +710,7 @@
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
     "name": "Spotify",
+    "favicon": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
     "url": "https://open.spotify.com/episode/1RfjVZhO9qNxhoTA0E6rW9/"
   },
   "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/": {
@@ -639,34 +718,39 @@
     "description": "souzoh fm · Episode",
     "image": "/images/aS5zY2RuLmNvL2ltYWdlL2FiNjc2NTYzMDAwMGJhOGE2MzY3OTRiMzA5ZmMwODRhZTI3NmFmNmM=.webp",
     "name": "Spotify",
+    "favicon": "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png",
     "url": "https://open.spotify.com/episode/4lExWWHOz4AGxrikd8w99A/"
   },
   "https://prtimes.jp/main/html/rd/p/000000035.000035920.html": {
-    "title": "ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
-    "description": "株式会社STRACTのプレスリリース（2025年4月2日 11時00分）ショッピングアシストアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
+    "title": "AIショッピングアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
+    "description": "株式会社STRACTのプレスリリース（2025年4月2日 11時00分）AIショッピングアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzUvMzU5MjAtMzUtYjIwMDc0Zjc2Yz.webp",
-    "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "name": "PR TIMES",
+    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
     "url": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html"
   },
   "https://prtimes.jp/main/html/rd/p/000000037.000035920.html": {
     "title": "STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
     "description": "株式会社STRACTのプレスリリース（2025年4月30日 11時05分）STRACT、エンジニア向けイベント「カンファレンス直前！TypeScript実践Tips」初開催決定！",
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
-    "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "name": "PR TIMES",
+    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
     "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html"
   },
   "https://prtimes.jp/main/html/rd/p/000000086.000043056.html": {
     "title": "ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
     "description": "株式会社ダイニーのプレスリリース（2025年3月7日 09時38分）ダイニー、TypeScriptをテーマにした勉強会「noren.ts」を初開催",
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvNDMwNTYvODYvNDMwNTYtODYtM2QzMjEwYjdiYW.webp",
-    "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "name": "PR TIMES",
+    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
     "url": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html"
   },
   "https://prtimes.jp/main/html/rd/p/000000097.000021828.html": {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任",
     "description": "株式会社Rebaseのプレスリリース（2023年12月15日 14時00分）株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任",
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMjE4MjgvOTcvMjE4MjgtOTctMjhjNDJiYzFjND.webp",
-    "name": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "name": "PR TIMES",
+    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
     "url": "https://prtimes.jp/main/html/rd/p/000000097.000021828.html"
   },
   "https://reactjs-meetup.connpass.com/": {
@@ -674,6 +758,7 @@
     "description": "React.js meetup",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9lYS9lNy9lYWU3YjBkMmZjOGYzMGYwZTQ0MzA5ZjM5OGYyM2E5MS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://reactjs-meetup.connpass.com/"
   },
   "https://reactjs-meetup.connpass.com/event/115274/": {
@@ -681,6 +766,7 @@
     "description": "## React.js meetup #6  React.js meetup #6 を開催します！  今回は会場・懇親会共にヤフー株式会社様にスポンサー頂きます。  また今回は、@koba04さん、@about_hiroppyさんにTalkして頂く予定です。  ## LT登壇について  登壇についてはReactに関することであればテーマは自由です♪   初心者の方から業務でバリバリ使いこなしている方までどなたでもご登壇ください！  ### LT時間  5~10分  ## 開催概要  ### 日時  2019/01/31(木)19:00~  ### タイムスケジュール  | 時間 | 内容...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9hMy82Yy9hMzZjYWMzZDE0NDQzNDYyZGJmZjc3NzI3N2M4ZDRiMy5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://reactjs-meetup.connpass.com/event/115274/"
   },
   "https://roppongi-js.connpass.com/event/82998/": {
@@ -688,6 +774,7 @@
     "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  第2回目もLT大会！  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 ->...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://roppongi-js.connpass.com/event/82998/"
   },
   "https://roppongi-js.connpass.com/event/86684/": {
@@ -695,24 +782,31 @@
     "description": "# Roppongi.jsって？  Roppongi.jsは六本木周辺に生息するJavaScript loversのJavaScript loversによるJavaScript loversのためのイベントです。  もちろん六本木周辺以外の方でもお気軽にご参加ください。  内容はJavaScriptにまつわることであればOKです。  初心者の方もガチ勢の方も大歓迎です。参加資格はJavaScriptを愛するかどうか。  ぜひぜひ奮ってご参加ください！  # 参加枠    * LT発表枠 -> LT(5分)を発表いただく参加者の枠です   * オーディエンス枠 -> LTの発表なしで聴衆と...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9jNC9hNi9jNGE2NDU0MmEwMmI5ZjNhYjFlYmQ2OTUzMDBkNzk5OC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://roppongi-js.connpass.com/event/86684/"
   },
-  "https://route06.co.jp/news/38": {
-    "title": "",
-    "url": "https://route06.co.jp/news/38/"
-  },
-  "https://route06.co.jp/news/38/": {
-    "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ - 株式会社ROUTE06 (ルートシックス)",
+  "https://route06.com/jp/news/38": {
+    "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ",
     "description": "株式会社ROUTE06（本社：東京都千代田区、代表取締役：遠藤崇史、以下ROUTE06）は、技術顧問として廣戸裕大（Hiroppy）氏が就任したことをお知らせします。",
-    "image": "/images/cm91dGUwNi5jby5qcC9hc3NldHMvc3BlY2lhbF9vZ3AuanBlZw==.webp",
-    "name": "株式会社ROUTE06 (ルートシックス) - ビジネスモデル変革を支援するDXパートナー",
-    "url": "https://route06.co.jp/news/38/"
+    "image": "/images/anAucm91dGUwNi5jb20vb2dwL29ncC1qcC5wbmc=.webp",
+    "name": "ROUTE06",
+    "favicon": "https://jp.route06.com/favicon.ico",
+    "url": "https://route06.com/jp/news/38/"
+  },
+  "https://route06.com/jp/news/38/": {
+    "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ",
+    "description": "株式会社ROUTE06（本社：東京都千代田区、代表取締役：遠藤崇史、以下ROUTE06）は、技術顧問として廣戸裕大（Hiroppy）氏が就任したことをお知らせします。",
+    "image": "/images/anAucm91dGUwNi5jb20vb2dwL29ncC1qcC5wbmc=.webp",
+    "name": "ROUTE06",
+    "favicon": "https://jp.route06.com/favicon.ico",
+    "url": "https://route06.com/jp/news/38/"
   },
   "https://slides.hiroppy.me/a-deep-dive-into-module-graph/": {
     "title": "A Deep Dive into Module Graph",
     "description": "Introducing how to create/run module graph",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvYS1kZWVwLWRpdmUtaW50by1tb2R1bGUtZ3JhcGgvdGh1bWJuYWlsLnBuZw==.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/a-deep-dive-into-module-graph/"
   },
   "https://slides.hiroppy.me/cache-strategy-on-mercari-shops/": {
@@ -720,6 +814,7 @@
     "description": "メルカリShopsのブログで紹介したものをスライド化しました",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvY2FjaGUtc3RyYXRlZ3ktb24tbWVyY2FyaS1zaG9wcy90aHVtYm5haWwucG5n.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/cache-strategy-on-mercari-shops/"
   },
   "https://slides.hiroppy.me/future-of-node/": {
@@ -727,37 +822,43 @@
     "description": "Introduce the current stability 1 modules and hot topics.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/future-of-node/"
   },
   "https://slides.hiroppy.me/how-to-manage-the-document-of-Node.js/": {
     "title": "how to manage the document of Node.js",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/how-to-manage-the-document-of-Node.js/"
   },
   "https://slides.hiroppy.me/introduce-apollo/": {
     "title": "introduce-apollo",
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/introduce-apollo/"
   },
   "https://slides.hiroppy.me/introducing-webpack-asset-modules/": {
     "title": "introducing webpack asset modules",
     "description": "introducing how to use asset modules of webpack5",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules/"
   },
   "https://slides.hiroppy.me/nicohaco/": {
     "title": "nicohacoを作った",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/nicohaco/"
   },
   "https://slides.hiroppy.me/node-core-utils/": {
     "title": "node-core-utils",
     "description": "introduce node-core-utils",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/node-core-utils/"
   },
   "https://slides.hiroppy.me/node-esm/": {
@@ -765,25 +866,29 @@
     "description": "Node.js is implementing ECMAScript Modules. This talk will introduce how it resolves modules.",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/node-esm/"
   },
   "https://slides.hiroppy.me/node-whatwg-url/": {
     "title": "node-whatwg-url",
     "description": "whatwg-url in Node",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/node-whatwg-url/"
   },
   "https://slides.hiroppy.me/node8/": {
     "title": "node8",
     "description": "Node@8.0.0の紹介スライド",
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz92PTMmcz0yMDA=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/node8/"
   },
   "https://slides.hiroppy.me/sourcemap-v3/": {
     "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvc291cmNlbWFwLXYzL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/sourcemap-v3/"
   },
   "https://slides.hiroppy.me/the-event-loop-of-node/": {
@@ -791,24 +896,28 @@
     "description": "introduce the mechanism of the event loop",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/the-event-loop-of-node/"
   },
   "https://slides.hiroppy.me/the-present-and-future-of-JavaScript/": {
     "title": "the present and future of JavaScript",
     "description": "Explain how specifications are determined and how it will be in the future.",
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcyNTU4Mz92PTQmcz0yMDA=.webp",
-    "name": "abouthiroppy's slides",
+    "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/the-present-and-future-of-JavaScript/"
   },
   "https://slides.hiroppy.me/tools-history-and-future/": {
     "title": "slide",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvdG9vbHMtaGlzdG9yeS1hbmQtZnV0dXJlL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/tools-history-and-future/"
   },
   "https://slides.hiroppy.me/top-level-await/": {
     "title": "Introducing top-level-await",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/top-level-await/"
   },
   "https://slides.hiroppy.me/webpack-history/": {
@@ -816,6 +925,7 @@
     "description": "webpackの歴史を辿っていき、機能を紹介していきます。",
     "image": "/images/YXZhdGFyczEuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjEwNTc5MT9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/webpack-history/"
   },
   "https://slides.hiroppy.me/worker_threads/": {
@@ -823,6 +933,7 @@
     "description": "introduce worker_threads",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
+    "favicon": "",
     "url": "https://slides.hiroppy.me/worker_threads/"
   },
   "https://speakerdeck.com/abouthiroppy/ecmascript/": {
@@ -830,6 +941,7 @@
     "description": "https://atnd.org/events/82619 の発表資料",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMDE3NjI5NTQ5ODZiNGJlM2JhMGFkYmIxZGU2NzM4ZT.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/ecmascript/"
   },
   "https://speakerdeck.com/abouthiroppy/my-tools/": {
@@ -837,6 +949,7 @@
     "description": "8/10の社内勉強会資料",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvMGI4MTNkNjlkOTczNDcwYWJlMzJiZGMwNmRkMGJlMz.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/my-tools/"
   },
   "https://speakerdeck.com/abouthiroppy/node8-dot-3-0nituite/": {
@@ -844,18 +957,21 @@
     "description": "buildersconの飛び込みLT資料。\n\n以下の記事のスライド版です。\nhttp://abouthiroppy.hatenablog.jp/entry/2017/08/03/095304\n\n",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYTY1NTc4NzMyMTZiNGI5MWJmZTI3NTE3YmJhMjcxNW.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/node8-dot-3-0nituite/"
   },
   "https://speakerdeck.com/abouthiroppy/osswole-simuhua/": {
     "title": "OSSを楽しむ話",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvM2U0YzY0NzMyYWJkNDFjMmE4YjI1NDlhM2ZjY2Y0OT.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/osswole-simuhua/"
   },
   "https://speakerdeck.com/abouthiroppy/react-nativewohong-tutemitahua/": {
     "title": "React Nativeを触ってみた話",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvODA4YTBmYTE1ZGUwNDBjZTkzOTU1MGU1MmJjMzM1ND.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/react-nativewohong-tutemitahua/"
   },
   "https://speakerdeck.com/abouthiroppy/repaint/": {
@@ -863,6 +979,7 @@
     "description": "11/11の社内勉強会資料",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvZDQ3ZWY2MzM0NGYyNGI2MjkzZmY1MGE4NDk1N2E0Zm.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/abouthiroppy/repaint/"
   },
   "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi": {
@@ -870,6 +987,7 @@
     "description": "- どのように最新技術を取り入れているのか\n- どのような技術的チャレンジをしているのか\n- プロダクト開発と技術イノベーションとの関係",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYjU4MTNmMDUxZmEyNDczZDkwOWQwMzU5YWQ0YjFiZD.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
   },
   "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/": {
@@ -877,6 +995,7 @@
     "description": "- どのように最新技術を取り入れているのか\n- どのような技術的チャレンジをしているのか\n- プロダクト開発と技術イノベーションとの関係",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYjU4MTNmMDUxZmEyNDczZDkwOWQwMzU5YWQ0YjFiZD.webp",
     "name": "Speaker Deck",
+    "favicon": "https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-bdd5839d46040a50edf189174e6f7aacc8abb3aaecd56a4711cf00d820883f47.png",
     "url": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
   },
   "https://stract.connpass.com/event/354163/": {
@@ -884,6 +1003,7 @@
     "description": "## 🧩 カンファレンス直前！スタートアップのTypeScript実践Tips  ショッピングアシストアプリ『PLUG』を開発・運営する株式会社STRACTが主催する、   エンジニア向けコミュニティイベント。  初開催の今回のテーマはスタートアップ×TypeScript。  TypeScriptに関連する大型カンファレンス直前に実施する本イベントでは、実際に当日登壇される2名のゲストを招き、   Lintルール設計・Node.js活用・社内ツールの自動化事例など、プロダクト開発の「今」がわかる内容をお届け。  現場の実践知が詰まったLT・パネルセッションに加え、オフラインでは軽食を囲ん...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMC9iMi8xMGIyYTI5ZDA0MmZlYTg2YTE3Mjk0ZGFiYjczMzQ2MS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://stract.connpass.com/event/354163/"
   },
   "https://tech-blog.tabelog.com/entry/using-static-exports-in-production": {
@@ -891,6 +1011,7 @@
     "description": "目次 はじめに Static Exportsとは Static Exportsを採用した経緯 Static Exportsを利用する際の注意点 Dynamic Routingが使えない 対策 運用してみての感想 まとめ 最後に はじめに こんにちは。食べログ ウェブ開発部 FEチームの原田です。 昨年リリースした食べログノートではNext.jsを利用しており、Static Exportsを採用しています。 今回は食べログノートでStatic Exportsを採用した経緯や採用するための注意点、実際に運用してみての感想をお伝えします。 食べログノートの詳細については以下の記事も是非ご覧ください。…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
     "name": "Tabelog Tech Blog",
+    "favicon": "https://tech-blog.tabelog.com/icon/link",
     "url": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/"
   },
   "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/": {
@@ -898,13 +1019,15 @@
     "description": "目次 はじめに Static Exportsとは Static Exportsを採用した経緯 Static Exportsを利用する際の注意点 Dynamic Routingが使えない 対策 運用してみての感想 まとめ 最後に はじめに こんにちは。食べログ ウェブ開発部 FEチームの原田です。 昨年リリースした食べログノートではNext.jsを利用しており、Static Exportsを採用しています。 今回は食べログノートでStatic Exportsを採用した経緯や採用するための注意点、実際に運用してみての感想をお伝えします。 食べログノートの詳細については以下の記事も是非ご覧ください。…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
     "name": "Tabelog Tech Blog",
+    "favicon": "https://tech-blog.tabelog.com/icon/link",
     "url": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/"
   },
   "https://tech.route06.co.jp/entry/2023/09/07/091000": {
     "title": "ROUTE06 CTOが考えていること（2023年9月） - ROUTE06 Tech Blog",
     "description": "おはようございますこんにちはこんばんは。ROUTE06 取締役 CTO の重岡です。 前回の記事から 4 か月が経過しました。その期間の振り返りと、現在考えていることについてご紹介します。 プロダクト開発の現在地 エンタープライズ向け SaaS「Plain EDI」の開発 まだまだ課題は多いものの、「Plain」という大きなプラットフォームの構想の初手として、足元ではクラウドEDIを中心とした商取引DXを注力領域に定め、エンタープライズ特化のVertical SaaSを提供しながらその価値を最大限活かすための要件定義/デザイン/データ分析などの事業支援を行うアプローチへの実効性も高まりつつある…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
-    "name": "ROUTE06 Tech Blog",
+    "name": "ROUTE06",
+    "favicon": "https://tech.route06.co.jp/icon/link",
     "url": "https://tech.route06.co.jp/entry/2023/09/07/091000/"
   },
   "https://tech.route06.co.jp/entry/2023/09/07/091000/": {
@@ -912,13 +1035,15 @@
     "description": "おはようございますこんにちはこんばんは。ROUTE06 取締役 CTO の重岡です。 前回の記事から 4 か月が経過しました。その期間の振り返りと、現在考えていることについてご紹介します。 プロダクト開発の現在地 エンタープライズ向け SaaS「Plain EDI」の開発 まだまだ課題は多いものの、「Plain」という大きなプラットフォームの構想の初手として、足元ではクラウドEDIを中心とした商取引DXを注力領域に定め、エンタープライズ特化のVertical SaaSを提供しながらその価値を最大限活かすための要件定義/デザイン/データ分析などの事業支援を行うアプローチへの実効性も高まりつつある…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
     "name": "ROUTE06 Tech Blog",
+    "favicon": "https://tech.route06.co.jp/icon/link",
     "url": "https://tech.route06.co.jp/entry/2023/09/07/091000/"
   },
   "https://tech.route06.co.jp/entry/2024/03/28/091000": {
     "title": "技術顧問として半年間で感じた会社の成長 - ROUTE06 Tech Blog",
     "description": "こんにちは。hiroppyです。2023年7月に技術顧問として参加させていただき、半年経ちましたので、今回は自分からみたROUTE06社の印象と何をしているかを話したいと思います。 一言でいうと、組織が大きくなっていることが実感できた半年でした。 最初の印象 様々なスタートアップを見てきましたが、ROUTE06社はその中でも、最初から組織環境を整備しており、主に印象的だったのは以下のような要素でした。 会社全体の雰囲気の良さ 会社文化の浸透と全員が同じ方向を向いている点 業務の自動化や権限委譲 会社や個人のモチベーションの高さ 会社全体の雰囲気の良さはSlackを入ったときにすぐに分かりました…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
-    "name": "ROUTE06 Tech Blog",
+    "name": "ROUTE06",
+    "favicon": "https://tech.route06.co.jp/icon/link",
     "url": "https://tech.route06.co.jp/entry/2024/03/28/091000/"
   },
   "https://tech.route06.co.jp/entry/2024/03/28/091000/": {
@@ -926,6 +1051,7 @@
     "description": "こんにちは。hiroppyです。2023年7月に技術顧問として参加させていただき、半年経ちましたので、今回は自分からみたROUTE06社の印象と何をしているかを話したいと思います。 一言でいうと、組織が大きくなっていることが実感できた半年でした。 最初の印象 様々なスタートアップを見てきましたが、ROUTE06社はその中でも、最初から組織環境を整備しており、主に印象的だったのは以下のような要素でした。 会社全体の雰囲気の良さ 会社文化の浸透と全員が同じ方向を向いている点 業務の自動化や権限委譲 会社や個人のモチベーションの高さ 会社全体の雰囲気の良さはSlackを入ったときにすぐに分かりました…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
     "name": "ROUTE06 Tech Blog",
+    "favicon": "https://tech.route06.co.jp/icon/link",
     "url": "https://tech.route06.co.jp/entry/2024/03/28/091000/"
   },
   "https://techfeed.connpass.com/event/213218/": {
@@ -933,6 +1059,7 @@
     "description": "## エキスパートだらけのカンファレンス  TechFeed Summitのコンセプトは、「エキスパートだらけのカンファレンス」。エキスパート向けの情報サービスであるTechFeed Pro、そしてそれを支えるエキスパートコミュニティの魅力を存分に凝縮したオンラインイベントを目指しています。  ## TechFeed Summit #6のテーマはNode.js v16リリース  Yosuke Furukawa さん​、Masashi Hirano さん​、Yuta Hiroto さん​をお招きして、Node.js v16リリースの注目ポイントやNode.jsの最新動向まで、余すことなくお...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy85Yy9lNy85Y2U3ZTk0YmEwYzk0NzRjZTg4NThhMDQ2YTI5M2NhZC5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://techfeed.connpass.com/event/213218/"
   },
   "https://techfeed.io/people/@hiroppy/": {
@@ -940,16 +1067,19 @@
     "description": "OSS engineer. Core committer of @nodejs and @webpack.",
     "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
     "name": "TechFeed",
+    "favicon": "https://techfeed.io/images/logo/logo-192x192.png",
     "url": "https://techfeed.io/people/@hiroppy/"
   },
   "https://thisweekinreact.com/newsletter/171/": {
     "title": "This Week In React #171: Expo, React Conf, React 19 preview, Next.js, React-Email, Storybook, Panda, Nexar, React-Query, TypeScript, Vocs, Skottie, Harmony, VisionOS... | This Week In React",
     "description": "Hi everyone!",
     "image": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9pbWcvVFdJUl9QT1NULmpwZw==.webp",
+    "favicon": "https://thisweekinreact.com/favicon/favicon.ico",
     "url": "https://thisweekinreact.com/newsletter/171/"
   },
   "https://togetter.com/li/1708701/": {
     "title": "",
+    "favicon": "",
     "url": "https://togetter.com/li/1708701/"
   },
   "https://tskaigi.hatenablog.com/entry/2024/02/14/170000/": {
@@ -957,20 +1087,23 @@
     "description": "2024年5月11日（土）に東京・中野で開催する「TSKaigi 2024」では、トークのプロポーザルを2024年2月29日（木）まで募集しています。 TSKaigi 2024で募集するトークの条件は、TypeScriptに関係する話題であること、だけです。この記事ではよりイメージがしやすいように、TSKaigiをどのようなイベントにしたいのか、どんなトークを期待しているかをご紹介します。",
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNjgwMTg4MzE4OTA3NTYwMjg2Ni82ODAxODgzMTg5MDgyNDI0NzE1Lz.webp",
     "name": "TSKaigi 公式ブログ",
+    "favicon": "https://tskaigi.hatenablog.com/icon/link",
     "url": "https://tskaigi.hatenablog.com/entry/2024/02/14/170000/"
   },
   "https://uit-inside.linecorp.com/episode/100/": {
     "title": "ep.100 『100回記念8時間生放送』 | UIT INSIDE",
-    "description": "こちらは YouTube 配信の内容より、休憩時間などをカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n<iframe width=\"560\" height=\"315\" style=\"width:100%;height: 513px;margin: -10px 0 10px\" src=\"https://www.youtube.com/embed/Qsuk2KCDIxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n<iframe title=\"Twitter Share\" src=\"https://platform.twitter.com/widgets/tweet_button.html?url=https://uit-inside.linecorp.com/episode/100&amp;hashtags=UIT_INSIDE&amp;related=LINE_DEV\" width=\"81\" height=\"21\" style=\"overflow: hidden;\"></iframe>\n\n---\n\n音声版はこちら\n\n<audio src=\"https://vos.line-scdn.net/podcast/episodes/uit-inside-100.mp3\" controls ></audio>\n\nこちらは YouTube 配信の内容より、休憩時間やプレゼント企画など、リアルタイム配信限定の部分をカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n\n---\n\n2018年12月からはじまり2年半、合計10万を超える視聴、2021年10月1日をもって ep.99 まで達した UIT INSIDE。ついに迎える ep.100 として、8時間生放送を実施します！\nhttps://uit-inside.linecorp.com\n\nこれまで UIT INSIDE に出演いただいたゲストを招待し、プロジェクトのその後・今考えていること・新しく行っている取り組みなどについて語っていただく8時間を予定しております。\n\nまた、ep.100 を記念して UIT に関するノベルティのプレゼント企画や、これまでの UIT INSIDE の人気エピソードの紹介・振り返りなどなど、 UIT のコンテンツを普段視聴してくださっているかたにこそ楽しんでいただけるコンテンツもたくさんお送りする予定ですので、ぜひ業務のお供にご視聴ください。\n\n<style>\n#__content-inner > div > div > div:nth-child(3) > div > div > div > div > p:nth-child(1),\n#__content-inner > div > div > div.container-xl.bg-white.mx-auto.flex.items-stretch.justify-between,\n.TheEpisodeCardHero,\n.TheEpisodeCardHero__icons {\n  display: none;\n}\n</style>\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n  - 2023 年卒向けページは近日公開！\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
+    "description": "こちらは YouTube 配信の内容より、休憩時間などをカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n<iframe width=\"560\" height=\"315\" style=\"width:100%;height: 513px;margin: -10px 0 10px\" src=\"https://www.youtube.com/embed/Qsuk2KCDIxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n<iframe title=\"Twitter Share\" src=\"https://platform.twitter.com/widgets/tweetbutton.html?url=https://uit-inside.linecorp.com/episode/100&amp;hashtags=UITINSIDE&amp;related=LINEDEV\" width=\"81\" height=\"21\" style=\"overflow: hidden;\"></iframe>\n音声版はこちら\n<audio src=\"https://vos.line-scdn.net/podcast/episodes/uit-inside-100.mp3\" controls ></audio>\nこちらは YouTube 配信の内容より、休憩時間やプレゼント企画など、リアルタイム配信限定の部分をカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n2018年12月からはじまり2年半、合計10万を超える視聴、2021年10月1日をもって ep.99 まで達した UIT INSIDE。ついに迎える ep.100 として、8時間生放送を実施します！\nhttps://uit-inside.linecorp.com\nこれまで UIT INSIDE に出演いただいたゲストを招待し、プロジェクトのその後・今考えていること・新しく行っている取り組みなどについて語っていただく8時間を予定しております。\nまた、ep.100 を記念して UIT に関するノベルティのプレゼント企画や、これまでの UIT INSIDE の人気エピソードの紹介・振り返りなどなど、 UIT のコンテンツを普段視聴してくださっているかたにこそ楽しんでいただけるコンテンツもたくさんお送りする予定ですので、ぜひ業務のお供にご視聴ください。\n<style>\n#content-inner > div > div > div:nth-child(3) > div > div > div > div > p:nth-child(1),\n#content-inner > div > div > div.container-xl.bg-white.mx-auto.flex.items-stretch.justify-between,\n.TheEpisodeCardHero,\n.TheEpisodeCardHeroicons {\n  display: none;\n}\n</style>\nRefs\nLINE 新卒採用 2022\nhttps://linecorp.com/ja/career/newgrads/engineering/\n2023 年卒向けページは近日公開！\nキャリア採用はこちらから\nhttps://linecorp.com/ja/career/position/475\nBGM&SE\n魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUxMDAucG5n.webp",
     "name": "UIT INSIDE",
+    "favicon": "https://uit-inside.linecorp.com/assets/images/favicon.png",
     "url": "https://uit-inside.linecorp.com/episode/100/"
   },
   "https://uit-inside.linecorp.com/episode/93/": {
     "title": "ep.93『開発者目線のFront-end Toolingを考える - UIT Meetup vol. 13 After show』 | UIT INSIDE",
-    "description": "@spring_raining、@miyoshi、@pittanko_pta、@about_hiroppy の 4 人で UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』を振り返りました。\n\n## UIT Meetup vol. 13 について\n\nイベントアフターレポートはこちら → https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/\n\n<div class=\"w-full block text-center mx-auto\">\n<iframe width=\"560\" height=\"315\" class=\"mx-auto\" src=\"https://www.youtube.com/embed/XyoeJ1TRaMk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n## Webpackのハードル\n\n* Webpackを難しいと感じることについて\n  - Webpackのバージョンアップへの対応\n    - マイグレーションツールについて\n  - どうやってつまづきを解決するか？\n    - つまづきを通してWebpackに詳しくなる\n* 最近のWebpackの進化\n\n## Front-end toolingの高レイヤー化とConfig\n\n* あるツールの上に実装されるより高レイヤーのツール\n  - ツールの設定を秘匿して、導入時のつまづきがより少なくなっている\n  - 内部のツールの設定に手を加えたい場合には？\n* 内部的にWebpackを利用するツールが、Webpackの設定を変更できる手段を提供する例\n  - 例: Vue CLIが採用しているwebpack-chain https://cli.vuejs.org/guide/webpack.html#chaining-advanced\n  - 例: react-app-rewired https://github.com/timarney/react-app-rewired\n* Viteの例\n  - Rollupのエコシステムと一体化しており、それぞれの設定の透過性が高い\n  - Rollup自体の設定も不満はない\n* Snowpackの例\n  - Develop環境が中心のため、基本的にビルド関連の設定には立ち入らない\n  - Webpackを使うためのプラグインをSnowpackが提供している\n* DevelopmentとProductionで環境が異なることについて\n* 各種ツールを垂直統合するRomeが出るとどうなる？\n  - Rome: https://rome.tools/\n* ParcelやFuseBoxが目指すZero configuration\n\n## Refs\n\n- LINE 新卒採用 2022\n  - https://linecorp.com/ja/career/newgrads/engineering/\n- キャリア採用はこちらから\n  - https://linecorp.com/ja/career/position/475\n- BGM&SE\n  - 魔王魂/騒音のない世界/OtoLogic",
+    "description": "@springraining、@miyoshi、@pittankopta、@abouthiroppy の 4 人で UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』を振り返りました。\nUIT Meetup vol. 13 について\nイベントアフターレポートはこちら → https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13/\n<div class=\"w-full block text-center mx-auto\">\n<iframe width=\"560\" height=\"315\" class=\"mx-auto\" src=\"https://www.youtube.com/embed/XyoeJ1TRaMk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\nWebpackのハードル\n Webpackを難しいと感じることについて\nWebpackのバージョンアップへの対応\nマイグレーションツールについて\nどうやってつまづきを解決するか？\nつまづきを通してWebpackに詳しくなる\n 最近のWebpackの進化\nFront-end toolingの高レイヤー化とConfig\n あるツールの上に実装されるより高レイヤーのツール\nツールの設定を秘匿して、導入時のつまづきがより少なくなっている\n内部のツールの設定に手を加えたい場合には？\n 内部的にWebpackを利用するツールが、Webpackの設定を変更できる手段を提供する例\n例: Vue CLIが採用しているwebpack-chain https://cli.vuejs.org/guide/webpack.html#chaining-advanced\n例: react-app-rewired https://github.com/timarney/react-app-rewired\n Viteの例\nRollupのエコシステムと一体化しており、それぞれの設定の透過性が高い\nRollup自体の設定も不満はない\n Snowpackの例\nDevelop環境が中心のため、基本的にビルド関連の設定には立ち入らない\nWebpackを使うためのプラグインをSnowpackが提供している\n DevelopmentとProductionで環境が異なることについて\n 各種ツールを垂直統合するRomeが出るとどうなる？\nRome: https://rome.tools/\n ParcelやFuseBoxが目指すZero configuration\nRefs\nLINE 新卒採用 2022\nhttps://linecorp.com/ja/career/newgrads/engineering/\nキャリア採用はこちらから\nhttps://linecorp.com/ja/career/position/475\nBGM&SE\n魔王魂/騒音のない世界/OtoLogic",
     "image": "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUwOTMucG5n.webp",
     "name": "UIT INSIDE",
+    "favicon": "https://uit-inside.linecorp.com/assets/images/favicon.png",
     "url": "https://uit-inside.linecorp.com/episode/93/"
   },
   "https://uit.connpass.com/event/216043/": {
@@ -978,10 +1111,12 @@
     "description": "YouTube Live: https://www.youtube.com/watch?v=XyoeJ1TRaMk  UIT Meetup vol. 13では、Vite、Snowpack、esbuild など、昨今多くの提案がされている Frontend Tooling の分野を深堀りしていきます。  なぜ今新しいツールやバンドラーが求められているのか？ それぞれのツールの詳しい使い勝手、そして今後従来のツールを置き換えるものとなるのか？ など、フロントエンドのトレンドについてゲストの方と話していきます。  これらのツールは最近でも活発に変更が加えられていますが、今回のイベントではしっか...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9iZS9jNC9iZWM0ZGMwYmFmZjYyZTFhMWNmYmY5NThhZjA4NmY0OS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://uit.connpass.com/event/216043/"
   },
   "https://us.yuimedi.com/product-yuiquery-research/": {
-    "title": "",
+    "title": "YuiQuery Research – Yuimedi Official Website",
+    "favicon": "https://us.yuimedi.com/wp-content/uploads/2023/09/yuimedi-icon.png",
     "url": "https://us.yuimedi.com/product-yuiquery-research/"
   },
   "https://wajs.connpass.com/event/103761/": {
@@ -989,6 +1124,7 @@
     "description": "## 20時以降に参加される方へ  エントランスと5Fに設置している看板は20時に撤去されます。 出口は出入り自由なので普通に入ってきていただいて問題ございません。 わからないかたは #wejs でつぶやいてください！  ## 10月もWe Are JavaScripters!!  少し寒くなってきましたね。。。 皆さん体調は大丈夫ですか？  10月のWe Are JavaScriptersは株式会社メディアドゥで開催します！  普段のお仕事で勉強したことやシェアしたいことがある方、ぜひぜひ登壇されてください！！  ### 登壇枠に関して  ※ 現在connpassの仕様上、facebo...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8yNC8wZS8yNDBlMDFkNGYzZWUyODMyNWRjYWVmZmRmYWUwZDc5ZS5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://wajs.connpass.com/event/103761/"
   },
   "https://wakate.org/2014/09/16/47threport/": {
@@ -996,6 +1132,7 @@
     "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
     "image": "",
     "name": "情報科学若手の会",
+    "favicon": "",
     "url": "https://wakate.org/2014/09/16/47threport/"
   },
   "https://wakate.org/2017/10/10/50threport/": {
@@ -1003,6 +1140,7 @@
     "description": "情報科学若手の会は、情報科学に携わる学生、若手研究者、 社会人のディスカッションと交流の会です。幅広い分野から参加者を募り、 互いの交流を深めることで新たな発想が生まれることを目指しています。インフォーマルな雰囲気ですので、これから研究を始めるという方も是非ご参加下さい。",
     "image": "",
     "name": "情報科学若手の会",
+    "favicon": "",
     "url": "https://wakate.org/2017/10/10/50threport/"
   },
   "https://web-study.connpass.com/event/147538/": {
@@ -1010,6 +1148,7 @@
     "description": "# TC39 Proposals Study  ## Intro  TC39 に提案されている Stage 0 から Stage 3 までの好きな Proposal を選び、それについて 1min ~ 5min の間で LT する。というのを時間の限り繰り返す。そんな LT 大会です。  This is a Lightling Talk Only Meetup for TC39 Proposals. Speakers Choice Proposals from Stage 0-3, and give a talk in 1-5 min.    * stage3,2: https://gi...",
     "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy8xMi8xNy8xMjE3ZjAwZTMyMDc3OTFhMTEwYzkzZTAyZDc5YjljMi5wbm.webp",
     "name": "connpass",
+    "favicon": "https://connpass.com/static/20251204.635d513/img/favicon.ico",
     "url": "https://web-study.connpass.com/event/147538/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235": {
@@ -1017,6 +1156,7 @@
     "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
     "name": "estie inside blog",
+    "favicon": "https://www.estie.jp/blog/icon/link",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
   },
   "https://www.estie.jp/blog/entry/2024/08/05/183235/": {
@@ -1024,10 +1164,12 @@
     "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
     "name": "estie inside blog",
+    "favicon": "https://www.estie.jp/blog/icon/link",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
   },
   "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/": {
     "title": "",
+    "favicon": "",
     "url": "https://www.meetup.com/ja-JP/Dublin-Node-js-Meetup/events/260666447/"
   },
   "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/": {
@@ -1035,25 +1177,29 @@
     "description": "支出管理システムのLayerX（レイヤーエックス、東京・中央）は2025年度中に人工知能（AI）エージェント事業に参入する。同社の既存サービスの請求書受領システムと連携させ、AIエージェントが企業の請求書受け取り代行を担うサービスなどを始める。30年には関連事業で500億円の売り上げを目指す。AIエージェントを活用して企業の間接業務を請け負うビジネス・プロセス・ア",
     "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
     "name": "日本経済新聞",
+    "favicon": "https://www.nikkei.com/compass/favicon.ico",
     "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
   },
   "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview": {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
     "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
     "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
+    "favicon": "https://www.nikkei.com/compass/favicon.ico",
     "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
   },
   "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/": {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
     "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
     "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
+    "favicon": "https://www.nikkei.com/compass/favicon.ico",
     "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
   },
   "https://www.slideshare.net/slideshow/alt01/39462934/": {
     "title": "Alt01-LT",
     "description": "今更ながらALT#1でのLT発表資料を上げました。\nangular-fullstack - Download as a PDF, PPTX or view online for free",
     "image": "/images/Y2RuLnNsaWRlc2hhcmVjZG4uY29tL3NzX3RodW1ibmFpbHMvYWx0MDEtMTQwOTI0MDMzNzAxLXBocGFwcDAyLXRodW.webp",
-    "name": "SlideShare",
+    "name": "Slideshare",
+    "favicon": "https://public.slidesharecdn.com/_next/static/media/favicon-v2.259c72c8.png",
     "url": "https://www.slideshare.net/slideshow/alt01/39462934/"
   },
   "https://www.slideshare.net/slideshow/mvc-39079770/39079770/": {
@@ -1067,18 +1213,21 @@
     "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
     "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
     "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
+    "favicon": "https://www.wantedly.com/favicon.ico",
     "url": "https://www.wantedly.com/companies/rebase/post_articles/887970/"
   },
   "https://www.wantedly.com/companies/rebase/post_articles/887970/": {
     "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
     "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
-    "image": "/images/aW1hZ2VzLndhbnRlZGx5LmNvbS9pL0cyRjVZN3c_dz0xMjAwJmg9NjMwJnN0eWxlPWNvdmVy.webp",
+    "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
+    "favicon": "https://www.wantedly.com/favicon.ico",
     "url": "https://www.wantedly.com/companies/rebase/post_articles/887970/"
   },
   "https://www.youtube.com/watch?v=1uCWzfaIedE": {
     "title": "Souzoh Tech Talk #05:Infrastructure",
     "description": "9/15（水）に行われたSouzoh Tech Talk #05:Infrastructureの様子です。ぜひご覧ください！",
     "image": "/images/aS55dGltZy5jb20vdmkvMXVDV3pmYUllZEUvaHFkZWZhdWx0LmpwZw==.webp",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=1uCWzfaIedE"
   },
@@ -1086,6 +1235,7 @@
     "title": "［7/26］Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)",
     "description": "2022年7月26日(火) 17時開催Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)のライブ配信ですイベントの詳細：https://cybozu.connpass.com/event/254325/ライブ配信は、16時50分からスタートする予定です（イベントは17時から）...",
     "image": "/images/aS55dGltZy5jb20vdmkvUWJXalZsb2FBdVkvbWF4cmVzZGVmYXVsdC5qcGc=.webp",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=QbWjVloaAuY"
   },
@@ -1093,6 +1243,7 @@
     "title": "UIT Meetup vol. 13 『知っておきたいFront-end Toolingの今』",
     "description": "UIT Meetup vol. 13では、Vite、Snowpack、esbuild など、昨今多くの提案がされている Frontend Tooling の分野を深堀りしていきます。なぜ今新しいツールやバンドラーが求められているのか？ それぞれのツールの詳しい使い勝手、そして今後従来のツールを置き換えるものとなる...",
     "image": "/images/aS55dGltZy5jb20vdmkvWHlvZUoxVFJhTWsvaHFkZWZhdWx0LmpwZw==.webp",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=XyoeJ1TRaMk"
   },
@@ -1100,6 +1251,7 @@
     "title": "Souzoh Tech Talk #03: Frontend",
     "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
     "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
+    "favicon": "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png",
     "name": "YouTube",
     "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g"
   },
@@ -1107,42 +1259,48 @@
     "title": "エンジニア座談会後編〜開発組織編〜 | Notion",
     "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
     "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/"
   },
   "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/": {
     "title": "エンジニア座談会後編〜開発組織編〜 | Notion",
     "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
     "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/"
   },
   "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64": {
     "title": "エンジニア座談会前編〜事業・エンジニアリング編〜 | Notion",
     "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
     "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/"
   },
   "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/": {
     "title": "エンジニア座談会前編〜事業・エンジニアリング編〜 | Notion",
     "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
     "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/"
   },
   "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375": {
     "title": "Yuimediのプロダクト開発 | Notion",
     "description": "│ 主なメンバー",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/image/https%3A%2F%2Fyuimedi.notion.site%2F%F0%9F%92%BB?table=block&id=3981950c-3d32-4fb1-83bc-8e99279e9375&spaceId=84b53445-0557-43ce-8389-0df6d9908689&width=2000&userId=&cache=v2",
     "url": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/"
   },
   "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/": {
     "title": "Yuimediのプロダクト開発 | Notion",
     "description": "│ 主なメンバー",
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
-    "name": "yuimedi on Notion",
+    "name": "Yuimedi",
+    "favicon": "https://yuimedi.notion.site/image/https%3A%2F%2Fyuimedi.notion.site%2F%F0%9F%92%BB?table=block&id=3981950c-3d32-4fb1-83bc-8e99279e9375&spaceId=84b53445-0557-43ce-8389-0df6d9908689&width=2000&userId=&cache=v2",
     "url": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/"
   }
 }

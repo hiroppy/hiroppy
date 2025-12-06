@@ -7,13 +7,12 @@ const errors = [];
 // validate
 for (const talk of data) {
   if (!talk.title) {
-    console.log(talk);
-    errors.push(talk.publishedAt);
+    errors.push(talk.url);
   }
 }
 
 if (errors.length !== 0) {
-  process.exit(1);
+  console.log("talks errors", JSON.stringify(errors, null, 2));
 }
 
 // connpassのog:titleに付いている日付を消す

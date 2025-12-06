@@ -108,6 +108,7 @@ export async function crawlSites(filename: string, items: Common[]) {
           return {
             title: blockedMeta.title,
             description: blockedMeta.description,
+            favicon: blockedMeta.favicon || "",
             image: blockedMeta.image,
             name: blockedMeta.name,
             url: blockedMeta.url || url,
@@ -135,6 +136,7 @@ export async function crawlSites(filename: string, items: Common[]) {
           image: cachedSite.image,
           name: cachedSite.name,
           url: cachedSite.url || url,
+          favicon: cachedSite.favicon || "",
           hot,
           comment,
           publishedAt,
@@ -164,6 +166,7 @@ export async function crawlSites(filename: string, items: Common[]) {
         description: meta.description,
         image: meta.image,
         name: meta.name,
+        favicon: meta.favicon || "",
         url,
         hot,
         comment,
@@ -177,6 +180,7 @@ export async function crawlSites(filename: string, items: Common[]) {
         description: meta.description,
         image: meta.image,
         name: meta.name,
+        favicon: meta.favicon || "",
         url: meta.url,
       } as LinkMeta);
 

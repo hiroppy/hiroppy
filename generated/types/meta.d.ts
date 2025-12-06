@@ -33,6 +33,7 @@ export interface Meta {
         title: string;
         description: string;
         image: string;
+        favicon: string;
         url: string;
       }[];
     };
@@ -44,6 +45,7 @@ export interface Meta {
         title: string;
         description: string;
         image: string;
+        favicon: string;
         url: string;
       }[];
     };
@@ -55,6 +57,7 @@ export interface Meta {
         title: string;
         description: string;
         image: string;
+        favicon: string;
         url: string;
       }[];
     };
@@ -67,6 +70,7 @@ export interface Meta {
         description: string;
         image: string;
         name: string;
+        favicon: string;
         url: string;
       }[];
     };
@@ -79,6 +83,7 @@ export interface Meta {
         description: string;
         image: string;
         name: string;
+        favicon: string;
         url: string;
       }[];
     };

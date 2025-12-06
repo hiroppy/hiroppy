@@ -27,9 +27,9 @@ export const meta = {
       start: "2021",
       end: null,
       links: [
-        "https://jsconf.jp/2021/",
-        "https://jsconf.jp/2022/",
         "https://jsconf.jp/2024/",
+        "https://jsconf.jp/2022/",
+        "https://jsconf.jp/2021/",
       ],
     },
     tsKaigi: {
@@ -43,9 +43,9 @@ export const meta = {
       start: "2016",
       end: "2018",
       links: [
-        "https://nodefest.jp/2016/",
-        "https://nodefest.jp/2017/",
         "https://nodefest.jp/2018/",
+        "https://nodefest.jp/2017/",
+        "https://nodefest.jp/2016/",
       ],
     },
     reactjs: {

@@ -19,6 +19,12 @@ export interface Podcast {
     | "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp";
   name: "mozaic.fm" | "UIT INSIDE" | "Spotify" | "YouTube" | "LINE ENGINEERING";
   url: string;
+  favicon:
+    | "https://mozaic.fm/assets/img/mozaic.svg"
+    | "https://uit-inside.linecorp.com/assets/images/favicon.png"
+    | "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+    | "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png"
+    | "https://engineering.linecorp.com/favicon-32x32.png?v=6d6085f233d02c34273fa8a8849b502a";
   publishedAt: string;
   links?: LinkMeta[];
 }

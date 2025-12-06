@@ -51,15 +51,13 @@ export const jobs: Job = {
       position: "Founder",
       initialState: "0",
       description: `
-合同会社Coder Penguinでは、多くの会社で技術顧問として様々な会社の支援を行う。
+多くの会社で技術顧問としてフロントエンド、サーバーサイドの技術、採用支援を行う。
 
 - Next.js, Node.jsなどのアーキテクチャ設計
 - 大規模フロントエンドのパフォーマンスチューニング
 - LLMを利用したアプリケーション開発支援
 - エンジニア採用支援
 - エンジニア組織計画と成長戦略相談
-
-何をやったかは、My Companyセクションを参照。
       `,
       company: "coderPenguin",
       links: [],
@@ -196,6 +194,7 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
 - CEO直下のチームで、新規プロダクトのBPO
 - バクラクのフロントエンド開発
 - 会社全体リポジトリのフロントエンドインフラ改善
+- 新規サービス開発
       `,
       links: [
         "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/",

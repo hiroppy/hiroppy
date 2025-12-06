@@ -11,18 +11,9 @@ export interface Media {
   title: string;
   description: string;
   image: string;
-  name?:
-    | "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES"
-    | "estie inside blog"
-    | "ROUTE06 Tech Blog"
-    | "株式会社ROUTE06 (ルートシックス) - ビジネスモデル変革を支援するDXパートナー"
-    | "TSKaigi 公式ブログ"
-    | "Findy Engineer Lab"
-    | "yuimedi on Notion"
-    | "note（ノート）"
-    | "mercan (メルカン)"
-    | "NextPublishing  デジタルファースト宣言！";
+  name?: string;
   url: string;
+  favicon: string;
   publishedAt: string;
   links?: LinkMeta[];
 }

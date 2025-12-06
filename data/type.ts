@@ -3,6 +3,7 @@ import type { CompanyKey } from "./companies.ts";
 export type LinkMeta = {
   title?: string;
   description?: string;
+  favicon?: string;
   image?: string;
   name?: string;
   url?: string;
