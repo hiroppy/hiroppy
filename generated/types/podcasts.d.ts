@@ -20,11 +20,11 @@ export interface Podcast {
   name: "mozaic.fm" | "UIT INSIDE" | "Spotify" | "YouTube" | "LINE ENGINEERING";
   url: string;
   favicon:
-    | "https://mozaic.fm/assets/img/mozaic.svg"
-    | "https://uit-inside.linecorp.com/assets/images/favicon.png"
-    | "https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
-    | "https://www.youtube.com/s/desktop/31c2c151/img/favicon_32x32.png"
-    | "https://engineering.linecorp.com/favicon-32x32.png?v=6d6085f233d02c34273fa8a8849b502a";
+    | "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLnN2Zw==.webp"
+    | "/images/dWl0LWluc2lkZS5saW5lY29ycC5jb20vYXNzZXRzL2ltYWdlcy9mYXZpY29uLnBuZw==.webp"
+    | "/images/b3Blbi5zcG90aWZ5Y2RuLmNvbS9jZG4vaW1hZ2VzL2Zhdmljb24zMi5iNjRlY2MwMy5wbmc=.webp"
+    | "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC8zMWMyYzE1MS9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp"
+    | "/images/ZW5naW5lZXJpbmcubGluZWNvcnAuY29tL2Zhdmljb24tMzJ4MzIucG5nP3Y9NmQ2MDg1ZjIzM2QwMmMzNDI3M2ZhOG.webp";
   publishedAt: string;
   links?: LinkMeta[];
 }

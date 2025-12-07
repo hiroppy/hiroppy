@@ -66,6 +66,15 @@ async function processJobWithLinks(
     async (linkUrl: string): Promise<LinkMeta> => {
       const cachedLink = linkCache.get(linkUrl);
       if (cachedLink) {
+        // Process favicon if it's still an HTTP URL
+        if (cachedLink.favicon && /^https?:/.test(cachedLink.favicon)) {
+          const faviconURL = /^http/.test(cachedLink.favicon)
+            ? cachedLink.favicon
+            : `${new URL(linkUrl).origin}${cachedLink.favicon}`;
+          cachedLink.favicon = await downloadImage(faviconURL);
+          linkCache.set(linkUrl, cachedLink);
+        }
+
         return cachedLink;
       }
 
@@ -79,6 +88,14 @@ async function processJobWithLinks(
             : `${new URL(linkUrl).origin}${linkMeta.image}`;
 
           linkMeta.image = await downloadImage(imageURL);
+        }
+
+        if (linkMeta.favicon) {
+          const faviconURL = /^http/.test(linkMeta.favicon)
+            ? linkMeta.favicon
+            : `${new URL(linkUrl).origin}${linkMeta.favicon}`;
+
+          linkMeta.favicon = await downloadImage(faviconURL);
         }
 
         const result = linkMeta as LinkMeta;

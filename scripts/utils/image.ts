@@ -32,6 +32,8 @@ export async function downloadImage(
     }
 
     let buffer: Buffer;
+    let finalFilename = filename;
+    let finalPath = fullPath;
 
     if (isLocalFile) {
       buffer =
@@ -46,15 +48,38 @@ export async function downloadImage(
 
       const blob = await response.blob();
       const arrayBuffer = await blob.arrayBuffer();
-      buffer =
-        ext === "webp"
-          ? await sharp(Buffer.from(arrayBuffer)).webp().toBuffer()
-          : await sharp(Buffer.from(arrayBuffer)).jpeg().toBuffer();
+      const rawBuffer = Buffer.from(arrayBuffer);
+
+      try {
+        buffer =
+          ext === "webp"
+            ? await sharp(rawBuffer).webp().toBuffer()
+            : await sharp(rawBuffer).jpeg().toBuffer();
+      } catch {
+        console.warn(
+          `Sharp conversion failed for ${source}, saving original format`,
+        );
+
+        const urlExt = source.match(/\.([a-z0-9]+)(?:[?#]|$)/i)?.[1] || "bin";
+
+        finalFilename = `${Buffer.from(sourceForEncoding)
+          .toString("base64")
+          .replace("/", "_")
+          .slice(0, 90)}.${urlExt}`;
+        finalPath = `/images/${finalFilename}`;
+
+        const assetsRefresh = await readdir(baseImageOutputPath);
+        if (assetsRefresh.includes(finalFilename)) {
+          return finalPath;
+        }
+
+        buffer = rawBuffer;
+      }
     }
 
-    createWriteStream(join(baseImageOutputPath, filename)).write(buffer);
+    createWriteStream(join(baseImageOutputPath, finalFilename)).write(buffer);
 
-    return fullPath;
+    return finalPath;
   } catch (error) {
     console.error(`Failed to process image ${source}:`, error);
     return "";

@@ -40,6 +40,13 @@ async function processLinks(
     const cachedLink = linkCache.get(normalizedUrl);
     if (cachedLink) {
       console.log("using cached link", normalizedUrl);
+
+      // Process favicon if it's still an HTTP URL
+      if (cachedLink.favicon && /^https?:/.test(cachedLink.favicon)) {
+        cachedLink.favicon = await processImageUrl(cachedLink.favicon, linkUrl);
+        linkCache.set(normalizedUrl, cachedLink);
+      }
+
       return cachedLink;
     }
 
@@ -59,6 +66,10 @@ async function processLinks(
 
       if (linkMeta.image) {
         linkMeta.image = await processImageUrl(linkMeta.image, linkUrl);
+      }
+
+      if (linkMeta.favicon) {
+        linkMeta.favicon = await processImageUrl(linkMeta.favicon, linkUrl);
       }
 
       const result = linkMeta as LinkMeta;
@@ -98,6 +109,14 @@ export async function crawlSites(filename: string, items: Common[]) {
         const blockedMeta = getBlockedUrlMeta(url, blockedUrls);
 
         if (blockedMeta) {
+          // Process favicon if it's still an HTTP URL
+          let favicon = blockedMeta.favicon || "";
+          if (favicon && /^https?:/.test(favicon)) {
+            favicon = await processImageUrl(favicon, url);
+            blockedMeta.favicon = favicon;
+            blockedUrls.set(normalizedUrl, blockedMeta);
+          }
+
           // Process links URLs even for blocked sites
           const processedLinks = await processLinks(
             links as string[],
@@ -108,7 +127,7 @@ export async function crawlSites(filename: string, items: Common[]) {
           return {
             title: blockedMeta.title,
             description: blockedMeta.description,
-            favicon: blockedMeta.favicon || "",
+            favicon,
             image: blockedMeta.image,
             name: blockedMeta.name,
             url: blockedMeta.url || url,
@@ -123,6 +142,14 @@ export async function crawlSites(filename: string, items: Common[]) {
       if (cachedSite?.title && !cachedSite.error && !cachedSite.skipUpdate) {
         console.log("using cached site", normalizedUrl);
 
+        // Process favicon if it's still an HTTP URL
+        let favicon = cachedSite.favicon || "";
+        if (favicon && /^https?:/.test(favicon)) {
+          favicon = await processImageUrl(favicon, url);
+          cachedSite.favicon = favicon;
+          linkCache.set(normalizedUrl, cachedSite);
+        }
+
         // Process links URLs even for cached sites
         const processedLinks = await processLinks(
           links as string[],
@@ -136,7 +163,7 @@ export async function crawlSites(filename: string, items: Common[]) {
           image: cachedSite.image,
           name: cachedSite.name,
           url: cachedSite.url || url,
-          favicon: cachedSite.favicon || "",
+          favicon,
           hot,
           comment,
           publishedAt,

@@ -51,7 +51,7 @@ export const jobs: Job = {
       position: "Founder",
       initialState: "0",
       description: `
-多くの会社で技術顧問としてフロントエンド、サーバーサイドの技術、採用支援を行う。
+多くの会社で技術顧問としてJSに限らずサービス設計、採用支援を行う。
 
 - Next.js, Node.jsなどのアーキテクチャ設計
 - 大規模フロントエンドのパフォーマンスチューニング

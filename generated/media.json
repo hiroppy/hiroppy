@@ -5,7 +5,7 @@
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzcvMzU5MjAtMzctYjIwOTA2NGEzYj.webp",
     "name": "PR TIMES",
     "url": "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
-    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
+    "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
     "publishedAt": "2025-04-30",
     "links": []
   },
@@ -15,7 +15,7 @@
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMzU5MjAvMzUvMzU5MjAtMzUtYjIwMDc0Zjc2Yz.webp",
     "name": "PR TIMES",
     "url": "https://prtimes.jp/main/html/rd/p/000000035.000035920.html",
-    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
+    "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
     "publishedAt": "2025-04-02",
     "links": []
   },
@@ -25,14 +25,14 @@
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvNDMwNTYvODYvNDMwNTYtODYtM2QzMjEwYjdiYW.webp",
     "name": "PR TIMES",
     "url": "https://prtimes.jp/main/html/rd/p/000000086.000043056.html",
-    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
+    "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
     "publishedAt": "2025-03-07",
     "links": []
   },
   {
     "title": "Next.js App Router / React Server Components(RSC)を紐解いてみた - estie inside blog",
     "description": "デザインエンジニアの表(@HirokiOmote)です。 Next.jsでApp Routerがリリースされて、1年が過ぎました。 弊社では、@hiroppyさんを技術顧問に迎え、Frontendを中心とした長期的な技術選定にご協力いただきました。 本日は、そこで得た学びをご紹介したいと思います。 App Routerについて 2023年5月にNext.js 13.4がstableとしてリリースされ、App Routerが登場しました。 ツリー構造でのファイル配置が基本となりました。 ディレクトリ構成とルーティング page単位・feature(機能)ごとに切り分けたディレクトリ構成が可能にな…",
-    "favicon": "https://www.estie.jp/blog/icon/link",
+    "favicon": "/images/d3d3LmVzdGllLmpwL2Jsb2cvaWNvbi9saW5r.webp",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
     "name": "estie inside blog",
     "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/",
@@ -43,9 +43,9 @@
     "title": "技術顧問として半年間で感じた会社の成長 - ROUTE06 Tech Blog",
     "description": "こんにちは。hiroppyです。2023年7月に技術顧問として参加させていただき、半年経ちましたので、今回は自分からみたROUTE06社の印象と何をしているかを話したいと思います。 一言でいうと、組織が大きくなっていることが実感できた半年でした。 最初の印象 様々なスタートアップを見てきましたが、ROUTE06社はその中でも、最初から組織環境を整備しており、主に印象的だったのは以下のような要素でした。 会社全体の雰囲気の良さ 会社文化の浸透と全員が同じ方向を向いている点 業務の自動化や権限委譲 会社や個人のモチベーションの高さ 会社全体の雰囲気の良さはSlackを入ったときにすぐに分かりました…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
-    "name": "ROUTE06 Tech Blog",
+    "name": "ROUTE06",
     "url": "https://tech.route06.co.jp/entry/2024/03/28/091000/",
-    "favicon": "https://tech.route06.co.jp/icon/link",
+    "favicon": "/images/dGVjaC5yb3V0ZTA2LmNvLmpwL2ljb24vbGluaw==.webp",
     "publishedAt": "2024-03-28",
     "links": []
   },
@@ -55,7 +55,7 @@
     "image": "/images/anAucm91dGUwNi5jb20vb2dwL29ncC1qcC5wbmc=.webp",
     "name": "ROUTE06",
     "url": "https://route06.com/jp/news/38/",
-    "favicon": "https://jp.route06.com/favicon.ico",
+    "favicon": "/images/anAucm91dGUwNi5jb20vZmF2aWNvbi5pY28=.ico",
     "publishedAt": "2024-03-28",
     "links": []
   },
@@ -64,7 +64,7 @@
     "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
     "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
     "url": "https://www.wantedly.com/companies/rebase/post_articles/887970/",
-    "favicon": "https://www.wantedly.com/favicon.ico",
+    "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.ico",
     "publishedAt": "2024-02-15",
     "links": []
   },
@@ -74,7 +74,7 @@
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNjgwMTg4MzE4OTA3NTYwMjg2Ni82ODAxODgzMTg5MDgyNDI0NzE1Lz.webp",
     "name": "TSKaigi 公式ブログ",
     "url": "https://tskaigi.hatenablog.com/entry/2024/02/14/170000/",
-    "favicon": "https://tskaigi.hatenablog.com/icon/link",
+    "favicon": "/images/dHNrYWlnaS5oYXRlbmFibG9nLmNvbS9pY29uL2xpbms=.webp",
     "publishedAt": "2024-02-14",
     "links": []
   },
@@ -83,7 +83,7 @@
     "description": "Hi everyone!",
     "image": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9pbWcvVFdJUl9QT1NULmpwZw==.webp",
     "url": "https://thisweekinreact.com/newsletter/171/",
-    "favicon": "https://thisweekinreact.com/favicon/favicon.ico",
+    "favicon": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9mYXZpY29uL2Zhdmljb24uaWNv.ico",
     "publishedAt": "2024-01-24",
     "links": []
   },
@@ -93,7 +93,7 @@
     "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMjE4MjgvOTcvMjE4MjgtOTctMjhjNDJiYzFjND.webp",
     "name": "PR TIMES",
     "url": "https://prtimes.jp/main/html/rd/p/000000097.000021828.html",
-    "favicon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-24x24.png",
+    "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
     "publishedAt": "2023-12-15",
     "links": []
   },
@@ -103,7 +103,7 @@
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZjU3OGUyNjQyZGQxMzRkMWY3N2FkMDI5MzlmNDEyMD.webp",
     "name": "Findy",
     "url": "https://findy-code.io/engineer-lab/influential-books-3/",
-    "favicon": "https://findy-code.io/engineer-lab/icon/link",
+    "favicon": "/images/ZmluZHktY29kZS5pby9lbmdpbmVlci1sYWIvaWNvbi9saW5r.webp",
     "publishedAt": "2023-11-15",
     "links": []
   },
@@ -111,9 +111,9 @@
     "title": "ROUTE06 CTOが考えていること（2023年9月） - ROUTE06 Tech Blog",
     "description": "おはようございますこんにちはこんばんは。ROUTE06 取締役 CTO の重岡です。 前回の記事から 4 か月が経過しました。その期間の振り返りと、現在考えていることについてご紹介します。 プロダクト開発の現在地 エンタープライズ向け SaaS「Plain EDI」の開発 まだまだ課題は多いものの、「Plain」という大きなプラットフォームの構想の初手として、足元ではクラウドEDIを中心とした商取引DXを注力領域に定め、エンタープライズ特化のVertical SaaSを提供しながらその価値を最大限活かすための要件定義/デザイン/データ分析などの事業支援を行うアプローチへの実効性も高まりつつある…",
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
-    "name": "ROUTE06 Tech Blog",
+    "name": "ROUTE06",
     "url": "https://tech.route06.co.jp/entry/2023/09/07/091000/",
-    "favicon": "https://tech.route06.co.jp/icon/link",
+    "favicon": "/images/dGVjaC5yb3V0ZTA2LmNvLmpwL2ljb24vbGluaw==.webp",
     "publishedAt": "2023-09-07",
     "links": []
   },
@@ -123,7 +123,7 @@
     "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY5YmNiYTNkMTZhYjg2ZTlmOTg2ODhkYTI3OTFmYT.webp",
     "name": "Findy",
     "url": "https://findy-code.io/engineer-lab/hiroppy/",
-    "favicon": "https://findy-code.io/engineer-lab/icon/link",
+    "favicon": "/images/ZmluZHktY29kZS5pby9lbmdpbmVlci1sYWIvaWNvbi9saW5r.webp",
     "publishedAt": "2023-04-18",
     "links": []
   },
@@ -133,7 +133,7 @@
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
     "name": "Yuimedi",
     "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/",
-    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
+    "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.ico",
     "publishedAt": "2022-11-10",
     "links": []
   },
@@ -143,7 +143,7 @@
     "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
     "name": "Yuimedi",
     "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/",
-    "favicon": "https://yuimedi.notion.site/images/favicon.ico",
+    "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.ico",
     "publishedAt": "2022-11-10",
     "links": []
   },
@@ -151,9 +151,8 @@
     "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
     "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
-    "name": "Mercari Engineering blog",
     "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
-    "favicon": "https://engineering.mercari.com/favicon.ico",
+    "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.ico",
     "publishedAt": "2021-08-23",
     "links": []
   },
@@ -163,7 +162,7 @@
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
     "name": "Note",
     "url": "https://note.com/tabelog_frontend/n/n35664347180a/",
-    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+    "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
     "publishedAt": "2021-06-04",
     "links": []
   },
@@ -173,7 +172,7 @@
     "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
     "name": "Mercari",
     "url": "https://careers.mercari.com/mercan/articles/28113/",
-    "favicon": "https://careers.mercari.com/favicon.ico",
+    "favicon": "/images/Y2FyZWVycy5tZXJjYXJpLmNvbS9mYXZpY29uLmljbw==.ico",
     "publishedAt": "2021-04-28",
     "links": []
   },
@@ -183,7 +182,7 @@
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
     "name": "Note",
     "url": "https://note.com/tabelog_frontend/n/n21b819c09121/",
-    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+    "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
     "publishedAt": "2020-08-31",
     "links": []
   },
@@ -193,7 +192,7 @@
     "image": "/images/bmV4dHB1Ymxpc2hpbmcuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDYvTjAxMTY3LmpwZw==.webp",
     "name": "NextPublishing  デジタルファースト宣言！",
     "url": "https://nextpublishing.jp/book/11906.html",
-    "favicon": "https://nextpublishing.jp/wp-content/themes/nextPublishing/common/img/favicon.ico",
+    "favicon": "/images/bmV4dHB1Ymxpc2hpbmcuanAvd3AtY29udGVudC90aGVtZXMvbmV4dFB1Ymxpc2hpbmcvY29tbW9uL2ltZy9mYXZpY2.ico",
     "publishedAt": "2020-06-19",
     "links": []
   },
@@ -203,7 +202,7 @@
     "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMTg1MDg2MzUvcmVjdGFuZ2xlX2xhcm.webp",
     "name": "Note",
     "url": "https://note.com/osstokyo/n/n01a333562fad/",
-    "favicon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+    "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
     "publishedAt": "2020-02-03",
     "links": []
   }
