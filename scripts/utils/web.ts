@@ -64,7 +64,8 @@ export async function getMeta(url: string, title?: string): Promise<LinkMeta> {
     if (!favicon) {
       const { favicon: f } = mappedSite(url);
 
-      favicon = f;
+      // If still no favicon, try the default /favicon.ico path
+      favicon = f || `${new URL(url).origin}/favicon.ico`;
     }
 
     return {

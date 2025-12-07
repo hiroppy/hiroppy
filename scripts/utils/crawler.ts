@@ -41,10 +41,17 @@ async function processLinks(
     if (cachedLink) {
       console.log("using cached link", normalizedUrl);
 
-      // Process favicon if it's still an HTTP URL
+      // Process favicon if it's still an HTTP URL or if it's empty
       if (cachedLink.favicon && /^https?:/.test(cachedLink.favicon)) {
         cachedLink.favicon = await processImageUrl(cachedLink.favicon, linkUrl);
         linkCache.set(normalizedUrl, cachedLink);
+      } else if (!cachedLink.favicon) {
+        // If favicon is empty, try to fetch it
+        const linkMeta = await getMeta(linkUrl);
+        if (linkMeta.favicon) {
+          cachedLink.favicon = await processImageUrl(linkMeta.favicon, linkUrl);
+          linkCache.set(normalizedUrl, cachedLink);
+        }
       }
 
       return cachedLink;
@@ -55,6 +62,17 @@ async function processLinks(
       console.log("URL is blocked from updates, using saved meta", linkUrl);
       const blockedMeta = getBlockedUrlMeta(linkUrl, blockedUrls);
       if (blockedMeta) {
+        // Process favicon if it's empty
+        if (!blockedMeta.favicon) {
+          const linkMeta = await getMeta(linkUrl);
+          if (linkMeta.favicon) {
+            blockedMeta.favicon = await processImageUrl(
+              linkMeta.favicon,
+              linkUrl,
+            );
+            blockedUrls.set(normalizedUrl, blockedMeta);
+          }
+        }
         linkCache.set(normalizedUrl, blockedMeta);
         return blockedMeta;
       }
@@ -109,12 +127,20 @@ export async function crawlSites(filename: string, items: Common[]) {
         const blockedMeta = getBlockedUrlMeta(url, blockedUrls);
 
         if (blockedMeta) {
-          // Process favicon if it's still an HTTP URL
+          // Process favicon if it's still an HTTP URL or if it's empty
           let favicon = blockedMeta.favicon || "";
           if (favicon && /^https?:/.test(favicon)) {
             favicon = await processImageUrl(favicon, url);
             blockedMeta.favicon = favicon;
             blockedUrls.set(normalizedUrl, blockedMeta);
+          } else if (!favicon) {
+            // If favicon is empty, try to fetch it
+            const meta = await getMeta(url);
+            if (meta.favicon) {
+              favicon = await processImageUrl(meta.favicon, url);
+              blockedMeta.favicon = favicon;
+              blockedUrls.set(normalizedUrl, blockedMeta);
+            }
           }
 
           // Process links URLs even for blocked sites
@@ -142,12 +168,20 @@ export async function crawlSites(filename: string, items: Common[]) {
       if (cachedSite?.title && !cachedSite.error && !cachedSite.skipUpdate) {
         console.log("using cached site", normalizedUrl);
 
-        // Process favicon if it's still an HTTP URL
+        // Process favicon if it's still an HTTP URL or if it's empty
         let favicon = cachedSite.favicon || "";
         if (favicon && /^https?:/.test(favicon)) {
           favicon = await processImageUrl(favicon, url);
           cachedSite.favicon = favicon;
           linkCache.set(normalizedUrl, cachedSite);
+        } else if (!favicon) {
+          // If favicon is empty, try to fetch it
+          const meta = await getMeta(url);
+          if (meta.favicon) {
+            favicon = await processImageUrl(meta.favicon, url);
+            cachedSite.favicon = favicon;
+            linkCache.set(normalizedUrl, cachedSite);
+          }
         }
 
         // Process links URLs even for cached sites
@@ -179,6 +213,10 @@ export async function crawlSites(filename: string, items: Common[]) {
 
       if (meta.image) {
         meta.image = await processImageUrl(meta.image, url);
+      }
+
+      if (meta.favicon) {
+        meta.favicon = await processImageUrl(meta.favicon, url);
       }
 
       // Process links URLs

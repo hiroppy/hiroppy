@@ -1,8 +1,51 @@
 import { createWriteStream } from "node:fs";
-import { readdir } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import sharp from "sharp";
+import sharpio from "sharp-ico";
 import { baseImageOutputPath } from "./paths.ts";
+
+async function convertIcoToPng(buffer: Buffer): Promise<Buffer> {
+  try {
+    const sharps = sharpio.sharpsFromIco(buffer) as sharp.Sharp[];
+    if (sharps.length === 0) {
+      throw new Error("No images found in ICO file");
+    }
+    return sharps[sharps.length - 1].png().toBuffer();
+  } catch (error) {
+    try {
+      const decoded = sharpio.decode(buffer);
+      console.warn(
+        `sharp-ico conversion failed, found ${decoded.length} images:`,
+        decoded.map((img) => `${img.type} (${img.width}x${img.height})`),
+      );
+
+      const pngImages = decoded.filter((img) => img.type === "png");
+      if (pngImages.length > 0) {
+        const largest = pngImages.reduce((max, img) =>
+          img.width * img.height > max.width * max.height ? img : max,
+        );
+        console.warn(
+          `Extracting PNG image: ${largest.width}x${largest.height}`,
+        );
+        return Buffer.from(largest.data);
+      }
+
+      const largest = decoded.reduce((max, img) =>
+        img.width * img.height > max.width * max.height ? img : max,
+      );
+      if (largest.image) {
+        console.warn(
+          `Converting BMP image via sharp: ${largest.width}x${largest.height}`,
+        );
+        return await largest.image.png().toBuffer();
+      }
+    } catch (decodeError) {
+      console.warn("Failed to decode ICO:", decodeError);
+    }
+    throw error;
+  }
+}
 
 export async function downloadImage(
   source: string,
@@ -36,10 +79,23 @@ export async function downloadImage(
     let finalPath = fullPath;
 
     if (isLocalFile) {
-      buffer =
-        ext === "webp"
-          ? await sharp(source).webp().toBuffer()
-          : await sharp(source).jpeg().toBuffer();
+      try {
+        buffer =
+          ext === "webp"
+            ? await sharp(source).webp().toBuffer()
+            : await sharp(source).jpeg().toBuffer();
+      } catch (error) {
+        if (source.toLowerCase().endsWith(".ico")) {
+          const icoBuffer = await readFile(source);
+          const pngBuffer = await convertIcoToPng(icoBuffer);
+          buffer =
+            ext === "webp"
+              ? await sharp(pngBuffer).webp().toBuffer()
+              : await sharp(pngBuffer).jpeg().toBuffer();
+        } else {
+          throw error;
+        }
+      }
     } else {
       const response = await fetch(source);
       if (!response.ok) {
@@ -55,33 +111,59 @@ export async function downloadImage(
           ext === "webp"
             ? await sharp(rawBuffer).webp().toBuffer()
             : await sharp(rawBuffer).jpeg().toBuffer();
-      } catch {
-        console.warn(
-          `Sharp conversion failed for ${source}, saving original format`,
-        );
+      } catch (_error) {
+        const urlExt = source.match(/\.([a-z0-9]+)(?:[?#]|$)/i)?.[1];
 
-        const urlExt = source.match(/\.([a-z0-9]+)(?:[?#]|$)/i)?.[1] || "bin";
+        if (urlExt?.toLowerCase() === "ico") {
+          try {
+            const pngBuffer = await convertIcoToPng(rawBuffer);
+            buffer =
+              ext === "webp"
+                ? await sharp(pngBuffer).webp().toBuffer()
+                : await sharp(pngBuffer).jpeg().toBuffer();
+          } catch (icoError) {
+            console.warn(
+              `ICO conversion failed for ${source}:`,
+              icoError instanceof Error ? icoError.message : icoError,
+            );
+            finalFilename = `${Buffer.from(sourceForEncoding)
+              .toString("base64")
+              .replace("/", "_")
+              .slice(0, 90)}.ico`;
+            finalPath = `/images/${finalFilename}`;
 
-        finalFilename = `${Buffer.from(sourceForEncoding)
-          .toString("base64")
-          .replace("/", "_")
-          .slice(0, 90)}.${urlExt}`;
-        finalPath = `/images/${finalFilename}`;
+            const assetsRefresh = await readdir(baseImageOutputPath);
+            if (assetsRefresh.includes(finalFilename)) {
+              return finalPath;
+            }
 
-        const assetsRefresh = await readdir(baseImageOutputPath);
-        if (assetsRefresh.includes(finalFilename)) {
-          return finalPath;
+            buffer = rawBuffer;
+          }
+        } else {
+          console.warn(
+            `Sharp conversion failed for ${source}, saving original format`,
+          );
+
+          finalFilename = `${Buffer.from(sourceForEncoding)
+            .toString("base64")
+            .replace("/", "_")
+            .slice(0, 90)}.${urlExt || "bin"}`;
+          finalPath = `/images/${finalFilename}`;
+
+          const assetsRefresh = await readdir(baseImageOutputPath);
+          if (assetsRefresh.includes(finalFilename)) {
+            return finalPath;
+          }
+
+          buffer = rawBuffer;
         }
-
-        buffer = rawBuffer;
       }
     }
 
     createWriteStream(join(baseImageOutputPath, finalFilename)).write(buffer);
 
     return finalPath;
-  } catch (error) {
-    console.error(`Failed to process image ${source}:`, error);
+  } catch {
     return "";
   }
 }

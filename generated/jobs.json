@@ -133,7 +133,7 @@
           "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "name": "Yuimedi",
-          "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.ico",
+          "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.webp",
           "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/"
         },
         {
@@ -141,7 +141,7 @@
           "description": "Yuimedi は「エンジニア集団が医療に挑む！」をブランディングに掲げ、デジタル化の潮流に取り残されている日本の・世界の医療業界に真のデジタルツールを導入することを成し遂げたいと考えています。",
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "name": "Yuimedi",
-          "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.ico",
+          "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.webp",
           "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/"
         }
       ],
@@ -160,7 +160,7 @@
           "description": "<p>モダンな技術の活用法に迫る、エンジニア座談会企画がスタート！第2弾は、前回に引き続き「GraphQL」の魅力に迫ります。</p>\n<p>＊＊＊<br /...",
           "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
           "name": "Findy",
-          "favicon": "/images/ZmluZHktY29kZS5pby9pbWFnZXMvaWNvbnMvZmF2aWNvbi5pY28=.ico",
+          "favicon": "/images/ZmluZHktY29kZS5pby9pbWFnZXMvaWNvbnMvZmF2aWNvbi5pY28=.webp",
           "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
         },
         {
@@ -184,7 +184,7 @@
           "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
           "name": "Mercari Engineering blog",
-          "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.ico",
+          "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
         },
         {
@@ -192,7 +192,7 @@
           "description": "2021年1月28日に設立された「株式会社ソウゾウ(souzoh)」。 メルカリグループの次の柱となる事業を目指して発足。具体的な事業内容は明らかにされていませんが、着々とプロダクトリリースへの準備が進められています。  …",
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
           "name": "Mercari",
-          "favicon": "/images/Y2FyZWVycy5tZXJjYXJpLmNvbS9mYXZpY29uLmljbw==.ico",
+          "favicon": "/images/Y2FyZWVycy5tZXJjYXJpLmNvbS9mYXZpY29uLmljbw==.webp",
           "url": "https://careers.mercari.com/mercan/articles/28113/"
         }
       ],
@@ -243,7 +243,7 @@
           "description": "こんにちは！FEチームリーダーの辻です。  先月、FEチームが参加したプロダクト「食べログノート」がリリースされました 🎉🎉🎉 レストラン向けの機能で、ネット予約、電話予約、ウォークインなどの管理、顧客管理、席管理などができるクラウド台帳です。 食べログノート タイムスケジュール メイン機能であるタイムスケジュールでは、登録された席と予約時間に応じてチャートを表示し、ドラッグアンドドロップで卓/時間の変更が可能です。 食べログノート 予約詳細 チャート上の予約をクリックすると、詳細情報がドロワーで表示されます。こちらも画面遷移なしでシームレスに予約状況の確認、修正ができるようになってい",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
-          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
+          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
           "url": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
         },
         {
@@ -259,7 +259,7 @@
           "description": "こんにちは。食べログのフロントエンドチーム の佐伯です。  昨年もメンバー紹介の記事を書きましたが、新しいメンバーも加わりましたので改めてご紹介させていただきます。以下で紹介する6名と、アドバイザーの@hiroppyさんを加えて7名で活動しています  今回は趣向を凝らしてドラッカー風エクササイズ風メンバー紹介です。  ドラッカー風エクササイズは、アジャイルサムライで紹介されたチームにおける期待をすり合わせるための手法です   ・自分は何が得意なのか？ ・どういうふうに仕事するか？ ・自分が大切に思う価値は何か？ ・チームメンバーは自分にどんな成果を期待していると思うか？  という質問を",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
-          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
+          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
           "url": "https://note.com/tabelog_frontend/n/n35664347180a/"
         },
         {
@@ -267,7 +267,7 @@
           "description": "はじめに   はじめまして！食べログFE（フロントエンド）チームの金野と申します。 普段は、食べログフロントエンドの設計・開発や、新規事業・食べログテイクアウトの技術サポートなどを行っています。  食べログテイクアウトについては、Nuxt.js + TypeScriptの開発について記事を書いているので、興味がある方はぜひ御覧ください。     \n\n\nNuxt.js+TypeScriptのアプリケーションのためのコーディングガイドライン - Qiita\n\n\nこの記事は食べログ Advent Calendar 2019 3日目の記事です。  はじめまして。食べログのフロントエンド\n\n\nq",
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
-          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.ico",
+          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
           "url": "https://note.com/tabelog_frontend/n/n21b819c09121/"
         }
       ],
@@ -296,7 +296,7 @@
           "description": "支出管理システムのLayerX（レイヤーエックス、東京・中央）は2025年度中に人工知能（AI）エージェント事業に参入する。同社の既存サービスの請求書受領システムと連携させ、AIエージェントが企業の請求書受け取り代行を担うサービスなどを始める。30年には関連事業で500億円の売り上げを目指す。AIエージェントを活用して企業の間接業務を請け負うビジネス・プロセス・ア",
           "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
           "name": "日本経済新聞",
-          "favicon": "",
+          "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
         },
         {
@@ -320,7 +320,7 @@
       "links": [
         {
           "title": "",
-          "favicon": "",
+          "favicon": "/images/dXMueXVpbWVkaS5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://us.yuimedi.com/product-yuiquery-research/"
         }
       ],
@@ -338,14 +338,14 @@
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
           "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
           "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
-          "favicon": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9mYXZpY29uLmljbw==.ico",
+          "favicon": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9mYXZpY29uLmljbw==.webp",
           "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
         },
         {
           "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
           "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
           "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
-          "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.ico",
+          "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.webp",
           "url": "https://www.wantedly.com/companies/rebase/post_articles/887970/"
         },
         {
@@ -434,7 +434,7 @@
           "description": "株式会社ROUTE06（本社：東京都千代田区、代表取締役：遠藤崇史、以下ROUTE06）は、技術顧問として廣戸裕大（Hiroppy）氏が就任したことをお知らせします。",
           "image": "/images/anAucm91dGUwNi5jb20vb2dwL29ncC1qcC5wbmc=.webp",
           "name": "ROUTE06",
-          "favicon": "/images/anAucm91dGUwNi5jb20vZmF2aWNvbi5pY28=.ico",
+          "favicon": "/images/anAucm91dGUwNi5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://route06.com/jp/news/38/"
         },
         {

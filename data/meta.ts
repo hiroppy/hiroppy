@@ -36,7 +36,7 @@ export const meta = {
       position: "TSKaigi プロポーザル審査委員",
       start: "2024",
       end: null,
-      links: ["https://2024.tskaigi.org/", "https://2025.tskaigi.org/"],
+      links: ["https://2025.tskaigi.org/", "https://2024.tskaigi.org/"],
     },
     nodeFest: {
       position: "東京Node学園祭 メンバー",
