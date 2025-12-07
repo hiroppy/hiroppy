@@ -18,6 +18,7 @@ export interface Media {
     | "TSKaigi 公式ブログ"
     | "Findy"
     | "Yuimedi"
+    | "Mercari Engineering blog"
     | "Note"
     | "Mercari"
     | "NextPublishing  デジタルファースト宣言！";

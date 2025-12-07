@@ -159,6 +159,7 @@
         "title": "メルカリShops の CI/CD と Pull Request 環境 | メルカリエンジニアリング",
         "description": "こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：「メルカリShops」プレオープンまでの開発の裏側の８日目を担当させていただきます。この記事では、メルカリShops 開発において、日々バリバリに",
         "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9iZThiOTgxNy1kcmFnb2.webp",
+        "name": "Mercari Engineering blog",
         "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.ico",
         "url": "https://engineering.mercari.com/blog/entry/20210817-mercari-shops-ci-cd-pr-env/"
       }
@@ -185,6 +186,7 @@
         "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
         "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
         "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
+        "name": "Mercari Engineering blog",
         "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.ico",
         "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
       }

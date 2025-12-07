@@ -16,6 +16,7 @@ export interface Talk {
     | "connpass"
     | "PR TIMES"
     | "YouTube"
+    | "Mercari Engineering blog"
     | "hiroppy's slides"
     | "LINE ENGINEERING"
     | "情報科学若手の会"
