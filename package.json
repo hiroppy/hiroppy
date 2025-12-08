@@ -1,7 +1,7 @@
 {
   "name": "hiroppy",
   "version": "1.0.62",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.25.0",
   "type": "module",
   "types": "./generated/types/index.d.ts",
   "exports": {
