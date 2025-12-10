@@ -11,17 +11,7 @@ export interface Media {
   title: string;
   description: string;
   image: string;
-  name?:
-    | "PR TIMES"
-    | "estie inside blog"
-    | "ROUTE06"
-    | "TSKaigi 公式ブログ"
-    | "Findy"
-    | "Yuimedi"
-    | "Mercari Engineering blog"
-    | "Note"
-    | "Mercari"
-    | "NextPublishing  デジタルファースト宣言！";
+  name?: string;
   url: string;
   favicon: string;
   publishedAt: string;

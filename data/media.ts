@@ -34,6 +34,11 @@ export const pressReleases = [
 
 export const articles = [
   {
+    publishedAt: "2025-04-16",
+    url: "https://stract.co.jp/news/detail/H2sbeCci",
+    company: "stract",
+  },
+  {
     publishedAt: "2024-08-05",
     url: "https://www.estie.jp/blog/entry/2024/08/05/183235",
     company: "estie",
