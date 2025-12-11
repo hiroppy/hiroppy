@@ -12,12 +12,13 @@ on:
     paths:
       - "generated/**"
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      id-token: write
     steps:
       - uses: actions/checkout@v6
         with:
@@ -96,8 +97,6 @@ jobs:
           echo "Publishing to NPM..."
           npm publish --provenance --access public
           echo "✅ Successfully published to NPM"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create Git Tag
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
