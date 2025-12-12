@@ -96,7 +96,7 @@ jobs:
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
           echo "Publishing to NPM..."
-          npm publish --provenance --access public
+          npm publish
           echo "✅ Successfully published to NPM"
       - name: Create Git Tag
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
