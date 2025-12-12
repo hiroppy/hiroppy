@@ -315,9 +315,17 @@ export async function generateTypeDefinition(
   const needsLinkMeta = hasLinksProperty(data);
 
   if (needsLinkMeta) {
+    // Replace both unknown[] and inline LinkMeta-like object arrays with LinkMeta[]
     typeDefinition = typeDefinition.replace(
       /links\??: unknown\[\];/g,
-      "links?: LinkMeta[];",
+      "links: LinkMeta[];",
+    );
+
+    // Replace inline LinkMeta structure with LinkMeta[] reference
+    // This pattern matches multi-line object type definitions for links
+    typeDefinition = typeDefinition.replace(
+      /links\??:\s*\{[^}]*title:\s*string;[^}]*description:\s*string;[^}]*image:\s*string;[^}]*name:\s*string;[^}]*favicon:\s*string;[^}]*url:\s*string;[^}]*\}\[\];/gs,
+      "links: LinkMeta[];",
     );
 
     const importStatement = 'import type { LinkMeta } from "./common.js";\n\n';
@@ -367,10 +375,6 @@ export interface LinkMeta {
    * Favicon URL
    */
   favicon: string;
-  /**
-   * Error message if crawling failed
-   */
-  error?: string;
 }
 `;
 

@@ -29,56 +29,31 @@ export interface Meta {
       position: string;
       start: string;
       end?: null;
-      links: {
-        title: string;
-        description: string;
-        image: string;
-        favicon: string;
-        url: string;
-      }[];
+      links: LinkMeta[];
     };
     tsKaigi: {
       position: string;
       start: string;
       end?: null;
-      links: {
-        title: string;
-        description: string;
-        image: string;
-        favicon: string;
-        url: string;
-      }[];
+      links: LinkMeta[];
     };
     nodeFest: {
       position: string;
       start: string;
       end: string;
-      links: {
-        title: string;
-        description: string;
-        image: string;
-        favicon: string;
-        url: string;
-      }[];
+      links: LinkMeta[];
     };
     reactjs: {
       position: string;
       start: string;
       end: string;
-      links: {
-        title: string;
-        description: string;
-        image: string;
-        name: string;
-        favicon: string;
-        url: string;
-      }[];
+      links: LinkMeta[];
     };
     techfeed: {
       position: string;
       start: string;
       end?: null;
-      links: string[];
+      links: LinkMeta[];
     };
   };
   form: {

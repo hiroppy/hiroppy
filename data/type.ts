@@ -7,8 +7,6 @@ export type LinkMeta = {
   name: string;
   url: string;
   favicon: string;
-  error?: string;
-  skipUpdate?: boolean;
 };
 
 export type Common = {

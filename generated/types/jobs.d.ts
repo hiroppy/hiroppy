@@ -102,7 +102,7 @@ export interface Jobs {
     initialState: string;
     description: string;
     company: string;
-    links?: LinkMeta[];
+    links: LinkMeta[];
   }[];
   side: {
     name: string;
@@ -111,7 +111,7 @@ export interface Jobs {
     position: string;
     initialState: string;
     description: string;
-    links?: LinkMeta[];
+    links: LinkMeta[];
     company: string;
   }[];
 }

@@ -15,5 +15,5 @@ export interface Talk {
   url: string;
   favicon: string;
   publishedAt: string;
-  links?: LinkMeta[];
+  links: LinkMeta[];
 }

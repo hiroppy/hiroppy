@@ -29,14 +29,33 @@ if (meta.community) {
         const crawledItem = crawledItems.find(
           (item) => item.url === value.links[0],
         );
-        if (crawledItem) {
-          transformedMeta.community[key] = {
-            position: value.position,
-            start: value.start,
-            end: value.end,
-            links: crawledItem.links,
-          };
-        }
+
+        // Always create object format, even if crawl failed
+        const links =
+          crawledItem?.links?.length > 0
+            ? crawledItem.links.map((link) => ({
+                title: link.title || "",
+                description: link.description || "",
+                image: link.image || "",
+                name: link.name || "",
+                favicon: link.favicon || "",
+                url: link.url || "",
+              }))
+            : value.links.map((url) => ({
+                title: "",
+                description: "",
+                image: "",
+                name: "",
+                favicon: "",
+                url: url,
+              }));
+
+        transformedMeta.community[key] = {
+          position: value.position,
+          start: value.start,
+          end: value.end,
+          links,
+        };
       }
     }
   }

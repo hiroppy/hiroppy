@@ -38,7 +38,7 @@ async function processLinks(
     const normalizedUrl = normalizeUrl(linkUrl);
     // Check if link is already cached
     const cachedLink = linkCache.get(normalizedUrl);
-    if (cachedLink) {
+    if (cachedLink?.title) {
       console.log("using cached link", normalizedUrl);
 
       // Process favicon if it's still an HTTP URL or if it's empty
@@ -99,11 +99,7 @@ async function processLinks(
       console.error(`Failed to crawl link ${linkUrl}:`, error);
       const errorResult = {
         url: linkUrl,
-        error: (error as Error).message,
       } as LinkMeta;
-
-      // Add error result to cache to avoid retrying
-      linkCache.set(normalizedUrl, errorResult);
 
       return errorResult;
     }
@@ -165,7 +161,7 @@ export async function crawlSites(filename: string, items: Common[]) {
         }
       }
 
-      if (cachedSite?.title && !cachedSite.error && !cachedSite.skipUpdate) {
+      if (cachedSite?.title) {
         console.log("using cached site", normalizedUrl);
 
         // Process favicon if it's still an HTTP URL or if it's empty

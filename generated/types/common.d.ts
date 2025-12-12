@@ -27,8 +27,4 @@ export interface LinkMeta {
    * Favicon URL
    */
   favicon: string;
-  /**
-   * Error message if crawling failed
-   */
-  error?: string;
 }

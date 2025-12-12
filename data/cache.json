@@ -163,6 +163,13 @@
     "favicon": "",
     "url": "https://events.html5j.org/conference/2018/11"
   },
+  "https://example-invalid-url-12345.com": {
+    "description": "",
+    "image": "",
+    "name": "",
+    "favicon": "",
+    "url": "https://example-invalid-url-12345.com"
+  },
   "https://findy-code.io/engineer-lab/hiroppy": {
     "title": "プログラミングを強みに生き残れるか？ 焦燥感にとらわれた20代を越えて広がったキャリアの可能性  - Findy Engineer Lab",
     "description": "OSS活動をする中で知った、届かない存在に対する焦燥感。ソフトウェアエンジニアとしてプログラミングが一番の強みだという廣戸裕大（hiroppy）さんですが、IC（Individual Contributor）のキャリアを歩むなかで技術のキャッチアップにもがき、悩んだ時期もあったといいます。その焦燥感をどう解消していったのか、今につながった転機を寄稿いただきました。",

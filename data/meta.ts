@@ -59,7 +59,7 @@ export const meta = {
       position: "TechFeed 公認エキスパート",
       start: "2020",
       end: null,
-      links: ["https://techfeed.io/people/@hiroppy/"],
+      links: ["https://techfeed.io/people/@hiroppy"],
     },
   },
   form: {

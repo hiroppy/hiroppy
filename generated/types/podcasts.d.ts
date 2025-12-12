@@ -26,5 +26,5 @@ export interface Podcast {
     | "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp"
     | "/images/ZW5naW5lZXJpbmcubGluZWNvcnAuY29tL2Zhdmljb24tMzJ4MzIucG5nP3Y9NmQ2MDg1ZjIzM2QwMmMzNDI3M2ZhOG.webp";
   publishedAt: string;
-  links?: LinkMeta[];
+  links: LinkMeta[];
 }
