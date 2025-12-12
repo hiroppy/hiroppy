@@ -69,28 +69,35 @@ export async function getMeta(url: string, title?: string): Promise<LinkMeta> {
       favicon = f || `${new URL(url).origin}/favicon.ico`;
     }
 
+    const extractedTitle =
+      title ||
+      $("meta[property='og:title']").attr("content") ||
+      $("meta[name='og:title']").attr("content") ||
+      $("title").text() ||
+      "";
+
     return {
-      title:
-        title ??
-        ($("meta[property='og:title']").attr("content") ||
-          $("meta[name='og:title']").attr("content") ||
-          $("title").text()),
+      title: extractedTitle,
       description:
         $("meta[property='og:description']").attr("content") ||
-        $("meta[name='og:description']").attr("content"),
+        $("meta[name='og:description']").attr("content") ||
+        "",
       image:
         $("meta[property='og:image']").attr("content") ||
-        $("meta[name='og:image']").attr("content"),
-      name: convertName(
-        $("meta[property='og:site_name']").attr("content") ||
-          $("meta[name='og:site_name']").attr("content"),
-      ),
+        $("meta[name='og:image']").attr("content") ||
+        "",
+      name:
+        convertName(
+          $("meta[property='og:site_name']").attr("content") ||
+            $("meta[name='og:site_name']").attr("content") ||
+            $("meta[name='application-name']").attr("content"),
+        ) || "",
       favicon: favicon,
       url: normalizeUrl(url),
     };
   } catch {
     return {
-      title,
+      title: title || "",
       description: "",
       image: "",
       name: "",

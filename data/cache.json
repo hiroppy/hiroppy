@@ -19,6 +19,7 @@
     "title": "TSKaigi 2024",
     "description": "TSKaigi 2024は、日本最大級のTypeScriptカンファレンスを開催します。",
     "image": "",
+    "name": "TSKaigi 2024",
     "favicon": "/images/MjAyNC50c2thaWdpLm9yZy9mYXZpY29uLmljbw==.webp",
     "url": "https://2024.tskaigi.org"
   },
@@ -26,6 +27,7 @@
     "title": "TSKaigi 2025",
     "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2025/5/23 (金) - 24 (土) の日程で開催します。",
     "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",
+    "name": "TSKaigi 2025",
     "favicon": "/images/MjAyNS50c2thaWdpLm9yZy9mYXZpY29uLmljbw==.webp",
     "url": "https://2025.tskaigi.org"
   },
@@ -65,6 +67,7 @@
     "title": "Cybozu Frontend Monthly #25",
     "description": "サイボウズのフロントエンドエンジニアが月イチでお届けするフロントエンド情報",
     "image": "/images/Y3lib3p1LmdpdGh1Yi5pby9mcm9udGVuZC1tb250aGx5L2ltZy9oZWFkZXIucG5n.webp",
+    "name": "",
     "favicon": "/images/Y3lib3p1LmdpdGh1Yi5pby9mcm9udGVuZC1tb250aGx5L2ljb25zL2Zhdmljb24tMzJ4MzIucG5n.webp",
     "url": "https://cybozu.github.io/frontend-monthly/posts/2022-07"
   },
@@ -103,7 +106,7 @@
   "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit": {
     "title": "Next.js Internal MCP",
     "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUtTS25uendyd09JT0NDc3VucVhOTGVKY3oyWi.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpySWhuTThpRTFRRUpXTENNQ255MTVFYU9US0.webp",
     "name": "Google Docs",
     "favicon": "/images/c3NsLmdzdGF0aWMuY29tL2RvY3MvcHJlc2VudGF0aW9ucy9pbWFnZXMvZmF2aWNvbi0yMDIzcTQuaWNv.webp",
     "url": "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit"
@@ -119,7 +122,7 @@
   "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit": {
     "title": "本当にそれはエラーなのか？",
     "description": "本当にそれは エラーなのか？ 2025/03/28 @hiroppy",
-    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUlkZGJwM2N2dVdWY0NMU2lKei1YWjA1aWtqY0.webp",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUw3OGpxUkNNRnJpaFJOQTlrbjVLb2VvUl9ucU.webp",
     "name": "Google Docs",
     "favicon": "/images/c3NsLmdzdGF0aWMuY29tL2RvY3MvcHJlc2VudGF0aW9ucy9pbWFnZXMvZmF2aWNvbi0yMDIzcTQuaWNv.webp",
     "url": "https://docs.google.com/presentation/d/1WxxeCzsjgZS_vjInk_NO-NLYCJEj-DblswDEHeBXhjE/edit"
@@ -160,15 +163,9 @@
     "title": "HTML5 Conference",
     "description": "HTML5 Conference - 2018年11月25日（日）東京電機大学 千住キャンパスにて開催。",
     "image": "/images/ZXZlbnRzLmh0bWw1ai5vcmcvY29uZmVyZW5jZS8yMDE4LzExL2Fzc2V0cy9pbWcvb2dwLnBuZw==.webp",
-    "favicon": "",
-    "url": "https://events.html5j.org/conference/2018/11"
-  },
-  "https://example-invalid-url-12345.com": {
-    "description": "",
-    "image": "",
     "name": "",
     "favicon": "",
-    "url": "https://example-invalid-url-12345.com"
+    "url": "https://events.html5j.org/conference/2018/11"
   },
   "https://findy-code.io/engineer-lab/hiroppy": {
     "title": "プログラミングを強みに生き残れるか？ 焦燥感にとらわれた20代を越えて広がったキャリアの可能性  - Findy Engineer Lab",
@@ -206,6 +203,7 @@
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "name": "",
     "favicon": "/images/anNjb25mLmpwLzIwMjEvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
     "url": "https://jsconf.jp/2021"
   },
@@ -213,6 +211,7 @@
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjIvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "name": "",
     "favicon": "/images/anNjb25mLmpwLzIwMjIvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
     "url": "https://jsconf.jp/2022"
   },
@@ -220,6 +219,7 @@
     "title": "JSConf JP",
     "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the fifth time event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
     "image": "/images/anNjb25mLmpwLzIwMjQvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+    "name": "",
     "favicon": "/images/anNjb25mLmpwLzIwMjQvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
     "url": "https://jsconf.jp/2024"
   },
@@ -249,6 +249,9 @@
   },
   "https://live.remo.co/e/remo_study/register": {
     "title": "Events.com Virtual (formerly Remo)",
+    "description": "",
+    "image": "",
+    "name": "",
     "favicon": "/images/bGl2ZS5yZW1vLmNvL2Zhdmljb24uaWNvP3Y9MTA5LjMuMQ==.webp",
     "url": "https://live.remo.co/e/remo_study/register"
   },
@@ -288,6 +291,7 @@
     "title": "2023年の振り返り",
     "description": "こんにちは。もうすでに 2024 年に入ってしまいましたが、2023 年も毎度のことながら振り返りを残します。年次の振り返りはなんとか続けられていて、かれこれ 4 回目となりました。",
     "image": "/images/bWg0Z2YuZGV2L2FydGljbGVzLzIwMjMtc3VtbWFyeS9vcGVuZ3JhcGgtaW1hZ2U_MmY1NWUyNzk3MDhlMWViNw==.webp",
+    "name": "",
     "favicon": "/images/bWg0Z2YuZGV2L2Zhdmljb24tMzJ4MzIucG5n.webp",
     "url": "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1"
   },
@@ -599,6 +603,7 @@
     "title": "東京Node学園祭2016 | 11月12日,13日開催！",
     "description": "Node.js日本ユーザグループは、ECMAScriptの仕様化団体の一人であり、JSONの開発者でもある Douglas Crockford 氏、WhatWG Social Activity WG の仕様化を進める一人であり、 Node.js core committer でもある James Snell 氏、 ECMAScript 仕様化団体の一人であり、 Node のモジュールエコシステムの今後の鍵を握る Bradley Meck 氏、デスクトップアプリ開発が可能な Electron の作者である Cheng Zhao 氏、 React/Redux をベースに次世代の フロントエンド開発フレームワークである choo の開発を進める Yoshua Wuyts 氏を迎えて2016年のNode学園祭を開催いたします",
     "image": "/images/bm9kZWZlc3QuanAvMjAxNi9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "name": "",
     "favicon": "",
     "url": "https://nodefest.jp/2016"
   },
@@ -606,6 +611,7 @@
     "title": "東京Node学園祭2017 | 11月25日,26日開催予定！",
     "description": "2017年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
     "image": "/images/bm9kZWZlc3QuanAvMjAxNy9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "name": "",
     "favicon": "",
     "url": "https://nodefest.jp/2017"
   },
@@ -613,6 +619,7 @@
     "title": "東京Node学園祭2018 | 11月23日,24日開催予定！",
     "description": "2018年の東京Node学園祭は「Be More Global, Be More Interactive」というスローガンの元、普段日本では出会えないような国際的に活躍しているゲストを迎えて開催します。ただ聴講するだけではなく、双方向にコミュニケーションし合える場を提供します！",
     "image": "/images/bm9kZWZlc3QuanAvMjAxOC9pbWcvb2dpbWFnZS5wbmc=.webp",
+    "name": "",
     "favicon": "",
     "url": "https://nodefest.jp/2018"
   },
@@ -786,6 +793,7 @@
   },
   "https://slides.hiroppy.me/how-to-manage-the-document-of-Node.js": {
     "title": "how to manage the document of Node.js",
+    "description": "",
     "image": "/images/YXZhdGFyczMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvOTk1MDMxMz9zPTIwMCZ2PTQ=.webp",
     "name": "hiroppy's slides",
     "favicon": "",
@@ -793,6 +801,7 @@
   },
   "https://slides.hiroppy.me/introduce-apollo": {
     "title": "introduce-apollo",
+    "description": "",
     "image": "/images/YXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTcxODkyNzU_cz0yMDAmdj00.webp",
     "name": "hiroppy's slides",
     "favicon": "",
@@ -801,6 +810,7 @@
   "https://slides.hiroppy.me/introducing-webpack-asset-modules": {
     "title": "introducing webpack asset modules",
     "description": "introducing how to use asset modules of webpack5",
+    "image": "",
     "name": "hiroppy's slides",
     "favicon": "",
     "url": "https://slides.hiroppy.me/introducing-webpack-asset-modules"
@@ -808,6 +818,7 @@
   "https://slides.hiroppy.me/nicohaco": {
     "title": "nicohacoを作った",
     "description": "NicoHacoというNicoBoxのPC版アプリを作った",
+    "image": "",
     "name": "hiroppy's slides",
     "favicon": "",
     "url": "https://slides.hiroppy.me/nicohaco"
@@ -831,6 +842,7 @@
   "https://slides.hiroppy.me/node-whatwg-url": {
     "title": "node-whatwg-url",
     "description": "whatwg-url in Node",
+    "image": "",
     "name": "hiroppy's slides",
     "favicon": "",
     "url": "https://slides.hiroppy.me/node-whatwg-url"
@@ -845,6 +857,7 @@
   },
   "https://slides.hiroppy.me/sourcemap-v3": {
     "title": "slide",
+    "description": "",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvc291cmNlbWFwLXYzL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "favicon": "",
@@ -868,6 +881,7 @@
   },
   "https://slides.hiroppy.me/tools-history-and-future": {
     "title": "slide",
+    "description": "",
     "image": "/images/c2xpZGVzLmhpcm9wcHkubWUvdG9vbHMtaGlzdG9yeS1hbmQtZnV0dXJlL3RodW1ibmFpbC5wbmc=.webp",
     "name": "hiroppy's slides",
     "favicon": "",
@@ -875,6 +889,8 @@
   },
   "https://slides.hiroppy.me/top-level-await": {
     "title": "Introducing top-level-await",
+    "description": "",
+    "image": "",
     "name": "hiroppy's slides",
     "favicon": "",
     "url": "https://slides.hiroppy.me/top-level-await"
@@ -921,6 +937,7 @@
   },
   "https://speakerdeck.com/abouthiroppy/osswole-simuhua": {
     "title": "OSSを楽しむ話",
+    "description": "",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvM2U0YzY0NzMyYWJkNDFjMmE4YjI1NDlhM2ZjY2Y0OT.webp",
     "name": "Speaker Deck",
     "favicon": "/images/ZDFldTMwY28wb2h5NHcuY2xvdWRmcm9udC5uZXQvYXNzZXRzL2Zhdmljb24tYmRkNTgzOWQ0NjA0MGE1MGVkZjE4OT.webp",
@@ -928,6 +945,7 @@
   },
   "https://speakerdeck.com/abouthiroppy/react-nativewohong-tutemitahua": {
     "title": "React Nativeを触ってみた話",
+    "description": "",
     "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvODA4YTBmYTE1ZGUwNDBjZTkzOTU1MGU1MmJjMzM1ND.webp",
     "name": "Speaker Deck",
     "favicon": "/images/ZDFldTMwY28wb2h5NHcuY2xvdWRmcm9udC5uZXQvYXNzZXRzL2Zhdmljb24tYmRkNTgzOWQ0NjA0MGE1MGVkZjE4OT.webp",
@@ -1009,6 +1027,7 @@
     "title": "This Week In React #171: Expo, React Conf, React 19 preview, Next.js, React-Email, Storybook, Panda, Nexar, React-Query, TypeScript, Vocs, Skottie, Harmony, VisionOS... | This Week In React",
     "description": "Hi everyone!",
     "image": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9pbWcvVFdJUl9QT1NULmpwZw==.webp",
+    "name": "",
     "favicon": "/images/dGhpc3dlZWtpbnJlYWN0LmNvbS9mYXZpY29uL2Zhdmljb24uaWNv.webp",
     "url": "https://thisweekinreact.com/newsletter/171"
   },
@@ -1054,6 +1073,9 @@
   },
   "https://us.yuimedi.com/product-yuiquery-research": {
     "title": "",
+    "description": "",
+    "image": "",
+    "name": "",
     "favicon": "/images/dXMueXVpbWVkaS5jb20vZmF2aWNvbi5pY28=.webp",
     "url": "https://us.yuimedi.com/product-yuiquery-research"
   },
@@ -1117,6 +1139,7 @@
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
     "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
     "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
+    "name": "",
     "favicon": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9mYXZpY29uLmljbw==.webp",
     "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview"
   },
@@ -1140,6 +1163,7 @@
     "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
     "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
     "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
+    "name": "Wantedly",
     "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.webp",
     "url": "https://www.wantedly.com/companies/rebase/post_articles/887970"
   },

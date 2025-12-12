@@ -97,9 +97,14 @@ async function processLinks(
       return result;
     } catch (error) {
       console.error(`Failed to crawl link ${linkUrl}:`, error);
-      const errorResult = {
+      const errorResult: LinkMeta = {
+        title: "",
+        description: "",
+        image: "",
+        name: "",
+        favicon: "",
         url: linkUrl,
-      } as LinkMeta;
+      };
 
       return errorResult;
     }

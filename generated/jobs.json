@@ -183,7 +183,7 @@
           "title": "メルカリShops のフロントエンド | メルカリエンジニアリング",
           "description": "こんにちは。ソウゾウの Software Engineer の hiroppy です。「連載：「メルカリ Shops」プレオープンまでの開発の裏側」 の最後は、Web フロントエンドの紹介をしたいと思います。メルカリ Shops は既存のメ",
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
-          "name": "Mercari Engineering blog",
+          "name": "",
           "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e"
         },
@@ -320,6 +320,9 @@
       "links": [
         {
           "title": "",
+          "description": "",
+          "image": "",
+          "name": "",
           "favicon": "/images/dXMueXVpbWVkaS5jb20vZmF2aWNvbi5pY28=.webp",
           "url": "https://us.yuimedi.com/product-yuiquery-research"
         }
@@ -338,6 +341,7 @@
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
           "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
           "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
+          "name": "",
           "favicon": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9mYXZpY29uLmljbw==.webp",
           "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview"
         },
@@ -345,6 +349,7 @@
           "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
           "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
           "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
+          "name": "Wantedly",
           "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.webp",
           "url": "https://www.wantedly.com/companies/rebase/post_articles/887970"
         },
@@ -426,6 +431,7 @@
           "title": "2023年の振り返り",
           "description": "こんにちは。もうすでに 2024 年に入ってしまいましたが、2023 年も毎度のことながら振り返りを残します。年次の振り返りはなんとか続けられていて、かれこれ 4 回目となりました。",
           "image": "/images/bWg0Z2YuZGV2L2FydGljbGVzLzIwMjMtc3VtbWFyeS9vcGVuZ3JhcGgtaW1hZ2U_MmY1NWUyNzk3MDhlMWViNw==.webp",
+          "name": "",
           "favicon": "/images/bWg0Z2YuZGV2L2Zhdmljb24tMzJ4MzIucG5n.webp",
           "url": "https://mh4gf.dev/articles/2023-summary#hiroppy-%E3%81%95%E3%82%93%E3%81%A8%E3%81%AE%E9%80%B1%E6%AC%A1%E3%81%A7%E3%81%AE%E4%BC%9A%E8%A9%B1"
         },

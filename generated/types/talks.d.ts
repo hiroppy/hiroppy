@@ -9,11 +9,11 @@ import type { LinkMeta } from "./common.js";
 
 export interface Talk {
   title: string;
-  description?: string;
-  image?: string;
+  description: string;
+  image: string;
   name: string;
-  url: string;
   favicon: string;
+  url: string;
   publishedAt: string;
   links: LinkMeta[];
 }
