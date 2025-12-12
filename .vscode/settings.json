@@ -18,7 +18,7 @@
   },
   "prettier.requireConfig": false,
   "cSpell.enabled": true,
-  "cSpell.words": ["biomejs", "hatena"],
+  "cSpell.words": ["biomejs", "hatena", "mozaic"],
   "cSpell.allowCompoundWords": true,
   "cSpell.ignorePaths": ["**/node_modules/**", "**/vscode-extension/**"]
 }
