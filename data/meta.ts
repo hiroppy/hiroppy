@@ -37,23 +37,23 @@ export const meta = {
       position: "TSKaigi プロポーザル審査委員",
       start: "2024",
       end: null,
-      links: ["https://2025.tskaigi.org/", "https://2024.tskaigi.org/"],
+      links: ["https://2025.tskaigi.org", "https://2024.tskaigi.org"],
     },
     nodeFest: {
       position: "東京Node学園祭 メンバー",
       start: "2016",
       end: "2018",
       links: [
-        "https://nodefest.jp/2018/",
-        "https://nodefest.jp/2017/",
-        "https://nodefest.jp/2016/",
+        "https://nodefest.jp/2018",
+        "https://nodefest.jp/2017",
+        "https://nodefest.jp/2016",
       ],
     },
     reactjs: {
       position: "React.js meetup メンバー",
       start: "2017",
       end: "2019",
-      links: ["https://reactjs-meetup.connpass.com/"],
+      links: ["https://reactjs-meetup.connpass.com"],
     },
     techfeed: {
       position: "TechFeed 公認エキスパート",

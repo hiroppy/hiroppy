@@ -11,17 +11,7 @@ export interface Talk {
   title: string;
   description?: string;
   image?: string;
-  name:
-    | "Google Docs"
-    | "connpass"
-    | "PR TIMES"
-    | "YouTube"
-    | "Mercari Engineering blog"
-    | "hiroppy's slides"
-    | "LINE ENGINEERING"
-    | "情報科学若手の会"
-    | "Speaker Deck"
-    | "Slideshare";
+  name: string;
   url: string;
   favicon: string;
   publishedAt: string;

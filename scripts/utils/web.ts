@@ -42,7 +42,8 @@ export async function getMeta(url: string, title?: string): Promise<LinkMeta> {
 
     // twitterはbotをつけないとogをつけない
     // nodeライブラリは基本、user-agentを変えれない
-    const command = `curl -m 10 '${url}' -H 'User-Agent: bot'`;
+    // -L: リダイレクトを追跡する
+    const command = `curl -L -m 10 '${url}' -H 'User-Agent: bot'`;
     const [cmd, ...args] = command.split(" ");
     const html = await runWithSpawn(cmd, args);
 

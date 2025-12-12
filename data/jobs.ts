@@ -197,8 +197,8 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
 - 新規サービス開発
       `,
       links: [
-        "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/",
-        "https://bakuraku.jp/news/20250717/",
+        "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000",
+        "https://bakuraku.jp/news/20250717",
       ],
       company: "layerX",
     },
@@ -211,7 +211,7 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       description: `
 - YuiQuery Researchの開発を引き続き行う
       `,
-      links: ["https://us.yuimedi.com/product-yuiquery-research/"],
+      links: ["https://us.yuimedi.com/product-yuiquery-research"],
       company: "yuimedi",
     },
     {

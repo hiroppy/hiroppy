@@ -2,87 +2,87 @@
   "meta": {
     "coderPenguin": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9jb2RlclBlbmd1aW4ucG5n.webp",
-      "url": "https://coder-penguin.com/"
+      "url": "https://coder-penguin.com"
     },
     "layerX": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9sYXllcngucG5n.webp",
-      "url": "https://layerx.co.jp/"
+      "url": "https://layerx.co.jp"
     },
     "ship": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9zaGlwLnBuZw==.webp",
-      "url": "https://www.shipinc.jp/"
+      "url": "https://www.shipinc.jp"
     },
     "stract": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9zdHJhY3QucG5n.webp",
-      "url": "https://stract.co.jp/"
+      "url": "https://stract.co.jp"
     },
     "commune": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9jb21tdW5lLmpwZw==.webp",
-      "url": "https://communeinc.com/"
+      "url": "https://communeinc.com"
     },
     "hokuto": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9ob2t1dG8ud2VicA==.webp",
-      "url": "https://corp.hokuto.app/"
+      "url": "https://corp.hokuto.app"
     },
     "aidemy": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9haWRlbXkucG5n.webp",
-      "url": "https://aidemy.net/"
+      "url": "https://aidemy.net"
     },
     "mercari": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9tZXJjYXJpLnBuZw==.webp",
-      "url": "https://about.mercari.com/"
+      "url": "https://about.mercari.com"
     },
     "yuimedi": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy95dWltZWRpLmpwZWc=.webp",
-      "url": "https://yuimedi.com/"
+      "url": "https://yuimedi.com"
     },
     "dwango": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9kd2FuZ28uanBlZw==.webp",
-      "url": "https://dwango.co.jp/"
+      "url": "https://dwango.co.jp"
     },
     "estie": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9lc3RpZS5wbmc=.webp",
-      "url": "https://www.estie.jp/"
+      "url": "https://www.estie.jp"
     },
     "runpeace": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9ydW5wZWFjZS5qcGc=.webp",
-      "url": "https://www.runpeace.biz/"
+      "url": "https://www.runpeace.biz"
     },
     "rebase": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9yZWJhc2UucG5n.webp",
-      "url": "https://rebase.co.jp/"
+      "url": "https://rebase.co.jp"
     },
     "route06": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9yb3V0ZTA2LmpwZw==.webp",
-      "url": "https://route06.co.jp/"
+      "url": "https://route06.co.jp"
     },
     "anotherworks": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9hbm90aGVyd29ya3Mud2VicA==.webp",
-      "url": "https://anotherworks.co.jp/"
+      "url": "https://anotherworks.co.jp"
     },
     "alpaca": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9hbHBhY2EuanBn.webp",
-      "url": "https://alpc.tokyo/"
+      "url": "https://alpc.tokyo"
     },
     "black": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9ibGFjay5qcGc=.webp",
-      "url": "https://by.black/"
+      "url": "https://by.black"
     },
     "kakakucom": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy90YWJlbG9nLmpwZw==.webp",
-      "url": "https://corporate.kakaku.com/"
+      "url": "https://corporate.kakaku.com"
     },
     "bizreach": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9iaXpyZWFjaC5qcGVn.webp",
-      "url": "https://www.bizreach.co.jp/"
+      "url": "https://www.bizreach.co.jp"
     },
     "eyesjapan": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9leWVzamFwYW4uanBn.webp",
-      "url": "https://www.nowhere.co.jp/"
+      "url": "https://www.nowhere.co.jp"
     },
     "cyberagent": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9jeWJlcmFnZW50LnBuZw==.webp",
-      "url": "https://www.cyberagent.co.jp/"
+      "url": "https://www.cyberagent.co.jp"
     }
   },
   "main": [
@@ -110,7 +110,7 @@
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "name": "Yuimedi",
           "favicon": "",
-          "url": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375/"
+          "url": "https://yuimedi.notion.site/Yuimedi-3981950c3d324fb183bc8e99279e9375"
         },
         {
           "title": "Yuimedi の Internship に参加しました。 - Daiki Sakuma の日記",
@@ -118,14 +118,14 @@
           "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNDIwNzExMjg4OTkwNTEyNzk0Ni80MjA3MTEyODg5OTY4MTk2Nzg3Lz.webp",
           "name": "Daiki Sakuma の日記",
           "favicon": "/images/ZGFpa2ktc2ttLmhhdGVuYWJsb2cuY29tL2ljb24vbGluaw==.webp",
-          "url": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744/"
+          "url": "https://daiki-skm.hatenablog.com/entry/2023/03/31/164744"
         },
         {
           "title": "［7/26］Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)",
           "description": "2022年7月26日(火) 17時開催Cybozu Frontend Monthly#25 (ゲスト：株式会社Yuimedi)のライブ配信ですイベントの詳細：https://cybozu.connpass.com/event/254325/ライブ配信は、16時50分からスタートする予定です（イベントは17時から）...",
           "image": "/images/aS55dGltZy5jb20vdmkvUWJXalZsb2FBdVkvbWF4cmVzZGVmYXVsdC5qcGc=.webp",
           "name": "YouTube",
-          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC8zMWMyYzE1MS9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
+          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
           "url": "https://www.youtube.com/watch?v=QbWjVloaAuY"
         },
         {
@@ -134,7 +134,7 @@
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "name": "Yuimedi",
           "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.webp",
-          "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b/"
+          "url": "https://yuimedi.notion.site/52914d8c12994bdfbdf8321cd2e96d5b"
         },
         {
           "title": "エンジニア座談会前編〜事業・エンジニアリング編〜 | Notion",
@@ -142,7 +142,7 @@
           "image": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZS9odHRwcyUzQSUyRiUyRnMzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tJT.webp",
           "name": "Yuimedi",
           "favicon": "/images/eXVpbWVkaS5ub3Rpb24uc2l0ZS9pbWFnZXMvZmF2aWNvbi5pY28=.webp",
-          "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64/"
+          "url": "https://yuimedi.notion.site/d8e4e0131d2e47f797ae6a161b61fb64"
         }
       ],
       "company": "yuimedi"
@@ -161,14 +161,14 @@
           "image": "/images/czMtYXAtbm9ydGhlYXN0LTEuYW1hem9uYXdzLmNvbS9maW5keS1jb2RlLWltYWdlcy9pbnRlcnZpZXdzL3NvdXpvaC.webp",
           "name": "Findy",
           "favicon": "/images/ZmluZHktY29kZS5pby9pbWFnZXMvaWNvbnMvZmF2aWNvbi5pY28=.webp",
-          "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer/"
+          "url": "https://findy-code.io/pick-up/interviews/souzoh-engineer"
         },
         {
           "title": "Souzoh Tech Talk #03: Frontend",
           "description": "9/1（水）に行ったSouzoh Tech Talk #03: Frontendの様子です！ぜひご覧ください。",
           "image": "/images/aS55dGltZy5jb20vdmkvWU5MdklrcVJDLWcvaHFkZWZhdWx0LmpwZw==.webp",
           "name": "YouTube",
-          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC8zMWMyYzE1MS9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
+          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
           "url": "https://www.youtube.com/watch?v=YNLvIkqRC-g"
         },
         {
@@ -176,7 +176,7 @@
           "description": "9/15（水）に行われたSouzoh Tech Talk #05:Infrastructureの様子です。ぜひご覧ください！",
           "image": "/images/aS55dGltZy5jb20vdmkvMXVDV3pmYUllZEUvaHFkZWZhdWx0LmpwZw==.webp",
           "name": "YouTube",
-          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC8zMWMyYzE1MS9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
+          "favicon": "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp",
           "url": "https://www.youtube.com/watch?v=1uCWzfaIedE"
         },
         {
@@ -185,7 +185,7 @@
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtZW5naW5lZXJpbmctYXNzZXQvMjAyMS8wOC9lM2VlZTY0NS1oaXJvcH.webp",
           "name": "Mercari Engineering blog",
           "favicon": "/images/ZW5naW5lZXJpbmcubWVyY2FyaS5jb20vZmF2aWNvbi5pY28=.webp",
-          "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/"
+          "url": "https://engineering.mercari.com/blog/entry/20210823-a57631d32e"
         },
         {
           "title": "「新会社ソウゾウ立ち上げ期、いま率直にどうですか？」をメンバーに聞いてみた！ | mercan (メルカン)",
@@ -193,7 +193,7 @@
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcmQtbWVyY2FuLWFzc2V0LzIwMjEvMDQvZTQ2OWI5ZTUtZXllY2F0Y2gtdj.webp",
           "name": "Mercari",
           "favicon": "/images/Y2FyZWVycy5tZXJjYXJpLmNvbS9mYXZpY29uLmljbw==.webp",
-          "url": "https://careers.mercari.com/mercan/articles/28113/"
+          "url": "https://careers.mercari.com/mercan/articles/28113"
         }
       ],
       "company": "mercari"
@@ -244,7 +244,7 @@
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvODEzMzM4NTgvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
           "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
-          "url": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5/"
+          "url": "https://note.com/tabelog_frontend/n/na9a2ce24a4d5"
         },
         {
           "title": "Next.jsのStatic Exportsを本番プロダクトで利用してみた感想と注意点 - Tabelog Tech Blog",
@@ -252,7 +252,7 @@
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvYWY3OGFhZmJhNDY3MzM4ODExY2UyY2IyMTcyNWY3MD.webp",
           "name": "Tabelog Tech Blog",
           "favicon": "/images/dGVjaC1ibG9nLnRhYmVsb2cuY29tL2ljb24vbGluaw==.webp",
-          "url": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production/"
+          "url": "https://tech-blog.tabelog.com/entry/using-static-exports-in-production"
         },
         {
           "title": "2021年度版 食べログフロントエンドチームメンバー紹介｜食べログ フロントエンドエンジニアブログ",
@@ -260,7 +260,7 @@
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvNTI1MDM1MzUvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
           "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
-          "url": "https://note.com/tabelog_frontend/n/n35664347180a/"
+          "url": "https://note.com/tabelog_frontend/n/n35664347180a"
         },
         {
           "title": "レガシーなフロントエンド環境をリプレースするためにチームでやっていること｜食べログ フロントエンドエンジニアブログ",
@@ -268,7 +268,7 @@
           "image": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3Byb2R1Y3Rpb24vdXBsb2Fkcy9pbWFnZXMvMzcyMTI4NjUvcmVjdGFuZ2xlX2xhcm.webp",
           "name": "Note",
           "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
-          "url": "https://note.com/tabelog_frontend/n/n21b819c09121/"
+          "url": "https://note.com/tabelog_frontend/n/n21b819c09121"
         }
       ],
       "company": "kakakucom"
@@ -297,7 +297,7 @@
           "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
           "name": "日本経済新聞",
           "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
-          "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000/"
+          "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000"
         },
         {
           "title": "バクラク、あらゆる形式の請求書の受領業務を“丸投げ”できる新サービス「バクラク受領代行」を提供開始 - バクラク",
@@ -305,7 +305,7 @@
           "image": "/images/YmFrdXJha3UuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDcvMjAyNTA3MTZfanl1cnlvLWRhaWtvX2V5ZS1jYX.webp",
           "name": "LayerX",
           "favicon": "/images/YmFrdXJha3UuanAvd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDkvaW52ZXJzZS5wbmc=.webp",
-          "url": "https://bakuraku.jp/news/20250717/"
+          "url": "https://bakuraku.jp/news/20250717"
         }
       ],
       "company": "layerX"
@@ -321,7 +321,7 @@
         {
           "title": "",
           "favicon": "/images/dXMueXVpbWVkaS5jb20vZmF2aWNvbi5pY28=.webp",
-          "url": "https://us.yuimedi.com/product-yuiquery-research/"
+          "url": "https://us.yuimedi.com/product-yuiquery-research"
         }
       ],
       "company": "yuimedi"
@@ -339,14 +339,14 @@
           "description": "【NIKKEI COMPASS】プロダクト開発体制の強化で、ビジネス拡大の加速へ株式会社Ｒｅｂａｓｅ（本社：東京都渋谷区、代表取締役ＣＥＯ：佐藤　海、以下当社）は、プロダクト開発体制の強化に向けて新たに、廣戸裕大（Ｈｉｒｏｐｐｙ）氏が技術顧問として就任したことをお知らせいたします。［画像１：　ｈｔｔｐｓ：／／ｐｒｔｉｍｅｓ．ｊｐ／",
           "image": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9hc3NldHMvb2dpX2MucG5n.webp",
           "favicon": "/images/d3d3Lm5pa2tlaS5jb20vY29tcGFzcy9mYXZpY29uLmljbw==.webp",
-          "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview/"
+          "url": "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview"
         },
         {
           "title": "Next.js(App Router) の活用について_技術顧問hiroppyさんとの取り組み | 株式会社Rebase",
           "description": "こんにちは！エンジニアの髙橋です。Rebase は 2023年12月より hiroppy さんを技術顧問に迎え、プロダクト開発体制の強化に取り組んでいます。hiroppy さんとの定例及び非同期...",
           "image": "/images/d3d3LndhbnRlZGx5LmNvbS9wb3N0X2FydGljbGVzLzg4Nzk3MC9vZ3BfaW1hZ2U=.webp",
           "favicon": "/images/d3d3LndhbnRlZGx5LmNvbS9mYXZpY29uLmljbw==.webp",
-          "url": "https://www.wantedly.com/companies/rebase/post_articles/887970/"
+          "url": "https://www.wantedly.com/companies/rebase/post_articles/887970"
         },
         {
           "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任",
@@ -391,7 +391,7 @@
           "image": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9zdHVkaW8tY21zLWFzc2V0cy9wcm9qZWN0cy93UU9WSk1NTk9EL3MtMzg0MX.webp",
           "name": "株式会社STRACT",
           "favicon": "/images/c3RvcmFnZS5nb29nbGVhcGlzLmNvbS9wcm9kdWN0aW9uLW9zLWFzc2V0cy9hc3NldHMvZThjYTE5NWEtODk1Yi00NT.webp",
-          "url": "https://stract.co.jp/news/detail/H2sbeCci/"
+          "url": "https://stract.co.jp/news/detail/H2sbeCci"
         },
         {
           "title": "AIショッピングアプリ『PLUG』運営のSTRACT、技術顧問に廣戸裕大（hiroppy）氏が就任",
@@ -435,7 +435,7 @@
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
           "name": "ROUTE06",
           "favicon": "/images/dGVjaC5yb3V0ZTA2LmNvLmpwL2ljb24vbGluaw==.webp",
-          "url": "https://tech.route06.co.jp/entry/2024/03/28/091000/"
+          "url": "https://tech.route06.co.jp/entry/2024/03/28/091000"
         },
         {
           "title": "技術顧問に廣戸裕大（Hiroppy）氏就任のお知らせ",
@@ -443,7 +443,7 @@
           "image": "/images/anAucm91dGUwNi5jb20vb2dwL29ncC1qcC5wbmc=.webp",
           "name": "ROUTE06",
           "favicon": "/images/anAucm91dGUwNi5jb20vZmF2aWNvbi5pY28=.webp",
-          "url": "https://route06.com/jp/news/38/"
+          "url": "https://route06.com/jp/news/38"
         },
         {
           "title": "ROUTE06 CTOが考えていること（2023年9月） - ROUTE06 Tech Blog",
@@ -451,7 +451,7 @@
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvZWZjY2QwMmY1NjhmMTEzM2ZiYTdkMzcwYTRiODI3Mz.webp",
           "name": "ROUTE06",
           "favicon": "/images/dGVjaC5yb3V0ZTA2LmNvLmpwL2ljb24vbGluaw==.webp",
-          "url": "https://tech.route06.co.jp/entry/2023/09/07/091000/"
+          "url": "https://tech.route06.co.jp/entry/2023/09/07/091000"
         }
       ],
       "company": "route06"
@@ -500,7 +500,7 @@
           "image": "/images/Y2RuLmltYWdlLnN0LWhhdGVuYS5jb20vaW1hZ2Uvc2NhbGUvMWY0YWFlZGU1ZDliYzhjODczZGU2N2E1YTJiOTM5M2.webp",
           "name": "estie inside blog",
           "favicon": "/images/d3d3LmVzdGllLmpwL2Jsb2cvaWNvbi9saW5r.webp",
-          "url": "https://www.estie.jp/blog/entry/2024/08/05/183235/"
+          "url": "https://www.estie.jp/blog/entry/2024/08/05/183235"
         }
       ],
       "company": "estie"
@@ -559,7 +559,7 @@
           "image": "/images/ZmlsZXMuc3BlYWtlcmRlY2suY29tL3ByZXNlbnRhdGlvbnMvYjU4MTNmMDUxZmEyNDczZDkwOWQwMzU5YWQ0YjFiZD.webp",
           "name": "Speaker Deck",
           "favicon": "/images/ZDFldTMwY28wb2h5NHcuY2xvdWRmcm9udC5uZXQvYXNzZXRzL2Zhdmljb24tYmRkNTgzOWQ0NjA0MGE1MGVkZjE4OT.webp",
-          "url": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi/"
+          "url": "https://speakerdeck.com/mercari/web-re-architecture-puroziekutoniokeruji-shu-de-tiyarenzi"
         }
       ],
       "company": "mercari"

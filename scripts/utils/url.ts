@@ -19,9 +19,9 @@ export function normalizeUrl(url: string): string {
       pathname.split("/").pop() || "",
     );
 
-    // Add trailing slash if needed
-    if (!hasFileExtension && !pathname.endsWith("/")) {
-      urlObj.pathname = `${pathname}/`;
+    // Remove trailing slash if present (except for root paths)
+    if (!hasFileExtension && pathname !== "/" && pathname.endsWith("/")) {
+      urlObj.pathname = pathname.slice(0, -1);
       return urlObj.toString();
     }
 

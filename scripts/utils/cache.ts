@@ -15,7 +15,11 @@ export async function loadCache(): Promise<Map<string, LinkMeta>> {
 
     for (const [url, meta] of Object.entries(cache)) {
       const normalizedUrl = normalizeUrl(url);
-      linkCache.set(normalizedUrl, meta as LinkMeta);
+      const metaWithNormalizedUrl = {
+        ...meta,
+        url: normalizeUrl(meta.url || url),
+      } as LinkMeta;
+      linkCache.set(normalizedUrl, metaWithNormalizedUrl);
     }
 
     return linkCache;
@@ -62,7 +66,11 @@ export async function loadBlockedUrls(): Promise<Map<string, LinkMeta>> {
 
     for (const [url, meta] of Object.entries(blockedUrls)) {
       const normalizedUrl = normalizeUrl(url);
-      blockedUrlsMap.set(normalizedUrl, meta);
+      const metaWithNormalizedUrl = {
+        ...meta,
+        url: normalizeUrl(meta.url || url),
+      } as LinkMeta;
+      blockedUrlsMap.set(normalizedUrl, metaWithNormalizedUrl);
     }
 
     return blockedUrlsMap;

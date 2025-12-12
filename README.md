@@ -15,32 +15,31 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 
 ## Active Repositories
 
-- [web-app-template](https://github.com/hiroppy/web-app-template/)
+- [web-app-template](https://github.com/hiroppy/web-app-template)
   - A minimal web service template 🎃 "npx create-app-foundation@latest" !
-- [nextjs-app-router-training](https://github.com/hiroppy/nextjs-app-router-training/)
+- [nextjs-app-router-training](https://github.com/hiroppy/nextjs-app-router-training)
   - Introducing various basic patterns of app router with simplified code.
 
 ## maintaining OSS
 
 I've been focusing on my business so I'm not active now 😔
 
-- [node](https://github.com/nodejs/node/)
-- [webpack](https://github.com/webpack/webpack/)
-- [webpack-dev-server](https://github.com/webpack/webpack-dev-server/)
-- [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware/)
-- [babel-loader](https://github.com/babel/babel-loader/)
-- [babel-upgrade](https://github.com/babel/babel-upgrade/)
-- [stylelint](https://github.com/stylelint/stylelint/)
-- [jekyll](https://github.com/jekyll/jekyll/)
-- [danger-js](https://github.com/danger/danger-js/)
-- [crowi](https://github.com/crowi/crowi/)
+- [node](https://github.com/nodejs/node)
+- [webpack](https://github.com/webpack/webpack)
+- [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+- [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
+- [babel-loader](https://github.com/babel/babel-loader)
+- [babel-upgrade](https://github.com/babel/babel-upgrade)
+- [stylelint](https://github.com/stylelint/stylelint)
+- [jekyll](https://github.com/jekyll/jekyll)
+- [danger-js](https://github.com/danger/danger-js)
+- [crowi](https://github.com/crowi/crowi)
 
-## Sponsors
+## Thanks / Sponsors
 
 Thank you for supporting me 😍
 
 <p align="center">
-  <h3> Current Sponsors </h3>
   <a href="https://github.com/ledsun">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMDc5NTA4P3M9NjAmdj00.jpg" alt="@ledsun" width="60" />
     </a><a href="https://github.com/berlysia">
@@ -56,9 +55,6 @@ Thank you for supporting me 😍
     </a><a href="https://github.com/niwatoliver">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMjg3ODA2Nz9zPTYwJnY9NA==.jpg" alt="@niwatoliver" width="60" />
     </a>
-</p>
-<p align="center">
-  <h3> Past Sponsors </h3>
   <a href="https://github.com/arayaryoma">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS81NjI3MTE5P3M9NjAmdj00.jpg" alt="@arayaryoma" width="60" />
     </a><a href="https://github.com/sei40kr">

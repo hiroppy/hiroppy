@@ -86,7 +86,7 @@ export const articles = [
   },
   {
     publishedAt: "2021-08-23",
-    url: "https://engineering.mercari.com/blog/entry/20210823-a57631d32e/",
+    url: "https://engineering.mercari.com/blog/entry/20210823-a57631d32e",
     company: "mercari",
   },
   {
@@ -96,7 +96,7 @@ export const articles = [
   },
   {
     publishedAt: "2021-04-28",
-    url: "https://careers.mercari.com/mercan/articles/28113/",
+    url: "https://careers.mercari.com/mercan/articles/28113",
     company: "mercari",
   },
   {

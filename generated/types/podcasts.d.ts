@@ -23,7 +23,7 @@ export interface Podcast {
     | "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLnN2Zw==.webp"
     | "/images/dWl0LWluc2lkZS5saW5lY29ycC5jb20vYXNzZXRzL2ltYWdlcy9mYXZpY29uLnBuZw==.webp"
     | "/images/b3Blbi5zcG90aWZ5Y2RuLmNvbS9jZG4vaW1hZ2VzL2Zhdmljb24zMi5iNjRlY2MwMy5wbmc=.webp"
-    | "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC8zMWMyYzE1MS9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp"
+    | "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp"
     | "/images/ZW5naW5lZXJpbmcubGluZWNvcnAuY29tL2Zhdmljb24tMzJ4MzIucG5nP3Y9NmQ2MDg1ZjIzM2QwMmMzNDI3M2ZhOG.webp";
   publishedAt: string;
   links?: LinkMeta[];

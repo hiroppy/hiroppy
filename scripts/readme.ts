@@ -71,16 +71,12 @@ I've been focusing on my business so I'm not active now 😔
 
 ${generateRepoList(repos.maintaining, true)}
 
-## Sponsors
+## Thanks / Sponsors
 
 Thank you for supporting me 😍
 
 <p align="center">
-  <h3> Current Sponsors </h3>
   ${sponsorList(sponsors.current)}
-</p>
-<p align="center">
-  <h3> Past Sponsors </h3>
   ${sponsorList(sponsors.past)}
 </p>
 
