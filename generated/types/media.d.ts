@@ -12,8 +12,8 @@ export interface Media {
   description: string;
   image: string;
   name: string;
-  favicon: string;
   url: string;
+  favicon: string;
   publishedAt: string;
   links: LinkMeta[];
 }
