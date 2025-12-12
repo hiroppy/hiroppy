@@ -12,8 +12,8 @@ export interface Talk {
   description?: string;
   image?: string;
   name: string;
-  url: string;
   favicon: string;
+  url: string;
   publishedAt: string;
   links?: LinkMeta[];
 }

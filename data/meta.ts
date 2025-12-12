@@ -1,18 +1,18 @@
 export const meta = {
   site: {
-    personal: "https://hiroppy.me/",
-    company: "https://coder-penguin.com/",
-    resume: "https://hiroppy.me/resume/",
-    blog: "https://hiroppy.me/blog/",
-    hatenablog: "https://abouthiroppy.hatenablog.jp/",
-    podcast: "https://mozaic.fm/",
+    personal: "https://hiroppy.me",
+    company: "https://coder-penguin.com",
+    resume: "https://hiroppy.me/resume",
+    blog: "https://hiroppy.me/blog",
+    hatenablog: "https://abouthiroppy.hatenablog.jp",
+    podcast: "https://mozaic.fm",
   },
   sns: {
-    github: "https://github.com/hiroppy/",
-    twitter: "https://x.com/about_hiroppy/",
-    facebook: "https://www.facebook.com/yuta.hiroto0429/",
-    linkedin: "https://www.linkedin.com/in/hiroppy/",
-    connpass: "https://connpass.com/user/about_hiroppy/",
+    github: "https://github.com/hiroppy",
+    twitter: "https://x.com/about_hiroppy",
+    facebook: "https://www.facebook.com/yuta.hiroto0429",
+    linkedin: "https://www.linkedin.com/in/hiroppy",
+    connpass: "https://connpass.com/user/about_hiroppy",
   },
   profile: `
 2008年からプログラミングをはじめ、今は Node.js を中心に JavaScript をよく使うエンジニア。
@@ -28,9 +28,9 @@ export const meta = {
       start: "2021",
       end: null,
       links: [
-        "https://jsconf.jp/2024/",
-        "https://jsconf.jp/2022/",
-        "https://jsconf.jp/2021/",
+        "https://jsconf.jp/2024",
+        "https://jsconf.jp/2022",
+        "https://jsconf.jp/2021",
       ],
     },
     tsKaigi: {

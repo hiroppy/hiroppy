@@ -29,7 +29,13 @@ export interface Meta {
       position: string;
       start: string;
       end?: null;
-      links: string[];
+      links: {
+        title: string;
+        description: string;
+        image: string;
+        favicon: string;
+        url: string;
+      }[];
     };
     tsKaigi: {
       position: string;
@@ -72,7 +78,14 @@ export interface Meta {
       position: string;
       start: string;
       end?: null;
-      links: string[];
+      links: {
+        title: string;
+        description: string;
+        image: string;
+        name: string;
+        favicon: string;
+        url: string;
+      }[];
     };
   };
   form: {

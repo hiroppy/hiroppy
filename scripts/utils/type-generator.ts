@@ -346,23 +346,27 @@ export interface LinkMeta {
   /**
    * Page title
    */
-  title?: string;
+  title: string;
   /**
    * Page description
    */
-  description?: string;
+  description: string;
   /**
    * Page image (WebP format, base64 encoded path)
    */
-  image?: string;
+  image: string;
   /**
    * Site or platform name
    */
-  name?: string;
+  name: string;
   /**
    * Page URL
    */
-  url?: string;
+  url: string;
+  /**
+   * Favicon URL
+   */
+  favicon: string;
   /**
    * Error message if crawling failed
    */

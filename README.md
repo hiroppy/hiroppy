@@ -1,8 +1,8 @@
 <p align="center">
   <samp>
-    <a href="https://hiroppy.me/">me</a> |
-    <a href="https://hiroppy.me/blog/">blog</a> |
-    <a href="https://x.com/about_hiroppy/">tweets</a>
+    <a href="https://hiroppy.me">me</a> |
+    <a href="https://hiroppy.me/blog">blog</a> |
+    <a href="https://x.com/about_hiroppy">tweets</a>
   </samp>
 </p>
 

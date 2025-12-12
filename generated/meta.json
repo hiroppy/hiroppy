@@ -1,18 +1,18 @@
 {
   "site": {
-    "personal": "https://hiroppy.me/",
-    "company": "https://coder-penguin.com/",
-    "resume": "https://hiroppy.me/resume/",
-    "blog": "https://hiroppy.me/blog/",
-    "hatenablog": "https://abouthiroppy.hatenablog.jp/",
-    "podcast": "https://mozaic.fm/"
+    "personal": "https://hiroppy.me",
+    "company": "https://coder-penguin.com",
+    "resume": "https://hiroppy.me/resume",
+    "blog": "https://hiroppy.me/blog",
+    "hatenablog": "https://abouthiroppy.hatenablog.jp",
+    "podcast": "https://mozaic.fm"
   },
   "sns": {
-    "github": "https://github.com/hiroppy/",
-    "twitter": "https://x.com/about_hiroppy/",
-    "facebook": "https://www.facebook.com/yuta.hiroto0429/",
-    "linkedin": "https://www.linkedin.com/in/hiroppy/",
-    "connpass": "https://connpass.com/user/about_hiroppy/"
+    "github": "https://github.com/hiroppy",
+    "twitter": "https://x.com/about_hiroppy",
+    "facebook": "https://www.facebook.com/yuta.hiroto0429",
+    "linkedin": "https://www.linkedin.com/in/hiroppy",
+    "connpass": "https://connpass.com/user/about_hiroppy"
   },
   "profile": "2008年からプログラミングをはじめ、今は Node.js を中心に JavaScript をよく使うエンジニア。\n2018年からカカクコムやメルカリなどの企業で技術顧問を勤め、20社以上で開発支援・技術選定・エンジニア採用をサポートしている。\n独立前は、ニコナレ、N予備校、メルカリJP、メルカリUS、メルカリShops などをゼロから立ち上げており、大規模トラフィックを扱うサービスの全体設計が得意。\n大学では4年間で画像処理を専攻し、ドワンゴ在籍時にはニコニコ生放送の遅延最適化に関する研究に従事。\nコミュニティ活動では JSConf JP の運営や TSKaigi のプロポーザル審査委員をしたり、Node.js、webpack などの OSS のメンテナンスもしていた。\n毎月、webのエコシステムについて語り合うポッドキャスト「mozaic.fm」でゲスト出演もしている。",
   "community": {
@@ -21,9 +21,27 @@
       "start": "2021",
       "end": null,
       "links": [
-        "https://jsconf.jp/2024",
-        "https://jsconf.jp/2022",
-        "https://jsconf.jp/2021"
+        {
+          "title": "JSConf JP",
+          "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the fifth time event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
+          "image": "/images/anNjb25mLmpwLzIwMjQvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+          "favicon": "/images/anNjb25mLmpwLzIwMjQvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
+          "url": "https://jsconf.jp/2024"
+        },
+        {
+          "title": "JSConf JP",
+          "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
+          "image": "/images/anNjb25mLmpwLzIwMjIvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+          "favicon": "/images/anNjb25mLmpwLzIwMjIvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
+          "url": "https://jsconf.jp/2022"
+        },
+        {
+          "title": "JSConf JP",
+          "description": "jsconf.jp is a JavaScript festival in Japan powered by Japan Node.js Association. This is the first event of jsconf in Japan. We would love to become a bridge between Japanese Web Developers and International Web Developers.",
+          "image": "/images/anNjb25mLmpwLzIwMjEvc3RhdGljL2ZlYzkzNDkzNWE4Yjg0YjI0YWRlYWQ2ZTlmZWFlYTA5L2xvZ28ucG5n.webp",
+          "favicon": "/images/anNjb25mLmpwLzIwMjEvZmF2aWNvbi0zMngzMi5wbmc_dj1mZWM5MzQ5MzVhOGI4NGIyNGFkZWFkNmU5ZmVhZWEwOQ.webp",
+          "url": "https://jsconf.jp/2021"
+        }
       ]
     },
     "tsKaigi": {
@@ -95,7 +113,14 @@
       "start": "2020",
       "end": null,
       "links": [
-        "https://techfeed.io/people/@hiroppy"
+        {
+          "title": "Yuta Hiroto on TechFeed",
+          "description": "OSS engineer. Core committer of @nodejs and @webpack.",
+          "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
+          "name": "TechFeed",
+          "favicon": "/images/dGVjaGZlZWQuaW8vaW1hZ2VzL2xvZ28vbG9nby0xOTJ4MTkyLnBuZw==.webp",
+          "url": "https://techfeed.io/people/@hiroppy"
+        }
       ]
     }
   },
