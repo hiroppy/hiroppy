@@ -113,14 +113,7 @@
       "start": "2020",
       "end": null,
       "links": [
-        {
-          "title": "Yuta Hiroto on TechFeed",
-          "description": "OSS engineer. Core committer of @nodejs and @webpack.",
-          "image": "/images/cmVzLmNsb3VkaW5hcnkuY29tL3RlY2hmZWVkL2ltYWdlL3VwbG9hZC93XzI4MCxoXzI4MC92MTU4NzcyNjUyMS91c2.webp",
-          "name": "TechFeed",
-          "favicon": "/images/dGVjaGZlZWQuaW8vaW1hZ2VzL2xvZ28vbG9nby0xOTJ4MTkyLnBuZw==.webp",
-          "url": "https://techfeed.io/people/@hiroppy"
-        }
+        "https://techfeed.io/people/@hiroppy"
       ]
     }
   },
