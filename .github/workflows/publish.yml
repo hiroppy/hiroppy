@@ -59,6 +59,7 @@ jobs:
               echo "ℹ️ No generated files found"
             fi
           fi
+      - run: npm install -g npm@latest
       - name: Validate package before publishing
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         run: |
