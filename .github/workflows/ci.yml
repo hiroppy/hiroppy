@@ -26,6 +26,12 @@ jobs:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup-node
       - run: npx biome check . && npx prettier --check './**/*.{md,yml}'
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ./.github/actions/setup-node
+      - run: pnpm typecheck
   build:
     runs-on: ubuntu-latest
     steps:

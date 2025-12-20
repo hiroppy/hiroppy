@@ -28,6 +28,7 @@
     "build:generated": "node scripts/index.ts",
     "build:readme": "node scripts/readme.ts",
     "lint": "prettier -w './**/*.{md,yml}' && biome check . --fix",
+    "typecheck": "tsc --noEmit",
     "test": "node --test test/*.test.js",
     "reset": "rm data/cache.json && rm -rf generated && mkdir generated && mkdir generated/images",
     "cleanup": "node scripts/cleanup-unused-images.ts",

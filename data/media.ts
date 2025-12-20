@@ -1,7 +1,8 @@
-import type { Common } from "./type.ts";
+import type { InputCommon } from "./type.ts";
 
-type Media = Pick<
-  Common,
+// Input type for media data
+type InputMedia = Pick<
+  InputCommon,
   "publishedAt" | "url" | "links" | "title" | "company" | "hot"
 >;
 
@@ -30,7 +31,7 @@ export const pressReleases = [
     url: "https://prtimes.jp/main/html/rd/p/000000097.000021828.html",
     company: "rebase",
   },
-] satisfies Media[];
+] satisfies InputMedia[];
 
 export const articles = [
   {
@@ -112,4 +113,4 @@ export const articles = [
     publishedAt: "2020-02-03",
     url: "https://note.com/osstokyo/n/n01a333562fad",
   },
-] satisfies Media[];
+] satisfies InputMedia[];

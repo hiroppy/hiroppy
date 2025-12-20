@@ -18,13 +18,13 @@ export interface Podcast {
     | "/images/dm9zLmxpbmUtc2Nkbi5uZXQvcG9kY2FzdC9vcGVuZ3JhcGhzL2VwaXNvZGUwOTMucG5n.webp"
     | "/images/dm9zLmxpbmUtc2Nkbi5uZXQvbGFuZHByZXNzLWNvbnRlbnQtdjJfMTc2MS8xNjY2ODU0MTIwMjA0LnBuZz91cGRhdG.webp";
   name: "mozaic.fm" | "UIT INSIDE" | "Spotify" | "YouTube" | "LINE ENGINEERING";
+  url: string;
   favicon:
     | "/images/bW96YWljLmZtL2Fzc2V0cy9pbWcvbW96YWljLnN2Zw==.webp"
     | "/images/dWl0LWluc2lkZS5saW5lY29ycC5jb20vYXNzZXRzL2ltYWdlcy9mYXZpY29uLnBuZw==.webp"
     | "/images/b3Blbi5zcG90aWZ5Y2RuLmNvbS9jZG4vaW1hZ2VzL2Zhdmljb24zMi5iNjRlY2MwMy5wbmc=.webp"
     | "/images/d3d3LnlvdXR1YmUuY29tL3MvZGVza3RvcC9iZWFjYjM4Yi9pbWcvZmF2aWNvbl8zMngzMi5wbmc=.webp"
     | "/images/ZW5naW5lZXJpbmcubGluZWNvcnAuY29tL2Zhdmljb24tMzJ4MzIucG5nP3Y9NmQ2MDg1ZjIzM2QwMmMzNDI3M2ZhOG.webp";
-  url: string;
   publishedAt: string;
   links: LinkMeta[];
 }

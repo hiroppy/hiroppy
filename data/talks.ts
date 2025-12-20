@@ -1,6 +1,7 @@
-import type { Common } from "./type.ts";
+import type { InputCommon } from "./type.ts";
 
-type Talk = Pick<Common, "publishedAt" | "url" | "title" | "links">;
+// Input type for talk data
+type InputTalk = Pick<InputCommon, "publishedAt" | "url" | "title" | "links">;
 
 export const talks = [
   {
@@ -208,4 +209,4 @@ export const talks = [
     publishedAt: "2014-06-24",
     url: "https://www.slideshare.net/slideshow/alt01/39462934",
   },
-] satisfies Talk[];
+] satisfies InputTalk[];

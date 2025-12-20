@@ -1,4 +1,4 @@
-import type { Common, LinkMeta } from "../../data/type.ts";
+import type { InputCommon, LinkMeta } from "../../data/type.ts";
 import {
   collectAlreadyHavingLinks,
   getBlockedUrlMeta,
@@ -113,7 +113,7 @@ async function processLinks(
   return Promise.all(linkPromises);
 }
 
-export async function crawlSites(filename: string, items: Common[]) {
+export async function crawlSites(filename: string, items: InputCommon[]) {
   const linkCache = await collectAlreadyHavingLinks(filename);
   const blockedUrls = await loadBlockedUrls();
 

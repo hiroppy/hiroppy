@@ -1,5 +1,12 @@
-import type { Common } from "./type.ts";
+import type { Common, InputCommon } from "./type.ts";
 
+// Input type for podcast data
+export type InputPodcast = Pick<
+  InputCommon,
+  "publishedAt" | "url" | "hot" | "links" | "title"
+>;
+
+// Output type for generated podcast JSON
 export type Podcast = Pick<
   Common,
   "publishedAt" | "url" | "hot" | "links" | "title"
@@ -176,4 +183,4 @@ export const podcasts = [
     url: "https://uit-inside.linecorp.com/episode/93",
     links: ["https://engineering.linecorp.com/ja/blog/uit-meetup-vol-13"],
   },
-] satisfies Podcast[];
+] satisfies InputPodcast[];

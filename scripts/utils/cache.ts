@@ -10,7 +10,7 @@ export const cacheStorage = new AsyncLocalStorage<Map<string, LinkMeta>>();
 export async function loadCache(): Promise<Map<string, LinkMeta>> {
   try {
     const cacheData = await readFile(join(baseDataPath, "cache.json"), "utf-8");
-    const cache = JSON.parse(cacheData);
+    const cache = JSON.parse(cacheData) as Record<string, LinkMeta>;
     const linkCache = new Map<string, LinkMeta>();
 
     for (const [url, meta] of Object.entries(cache)) {
