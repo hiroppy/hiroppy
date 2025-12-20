@@ -54,6 +54,8 @@ Thank you for supporting me 😍
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zNTAyOTc4P3M9NjAmdj00.jpg" alt="@ysaito8015" width="60" />
     </a><a href="https://github.com/niwatoliver">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMjg3ODA2Nz9zPTYwJnY9NA==.jpg" alt="@niwatoliver" width="60" />
+    </a><a href="https://github.com/kouki-dan">
+      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xNDAxNzExP3M9NjAmdj00.jpg" alt="@kouki-dan" width="60" />
     </a>
   <a href="https://github.com/arayaryoma">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS81NjI3MTE5P3M9NjAmdj00.jpg" alt="@arayaryoma" width="60" />
