@@ -63,7 +63,7 @@
     "json-schema-to-typescript": "15.0.4",
     "lefthook": "2.0.15",
     "octokit": "5.0.5",
-    "prettier": "3.7.4",
+    "prettier": "3.8.0",
     "sharp": "0.34.5",
     "sharp-ico": "0.1.5",
     "typescript": "5.9.3"
