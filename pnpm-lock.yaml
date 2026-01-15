@@ -36,8 +36,8 @@ importers:
         specifier: 5.0.5
         version: 5.0.5
       prettier:
-        specifier: 3.7.4
-        version: 3.7.4
+        specifier: 3.8.0
+        version: 3.8.0
       sharp:
         specifier: 0.34.5
         version: 0.34.5
@@ -626,8 +626,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  prettier@3.7.4:
-    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
+  prettier@3.8.0:
+    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1225,7 +1225,7 @@ snapshots:
       js-yaml: 4.1.1
       lodash: 4.17.21
       minimist: 1.2.8
-      prettier: 3.7.4
+      prettier: 3.8.0
       tinyglobby: 0.2.15
 
   lefthook-darwin-arm64@2.0.15:
@@ -1314,7 +1314,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  prettier@3.7.4: {}
+  prettier@3.8.0: {}
 
   pump@3.0.3:
     dependencies:
