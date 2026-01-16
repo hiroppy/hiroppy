@@ -69,7 +69,7 @@ export const companies = {
   },
   alpaca: {
     image: "alpaca.jpg",
-    url: "https://alpc.tokyo",
+    url: "https://alpaca.markets/jp",
   },
   black: {
     image: "black.jpg",
