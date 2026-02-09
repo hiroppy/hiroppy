@@ -19,6 +19,8 @@ jobs:
       - uses: ./.github/actions/setup-node
       - name: Generate README
         run: pnpm build:readme
+      - name: Format README
+        run: npx prettier -w README.md
       - name: Check for changes
         id: verify-changed-files
         run: |
