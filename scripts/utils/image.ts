@@ -58,9 +58,7 @@ export async function downloadImage(
 
   try {
     const sourceForEncoding = isLocalFile
-      ? source
-          .replace(process.cwd(), "")
-          .replace(/^\//, "") // Make relative to project root
+      ? source.replace(process.cwd(), "").replace(/^\//, "") // Make relative to project root
       : source.replace(/https?:\/\//, "");
 
     const filename = `${Buffer.from(sourceForEncoding)
