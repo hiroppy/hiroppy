@@ -35,6 +35,10 @@ export const pressReleases = [
 
 export const articles = [
   {
+    publishedAt: "2026-02-01",
+    url: "https://tskaigi.hatenablog.com/entry/2026/02/01/125127",
+  },
+  {
     publishedAt: "2025-04-16",
     url: "https://stract.co.jp/news/detail/H2sbeCci",
     company: "stract",

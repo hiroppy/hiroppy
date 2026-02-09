@@ -191,12 +191,14 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       position: "Enabling Team (Frontend/LLM)",
       initialState: "0",
       description: `
-- CEO直下のチームで、新規プロダクトのBPO
+- CEO直下のチームで、新規プロダクトのBPO開発
+- 新規プロダクトのバクラクインテリジェンス開発
 - バクラクのフロントエンド開発
-- 会社全体リポジトリのフロントエンドインフラ改善
+- 大規模なmonorepoの設計改善
 - 新規サービス開発
       `,
       links: [
+        "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000/",
         "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000",
         "https://bakuraku.jp/news/20250717",
       ],

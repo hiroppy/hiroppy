@@ -16,7 +16,7 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 ## Active Repositories
 
 - [web-app-template](https://github.com/hiroppy/web-app-template)
-  - A minimal web service template 🎃  "npx create-app-foundation@latest" !
+  - A minimal web service template 🎃 "npx create-app-foundation@latest" !
 - [nextjs-app-router-training](https://github.com/hiroppy/nextjs-app-router-training)
   - Introducing various basic patterns of app router with simplified code.
 
@@ -54,8 +54,6 @@ Thank you for supporting me 😍
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zNTAyOTc4P3M9NjAmdj00.jpg" alt="@ysaito8015" width="60" />
     </a><a href="https://github.com/niwatoliver">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8yMjg3ODA2Nz9zPTYwJnY9NA==.jpg" alt="@niwatoliver" width="60" />
-    </a><a href="https://github.com/kouki-dan">
-      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xNDAxNzExP3M9NjAmdj00.jpg" alt="@kouki-dan" width="60" />
     </a>
   <a href="https://github.com/arayaryoma">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS81NjI3MTE5P3M9NjAmdj00.jpg" alt="@arayaryoma" width="60" />
@@ -135,6 +133,8 @@ Thank you for supporting me 😍
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8zODcxMzk5OD9zPTYwJnY9NA==.jpg" alt="@tomo25" width="60" />
     </a><a href="https://github.com/serima">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMTMwOTIxP3M9NjAmdj00.jpg" alt="@serima" width="60" />
+    </a><a href="https://github.com/kouki-dan">
+      <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xNDAxNzExP3M9NjAmdj00.jpg" alt="@kouki-dan" width="60" />
     </a><a href="https://github.com/yyoshiki41">
       <img src="generated/images/YXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS80MDE0OTEyP3M9NjAmdj00.jpg" alt="@yyoshiki41" width="60" />
     </a>
@@ -147,6 +147,6 @@ $ npm i hiroppy
 ```
 
 ```ts
-import jobs  from "hiroppy/data/jobs" with { type: "json" };
+import jobs from "hiroppy/data/jobs" with { type: "json" };
 import media from "hiroppy/data/media" with { type: "json" };
 ```

@@ -53,6 +53,14 @@
       "end": null,
       "links": [
         {
+          "title": "TSKaigi 2026",
+          "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2026/5/22 (金) - 23 (土) の日程で開催します。",
+          "image": "/images/MjAyNi50c2thaWdpLm9yZy9vZ3AucG5n.webp",
+          "name": "TSKaigi 2026",
+          "favicon": "/images/MjAyNi50c2thaWdpLm9yZy9mYXZpY29uLmljbz9mYXZpY29uLjBiMjBkOGM2Lmljbw==.webp",
+          "url": "https://2026.tskaigi.org/"
+        },
+        {
           "title": "TSKaigi 2025",
           "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2025/5/23 (金) - 24 (土) の日程で開催します。",
           "image": "/images/MjAyNS50c2thaWdpLm9yZy9iYW5uZXIuanBn.webp",

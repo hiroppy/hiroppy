@@ -289,8 +289,16 @@
       "end": null,
       "position": "Enabling Team (Frontend/LLM)",
       "initialState": "0",
-      "description": "- CEO直下のチームで、新規プロダクトのBPO\n- バクラクのフロントエンド開発\n- 会社全体リポジトリのフロントエンドインフラ改善\n- 新規サービス開発",
+      "description": "- CEO直下のチームで、新規プロダクトのBPO開発\n- 新規プロダクトのバクラクインテリジェンス開発\n- バクラクのフロントエンド開発\n- 大規模なmonorepoの設計改善\n- 新規サービス開発",
       "links": [
+        {
+          "title": "LayerX、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始 - 日本経済新聞",
+          "description": "【プレスリリース】発表日:2026年01月30日バクラク、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始。〜作業不要で、グラフから証憑をワンクリックで確認〜※参考画像（1）は添付の関連資料を参照株式会社LayerX（本社 : 東京都中央区、代表取締役CEO : 福島良典、以下「LayerX」）は、バックオフィス向けAIクラウドサービス「バクラク請求",
+          "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+          "name": "日本経済新聞",
+          "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
+          "url": "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000"
+        },
         {
           "title": "LayerX、AIエージェントに参入　請求書受け取り代行など - 日本経済新聞",
           "description": "支出管理システムのLayerX（レイヤーエックス、東京・中央）は2025年度中に人工知能（AI）エージェント事業に参入する。同社の既存サービスの請求書受領システムと連携させ、AIエージェントが企業の請求書受け取り代行を担うサービスなどを始める。30年には関連事業で500億円の売り上げを目指す。AIエージェントを活用して企業の間接業務を請け負うビジネス・プロセス・ア",

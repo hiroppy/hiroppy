@@ -31,6 +31,14 @@
     "favicon": "/images/MjAyNS50c2thaWdpLm9yZy9mYXZpY29uLmljbw==.webp",
     "url": "https://2025.tskaigi.org"
   },
+  "https://2026.tskaigi.org/": {
+    "title": "TSKaigi 2026",
+    "description": "TSKaigiは日本最大級のTypeScriptをテーマとした技術カンファレンスです。2026/5/22 (金) - 23 (土) の日程で開催します。",
+    "image": "/images/MjAyNi50c2thaWdpLm9yZy9vZ3AucG5n.webp",
+    "name": "TSKaigi 2026",
+    "favicon": "/images/MjAyNi50c2thaWdpLm9yZy9mYXZpY29uLmljbz9mYXZpY29uLjBiMjBkOGM2Lmljbw==.webp",
+    "url": "https://2026.tskaigi.org/"
+  },
   "https://bakuraku.jp/news/20250717": {
     "title": "バクラク、あらゆる形式の請求書の受領業務を“丸投げ”できる新サービス「バクラク受領代行」を提供開始 - バクラク",
     "description": "すべての経済活動のデジタル化を目指す株式会社LayerXは、今春立ち上げたAIエージェント事業の一環として、新たにAIとBPOを掛け合わせ、紙・メール・Webサイト経由などあらゆる請求書受領業務を“丸投げ”できる新サービス「バクラク受領代行」をリリースしました。",
@@ -1055,6 +1063,14 @@
     "favicon": "/images/dHNrYWlnaS5oYXRlbmFibG9nLmNvbS9pY29uL2xpbms=.webp",
     "url": "https://tskaigi.hatenablog.com/entry/2024/02/14/170000"
   },
+  "https://tskaigi.hatenablog.com/entry/2026/02/01/125127": {
+    "title": "TSKaigi 2026のプロポーザルを募集します！ - TSKaigi 公式ブログ",
+    "description": "こんにちは、TSKaigiプログラムチームです。 2026年5月22日（金）、23日（土）にベルサール羽田空港で開催するTSKaigi 2026のプロポーザルを募集します。 TSKaigi とは TSKaigiはTypeScriptを扱う全ての人のためのコミュニティです。 TypeScriptによって何を記述するかは多様です。フロントエンドやサーバーサイド、IaCとしてインフラ、ライブラリやツールはもちろんのこと、TypeScriptという言語自体の開発にも使われています。 さらに活用領域も多様です。Webサービスだけでなく、デスクトップアプリケーションやスマートフォンアプリケーション、ゲーム…",
+    "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNjgwMTg4MzE4OTA3NTYwMjg2Ni8xNzE3OTI0NjkwMTM0OTk1ODExNy.webp",
+    "name": "TSKaigi 公式ブログ",
+    "favicon": "/images/dHNrYWlnaS5oYXRlbmFibG9nLmNvbS9pY29uL2xpbms=.webp",
+    "url": "https://tskaigi.hatenablog.com/entry/2026/02/01/125127"
+  },
   "https://uit-inside.linecorp.com/episode/100": {
     "title": "ep.100 『100回記念8時間生放送』 | UIT INSIDE",
     "description": "こちらは YouTube 配信の内容より、休憩時間などをカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n<iframe width=\"560\" height=\"315\" style=\"width:100%;height: 513px;margin: -10px 0 10px\" src=\"https://www.youtube.com/embed/Qsuk2KCDIxw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n<iframe title=\"Twitter Share\" src=\"https://platform.twitter.com/widgets/tweetbutton.html?url=https://uit-inside.linecorp.com/episode/100&amp;hashtags=UITINSIDE&amp;related=LINEDEV\" width=\"81\" height=\"21\" style=\"overflow: hidden;\"></iframe>\n音声版はこちら\n<audio src=\"https://vos.line-scdn.net/podcast/episodes/uit-inside-100.mp3\" controls ></audio>\nこちらは YouTube 配信の内容より、休憩時間やプレゼント企画など、リアルタイム配信限定の部分をカットしたものとなります。\n基本的には画面共有などの詳細の情報が残っている YouTube アーカイブでのご視聴をおすすめいたします。\n2018年12月からはじまり2年半、合計10万を超える視聴、2021年10月1日をもって ep.99 まで達した UIT INSIDE。ついに迎える ep.100 として、8時間生放送を実施します！\nhttps://uit-inside.linecorp.com\nこれまで UIT INSIDE に出演いただいたゲストを招待し、プロジェクトのその後・今考えていること・新しく行っている取り組みなどについて語っていただく8時間を予定しております。\nまた、ep.100 を記念して UIT に関するノベルティのプレゼント企画や、これまでの UIT INSIDE の人気エピソードの紹介・振り返りなどなど、 UIT のコンテンツを普段視聴してくださっているかたにこそ楽しんでいただけるコンテンツもたくさんお送りする予定ですので、ぜひ業務のお供にご視聴ください。\n<style>\n#content-inner > div > div > div:nth-child(3) > div > div > div > div > p:nth-child(1),\n#content-inner > div > div > div.container-xl.bg-white.mx-auto.flex.items-stretch.justify-between,\n.TheEpisodeCardHero,\n.TheEpisodeCardHeroicons {\n  display: none;\n}\n</style>\nRefs\nLINE 新卒採用 2022\nhttps://linecorp.com/ja/career/newgrads/engineering/\n2023 年卒向けページは近日公開！\nキャリア採用はこちらから\nhttps://linecorp.com/ja/career/position/475\nBGM&SE\n魔王魂/騒音のない世界/OtoLogic",
@@ -1142,6 +1158,22 @@
     "name": "日本経済新聞",
     "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
     "url": "https://www.nikkei.com/article/DGXZQOUC02ASK0S5A400C2000000"
+  },
+  "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000": {
+    "title": "LayerX、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始 - 日本経済新聞",
+    "description": "【プレスリリース】発表日:2026年01月30日バクラク、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始。〜作業不要で、グラフから証憑をワンクリックで確認〜※参考画像（1）は添付の関連資料を参照株式会社LayerX（本社 : 東京都中央区、代表取締役CEO : 福島良典、以下「LayerX」）は、バックオフィス向けAIクラウドサービス「バクラク請求",
+    "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+    "name": "日本経済新聞",
+    "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
+    "url": "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000"
+  },
+  "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000/": {
+    "title": "LayerX、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始 - 日本経済新聞",
+    "description": "【プレスリリース】発表日:2026年01月30日バクラク、蓄積された支出データをAIが分析・可視化する「バクラクインテリジェンス」を提供開始。〜作業不要で、グラフから証憑をワンクリックで確認〜※参考画像（1）は添付の関連資料を参照株式会社LayerX（本社 : 東京都中央区、代表取締役CEO : 福島良典、以下「LayerX」）は、バックオフィス向けAIクラウドサービス「バクラク請求",
+    "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+    "name": "日本経済新聞",
+    "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
+    "url": "https://www.nikkei.com/article/DGXZRSP702475_Q6A130C2000000"
   },
   "https://www.nikkei.com/compass/content/PRTKDB000000097_000021828/preview": {
     "title": "株式会社Rebaseの技術顧問に廣戸裕大（Hiroppy）氏が就任［Rebase］ | NIKKEI COMPASS - 日本経済新聞",
