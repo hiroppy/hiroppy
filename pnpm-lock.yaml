@@ -18,8 +18,8 @@ importers:
         specifier: 7.0.15
         version: 7.0.15
       '@types/node':
-        specifier: 24.10.13
-        version: 24.10.13
+        specifier: 24.12.2
+        version: 24.12.2
       cheerio:
         specifier: 1.2.0
         version: 1.2.0
@@ -426,8 +426,8 @@ packages:
   '@types/lodash@4.17.21':
     resolution: {integrity: sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ==}
 
-  '@types/node@24.10.13':
-    resolution: {integrity: sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -1094,7 +1094,7 @@ snapshots:
 
   '@types/lodash@4.17.21': {}
 
-  '@types/node@24.10.13':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 7.16.0
 
