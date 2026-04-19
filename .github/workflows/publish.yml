@@ -20,7 +20,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
         with:
           fetch-depth: 2
       - uses: ./.github/actions/setup-node
@@ -107,7 +107,7 @@ jobs:
           echo "✅ Git tag v${{ steps.version.outputs.new_version }} created"
       - name: Create GitHub Release
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2.6.2
         with:
           tag_name: v${{ steps.version.outputs.new_version }}
           name: Release v${{ steps.version.outputs.new_version }}
