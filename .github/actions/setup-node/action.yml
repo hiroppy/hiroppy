@@ -3,8 +3,6 @@ runs:
   using: composite
   steps:
     - uses: pnpm/action-setup@v6
-      with:
-        cache: true
     - uses: actions/setup-node@v6
       with:
         node-version-file: .node-version
