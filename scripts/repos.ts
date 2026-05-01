@@ -30,8 +30,8 @@ const processRepos = async (repoList: string[], includeOrgRepo = false) => {
       const result: Record<string, string> = {
         name: data.full_name,
         url: data.html_url,
-        description: emoji.replace_colons(data.description),
-        language: data.language,
+        description: emoji.replace_colons(data.description ?? ""),
+        language: data.language ?? "",
         image: await downloadImage(`${data.owner.avatar_url}?s=40`),
       };
 

@@ -1,6 +1,10 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
-import type { JSONSchema7, JSONSchema7Definition } from "json-schema";
+import type {
+  JSONSchema4,
+  JSONSchema7,
+  JSONSchema7Definition,
+} from "json-schema";
 import { compile } from "json-schema-to-typescript";
 
 export interface TypeGeneratorOptions {
@@ -304,13 +308,17 @@ export async function generateTypeDefinition(
   schema.title = typeName;
   schema.$schema = "http://json-schema.org/draft-07/schema#";
 
-  let typeDefinition = await compile(schema as unknown, typeName, {
-    style: {
-      semi: true,
-      singleQuote: false,
+  let typeDefinition = await compile(
+    schema as unknown as JSONSchema4,
+    typeName,
+    {
+      style: {
+        semi: true,
+        singleQuote: false,
+      },
+      additionalProperties: false,
     },
-    additionalProperties: false,
-  });
+  );
 
   const needsLinkMeta = hasLinksProperty(data);
 
