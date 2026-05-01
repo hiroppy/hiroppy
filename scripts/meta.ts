@@ -15,7 +15,8 @@ if (meta.community) {
         url: value.links[0], // Use first link as main URL for metadata
         position: value.position,
         links: value.links,
-        publishedAt: new Date().toISOString(), // Add dummy date for crawlSites
+        publishedAt:
+          new Date().toISOString() as `${number}-${number}-${number}`, // Add dummy date for crawlSites
       });
     }
   }
@@ -32,7 +33,7 @@ if (meta.community) {
 
         // Always create object format, even if crawl failed
         const links =
-          crawledItem?.links?.length > 0
+          crawledItem?.links && crawledItem.links.length > 0
             ? crawledItem.links.map((link) => ({
                 title: link.title || "",
                 description: link.description || "",
@@ -50,7 +51,17 @@ if (meta.community) {
                 url: url,
               }));
 
-        transformedMeta.community[key] = {
+        (
+          transformedMeta.community as Record<
+            string,
+            {
+              position: string;
+              start: string;
+              end: string | null;
+              links: unknown;
+            }
+          >
+        )[key] = {
           position: value.position,
           start: value.start,
           end: value.end,

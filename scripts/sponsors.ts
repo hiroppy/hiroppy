@@ -1,13 +1,15 @@
 import { load } from "cheerio";
 import { downloadImage, generateData } from "./utils/index.ts";
 
-async function fetchSponsorsFromPage(url: string) {
+type Sponsor = { href: string; avatar: string; name: string };
+
+async function fetchSponsorsFromPage(url: string): Promise<Sponsor[]> {
   const response = await fetch(url);
   const html = await response.text();
   const $ = load(html);
 
   return Promise.all(
-    Array.from($("a")).map(async (el) => {
+    Array.from($("a")).map(async (el): Promise<Sponsor | null> => {
       const $el = $.load(el);
       const href = $el("a").attr("href");
       const imgSrc = $el("img").attr("src");
@@ -21,11 +23,11 @@ async function fetchSponsorsFromPage(url: string) {
         name,
       };
     }),
-  ).then((sponsors) => sponsors.filter(Boolean));
+  ).then((sponsors) => sponsors.filter((s): s is Sponsor => s !== null));
 }
 
 async function fetchAllPastSponsors() {
-  const allPastSponsors = [];
+  const allPastSponsors: Sponsor[] = [];
   let page = 1;
   let hasMorePages = true;
 
@@ -53,7 +55,7 @@ const html = await fetch("https://github.com/sponsors/hiroppy").then((res) =>
   res.text(),
 );
 const $ = load(html);
-const sponsors = {
+const sponsors: { current: Sponsor[]; past: Sponsor[] } = {
   current: [],
   past: [],
 };
@@ -65,7 +67,7 @@ const [currentSponsors, pastSponsors] = Array.from(
 if (currentSponsors) {
   const $$ = $.load(currentSponsors);
   sponsors.current = await Promise.all(
-    Array.from($$("a")).map(async (el) => {
+    Array.from($$("a")).map(async (el): Promise<Sponsor | null> => {
       const $el = $$.load(el);
       const href = $el("a").attr("href");
       const imgSrc = $el("img").attr("src");
@@ -79,13 +81,13 @@ if (currentSponsors) {
         name,
       };
     }),
-  ).then((sponsors) => sponsors.filter(Boolean));
+  ).then((sponsors) => sponsors.filter((s): s is Sponsor => s !== null));
 }
 
 if (pastSponsors) {
   const $$ = $.load(pastSponsors);
   const initialPastSponsors = await Promise.all(
-    Array.from($$("a")).map(async (el) => {
+    Array.from($$("a")).map(async (el): Promise<Sponsor | null> => {
       const $el = $$.load(el);
       const href = $el("a").attr("href");
       const imgSrc = $el("img").attr("src");
@@ -99,7 +101,7 @@ if (pastSponsors) {
         name,
       };
     }),
-  ).then((sponsors) => sponsors.filter(Boolean));
+  ).then((sponsors) => sponsors.filter((s): s is Sponsor => s !== null));
 
   const additionalPastSponsors = await fetchAllPastSponsors();
   const allPastSponsors = [...initialPastSponsors, ...additionalPastSponsors];
