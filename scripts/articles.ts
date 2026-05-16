@@ -43,19 +43,31 @@ type Article = {
   name: string;
 };
 
+async function fetchText(url: string) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${response.statusText}`);
+    }
+
+    return response.text();
+  } catch (error) {
+    throw new Error(`Failed to fetch RSS: ${url}`, {
+      cause: error,
+    });
+  }
+}
+
 async function parseRss(
   url: string,
   skippingConditionDate?: string,
   isShowDescription = true,
 ): Promise<Article[]> {
-  const res = await fetch(url)
-    .then((res) => res.text())
-    .then((res) =>
-      // cheerioはlinkのタグを抽出できない
-      res
-        .replace(/<(link)>/g, "<linkTag>")
-        .replace(/<\/(link)>/g, "</linkTag>"),
-    );
+  const res = await fetchText(url).then((res) =>
+    // cheerioはlinkのタグを抽出できない
+    res.replace(/<(link)>/g, "<linkTag>").replace(/<\/(link)>/g, "</linkTag>"),
+  );
   const platform = {
     name: removeCData(load(res)("channel > title").text()),
   };

@@ -3,9 +3,24 @@ import { downloadImage, generateData } from "./utils/index.ts";
 
 type Sponsor = { href: string; avatar: string; name: string };
 
+async function fetchText(url: string) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${response.statusText}`);
+    }
+
+    return response.text();
+  } catch (error) {
+    throw new Error(`Failed to fetch sponsors page: ${url}`, {
+      cause: error,
+    });
+  }
+}
+
 async function fetchSponsorsFromPage(url: string): Promise<Sponsor[]> {
-  const response = await fetch(url);
-  const html = await response.text();
+  const html = await fetchText(url);
   const $ = load(html);
 
   return Promise.all(
@@ -51,9 +66,7 @@ async function fetchAllPastSponsors() {
   return allPastSponsors;
 }
 
-const html = await fetch("https://github.com/sponsors/hiroppy").then((res) =>
-  res.text(),
-);
+const html = await fetchText("https://github.com/sponsors/hiroppy");
 const $ = load(html);
 const sponsors: { current: Sponsor[]; past: Sponsor[] } = {
   current: [],

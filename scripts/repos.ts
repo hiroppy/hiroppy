@@ -22,25 +22,32 @@ const processRepos = async (repoList: string[], includeOrgRepo = false) => {
   return Promise.all(
     repoList.map(async (repo) => {
       const [owner, name] = repo.split("/");
-      const { data } = await octokit.rest.repos.get({
-        owner,
-        repo: name,
-      });
 
-      const result: Record<string, string> = {
-        name: data.full_name,
-        url: data.html_url,
-        description: emoji.replace_colons(data.description ?? ""),
-        language: data.language ?? "",
-        image: await downloadImage(`${data.owner.avatar_url}?s=40`),
-      };
+      try {
+        const { data } = await octokit.rest.repos.get({
+          owner,
+          repo: name,
+        });
 
-      if (includeOrgRepo) {
-        result.org = data.owner.login;
-        result.repo = data.name;
+        const result: Record<string, string> = {
+          name: data.full_name,
+          url: data.html_url,
+          description: emoji.replace_colons(data.description ?? ""),
+          language: data.language ?? "",
+          image: await downloadImage(`${data.owner.avatar_url}?s=40`),
+        };
+
+        if (includeOrgRepo) {
+          result.org = data.owner.login;
+          result.repo = data.name;
+        }
+
+        return result;
+      } catch (error) {
+        throw new Error(`Failed to fetch GitHub repo ${repo}`, {
+          cause: error,
+        });
       }
-
-      return result;
     }),
   );
 };
