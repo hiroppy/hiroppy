@@ -36,8 +36,8 @@ importers:
         specifier: 5.0.5
         version: 5.0.5
       prettier:
-        specifier: 3.8.3
-        version: 3.8.3
+        specifier: 3.8.4
+        version: 3.8.4
       sharp:
         specifier: 0.34.5
         version: 0.34.5
@@ -652,6 +652,11 @@ packages:
 
   prettier@3.8.3:
     resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1341,6 +1346,8 @@ snapshots:
   picomatch@4.0.4: {}
 
   prettier@3.8.3: {}
+
+  prettier@3.8.4: {}
 
   pump@3.0.3:
     dependencies:
