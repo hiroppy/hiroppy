@@ -1,13 +1,14 @@
 import { createWriteStream } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import type { Sharp } from "sharp";
 import sharp from "sharp";
 import sharpio from "sharp-ico";
 import { baseImageOutputPath } from "./paths.ts";
 
 async function convertIcoToPng(buffer: Buffer): Promise<Buffer> {
   try {
-    const sharps = sharpio.sharpsFromIco(buffer) as sharp.Sharp[];
+    const sharps = sharpio.sharpsFromIco(buffer) as Sharp[];
     if (sharps.length === 0) {
       throw new Error("No images found in ICO file");
     }
