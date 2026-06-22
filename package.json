@@ -64,7 +64,7 @@
     "lefthook": "2.1.9",
     "octokit": "5.0.5",
     "prettier": "3.8.4",
-    "sharp": "0.35.1",
+    "sharp": "0.35.2",
     "sharp-ico": "0.1.5",
     "typescript": "6.0.3"
   }
