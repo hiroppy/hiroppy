@@ -8,6 +8,16 @@ type InputMedia = Pick<
 
 export const pressReleases = [
   {
+    publishedAt: "2026-06-30",
+    url: "https://prtimes.jp/main/html/rd/p/000000044.000109530.html",
+    company: "iiba",
+  },
+  {
+    publishedAt: "2026-06-30",
+    url: "https://www.nikkei.com/article/DGXZQOUC280H00Y6A620C2000000",
+    company: "iiba",
+  },
+  {
     publishedAt: "2025-04-30",
     url: "https://prtimes.jp/main/html/rd/p/000000037.000035920.html",
     company: "stract",
@@ -34,6 +44,10 @@ export const pressReleases = [
 ] satisfies InputMedia[];
 
 export const articles = [
+  {
+    publishedAt: "2026-06-30",
+    url: "https://note.com/iiba_official/n/ndec99445aadc",
+  },
   {
     publishedAt: "2026-02-01",
     url: "https://tskaigi.hatenablog.com/entry/2026/02/01/125127",

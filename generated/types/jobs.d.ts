@@ -13,6 +13,10 @@ export interface Jobs {
       image: string;
       url: string;
     };
+    iiba: {
+      image: string;
+      url: string;
+    };
     layerX: {
       image: string;
       url: string;

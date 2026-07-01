@@ -1,5 +1,35 @@
 [
   {
+    "title": "【メンバー紹介】エンジニアのキャリアの葛藤を超えて。新CTO廣戸が、次の挑戦にiibaを選んだ理由｜株式会社iiba",
+    "description": "メンバーの素顔や入社の背景をお届けするインタビューシリーズ。  今回は、2026年7月より、新たにiibaのCTO（最高技術責任者）としてジョインすることが決定した、廣戸さんにお話を伺いました！  これまで様々な0→1フェーズを技術とプロダクト開発の両面から支え、事業立ち上げを牽引してきた廣戸さん。そんな廣戸さんが、なぜ今、iibaへの参画を決めたのか。  子育て当事者としての視点、エンジニアとしてのキャリアの葛藤、そして代表 逢澤との出会いによって生まれた「自分がやらなきゃ誰がやる」という使命感に至るまで。 熱い想いをたっぷりとお届けします！   エンジニア歴20年。「人」と「挑戦」",
+    "image": "",
+    "name": "Note",
+    "url": "https://note.com/iiba_official/n/ndec99445aadc",
+    "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
+    "publishedAt": "2026-06-30",
+    "links": []
+  },
+  {
+    "title": "子育てインフラiiba、シリーズA約3億円の資金調達を完了",
+    "description": "株式会社iibaのプレスリリース（2026年6月30日 14時00分）子育てインフラiiba、シリーズA約3億円の資金調達を完了",
+    "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMTA5NTMwLzQ0LzEwOTUzMC00NC0yYjZlOGVhND.webp",
+    "name": "PR TIMES",
+    "url": "https://prtimes.jp/main/html/rd/p/000000044.000109530.html",
+    "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
+    "publishedAt": "2026-06-30",
+    "links": []
+  },
+  {
+    "title": "子育て地図アプリのiiba、バウチャー機能拡充　3億円調達 - 日本経済新聞",
+    "description": "子育てに関する地図アプリを開発するiiba（イイバ、東京・港）は自治体の子育て支援関連の給付金をバウチャーとして利用できる機能を拡充する。開発や人材採用に向け、第三者割当増資で3億円を調達した。同社の地図アプリ「iiba」は、公園や飲食店など子育て世帯向け施設の口コミを投稿・閲覧できる。「広い駐車場がある」「小学生が多く遊んでいるため小さい子は注意」など子連れでも行きやすいかを確認できる。",
+    "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+    "name": "日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUC280H00Y6A620C2000000",
+    "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
+    "publishedAt": "2026-06-30",
+    "links": []
+  },
+  {
     "title": "TSKaigi 2026のプロポーザルを募集します！ - TSKaigi 公式ブログ",
     "description": "こんにちは、TSKaigiプログラムチームです。 2026年5月22日（金）、23日（土）にベルサール羽田空港で開催するTSKaigi 2026のプロポーザルを募集します。 TSKaigi とは TSKaigiはTypeScriptを扱う全ての人のためのコミュニティです。 TypeScriptによって何を記述するかは多様です。フロントエンドやサーバーサイド、IaCとしてインフラ、ライブラリやツールはもちろんのこと、TypeScriptという言語自体の開発にも使われています。 さらに活用領域も多様です。Webサービスだけでなく、デスクトップアプリケーションやスマートフォンアプリケーション、ゲーム…",
     "image": "/images/b2dpbWFnZS5ibG9nLnN0LWhhdGVuYS5jb20vNjgwMTg4MzE4OTA3NTYwMjg2Ni8xNzE3OTI0NjkwMTM0OTk1ODExNy.webp",

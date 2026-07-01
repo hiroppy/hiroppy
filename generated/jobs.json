@@ -4,6 +4,10 @@
       "image": "/images/cHVibGljL2NvbXBhbmllcy9jb2RlclBlbmd1aW4ucG5n.webp",
       "url": "https://coder-penguin.com"
     },
+    "iiba": {
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9paWJhLndlYnA=.webp",
+      "url": "https://corporate.iiba.space"
+    },
     "layerX": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9sYXllcngucG5n.webp",
       "url": "https://layerx.co.jp"
@@ -86,6 +90,41 @@
     }
   },
   "main": [
+    {
+      "name": "iiba",
+      "start": "2026-07-01",
+      "end": null,
+      "position": "CTO",
+      "initialState": "0",
+      "description": "- AIを自走させる組織体制作り\n- 開発体制の構築",
+      "company": "iiba",
+      "links": [
+        {
+          "title": "子育てインフラiiba、シリーズA約3億円の資金調達を完了",
+          "description": "株式会社iibaのプレスリリース（2026年6月30日 14時00分）子育てインフラiiba、シリーズA約3億円の資金調達を完了",
+          "image": "/images/cHJjZG4uZnJlZXRscy5mYXN0bHkubmV0L3JlbGVhc2VfaW1hZ2UvMTA5NTMwLzQ0LzEwOTUzMC00NC0yYjZlOGVhND.webp",
+          "name": "PR TIMES",
+          "favicon": "/images/cHJ0aW1lcy5qcC9jb21tb24vdjQuMS9pbWFnZXMvaHRtbC9mYXZpY29uL2Zhdmljb24tMjR4MjQucG5n.webp",
+          "url": "https://prtimes.jp/main/html/rd/p/000000044.000109530.html"
+        },
+        {
+          "title": "子育て地図アプリのiiba、バウチャー機能拡充　3億円調達 - 日本経済新聞",
+          "description": "子育てに関する地図アプリを開発するiiba（イイバ、東京・港）は自治体の子育て支援関連の給付金をバウチャーとして利用できる機能を拡充する。開発や人材採用に向け、第三者割当増資で3億円を調達した。同社の地図アプリ「iiba」は、公園や飲食店など子育て世帯向け施設の口コミを投稿・閲覧できる。「広い駐車場がある」「小学生が多く遊んでいるため小さい子は注意」など子連れでも行きやすいかを確認できる。",
+          "image": "/images/YXJ0aWNsZS1pbWFnZS1peC5uaWtrZWkuY29tL2h0dHBzJTNBJTJGJTJGaW1naXgtcHJveHkubjhzLmpwJTJGRFNYWl.webp",
+          "name": "日本経済新聞",
+          "favicon": "/images/d3d3Lm5pa2tlaS5jb20vZmF2aWNvbi5pY28=.webp",
+          "url": "https://www.nikkei.com/article/DGXZQOUC280H00Y6A620C2000000"
+        },
+        {
+          "title": "【メンバー紹介】エンジニアのキャリアの葛藤を超えて。新CTO廣戸が、次の挑戦にiibaを選んだ理由｜株式会社iiba",
+          "description": "メンバーの素顔や入社の背景をお届けするインタビューシリーズ。  今回は、2026年7月より、新たにiibaのCTO（最高技術責任者）としてジョインすることが決定した、廣戸さんにお話を伺いました！  これまで様々な0→1フェーズを技術とプロダクト開発の両面から支え、事業立ち上げを牽引してきた廣戸さん。そんな廣戸さんが、なぜ今、iibaへの参画を決めたのか。  子育て当事者としての視点、エンジニアとしてのキャリアの葛藤、そして代表 逢澤との出会いによって生まれた「自分がやらなきゃ誰がやる」という使命感に至るまで。 熱い想いをたっぷりとお届けします！   エンジニア歴20年。「人」と「挑戦」",
+          "image": "",
+          "name": "Note",
+          "favicon": "/images/YXNzZXRzLnN0LW5vdGUuY29tL3BvYy1pbWFnZS9tYW51YWwvbm90ZS1jb21tb24taW1hZ2VzL3Byb2R1Y3Rpb24vc3.webp",
+          "url": "https://note.com/iiba_official/n/ndec99445aadc"
+        }
+      ]
+    },
     {
       "name": "Coder Penguin",
       "start": "2024-04-01",
@@ -286,7 +325,7 @@
     {
       "name": "LayerX",
       "start": "2025-04-01",
-      "end": null,
+      "end": "2026-06-03",
       "position": "Enabling Team (Frontend/LLM)",
       "initialState": "0",
       "description": "- CEO直下のチームで、新規プロダクトのBPO開発\n- 新規プロダクトのバクラクインテリジェンス開発\n- 新規プロダクトのバクラク給与のPro UIパフォーマンス改善\n- 新規プロダクトのAIトークンアドバイザーの開発\n- 大規模なmonorepoの設計改善とパフォーマンスチューニング",
@@ -337,7 +376,7 @@
     {
       "name": "Yuimedi",
       "start": "2025-05-01",
-      "end": null,
+      "end": "2026-06-03",
       "position": "Engineer",
       "initialState": "100",
       "description": "- YuiQuery Researchの開発を引き続き行う",

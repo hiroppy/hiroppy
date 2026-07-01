@@ -11,6 +11,10 @@ export const companies = {
     image: "coderPenguin.png",
     url: "https://coder-penguin.com",
   },
+  iiba: {
+    image: "iiba.webp",
+    url: "https://corporate.iiba.space",
+  },
   layerX: {
     image: "layerx.png",
     url: "https://layerx.co.jp",
