@@ -5,6 +5,11 @@ type InputTalk = Pick<InputCommon, "publishedAt" | "url" | "title" | "links">;
 
 export const talks = [
   {
+    publishedAt: "2026-07-22",
+    url: "https://docs.google.com/presentation/d/1uA5t7mC099Rxghm6XrXcOvlio4EpfzQHb0AYRmQ-vyI/edit",
+    links: ["https://stract.connpass.com/event/397939"],
+  },
+  {
     publishedAt: "2025-08-27",
     url: "https://docs.google.com/presentation/d/1jnXvenA8TRa9BiyL1tg-oqoCQrjCtYM0W8JUYy-uHag/edit",
     links: ["https://findy.connpass.com/event/365880"],
