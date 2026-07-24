@@ -1,5 +1,24 @@
 [
   {
+    "title": "CLIを使わない開発を考える",
+    "description": "CLIを使わない開発を考える 2026/07/22 @hiroppy",
+    "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpBemJyMDBlWjBXM2g4bVQyWkJRei1tTWpzZm.webp",
+    "name": "Google Docs",
+    "favicon": "/images/c3NsLmdzdGF0aWMuY29tL2RvY3MvcHJlc2VudGF0aW9ucy9pbWFnZXMvZmF2aWNvbi0yMDI2LXYyLmljbw==.webp",
+    "url": "https://docs.google.com/presentation/d/1uA5t7mC099Rxghm6XrXcOvlio4EpfzQHb0AYRmQ-vyI/edit",
+    "publishedAt": "2026-07-22",
+    "links": [
+      {
+        "title": "【7月22日】PLUG AI SUSHI NIGHT v15 \"AI Nativeなプロダクト開発\" (2026/07/22 19:00〜)",
+        "description": "## 🍣 PLUG AI SUSHI NIGHT v15 \"AI Nativeなプロダクト開発\"  STRACTが開催する、AI Nativeな開発に携わるエンジニアがスシを囲みながら語り合う会。  真面目な勉強会でもなく、ただの飲み会でもなく、 「AI × 開発 × スシ」をキーワードにした定期交流イベントとして開催！  * * *  ## 📆 開催概要    * 日時：2026/7/22（水）19:00〜（開場18:45）   * 会場：株式会社STRACTオフィス 東京都千代田区四番町4-19 CIRCLES市ヶ谷 701  ※ 開催5日前までに規定人数以下の登録人数だった場合、開...",
+        "image": "/images/bWVkaWEuY29ubnBhc3MuY29tL3RodW1icy9kNS8yZS9kNTJlN2I5ZmM1NjhkMDk2NmM0OTc3ZTVhNjc5NGMyZi5wbm.webp",
+        "name": "connpass",
+        "favicon": "/images/Y29ubnBhc3MuY29tL3N0YXRpYy9kY2I0ZGEwL2ltZy9mYXZpY29uLmljbw==.webp",
+        "url": "https://stract.connpass.com/event/397939"
+      }
+    ]
+  },
+  {
     "title": "Next.js Internal MCP",
     "description": "Next.js Internal MCP 2025/08/27 @hiroppy",
     "image": "/images/bGg3LXVzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9kb2NzL0FIa2J3eUpySWhuTThpRTFRRUpXTENNQ255MTVFYU9US0.webp",
