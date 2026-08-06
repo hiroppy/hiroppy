@@ -12,6 +12,10 @@
       "image": "/images/cHVibGljL2NvbXBhbmllcy9sYXllcngucG5n.webp",
       "url": "https://layerx.co.jp"
     },
+    "japanTorecaCenter": {
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9qYXBhbi10b3JlY2EtY2VudGVyLnBuZw==.webp",
+      "url": "https://jtc.center"
+    },
     "ship": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9zaGlwLnBuZw==.webp",
       "url": "https://www.shipinc.jp"
@@ -372,6 +376,16 @@
         }
       ],
       "company": "layerX"
+    },
+    {
+      "name": "日本トレカセンター",
+      "start": "2026-08-01",
+      "end": null,
+      "position": "Technical Advisor",
+      "initialState": "1-100",
+      "description": "- 技術顧問として、プロダクトと開発組織の技術支援を行う",
+      "links": [],
+      "company": "japanTorecaCenter"
     },
     {
       "name": "Yuimedi",

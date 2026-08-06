@@ -225,6 +225,18 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       company: "layerX",
     },
     {
+      name: "日本トレカセンター",
+      start: new Date("2026-08-01"),
+      end: null,
+      position: "Technical Advisor",
+      initialState: "1-100",
+      description: `
+- 技術顧問として、プロダクトと開発組織の技術支援を行う
+      `,
+      links: [],
+      company: "japanTorecaCenter",
+    },
+    {
       name: "Yuimedi",
       start: new Date("2025-05-01"),
       end: new Date("2026-06-03"),

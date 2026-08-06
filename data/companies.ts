@@ -19,6 +19,10 @@ export const companies = {
     image: "layerx.png",
     url: "https://layerx.co.jp",
   },
+  japanTorecaCenter: {
+    image: "japan-toreca-center.png",
+    url: "https://jtc.center",
+  },
   ship: {
     image: "ship.png",
     url: "https://www.shipinc.jp",

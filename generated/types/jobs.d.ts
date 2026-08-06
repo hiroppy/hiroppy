@@ -21,6 +21,10 @@ export interface Jobs {
       image: string;
       url: string;
     };
+    japanTorecaCenter: {
+      image: string;
+      url: string;
+    };
     ship: {
       image: string;
       url: string;
