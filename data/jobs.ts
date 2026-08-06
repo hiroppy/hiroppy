@@ -231,7 +231,7 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       position: "Technical Advisor",
       initialState: "1-100",
       description: `
-- 技術顧問として、プロダクトと開発組織の技術支援を行う
+- ${llmEfficiencyInfrastructure}
       `,
       links: [],
       company: "japanTorecaCenter",
