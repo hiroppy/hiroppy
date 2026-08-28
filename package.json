@@ -60,7 +60,7 @@
     "@types/node": "24.13.3",
     "cheerio": "1.2.0",
     "emoji-js": "3.9.0",
-    "json-schema-to-typescript": "15.0.4",
+    "json-schema-to-typescript": "16.0.0",
     "lefthook": "2.1.10",
     "octokit": "5.0.5",
     "prettier": "3.9.6",
