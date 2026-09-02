@@ -104,7 +104,7 @@
       "end": null,
       "position": "CTO",
       "initialState": "0",
-      "description": "- AIを自走させる組織体制作り\n- 開発体制の構築",
+      "description": "- AIを自走させる組織体制作り\n- 既存インフラからTerraformを導入\n- 組織体制構築\n- 評価体制構築",
       "company": "iiba",
       "links": [
         {

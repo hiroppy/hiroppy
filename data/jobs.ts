@@ -54,7 +54,9 @@ export const jobs: Job = {
       initialState: "0",
       description: `
 - AIを自走させる組織体制作り
-- 開発体制の構築
+- 既存インフラからTerraformを導入
+- 組織体制構築
+- 評価体制構築
       `,
       company: "iiba",
       links: [
