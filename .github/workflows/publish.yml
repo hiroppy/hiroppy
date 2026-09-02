@@ -2,15 +2,15 @@ name: Publish to NPM
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Build and Commit on Data Changes"]
-    types: [completed]
-    branches: [main]
   push:
     branches:
       - main
     paths:
       - "generated/**"
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
 
 permissions:
   id-token: write
@@ -70,6 +70,9 @@ jobs:
         if: steps.check-changes.outputs.changes == 'true' || steps.workflow-dispatch-changes.outputs.changes == 'true'
         id: version
         run: |
+          # Avoid rejecting the version commit when main advanced after checkout
+          git pull --rebase origin main
+
           # Get current version
           CURRENT_VERSION=$(node -p "require('./package.json').version")
           echo "Current version: $CURRENT_VERSION"
