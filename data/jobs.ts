@@ -21,6 +21,7 @@ export type JobContent = {
     | "Technical Advisor"
     | "Architect"
     | "Engineer"
+    | "Reviewer"
     | "Intern"
     | "Enabling Team"
     | "Enabling Team (Frontend/LLM)";
@@ -237,6 +238,16 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       company: "japanTorecaCenter",
     },
     {
+      name: "Jizai",
+      start: new Date("2026-08-16"),
+      end: null,
+      position: "Reviewer",
+      initialState: "100",
+      description: "",
+      links: [],
+      company: "jizai",
+    },
+    {
       name: "Yuimedi",
       start: new Date("2025-05-01"),
       end: new Date("2026-06-03"),
@@ -287,7 +298,7 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
     {
       name: "Stract",
       start: new Date("2025-03-01"),
-      end: null,
+      end: new Date("2026-08-31"),
       position: "Technical Advisor",
       initialState: "0",
       description: `

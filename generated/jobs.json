@@ -16,6 +16,10 @@
       "image": "/images/cHVibGljL2NvbXBhbmllcy9qYXBhbi10b3JlY2EtY2VudGVyLnBuZw==.webp",
       "url": "https://jtc.center"
     },
+    "jizai": {
+      "image": "/images/cHVibGljL2NvbXBhbmllcy9qaXphaS5wbmc=.webp",
+      "url": "https://jizai.ai"
+    },
     "ship": {
       "image": "/images/cHVibGljL2NvbXBhbmllcy9zaGlwLnBuZw==.webp",
       "url": "https://www.shipinc.jp"
@@ -388,6 +392,16 @@
       "company": "japanTorecaCenter"
     },
     {
+      "name": "Jizai",
+      "start": "2026-08-16",
+      "end": null,
+      "position": "Reviewer",
+      "initialState": "100",
+      "description": "",
+      "links": [],
+      "company": "jizai"
+    },
+    {
       "name": "Yuimedi",
       "start": "2025-05-01",
       "end": "2026-06-03",
@@ -454,7 +468,7 @@
     {
       "name": "Stract",
       "start": "2025-03-01",
-      "end": null,
+      "end": "2026-08-31",
       "position": "Technical Advisor",
       "initialState": "0",
       "description": "- Next.js App Routerアーキテクチャ設計支援\n- Node.jsアーキテクチャ設計支援 (DDD, Clean Architecture)\n- LLM効率化のための基盤作成支援\n- フロントエンドインフラ改善支援 (Monorepo, CI/CD, Bundler, etc)\n- エンジニア採用支援",

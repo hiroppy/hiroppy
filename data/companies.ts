@@ -23,6 +23,10 @@ export const companies = {
     image: "japan-toreca-center.png",
     url: "https://jtc.center",
   },
+  jizai: {
+    image: "jizai.png",
+    url: "https://jizai.ai",
+  },
   ship: {
     image: "ship.png",
     url: "https://www.shipinc.jp",

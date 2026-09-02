@@ -25,6 +25,10 @@ export interface Jobs {
       image: string;
       url: string;
     };
+    jizai: {
+      image: string;
+      url: string;
+    };
     ship: {
       image: string;
       url: string;
