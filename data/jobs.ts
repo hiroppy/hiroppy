@@ -55,6 +55,7 @@ export const jobs: Job = {
       description: `
 - AIを自走させる組織体制作り
 - 既存インフラからTerraformを導入
+- FirestoreからCloud SQLへの移行
 - 組織体制構築
 - 評価体制構築
       `,
@@ -245,7 +246,9 @@ VPoEとしてエンジニア組織の構築とフロントエンドの開発を�
       end: null,
       position: "Reviewer",
       initialState: "100",
-      description: "",
+      description: `
+- OSSサポート
+      `,
       links: [],
       company: "jizai",
     },

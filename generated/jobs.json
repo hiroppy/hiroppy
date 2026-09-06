@@ -104,7 +104,7 @@
       "end": null,
       "position": "CTO",
       "initialState": "0",
-      "description": "- AIを自走させる組織体制作り\n- 既存インフラからTerraformを導入\n- 組織体制構築\n- 評価体制構築",
+      "description": "- AIを自走させる組織体制作り\n- 既存インフラからTerraformを導入\n- FirestoreからCloud SQLへの移行\n- 組織体制構築\n- 評価体制構築",
       "company": "iiba",
       "links": [
         {
@@ -397,7 +397,7 @@
       "end": null,
       "position": "Reviewer",
       "initialState": "100",
-      "description": "",
+      "description": "- OSSサポート",
       "links": [],
       "company": "jizai"
     },
