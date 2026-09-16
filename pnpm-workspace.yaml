@@ -16,15 +16,16 @@ minimumReleaseAgeExclude:
   - lefthook-openbsd-x64@2.1.12 || 2.1.14
   - lefthook-windows-arm64@2.1.12 || 2.1.14
   - lefthook-windows-x64@2.1.12 || 2.1.14
-  - '@biomejs/biome@2.5.13'
-  - '@biomejs/cli-darwin-arm64@2.5.13'
-  - '@biomejs/cli-darwin-x64@2.5.13'
-  - '@biomejs/cli-linux-arm64-musl@2.5.13'
-  - '@biomejs/cli-linux-arm64@2.5.13'
-  - '@biomejs/cli-linux-x64-musl@2.5.13'
-  - '@biomejs/cli-linux-x64@2.5.13'
-  - '@biomejs/cli-win32-arm64@2.5.13'
-  - '@biomejs/cli-win32-x64@2.5.13'
+  - '@biomejs/biome@2.5.13 || 2.5.14'
+  - '@biomejs/cli-darwin-arm64@2.5.13 || 2.5.14'
+  - '@biomejs/cli-darwin-x64@2.5.13 || 2.5.14'
+  - '@biomejs/cli-linux-arm64-musl@2.5.13 || 2.5.14'
+  - '@biomejs/cli-linux-arm64@2.5.13 || 2.5.14'
+  - '@biomejs/cli-linux-x64-musl@2.5.13 || 2.5.14'
+  - '@biomejs/cli-linux-x64@2.5.13 || 2.5.14'
+  - '@biomejs/cli-win32-arm64@2.5.13 || 2.5.14'
+  - '@biomejs/cli-win32-x64@2.5.13 || 2.5.14'
   - '@types/node@24.13.4'
   - '@types/node@24.13.5'
+  - prettier@3.9.7
   - json-schema-to-typescript@16.0.0
