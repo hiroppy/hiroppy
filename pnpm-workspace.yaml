@@ -28,4 +28,5 @@ minimumReleaseAgeExclude:
   - '@types/node@24.13.4'
   - '@types/node@24.13.5'
   - prettier@3.9.7
+  - prettier@3.9.8
   - json-schema-to-typescript@16.0.0
