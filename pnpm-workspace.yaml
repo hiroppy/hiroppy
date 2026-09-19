@@ -27,6 +27,7 @@ minimumReleaseAgeExclude:
   - '@biomejs/cli-win32-x64@2.5.13 || 2.5.14'
   - '@types/node@24.13.4'
   - '@types/node@24.13.5'
+  - '@types/node@24.13.6'
   - prettier@3.9.7
   - prettier@3.9.8
   - json-schema-to-typescript@16.0.0
