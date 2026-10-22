@@ -21,7 +21,6 @@ This is a personal portfolio/data aggregation project for hiroppy. It crawls and
 ### Data Processing Pipeline
 
 The build system follows a caching and crawling architecture:
-
 1. **Cache Management** (`scripts/utils.ts`): Uses AsyncLocalStorage for shared caching across all data generation scripts
 2. **Data Sources** (`data/` directory): Contains TypeScript files defining data structures and sources
 3. **Scripts** (`scripts/` directory): Individual processors for each data type (articles, jobs, repos, etc.)

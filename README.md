@@ -23,7 +23,6 @@ I am a JS engineer living in Japan, and I love creating OSS and web services.
 ## maintaining OSS
 
 I've been focusing on my business so I'm not active now 😔
-
 - [node](https://github.com/nodejs/node)
 - [webpack](https://github.com/webpack/webpack)
 - [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
