@@ -15,6 +15,7 @@ minimumReleaseAgeExclude:
   - "@biomejs/cli-win32-arm64@2.6.7"
   - "@biomejs/cli-win32-x64@2.6.7"
   - prettier@3.10.0
+  - prettier@3.10.1
   - sharp
   - "@img/sharp-*"
   - lefthook@2.1.12 || 2.1.14
