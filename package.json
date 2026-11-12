@@ -54,7 +54,7 @@
   },
   "homepage": "https://github.com/hiroppy/hiroppy#readme",
   "devDependencies": {
-    "@biomejs/biome": "2.6.6",
+    "@biomejs/biome": "2.6.7",
     "@types/emoji-js": "3.5.2",
     "@types/json-schema": "7.0.15",
     "@types/node": "26.6.6",
@@ -63,7 +63,7 @@
     "json-schema-to-typescript": "16.0.0",
     "lefthook": "2.2.2",
     "octokit": "5.0.5",
-    "prettier": "3.9.10",
+    "prettier": "3.10.0",
     "sharp": "0.35.5",
     "sharp-ico": "0.1.5",
     "typescript": "7.0.2"
